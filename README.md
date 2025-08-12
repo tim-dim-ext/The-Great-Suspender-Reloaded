@@ -17,7 +17,7 @@ I created this version primarily for myself, then decided to share it with the c
 
 ### Chrome Web Store
 
-The Great Suspender Reloaded is available in the Chrome Web Store: `https://chromewebstore.google.com/detail/the-great-suspender-reloa/hlofigcdgjlnalbkeeinfcjceabpamci`.
+The Great Suspender Reloaded is available in the [Chrome Web Store](https://chromewebstore.google.com/detail/the-great-suspender-reloa/hlofigcdgjlnalbkeeinfcjceabpamci).
 
 The store version may be released less frequently than repository changes.
 
@@ -30,16 +30,12 @@ The store version may be released less frequently than repository changes.
 
 Important: Before removing any other version of the extension, make sure to unsuspend all suspended tabs, otherwise they may be lost forever.
 
-### Integration with other Chrome extensions or apps
-
-The extension provides a small external API that allows other extensions/apps to request tab suspension. If you're planning integration — create an Issue/PR in this repository.
-
 
 ### Contributing and Support
 
 - **PRs and discussions**: Send Pull Requests and open Issues — improvements to stability, security, and UX are especially welcome.
 - **Development pace**: The project is maintained on a best-effort basis (this is not my main project).
-- **Support the project**: `https://patreon.com/The_Great_Suspender_Reloaded`.
+- **Support the project**: [Patreon](https://patreon.com/The_Great_Suspender_Reloaded).
 
 ### License
 
