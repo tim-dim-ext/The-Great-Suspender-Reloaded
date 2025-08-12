@@ -4,7 +4,7 @@
 
 The Great Suspender Reloaded is a secure fork of the classic Google Chrome/Chromium extension that automatically suspends inactive tabs, freeing up memory and CPU resources.
 
-This repository is based on a fork from `https://github.com/greatsuspender/thegreatsuspender`, but has been reworked and renamed to The Great Suspender Reloaded.
+This repository is based on a fork from `https://github.com/greatsuspender/thegreatsuspender`, but has been reworked and renamed to The Great Suspender Reloaded. 
 
 ### Why Reloaded
 
