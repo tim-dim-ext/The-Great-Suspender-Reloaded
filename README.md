@@ -34,31 +34,6 @@ Important: Before removing any other version of the extension, make sure to unsu
 
 The extension provides a small external API that allows other extensions/apps to request tab suspension. If you're planning integration — create an Issue/PR in this repository.
 
-### Windows Group Policies
-
-Some settings can be enforced through Windows group policies.
-List of supported parameters (default values shown on the right):
-
-- `SCREEN_CAPTURE` (string, default: '0')
-- `SCREEN_CAPTURE_FORCE` (boolean, default: false)
-- `SUSPEND_IN_PLACE_OF_DISCARD` (boolean, default: false)
-- `DISCARD_IN_PLACE_OF_SUSPEND` (boolean, default: false)
-- `USE_ALT_SCREEN_CAPTURE_LIB` (boolean, default: false)
-- `DISCARD_AFTER_SUSPEND` (boolean, default: false)
-- `IGNORE_WHEN_OFFLINE` (boolean, default: false)
-- `IGNORE_WHEN_CHARGING` (boolean, default: false)
-- `UNSUSPEND_ON_FOCUS` (boolean, default: false)
-- `IGNORE_PINNED` (boolean, default: true)
-- `IGNORE_FORMS` (boolean, default: true)
-- `IGNORE_AUDIO` (boolean, default: true)
-- `IGNORE_ACTIVE_TABS` (boolean, default: true)
-- `IGNORE_CACHE` (boolean, default: false)
-- `ADD_CONTEXT` (boolean, default: true)
-- `SYNC_SETTINGS` (boolean, default: true)
-- `SUSPEND_TIME` (string (minutes), default: '60')
-- `NO_NAG` (boolean, default: false)
-- `WHITELIST` (string (one URL per line), default: '')
-- `THEME` (string, default: 'light')
 
 ### Contributing and Support
 
