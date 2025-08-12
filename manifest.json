@@ -1,0 +1,111 @@
+{
+  "name": "__MSG_ext_extension_name__",
+  "description": "__MSG_ext_extension_description__",
+  "version": "1.0.1",
+  "manifest_version": 3,
+  "options_page": "html/options.html",
+  "icons": {
+    "16": "images/icon-16x16.png",
+    "32": "images/icon-32x32.png",
+    "48": "images/icon-48x48.png",
+    "128": "images/icon-128x128.png"
+  },
+  "default_locale": "en",
+  "background": {
+    "service_worker": "js/serviceWorker.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*",
+        "file://*/*"
+      ],
+      "js": [
+        "js/contentscript.js"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+  "permissions": [
+    "tabs",
+    "storage",
+    "history",
+    "unlimitedStorage",
+    "contextMenus",
+    "cookies",
+    "alarms",
+    "favicon",
+    "scripting"
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "html/suspended.html",
+        "/images/*",
+        "js/*.js"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    },
+    {
+      "resources": ["_favicon/*"],
+      "matches": ["<all_urls>"],
+      "extension_ids": ["*"]
+    }
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; child-src 'self'; connect-src 'self' data: https://suspenderthegreat.com; img-src 'self' data: chrome: https://stats.g.doubleclick.net; style-src 'self'; default-src 'self'"
+  },
+  "incognito": "split",
+  "commands": {
+    "1-suspend-tab": {
+      "description": "__MSG_ext_cmd_toggle_tab_suspension_description__",
+      "suggested_key": {
+        "default": "Ctrl+Shift+S"
+      }
+    },
+    "2-toggle-temp-whitelist-tab": {
+      "description": "__MSG_ext_cmd_toggle_tab_pause_description__"
+    },
+    "2a-suspend-selected-tabs": {
+      "description": "__MSG_ext_cmd_suspend_selected_tabs_description__"
+    },
+    "2b-unsuspend-selected-tabs": {
+      "description": "__MSG_ext_cmd_unsuspend_selected_tabs_description__"
+    },
+    "3-suspend-active-window": {
+      "description": "__MSG_ext_cmd_soft_suspend_active_window_description__"
+    },
+    "3b-force-suspend-active-window": {
+      "description": "__MSG_ext_cmd_force_suspend_active_window_description__"
+    },
+    "4-unsuspend-active-window": {
+      "description": "__MSG_ext_cmd_unsuspend_active_window_description__"
+    },
+    "4b-soft-suspend-all-windows": {
+      "description": "__MSG_ext_cmd_soft_suspend_all_windows_description__"
+    },
+    "5-suspend-all-windows": {
+      "description": "__MSG_ext_cmd_force_suspend_all_windows_description__"
+    },
+    "6-unsuspend-all-windows": {
+      "description": "__MSG_ext_cmd_unsuspend_all_windows_description__"
+    }
+  },
+  "action": {
+    "default_title": "__MSG_ext_default_title__",
+    "default_icon": {
+      "16": "images/icon-16x16.png",
+      "32": "images/icon-32x32.png"
+    },
+    "default_popup": "html/popup.html"
+  },
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*",
+    "file://*/*"
+  ]
+}
