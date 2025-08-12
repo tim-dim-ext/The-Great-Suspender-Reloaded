@@ -37,6 +37,8 @@ Important: Before removing any other version of the extension, make sure to unsu
 - **Development pace**: The project is maintained on a best-effort basis (this is not my main project).
 - **Support the project**: [Patreon](https://patreon.com/The_Great_Suspender_Reloaded).
 
+[![Support on Patreon](images/patron.png)](https://patreon.com/The_Great_Suspender_Reloaded)
+
 ### License
 
 This project is distributed under the GNU General Public License v2.0 (GPL-2.0).
