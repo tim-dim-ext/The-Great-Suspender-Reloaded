@@ -6,6 +6,7 @@ import {gsFavicon} from "./helpers/gsFavicon.js"
 import {gsTabSuspendManager} from "./helpers/gsTabSuspendManager.js"
 import {gsTabDiscardManager} from "./helpers/gsTabDiscardManager.js"
 import {gsSession} from "./helpers/gsSession.js"
+import {gsChrome} from "./helpers/gsChrome.js"
 
 Promise.resolve()
   .then(tgs.backgroundScriptsReadyAsPromised) // wait until all gsLibs have loaded
@@ -39,6 +40,51 @@ chrome.runtime.onStartup.addListener(function() {
 
     gsSession.runStartupChecks();
 
+});
+
+// TODO: needs to be tested
+// Migrate tabs from foreign suspended pages (with ttl, pos, uri in URL hash)
+async function migrateForeignSuspendedTabs() {
+  try {
+    const tabs = await gsChrome.tabsQuery();
+    for (const tab of tabs) {
+      const tabUrl = (tab && tab.url) || "";
+
+      // Skip if already our suspended page
+      if (gsUtils.isSuspendedUrl(tabUrl)) {
+        continue;
+      }
+
+      // Extract required parameters from hash
+      const hasTitle = !!gsUtils.getHashVariable("ttl", tabUrl);
+      const hasPos = !!gsUtils.getHashVariable("pos", tabUrl);
+      const originalUrl = gsUtils.getOriginalUrl(tabUrl);
+
+      if (!hasTitle || !hasPos || !originalUrl) {
+        continue;
+      }
+
+      const title = gsUtils.getSuspendedTitle(tabUrl) || "";
+      const scrollPos = gsUtils.getSuspendedScrollPosition(tabUrl) || "0";
+
+      const localSuspendedUrl = gsUtils.generateSuspendedUrl(
+        originalUrl,
+        title,
+        scrollPos
+      );
+
+      await gsChrome.tabsUpdate(tab.id, { url: localSuspendedUrl });
+    }
+  } catch (e) {
+    gsUtils.error("migration", e);
+  }
+}
+
+// Run migration once on fresh install
+chrome.runtime.onInstalled.addListener(function(details) {
+  if (details && details.reason === "install") {
+    migrateForeignSuspendedTabs();
+  }
 });
 
 // Закомментируем функцию periodCall, так как она делает запросы к серверу
