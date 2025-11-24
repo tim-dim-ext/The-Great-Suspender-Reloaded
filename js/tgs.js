@@ -1635,7 +1635,8 @@ export var tgs = (function () {
         });
       }
       sendResponse();
-      return true;
+      // handled synchronously
+      return false;
     }
 
     if (request.action === "savePreviewData") {
@@ -1756,7 +1757,8 @@ export var tgs = (function () {
         return false;
     }
 
-    return true;
+    // No async response pending by default
+    return false;
   }
 
   function externalMessageRequestListener(request, sender, sendResponse) {

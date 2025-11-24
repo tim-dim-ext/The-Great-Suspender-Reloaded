@@ -31,7 +31,8 @@ chrome.runtime.onMessage.addListener(function(
       return false;
     }
   }
-  return true;
+  // No async work pending; indicate synchronous handling complete
+  return false;
 });
 
 gsUtils.documentReadyAndLocalisedAsPromsied(document).then(function () {
