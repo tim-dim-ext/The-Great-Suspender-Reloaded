@@ -196,6 +196,7 @@ import {gsUtils} from "./helpers/gsUtils.js";
       }
     }
 
-    return true;
+    // No async response pending; default to false
+    return false;
   });
 })();

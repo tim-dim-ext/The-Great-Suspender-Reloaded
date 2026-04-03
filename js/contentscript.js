@@ -83,7 +83,8 @@
         return false;
       }
 
-      return true;
+      // No async response pending; default to false
+      return false;
     });
   }
 

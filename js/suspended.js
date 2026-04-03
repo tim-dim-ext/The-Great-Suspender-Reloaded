@@ -341,7 +341,8 @@ chrome.runtime && chrome.runtime.onMessage && chrome.runtime.onMessage.addListen
     console.log('suspended.js dont handle ', request.action)
   }
 
-  return true;
+  // No async response pending; default to false
+  return false;
 });
 
 window.addEventListener("online", function () {
