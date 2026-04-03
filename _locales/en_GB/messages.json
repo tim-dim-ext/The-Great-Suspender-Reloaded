@@ -1,6 +1,6 @@
 {
     "ext_extension_name": {
-        "message": "The Great Suspender Reloaded - Tab Suspender 2026"
+        "message": "Tab Suspender - The Great Suspender Reloaded (2026 Safe Edition)"
     },
     "ext_extension_description": {
         "message": "Make your computer run smoothly by suspending the tabs you aren't using"
@@ -597,7 +597,7 @@
         "message": "Waiting for tab to load..."
     },
     "js_popup_initialising": {
-        "message": "Waiting for extension to initialize..."
+        "message": "Waiting for extension to initialise..."
     },
     "js_popup_error": {
         "message": "Auto-suspend unavailable for this tab"

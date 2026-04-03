@@ -1,6 +1,6 @@
 {
     "ext_extension_name": {
-        "message": "The Great Suspender Reloaded - Tab Suspender 2026"
+        "message": "The Great Suspender Reloaded - Tab Suspender (2026 Safe Edition)"
     },
     "ext_extension_description": {
         "message": "Make your computer run smoothly by suspending the tabs you aren't using"
@@ -225,7 +225,7 @@
         "message": "well as slightly increased memory usage."
     },
     "html_options_suspend_screen_capturing_tooltip_line3a": {
-        "message": "If you notice strange behaviour such as tabs taking a long time to suspend, or chrome"
+        "message": "If you notice strange behavior such as tabs taking a long time to suspend, or chrome"
     },
     "html_options_suspend_screen_capturing_tooltip_line3b": {
         "message": "crashing unexpectedly, try turning this feature off."
@@ -282,13 +282,13 @@
         "message": "Sync settings with your Chrome profile"
     },
     "html_options_other_enable_sync_tooltip_line1a": {
-        "message": "Extension settings will be synchronised across all chrome browsers which are"
+        "message": "Extension settings will be synchronized across all chrome browsers which are"
     },
     "html_options_other_enable_sync_tooltip_line1b": {
         "message": "logged in with the same profile."
     },
     "html_options_other_enable_sync_tooltip_line2": {
-        "message": "This will also synchronise settings in incognito mode."
+        "message": "This will also synchronize settings in incognito mode."
     },
     "html_options_other_enable_sync_warning": {
         "message": "Turning this on will overwrite settings on all other browsers logged into the same Chrome profile"

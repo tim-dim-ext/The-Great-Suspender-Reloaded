@@ -1,7 +1,7 @@
 {
   "name": "__MSG_ext_extension_name__",
   "description": "__MSG_ext_extension_description__",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "manifest_version": 3,
   "options_page": "html/options.html",
   "icons": {
@@ -51,9 +51,15 @@
       ]
     },
     {
-      "resources": ["_favicon/*"],
-      "matches": ["<all_urls>"],
-      "extension_ids": ["*"]
+      "resources": [
+        "_favicon/*"
+      ],
+      "matches": [
+        "<all_urls>"
+      ],
+      "extension_ids": [
+        "*"
+      ]
     }
   ],
   "content_security_policy": {
