@@ -1,0 +1,686 @@
+{
+  "ext_extension_name": {
+    "message": "The Great Suspender | Tab Suspender - Iesaldēt cilnes"
+  },
+  "ext_extension_description": {
+    "message": "Apturiet neaktīvās Chrome cilnes, lai ietaupītu RAM un palielinātu ātrumu. Labākais Tab Suspender — automātiski iesaldē neizmantotās cilnes un uzreiz tās atjauno."
+  },
+  "ext_default_title": {
+    "message": "The Great Suspender"
+  },
+  "ext_cmd_toggle_tab_suspension_description": {
+    "message": "Apturēt/Atjaunot aktīvo cilni"
+  },
+  "ext_cmd_toggle_tab_pause_description": {
+    "message": "Pauzēt/Atsākt aktīvās cilnes apturēšanu"
+  },
+  "ext_cmd_suspend_selected_tabs_description": {
+    "message": "Apturēt atlasītās cilnes"
+  },
+  "ext_cmd_unsuspend_selected_tabs_description": {
+    "message": "Atjaunot atlasītās cilnes"
+  },
+  "ext_cmd_soft_suspend_active_window_description": {
+    "message": "Apturēt visas pārējās cilnes aktīvajā logā"
+  },
+  "ext_cmd_force_suspend_active_window_description": {
+    "message": "Piespiedu kārtā apturēt visas pārējās cilnes aktīvajā logā"
+  },
+  "ext_cmd_unsuspend_active_window_description": {
+    "message": "Atjaunot visas cilnes aktīvajā logā"
+  },
+  "ext_cmd_soft_suspend_all_windows_description": {
+    "message": "Apturēt visas cilnes visos logos"
+  },
+  "ext_cmd_force_suspend_all_windows_description": {
+    "message": "Piespiedu kārtā apturēt visas cilnes visos logos"
+  },
+  "ext_cmd_unsuspend_all_windows_description": {
+    "message": "Atjaunot visas cilnes visos logos"
+  },
+  "js_context_open_link_in_suspended_tab": {
+    "message": "Atvērt saiti jaunā apturētā cilnē"
+  },
+  "js_context_toggle_suspend_state": {
+    "message": "Apturēt/Atjaunot šo cilni"
+  },
+  "js_context_toggle_pause_suspension": {
+    "message": "Pauzēt/Atsākt šīs cilnes apturēšanu"
+  },
+  "js_context_never_suspend_domain": {
+    "message": "Nekad neapturēt šo domēnu"
+  },
+  "js_context_never_suspend_page": {
+    "message": "Nekad neapturēt šo URL"
+  },
+  "js_context_suspend_selected_tabs": {
+    "message": "Apturēt atlasītās cilnes"
+  },
+  "js_context_unsuspend_selected_tabs": {
+    "message": "Atjaunot atlasītās cilnes"
+  },
+  "js_context_soft_suspend_other_tabs_in_window": {
+    "message": "Apturēt visas pārējās cilnes šajā logā"
+  },
+  "js_context_force_suspend_other_tabs_in_window": {
+    "message": "Piespiedu kārtā apturēt visas pārējās cilnes šajā logā"
+  },
+  "js_context_unsuspend_all_tabs_in_window": {
+    "message": "Atjaunot visas cilnes šajā logā"
+  },
+  "js_context_soft_suspend_all_tabs": {
+    "message": "Apturēt visas cilnes visos logos"
+  },
+  "js_context_force_suspend_all_tabs": {
+    "message": "Piespiedu kārtā apturēt visas cilnes visos logos"
+  },
+  "js_context_unsuspend_all_tabs": {
+    "message": "Atjaunot visas cilnes visos logos"
+  },
+  "html_about_title": {
+    "message": "Par"
+  },
+  "html_history_title": {
+    "message": "Sesiju pārvaldība"
+  },
+  "html_history_current_session": {
+    "message": "Pašreizējā sesija"
+  },
+  "html_history_recent_sessions": {
+    "message": "Nesenās sesijas"
+  },
+  "html_history_saved_sessions": {
+    "message": "Saglabātās sesijas"
+  },
+  "html_history_import_session": {
+    "message": "Importēt sesiju"
+  },
+  "html_notice_title": {
+    "message": "Paziņojums"
+  },
+  "html_notice_important_notice": {
+    "message": "Svarīgs paziņojums no The Great Suspender"
+  },
+  "html_options_title": {
+    "message": "Iestatījumi"
+  },
+  "html_options_suspend_title": {
+    "message": "Automātiska cilņu apturēšana"
+  },
+  "html_options_suspended_title": {
+    "message": "Apturētās cilnes"
+  },
+  "html_options_other_title": {
+    "message": "Cits"
+  },
+  "html_options_suspend_automatically_after": {
+    "message": "Automātiski apturēt cilnes pēc"
+  },
+  "html_options_suspend_never": {
+    "message": "Nekad"
+  },
+  "html_options_suspend_seconds": {
+    "message": "sek."
+  },
+  "html_options_suspend_minute": {
+    "message": "min"
+  },
+  "html_options_suspend_minutes": {
+    "message": "min"
+  },
+  "html_options_suspend_hour": {
+    "message": "stunda"
+  },
+  "html_options_suspend_hours": {
+    "message": "stundas"
+  },
+  "html_options_suspend_day": {
+    "message": "diena"
+  },
+  "html_options_suspend_days": {
+    "message": "dienas"
+  },
+  "html_options_suspend_week": {
+    "message": "nedēļa"
+  },
+  "html_options_suspend_weeks": {
+    "message": "nedēļas"
+  },
+  "html_options_suspend_no_pinned": {
+    "message": "Nekad neapturēt piespraustas cilnes"
+  },
+  "html_options_suspend_no_forms": {
+    "message": "Nekad neapturēt cilnes ar nesaglabātiem veidlapiem"
+  },
+  "html_options_suspend_no_audio": {
+    "message": "Nekad neapturēt cilnes, kas atskaņo audio"
+  },
+  "html_options_suspend_only_connected": {
+    "message": "Nekad neapturēt cilnes bezsaistē"
+  },
+  "html_options_suspend_only_on_battery": {
+    "message": "Nekad neapturēt cilnes pievienojot strāvas avotu"
+  },
+  "html_options_suspend_no_active_tabs": {
+    "message": "Nekad neapturēt aktīvo cilni katrā logā"
+  },
+  "html_options_suspend_automatically_unsuspend": {
+    "message": "Automātiski atjaunot cilni, kad to aplūko"
+  },
+  "html_options_suspend_discard_after_suspend": {
+    "message": "Izmantot Chrome iebūvēto atmiņas taupīšanu apturot"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1a": {
+    "message": "Vēl vairāk samazina apturētās cilnes atmiņas patēriņu, izmantojot"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1b": {
+    "message": "Chrome iebūvēto 'tab discarding' funkciju. Var ietaupīt līdz"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1c": {
+    "message": "500% atmiņas strādājot ar daudzām cilnēm."
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line2a": {
+    "message": "Tomēr var izraisīt nelielu renderēšanas kavēšanos izvēloties"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line2b": {
+    "message": "apturētu cilni."
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line3a": {
+    "message": "Vairāk informācijas par Chrome discarding:"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line3b": {
+    "message": "https://developers.google.com/web/updates/2015/09/tab-discarding"
+  },
+  "html_options_suspend_theme": {
+    "message": "Tēma"
+  },
+  "html_options_suspend_theme_light": {
+    "message": "Gaiša"
+  },
+  "html_options_suspend_theme_dark": {
+    "message": "Tumša"
+  },
+  "html_options_suspend_screen_capturing": {
+    "message": "Ekrāna uzņemšana"
+  },
+  "html_options_suspend_screen_capturing_disabled": {
+    "message": "Atspējots"
+  },
+  "html_options_suspend_screen_capturing_screen_only": {
+    "message": "Uzņemt tikai ekrāna augšdaļu"
+  },
+  "html_options_suspend_screen_capturing_entire_page": {
+    "message": "Uzņemt visu lapu"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line1a": {
+    "message": "Apturētā cilnē paplašinājums var parādīt priekšskatījumu kā izskatījās cilne"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line1b": {
+    "message": "tieši pirms apturēšanas."
+  },
+  "html_options_suspend_screen_capturing_tooltip_line2a": {
+    "message": "Ekrāna uzņemšanas funkcija ir eksperimentāla un var izraisīt augstu CPU izmantojumu"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line2b": {
+    "message": "un nedaudz palielinātu atmiņas patēriņu."
+  },
+  "html_options_suspend_screen_capturing_tooltip_line3a": {
+    "message": "Ja pamanāt dīvainu uzvedību, mēģiniet izslēgt šo funkciju."
+  },
+  "html_options_suspend_screen_capturing_tooltip_line3b": {
+    "message": "Piemēram, lēnu cilņu apturēšanu vai negaidītas Chrome avārijas."
+  },
+  "html_options_suspend_force_screen_capture": {
+    "message": "Iespējot augstas kvalitātes ekrāna uzņemšanas režīmu"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line1": {
+    "message": "Atspējojot ekrāna uzņemšanai ir šādi veiktspējas ierobežojumi:"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line2": {
+    "message": "- Zemas kvalitātes ekrāna uzņemšana"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line4": {
+    "message": "- Neuzņems ekrānu ja attēla ģenerēšana ilgst vairāk par 1 minūti"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line5": {
+    "message": "- Maksimālais uzņemšanas augstums ierobežots līdz 5000px"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line6": {
+    "message": "Iespējojot augstas kvalitātes uzņemšanu var ievērojami palielināt CPU slodzi"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line7": {
+    "message": "un atmiņas patēriņu."
+  },
+  "html_options_whitelist_title": {
+    "message": "Nekad neapturēt cilnes ar URL no šī saraksta:"
+  },
+  "html_options_whitelist_tooltip_line1": {
+    "message": "Pievienojiet katras lapas URL kuru vēlaties baltajā sarakstā jaunā rindā."
+  },
+  "html_options_whitelist_tooltip_line2": {
+    "message": "Vairākām vietnēm vienā rindā norādiet URL daļu:"
+  },
+  "html_options_whitelist_tooltip_line3": {
+    "message": "Varat arī norādīt regulārās izteiksmes ievietojot tekstu slīpsvītru iekšā:"
+  },
+  "html_options_whitelist_test": {
+    "message": "Pārbaudīt balto sarakstu"
+  },
+  "html_options_other_enable_context_menu": {
+    "message": "Pievienot The Great Suspender labās pogas izvēlnei"
+  },
+  "html_options_other_enable_context_menu_tooltip_line1": {
+    "message": "Pievieno šī paplašinājuma vadīklas tīmekļa lapas labās pogas izvēlnei."
+  },
+  "html_options_other_enable_context_menu_tooltip_line2": {
+    "message": "Tas sniedz piekļuvi uzlabotām apturēšanas darbībām, kas nav pieejamas"
+  },
+  "html_options_other_enable_context_menu_tooltip_line3": {
+    "message": "citur paplašinājumā."
+  },
+  "html_options_other_enable_sync": {
+    "message": "Sinhronizēt iestatījumus ar Chrome profilu"
+  },
+  "html_options_other_enable_sync_tooltip_line1a": {
+    "message": "Paplašinājuma iestatījumi tiks sinhronizēti visos Chrome pārlūkos, kas ir"
+  },
+  "html_options_other_enable_sync_tooltip_line1b": {
+    "message": "pieteikušies ar vienu un to pašu profilu."
+  },
+  "html_options_other_enable_sync_tooltip_line2": {
+    "message": "Tas arī sinhronizēs iestatījumus inkognito režīmā."
+  },
+  "html_options_other_enable_sync_warning": {
+    "message": "Ieslēdzot šo tiks pārrakstīti iestatījumi visos pārējos pārlūkos, kas pieteikušies ar to pašu Chrome profilu"
+  },
+  "html_options_suspend_on_low_memory": {
+    "message": "Nekavējoties apturēt kad sistēmas atmiņa kļūst ļoti maza"
+  },
+  "html_options_suspend_on_low_memory_tooltip_line1": {
+    "message": "Šī opcija pārrakstīs Chrome automātisko cilņu izmešanas funkciju."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line2": {
+    "message": "Ja iespējota, piespiedīs cilni apturēties nevis tikt izmestai no Chrome."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line3": {
+    "message": "Chrome parasti izmet cilnes tikai kad sistēmas atmiņa kļūst ļoti maza."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line4": {
+    "message": "Piezīme: Tas var izraisīt cilņu apturēšanu agrāk nekā iestatītais"
+  },
+  "html_options_suspend_on_low_memory_tooltip_line5": {
+    "message": "laiks automātiskās apturēšanas opcijās."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line6": {
+    "message": "Vairāk informācijas par Chrome discarding:"
+  },
+  "html_options_suspend_on_low_memory_tooltip_discarding_link": {
+    "message": "https://developers.google.com/web/updates/2015/09/tab-discarding"
+  },
+  "html_popup_unsuspend_tab": {
+    "message": "Atjaunot šo cilni"
+  },
+  "html_popup_suspend_tab": {
+    "message": "Apturēt šo cilni tagad"
+  },
+  "html_popup_dont_suspend_now": {
+    "message": "Ne tagad"
+  },
+  "html_popup_never_suspend_domain": {
+    "message": "Nekad neapturēt šo domēnu"
+  },
+  "html_popup_never_suspend_page": {
+    "message": "Nekad neapturēt šo URL"
+  },
+  "html_popup_suspend_other_tabs": {
+    "message": "Apturēt visas pārējās cilnes"
+  },
+  "html_popup_unsuspend_all_tabs": {
+    "message": "Atjaunot visas cilnes"
+  },
+  "html_popup_suspend_selected_tabs": {
+    "message": "Apturēt atlasītās cilnes"
+  },
+  "html_popup_unsuspend_selected_tabs": {
+    "message": "Atjaunot atlasītās cilnes"
+  },
+  "html_popup_settings": {
+    "message": "Iestatījumi"
+  },
+  "html_restoring_title": {
+    "message": "Atjaunošana loga"
+  },
+  "html_restoring_heading": {
+    "message": "Cilņu atjaunošana"
+  },
+  "html_restoring_detail": {
+    "message": "Lūdzu uzgaidiet kamēr atjaunoju šo logu..."
+  },
+  "html_recovery_title": {
+    "message": "Atjaunošana"
+  },
+  "html_recovery_ruh_roh": {
+    "message": "Ak vai!"
+  },
+  "html_recovery_description_line1": {
+    "message": "Izskatās ka jūs atgūstaties no paplašinājuma avārijas."
+  },
+  "html_recovery_description_line2": {
+    "message": "Jūsu apturētās cilnes var būt avarējušas vai pazudušas."
+  },
+  "html_recovery_restore_tabs_automatically": {
+    "message": "Automātiski atjaunot cilnes"
+  },
+  "html_recovery_go_to_session_manager": {
+    "message": "Doties uz sesiju pārvaldnieku"
+  },
+  "html_recovery_important_message": {
+    "message": "Pašlaik ir ieslēgta ekrāna uzņemšana. Ja paplašinājums atkārtoti avarē, ieteicams atspējot šo opciju."
+  },
+  "html_recovery_disable_screen_capturing": {
+    "message": "Izslēgt ekrāna uzņemšanu"
+  },
+  "html_recovery_tabs_to_restore": {
+    "message": "Atjaunojamās cilnes"
+  },
+  "html_shortcuts_title": {
+    "message": "Tastatūras īsinājumtaustiņi"
+  },
+  "html_shortcuts_keyboard_shortcuts": {
+    "message": "Tastatūras īsinājumtaustiņi"
+  },
+  "html_shortcuts_context_menu_note": {
+    "message": "Piezīme: Šīs darbības pieejamas arī caur labās pogas izvēlni."
+  },
+  "html_shortcuts_remap_keys": {
+    "message": "Mainīt īsinājumtaustiņus"
+  },
+  "html_sidebar_general_settings": {
+    "message": "Iestatījumi"
+  },
+  "html_sidebar_session_management": {
+    "message": "Sesiju pārvaldība"
+  },
+  "html_sidebar_shortcuts": {
+    "message": "Tastatūras īsinājumtaustiņi"
+  },
+  "html_sidebar_support": {
+    "message": "Par"
+  },
+  "html_success_great_success": {
+    "message": "Lielisks panākums!"
+  },
+  "html_success_all_tabs_restored": {
+    "message": "Visas jūsu cilnes ir atjaunotas."
+  },
+  "html_success_goto_advanced_prefix": {
+    "message": "Uzlabotai sesiju pārvaldībai apmeklējiet"
+  },
+  "html_success_goto_advanced_suffix": {
+    "message": "lapu"
+  },
+  "html_session_manager": {
+    "message": "sesiju pārvaldība"
+  },
+  "html_suspended_title": {
+    "message": "Apturēta cilne"
+  },
+  "html_suspended_tab_suspended": {
+    "message": "Cilne apturēta"
+  },
+  "html_suspended_tab_reload": {
+    "message": "Pārlādēt cilni"
+  },
+  "html_suspended_tab_whitelist_prefix": {
+    "message": "Nekad neapturēt"
+  },
+  "html_suspended_tab_whitelist_suffix": {
+    "message": "..."
+  },
+  "html_suspended_click_to_reload": {
+    "message": "Atsvaidzināt vai klikšķināt lai pārlādētu"
+  },
+  "html_suspended_toast_not_connected": {
+    "message": "Nav savienojuma ar internetu"
+  },
+  "html_suspended_toast_reload_disabled": {
+    "message": "Automātiska cilņu pārlāde ir īslaicīgi atspējota."
+  },
+  "html_suspended_donation_question": {
+    "message": "Vai šis paplašinājums jūs iepriecina?\nParādiet savu atbalstu ziedojot."
+  },
+  "html_permissions_title": {
+    "message": "Atļaujas"
+  },
+  "html_permissions_heading": {
+    "message": "Piešķiriet man piekļuvi vietējo failu URL"
+  },
+  "html_permissions_info": {
+    "message": "Šim paplašinājumam pašlaik nav atļauts apturēt URL kas sākas ar vārdu \"file\".\nLai to mainītu, iespējojiet \"Atļaut piekļuvi failu URL\" paplašinājuma iestatījumu lapā."
+  },
+  "html_permissions_backup": {
+    "message": "Piezīme: mainot šo opciju visas apturētās cilnes uz laiku pazudīs.\nVarbūt labs laiks saglabāt pašreizējās sesijas rezerves kopiju."
+  },
+  "html_update_title": {
+    "message": "Atjaunināšana"
+  },
+  "html_update_heading2": {
+    "message": "drīz kļūs vēl labāks"
+  },
+  "html_update_info": {
+    "message": "Jauna The Great Suspender versija ir gatava instalēšanai.\nPiezīme: atjaunināšanas laikā apturētās cilnes uz laiku pazudīs."
+  },
+  "html_update_info_withbackup": {
+    "message": "Varbūt labs laiks saglabāt pašreizējās sesijas rezerves kopiju."
+  },
+  "html_update_info_nobackup_prefix": {
+    "message": "Ļoti ieteicams eksportēt pašreizējās sesijas kopiju no "
+  },
+  "html_update_info_nobackup_suffix": {
+    "message": " pirms turpināt atjaunināšanu."
+  },
+  "html_updated_title": {
+    "message": "Atjaunināts"
+  },
+  "html_updating_heading": {
+    "message": "atjaunina"
+  },
+  "html_updating_message": {
+    "message": "Lūdzu uzgaidiet kamēr atjaunoju apturētās cilnes..."
+  },
+  "html_updated_great_suspender_updated": {
+    "message": "ir atjaunināts"
+  },
+  "html_updated_info_line1": {
+    "message": "Pirms atjaunināšanas automātiski tika izveidota jūsu cilņu rezerves kopija."
+  },
+  "html_updated_info_line2_prefix": {
+    "message": "Ja atjaunināšanas laikā radās problēmas, zaudētās cilnes varat atjaunot no "
+  },
+  "html_updated_info_line2_suffix": {
+    "message": " lapas."
+  },
+  "html_updated_detail_header_prefix": {
+    "message": "Kas jauns "
+  },
+  "html_updated_detail_header_suffix": {
+    "message": "?"
+  },
+  "html_updated_new_features_header": {
+    "message": "Jaunas funkcijas:"
+  },
+  "html_updated_bug_fixes_header": {
+    "message": "Kļūdu labojumi:"
+  },
+  "html_updated_release_notes": {
+    "message": "Apmeklējiet GitHub pilniem izlaiduma piezīmēm: "
+  },
+  "html_updated_patch_message": {
+    "message": "Atvainojamies par traucējumu. Bija jāveic neliela apkope."
+  },
+  "html_welcome_title": {
+    "message": "Laipni lūgti"
+  },
+  "html_welcome_text_line1": {
+    "message": "Paldies ka izmēģināt"
+  },
+  "html_welcome_text_line2": {
+    "message": "Es nodrošinu jūsu datora raitu darbību apturot neizmantotās cilnes."
+  },
+  "html_welcome_text_line3": {
+    "message": "Zemāk varat precīzi iestatīt parametrus."
+  },
+  "html_thanks_title": {
+    "message": "Pateicības"
+  },
+  "html_thanks_header": {
+    "message": "Paldies par atbalstu!"
+  },
+  "html_thanks_sub_header": {
+    "message": "Lai šodien jums veicas."
+  },
+  "js_popup_normal": {
+    "message": "Cilne tiks automātiski apturēta."
+  },
+  "js_popup_normal_pause": {
+    "message": "Ne tagad"
+  },
+  "js_popup_special": {
+    "message": "Cilni nevar apturēt"
+  },
+  "js_popup_suspended": {
+    "message": "Cilne apturēta"
+  },
+  "js_popup_suspended_pause": {
+    "message": "Neapturēt"
+  },
+  "js_popup_whitelisted": {
+    "message": "Vietne ir baltajā sarakstā."
+  },
+  "js_popup_whitelisted_remove": {
+    "message": "Noņemt no baltā saraksta"
+  },
+  "js_popup_audible": {
+    "message": "Cilne atskaņo audio."
+  },
+  "js_popup_form_input": {
+    "message": "Cilne saņem veidlapas ievadi."
+  },
+  "js_popup_form_input_unpause": {
+    "message": "Turpināt"
+  },
+  "js_popup_pinned": {
+    "message": "Cilne ir piesprādzēta"
+  },
+  "js_popup_temp_whitelist": {
+    "message": "Cilnes apturēšana pauzēta."
+  },
+  "js_popup_temp_whitelist_unpause": {
+    "message": "Turpināt"
+  },
+  "js_popup_never": {
+    "message": "Automātiskā cilņu apturēšana atspējota."
+  },
+  "js_popup_no_connectivity": {
+    "message": "Nav tīkla savienojuma"
+  },
+  "js_popup_charging": {
+    "message": "Pieslēgts strāvas avotam"
+  },
+  "js_popup_blockedFile": {
+    "message": "Vietējos failus nevar apturēt."
+  },
+  "js_popup_blockedFile_enable": {
+    "message": "Iespējot"
+  },
+  "js_popup_unknown": {
+    "message": "Gaida cilnes ielādi..."
+  },
+  "js_popup_initialising": {
+    "message": "Gaida paplašinājuma inicializāciju..."
+  },
+  "js_popup_error": {
+    "message": "Automātiskā apturēšana nav pieejama šai cilnei"
+  },
+  "js_history_delete": {
+    "message": "dzēst"
+  },
+  "js_history_export": {
+    "message": "eksportēt"
+  },
+  "js_history_reload": {
+    "message": "atvērt un ielādēt"
+  },
+  "js_history_resuspend": {
+    "message": "atvērt un apturēt"
+  },
+  "js_history_save": {
+    "message": "saglabāt"
+  },
+  "js_history_window": {
+    "message": "Logs"
+  },
+  "js_history_tab": {
+    "message": "Cilne"
+  },
+  "js_history_plural": {
+    "message": "s"
+  },
+  "js_history_enter_name_for_session": {
+    "message": "Ievadiet nosaukumu šai sesijai"
+  },
+  "js_history_confirm_delete": {
+    "message": "Vai tiešām vēlaties dzēst šo sesiju?"
+  },
+  "js_history_confirm_session_overwrite": {
+    "message": "Jau eksistē saglabāta sesija ar šo nosaukumu. Pārrakstīt esošo sesiju?"
+  },
+  "js_history_import_fail": {
+    "message": "Neizdevās ielādēt failu. Pārliecinieties ka fails ir vienkāršs teksts ar vienu URL rindā."
+  },
+  "js_suspended_remove_from_whitelist": {
+    "message": "Noņemt vietni no baltā saraksta"
+  },
+  "js_suspended_hotkey_to_reload": {
+    "message": "Iestatīt tastatūras īsinājumtaustiņus"
+  },
+  "js_suspended_low_memory": {
+    "message": "Cilne apturēta sistēmas atmiņas trūkuma dēļ"
+  },
+  "js_options_incognito_warning": {
+    "message": "Esat inkognito režīmā. Dažas funkcijas nebūs pieejamas."
+  },
+  "js_options_whitelist_no_matches": {
+    "message": "Nav atvērtu cilņu kas atbilstu pašreizējam baltajam sarakstam."
+  },
+  "js_options_whitelist_matches_heading": {
+    "message": "Atvērtās cilnes baltajā sarakstā:"
+  },
+  "js_options_whitelist_matches_overflow_prefix": {
+    "message": "un vēl"
+  },
+  "js_options_whitelist_matches_overflow_suffix": {
+    "message": "."
+  },
+  "js_permissions_button_export": {
+    "message": "Saglabāt rezerves kopiju"
+  },
+  "js_permissions_button_set": {
+    "message": "Atvērt paplašinājuma iestatījumus"
+  },
+  "js_update_confirm": {
+    "message": "Vēl neesat saglabājis rezerves kopiju. Tomēr atjaunināt paplašinājumu?"
+  },
+  "js_update_button_export": {
+    "message": "Saglabāt rezerves kopiju"
+  },
+  "js_update_button_reload": {
+    "message": "Atjaunināt paplašinājumu tagad"
+  },
+  "js_shortcuts_not_set": {
+    "message": "nav iestatīts"
+  },
+  "js_session_save_point": {
+    "message": "Automātisks saglabāšanas punkts v"
+  }
+}

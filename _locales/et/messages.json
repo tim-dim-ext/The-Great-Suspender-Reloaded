@@ -1,0 +1,686 @@
+{
+  "ext_extension_name": {
+    "message": "The Great Suspender | Tab Suspender - Külmuta vahekaardid"
+  },
+  "ext_extension_description": {
+    "message": "Peata mitteaktiivsed Chrome'i vahekaardid RAM-i säästmiseks ja kiiruse tõstmiseks. Parim Tab Suspender — külmutab automaatselt kasutamata vahekaardid ja taastab need kohe."
+  },
+  "ext_default_title": {
+    "message": "The Great Suspender"
+  },
+  "ext_cmd_toggle_tab_suspension_description": {
+    "message": "Peata/Taasta aktiivne vahekaart"
+  },
+  "ext_cmd_toggle_tab_pause_description": {
+    "message": "Paus/Jätka aktiivse vahekaardi peatamist"
+  },
+  "ext_cmd_suspend_selected_tabs_description": {
+    "message": "Peata valitud vahekaardid"
+  },
+  "ext_cmd_unsuspend_selected_tabs_description": {
+    "message": "Taasta valitud vahekaardid"
+  },
+  "ext_cmd_soft_suspend_active_window_description": {
+    "message": "Peata kõik teised vahekaardid aktiivses aknas"
+  },
+  "ext_cmd_force_suspend_active_window_description": {
+    "message": "Sundi peatama kõik teised vahekaardid aktiivses aknas"
+  },
+  "ext_cmd_unsuspend_active_window_description": {
+    "message": "Taasta kõik vahekaardid aktiivses aknas"
+  },
+  "ext_cmd_soft_suspend_all_windows_description": {
+    "message": "Peata kõik vahekaardid kõigis akendes"
+  },
+  "ext_cmd_force_suspend_all_windows_description": {
+    "message": "Sundi peatama kõik vahekaardid kõigis akendes"
+  },
+  "ext_cmd_unsuspend_all_windows_description": {
+    "message": "Taasta kõik vahekaardid kõigis akendes"
+  },
+  "js_context_open_link_in_suspended_tab": {
+    "message": "Ava link uues peatatud vahekaardis"
+  },
+  "js_context_toggle_suspend_state": {
+    "message": "Peata/Taasta see vahekaart"
+  },
+  "js_context_toggle_pause_suspension": {
+    "message": "Paus/Jätka selle vahekaardi peatamist"
+  },
+  "js_context_never_suspend_domain": {
+    "message": "Ära kunagi peata seda domeeni"
+  },
+  "js_context_never_suspend_page": {
+    "message": "Ära kunagi peata seda URL-i"
+  },
+  "js_context_suspend_selected_tabs": {
+    "message": "Peata valitud vahekaardid"
+  },
+  "js_context_unsuspend_selected_tabs": {
+    "message": "Taasta valitud vahekaardid"
+  },
+  "js_context_soft_suspend_other_tabs_in_window": {
+    "message": "Peata kõik teised vahekaardid selles aknas"
+  },
+  "js_context_force_suspend_other_tabs_in_window": {
+    "message": "Sundi peatama kõik teised vahekaardid selles aknas"
+  },
+  "js_context_unsuspend_all_tabs_in_window": {
+    "message": "Taasta kõik vahekaardid selles aknas"
+  },
+  "js_context_soft_suspend_all_tabs": {
+    "message": "Peata kõik vahekaardid kõigis akendes"
+  },
+  "js_context_force_suspend_all_tabs": {
+    "message": "Sundi peatama kõik vahekaardid kõigis akendes"
+  },
+  "js_context_unsuspend_all_tabs": {
+    "message": "Taasta kõik vahekaardid kõigis akendes"
+  },
+  "html_about_title": {
+    "message": "Teave"
+  },
+  "html_history_title": {
+    "message": "Seansihaldu"
+  },
+  "html_history_current_session": {
+    "message": "Praegune seanss"
+  },
+  "html_history_recent_sessions": {
+    "message": "Hiljutised seansid"
+  },
+  "html_history_saved_sessions": {
+    "message": "Salvestatud seansid"
+  },
+  "html_history_import_session": {
+    "message": "Impordi seanss"
+  },
+  "html_notice_title": {
+    "message": "Teade"
+  },
+  "html_notice_important_notice": {
+    "message": "Oluline teade The Great Suspenderilt"
+  },
+  "html_options_title": {
+    "message": "Seaded"
+  },
+  "html_options_suspend_title": {
+    "message": "Automaatne vahekaartide peatamine"
+  },
+  "html_options_suspended_title": {
+    "message": "Peatatud vahekaardid"
+  },
+  "html_options_other_title": {
+    "message": "Muu"
+  },
+  "html_options_suspend_automatically_after": {
+    "message": "Peata vahekaardid automaatselt pärast"
+  },
+  "html_options_suspend_never": {
+    "message": "Mitte kunagi"
+  },
+  "html_options_suspend_seconds": {
+    "message": "sek"
+  },
+  "html_options_suspend_minute": {
+    "message": "min"
+  },
+  "html_options_suspend_minutes": {
+    "message": "min"
+  },
+  "html_options_suspend_hour": {
+    "message": "tund"
+  },
+  "html_options_suspend_hours": {
+    "message": "tundi"
+  },
+  "html_options_suspend_day": {
+    "message": "päev"
+  },
+  "html_options_suspend_days": {
+    "message": "päeva"
+  },
+  "html_options_suspend_week": {
+    "message": "nädal"
+  },
+  "html_options_suspend_weeks": {
+    "message": "nädalat"
+  },
+  "html_options_suspend_no_pinned": {
+    "message": "Ära kunagi peata kinnitatud vahekaarte"
+  },
+  "html_options_suspend_no_forms": {
+    "message": "Ära kunagi peata vahekaarte salvestamata vormidega"
+  },
+  "html_options_suspend_no_audio": {
+    "message": "Ära kunagi peata vahekaarte mis mängivad heli"
+  },
+  "html_options_suspend_only_connected": {
+    "message": "Ära kunagi peata vahekaarte võrguühenduseta"
+  },
+  "html_options_suspend_only_on_battery": {
+    "message": "Ära kunagi peata vahekaarte toiteallikaga ühendatult"
+  },
+  "html_options_suspend_no_active_tabs": {
+    "message": "Ära kunagi peata aktiivset vahekaarti igas aknas"
+  },
+  "html_options_suspend_automatically_unsuspend": {
+    "message": "Taasta vahekaart automaatselt vaatamisel"
+  },
+  "html_options_suspend_discard_after_suspend": {
+    "message": "Kasuta Chrome'i sisseehitatud mälumahendust peatamisel"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1a": {
+    "message": "Vähendab veelgi peatatud vahekaardi mälukasutust kasutades"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1b": {
+    "message": "Chrome'i sisseehitatud 'tab discarding' funktsiooni. Saab säästa kuni"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1c": {
+    "message": "500% mälu paljude vahekaartidega töötades."
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line2a": {
+    "message": "Siiski võib see põhjustada väikese renderdusviivituse valimisel"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line2b": {
+    "message": "peatatud vahekaart."
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line3a": {
+    "message": "Lisateave Chrome discarding kohta:"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line3b": {
+    "message": "https://developers.google.com/web/updates/2015/09/tab-discarding"
+  },
+  "html_options_suspend_theme": {
+    "message": "Teema"
+  },
+  "html_options_suspend_theme_light": {
+    "message": "Hele"
+  },
+  "html_options_suspend_theme_dark": {
+    "message": "Tume"
+  },
+  "html_options_suspend_screen_capturing": {
+    "message": "Ekraanipilt"
+  },
+  "html_options_suspend_screen_capturing_disabled": {
+    "message": "Keelatud"
+  },
+  "html_options_suspend_screen_capturing_screen_only": {
+    "message": "Jäädvusta ainult ekraani ülaosa"
+  },
+  "html_options_suspend_screen_capturing_entire_page": {
+    "message": "Jäädvusta kogu leht"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line1a": {
+    "message": "Peatatud vahekaardil saab laiendus kuvada eelvaate"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line1b": {
+    "message": "kuidas vahekaart nägi välja enne peatamist."
+  },
+  "html_options_suspend_screen_capturing_tooltip_line2a": {
+    "message": "Ekraanipildi funktsioon on eksperimentaalne ja võib põhjustada suurt CPU kasutust"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line2b": {
+    "message": "ning mõnevõrra suurenenud mälukasutust."
+  },
+  "html_options_suspend_screen_capturing_tooltip_line3a": {
+    "message": "Kui märkate imelikku käitumist, proovige see funktsioon välja lülitada."
+  },
+  "html_options_suspend_screen_capturing_tooltip_line3b": {
+    "message": "Nt vahekaartide aeglane peatamine või ootamatud Chrome'i krahhid."
+  },
+  "html_options_suspend_force_screen_capture": {
+    "message": "Luba kvaliteetse ekraanipildi režiim"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line1": {
+    "message": "Keelatult on ekraanipiltidel järgmised jõudluspiirangud:"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line2": {
+    "message": "- Madala kvaliteediga ekraanipilt"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line4": {
+    "message": "- Ei tee ekraanipilti kui pildi genereerimine võtab rohkem kui 1 minut"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line5": {
+    "message": "- Maksimaalne ekraanipildi kõrgus piiratud 5000px-ga"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line6": {
+    "message": "Kvaliteetse ekraanipildi lubamine võib oluliselt suurendada CPU koormust"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line7": {
+    "message": "ja mälukasutust."
+  },
+  "html_options_whitelist_title": {
+    "message": "Ära kunagi peata vahekaarte URL-idega järgmisest loendist:"
+  },
+  "html_options_whitelist_tooltip_line1": {
+    "message": "Lisa iga lehe URL mida soovid valgesse nimekirja uuele reale."
+  },
+  "html_options_whitelist_tooltip_line2": {
+    "message": "Mitu saiti ühel real: määra URL-i osa:"
+  },
+  "html_options_whitelist_tooltip_line3": {
+    "message": "Saad ka määrata regulaaravaldisi teksti ümbritsevate kaldkriipsudega:"
+  },
+  "html_options_whitelist_test": {
+    "message": "Testi valget nimekirja"
+  },
+  "html_options_other_enable_context_menu": {
+    "message": "Lisa The Great Suspender paremklõpsu menüüsse"
+  },
+  "html_options_other_enable_context_menu_tooltip_line1": {
+    "message": "Lisab selle laienduse juhtelementid veebilehe paremklõpsu menüüsse."
+  },
+  "html_options_other_enable_context_menu_tooltip_line2": {
+    "message": "See annab juurdepääsu täiustatud peatamistoimingutele mis pole saadaval"
+  },
+  "html_options_other_enable_context_menu_tooltip_line3": {
+    "message": "mujal laienduses."
+  },
+  "html_options_other_enable_sync": {
+    "message": "Sünkroniseeri seaded Chrome'i profiiliga"
+  },
+  "html_options_other_enable_sync_tooltip_line1a": {
+    "message": "Laienduse seaded sünkroonitakse kõigi Chrome'i brauseritega mis on"
+  },
+  "html_options_other_enable_sync_tooltip_line1b": {
+    "message": "sisse logitud sama profiiliga."
+  },
+  "html_options_other_enable_sync_tooltip_line2": {
+    "message": "See sünkroonib ka seaded inkognito režiimis."
+  },
+  "html_options_other_enable_sync_warning": {
+    "message": "Sisselülitamine kirjutab üle seaded kõigis teistes brauserites mis on sisse logitud sama Chrome'i profiiliga"
+  },
+  "html_options_suspend_on_low_memory": {
+    "message": "Peata kohe kui süsteemimälu muutub väga madalaks"
+  },
+  "html_options_suspend_on_low_memory_tooltip_line1": {
+    "message": "See valik kirjutab üle Chrome'i automaatse vahekaartide eemaldamise funktsiooni."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line2": {
+    "message": "Kui lubatud, sunnib vahekaardi peatuma selle asemel et Chrome selle eemaldaks."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line3": {
+    "message": "Chrome eemaldab vahekaardid tavaliselt ainult siis kui süsteemimälu muutub väga madalaks."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line4": {
+    "message": "Märkus: See võib põhjustada vahekaartide peatamise varem kui seadistatud"
+  },
+  "html_options_suspend_on_low_memory_tooltip_line5": {
+    "message": "automaatse peatamise valikutes."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line6": {
+    "message": "Lisateave Chrome discarding kohta:"
+  },
+  "html_options_suspend_on_low_memory_tooltip_discarding_link": {
+    "message": "https://developers.google.com/web/updates/2015/09/tab-discarding"
+  },
+  "html_popup_unsuspend_tab": {
+    "message": "Taasta see vahekaart"
+  },
+  "html_popup_suspend_tab": {
+    "message": "Peata see vahekaart kohe"
+  },
+  "html_popup_dont_suspend_now": {
+    "message": "Mitte praegu"
+  },
+  "html_popup_never_suspend_domain": {
+    "message": "Ära kunagi peata seda domeeni"
+  },
+  "html_popup_never_suspend_page": {
+    "message": "Ära kunagi peata seda URL-i"
+  },
+  "html_popup_suspend_other_tabs": {
+    "message": "Peata kõik teised vahekaardid"
+  },
+  "html_popup_unsuspend_all_tabs": {
+    "message": "Taasta kõik vahekaardid"
+  },
+  "html_popup_suspend_selected_tabs": {
+    "message": "Peata valitud vahekaardid"
+  },
+  "html_popup_unsuspend_selected_tabs": {
+    "message": "Taasta valitud vahekaardid"
+  },
+  "html_popup_settings": {
+    "message": "Seaded"
+  },
+  "html_restoring_title": {
+    "message": "Akna taastamine"
+  },
+  "html_restoring_heading": {
+    "message": "Vahekaartide taastamine"
+  },
+  "html_restoring_detail": {
+    "message": "Palun oodake kuni taastan selle akna..."
+  },
+  "html_recovery_title": {
+    "message": "Taaste"
+  },
+  "html_recovery_ruh_roh": {
+    "message": "Oi!"
+  },
+  "html_recovery_description_line1": {
+    "message": "Tundub et taastute laienduse krahhist."
+  },
+  "html_recovery_description_line2": {
+    "message": "Teie peatatud vahekaardid võivad olla kukkunud või kadunud."
+  },
+  "html_recovery_restore_tabs_automatically": {
+    "message": "Taasta vahekaardid automaatselt"
+  },
+  "html_recovery_go_to_session_manager": {
+    "message": "Mine seansihaldurisse"
+  },
+  "html_recovery_important_message": {
+    "message": "Teil on praegu ekraanipilt sisse lülitatud. Kui laiendus korduvalt krahhib, soovitatakse see valik välja lülitada."
+  },
+  "html_recovery_disable_screen_capturing": {
+    "message": "Lülita ekraanipilt välja"
+  },
+  "html_recovery_tabs_to_restore": {
+    "message": "Taastamiseks vahekaardid"
+  },
+  "html_shortcuts_title": {
+    "message": "Klaviatuuri otseteed"
+  },
+  "html_shortcuts_keyboard_shortcuts": {
+    "message": "Klaviatuuri otseteed"
+  },
+  "html_shortcuts_context_menu_note": {
+    "message": "Märkus: Need toimingud on kättesaadavad ka paremklõpsu menüü kaudu."
+  },
+  "html_shortcuts_remap_keys": {
+    "message": "Muuda otseteid"
+  },
+  "html_sidebar_general_settings": {
+    "message": "Seaded"
+  },
+  "html_sidebar_session_management": {
+    "message": "Seansihaldus"
+  },
+  "html_sidebar_shortcuts": {
+    "message": "Klaviatuuri otseteed"
+  },
+  "html_sidebar_support": {
+    "message": "Teave"
+  },
+  "html_success_great_success": {
+    "message": "Suur edu!"
+  },
+  "html_success_all_tabs_restored": {
+    "message": "Kõik teie vahekaardid on taastatud."
+  },
+  "html_success_goto_advanced_prefix": {
+    "message": "Täiustatud seansihalduseks külastage"
+  },
+  "html_success_goto_advanced_suffix": {
+    "message": "lehte"
+  },
+  "html_session_manager": {
+    "message": "seansihaldus"
+  },
+  "html_suspended_title": {
+    "message": "Peatatud vahekaart"
+  },
+  "html_suspended_tab_suspended": {
+    "message": "Vahekaart peatatud"
+  },
+  "html_suspended_tab_reload": {
+    "message": "Laadi vahekaart uuesti"
+  },
+  "html_suspended_tab_whitelist_prefix": {
+    "message": "Ära kunagi peata"
+  },
+  "html_suspended_tab_whitelist_suffix": {
+    "message": "..."
+  },
+  "html_suspended_click_to_reload": {
+    "message": "Värskenda või klõpsa uuesti laadimiseks"
+  },
+  "html_suspended_toast_not_connected": {
+    "message": "Te pole internetiga ühendatud"
+  },
+  "html_suspended_toast_reload_disabled": {
+    "message": "Vahekaartide automaatne laadimine on ajutiselt keelatud."
+  },
+  "html_suspended_donation_question": {
+    "message": "Kas see laiendus teeb teid õnnelikuks?\nNäidake oma toetust annetades."
+  },
+  "html_permissions_title": {
+    "message": "Õigused"
+  },
+  "html_permissions_heading": {
+    "message": "Andke mulle juurdepääs kohalike failide URL-idele"
+  },
+  "html_permissions_info": {
+    "message": "Sellel laiendusel pole praegu luba peatada URL-e mis algavad sõnaga \"file\".\nSelle muutmiseks lubage \"Luba juurdepääs failide URL-idele\" laienduse seadete lehel."
+  },
+  "html_permissions_backup": {
+    "message": "Märkus: selle valiku muutmine põhjustab kõigi peatatud vahekaartide ajutise kadumise.\nVõib olla hea aeg salvestada praeguse seansi varukoopia."
+  },
+  "html_update_title": {
+    "message": "Uuendus"
+  },
+  "html_update_heading2": {
+    "message": "on muutumas veelgi paremaks"
+  },
+  "html_update_info": {
+    "message": "The Great Suspenderi uus versioon on installimiseks valmis.\nMärkus: uuendamise ajal kaovad peatatud vahekaardid ajutiselt."
+  },
+  "html_update_info_withbackup": {
+    "message": "Võib olla hea aeg salvestada praeguse seansi varukoopia."
+  },
+  "html_update_info_nobackup_prefix": {
+    "message": "Soovitatav on tungivalt eksportida praeguse seansi koopia "
+  },
+  "html_update_info_nobackup_suffix": {
+    "message": " enne uuendamisega jätkamist."
+  },
+  "html_updated_title": {
+    "message": "Uuendatud"
+  },
+  "html_updating_heading": {
+    "message": "uuendab"
+  },
+  "html_updating_message": {
+    "message": "Palun oodake kuni taastan peatatud vahekaardid..."
+  },
+  "html_updated_great_suspender_updated": {
+    "message": "on uuendatud"
+  },
+  "html_updated_info_line1": {
+    "message": "Enne uuendamist loodi teie vahekaartidest automaatne varukoopia."
+  },
+  "html_updated_info_line2_prefix": {
+    "message": "Kui uuendamise ajal tekkisid probleemid saate kaotatud vahekaardid taastada "
+  },
+  "html_updated_info_line2_suffix": {
+    "message": " lehelt."
+  },
+  "html_updated_detail_header_prefix": {
+    "message": "Mis on uut "
+  },
+  "html_updated_detail_header_suffix": {
+    "message": "?"
+  },
+  "html_updated_new_features_header": {
+    "message": "Uued funktsioonid:"
+  },
+  "html_updated_bug_fixes_header": {
+    "message": "Veaparandused:"
+  },
+  "html_updated_release_notes": {
+    "message": "Külastage GitHubi täielike väljalaskemärkuste saamiseks: "
+  },
+  "html_updated_patch_message": {
+    "message": "Vabandame häirimise pärast. Pidin lihtsalt tegema väikese hooldustöö."
+  },
+  "html_welcome_title": {
+    "message": "Tere tulemast"
+  },
+  "html_welcome_text_line1": {
+    "message": "Täname proovimise eest"
+  },
+  "html_welcome_text_line2": {
+    "message": "Hoian teie arvuti sujuvalt töötamas peatades vahekaardid mida te ei kasuta."
+  },
+  "html_welcome_text_line3": {
+    "message": "Saate allpool seadeid peenhäälestada."
+  },
+  "html_thanks_title": {
+    "message": "Tänu"
+  },
+  "html_thanks_header": {
+    "message": "Täname toetuse eest!"
+  },
+  "html_thanks_sub_header": {
+    "message": "Loodan et teil läheb täna hästi."
+  },
+  "js_popup_normal": {
+    "message": "Vahekaart peatatakse automaatselt."
+  },
+  "js_popup_normal_pause": {
+    "message": "Mitte praegu"
+  },
+  "js_popup_special": {
+    "message": "Vahekaarti ei saa peatada"
+  },
+  "js_popup_suspended": {
+    "message": "Vahekaart peatatud"
+  },
+  "js_popup_suspended_pause": {
+    "message": "Ära peata"
+  },
+  "js_popup_whitelisted": {
+    "message": "Sait on valgel nimekirjal."
+  },
+  "js_popup_whitelisted_remove": {
+    "message": "Eemalda valgest nimekirjast"
+  },
+  "js_popup_audible": {
+    "message": "Vahekaart mängib heli."
+  },
+  "js_popup_form_input": {
+    "message": "Vahekaart saab vormi sisendit."
+  },
+  "js_popup_form_input_unpause": {
+    "message": "Jätka"
+  },
+  "js_popup_pinned": {
+    "message": "Vahekaart on kinnitatud"
+  },
+  "js_popup_temp_whitelist": {
+    "message": "Vahekaardi peatamine on pausil."
+  },
+  "js_popup_temp_whitelist_unpause": {
+    "message": "Jätka"
+  },
+  "js_popup_never": {
+    "message": "Automaatne vahekaartide peatamine on keelatud."
+  },
+  "js_popup_no_connectivity": {
+    "message": "Puudub võrguühendus"
+  },
+  "js_popup_charging": {
+    "message": "Ühendatud toiteallikaga"
+  },
+  "js_popup_blockedFile": {
+    "message": "Kohalikke faile ei saa peatada."
+  },
+  "js_popup_blockedFile_enable": {
+    "message": "Luba"
+  },
+  "js_popup_unknown": {
+    "message": "Ootan vahekaardi laadimist..."
+  },
+  "js_popup_initialising": {
+    "message": "Ootan laienduse initsialiseerimist..."
+  },
+  "js_popup_error": {
+    "message": "Automaatne peatamine pole selle vahekaardi jaoks saadaval"
+  },
+  "js_history_delete": {
+    "message": "kustuta"
+  },
+  "js_history_export": {
+    "message": "ekspordi"
+  },
+  "js_history_reload": {
+    "message": "ava ja laadi"
+  },
+  "js_history_resuspend": {
+    "message": "ava ja peata"
+  },
+  "js_history_save": {
+    "message": "salvesta"
+  },
+  "js_history_window": {
+    "message": "Aken"
+  },
+  "js_history_tab": {
+    "message": "Vahekaart"
+  },
+  "js_history_plural": {
+    "message": "i"
+  },
+  "js_history_enter_name_for_session": {
+    "message": "Sisestage selle seansi nimi"
+  },
+  "js_history_confirm_delete": {
+    "message": "Kas olete kindel et soovite selle seansi kustutada?"
+  },
+  "js_history_confirm_session_overwrite": {
+    "message": "Selle nimega salvestatud seanss on juba olemas. Kirjutada olemasolev seanss üle?"
+  },
+  "js_history_import_fail": {
+    "message": "Faili laadimine ebaõnnestus. Veenduge et fail on lihtne tekst ühe URL-iga real."
+  },
+  "js_suspended_remove_from_whitelist": {
+    "message": "Eemalda sait valgest nimekirjast"
+  },
+  "js_suspended_hotkey_to_reload": {
+    "message": "Seadista klaviatuuri otseteed"
+  },
+  "js_suspended_low_memory": {
+    "message": "Vahekaart peatatud madala süsteemimälu tõttu"
+  },
+  "js_options_incognito_warning": {
+    "message": "Olete inkognito režiimis. Mõned funktsioonid pole saadaval."
+  },
+  "js_options_whitelist_no_matches": {
+    "message": "Pole avatud vahekaarte mis vastaksid praegusele valge nimekirjale."
+  },
+  "js_options_whitelist_matches_heading": {
+    "message": "Avatud vahekaardid valgel nimekirjal:"
+  },
+  "js_options_whitelist_matches_overflow_prefix": {
+    "message": "ja veel"
+  },
+  "js_options_whitelist_matches_overflow_suffix": {
+    "message": "."
+  },
+  "js_permissions_button_export": {
+    "message": "Salvesta varukoopia"
+  },
+  "js_permissions_button_set": {
+    "message": "Ava laienduse seaded"
+  },
+  "js_update_confirm": {
+    "message": "Te pole veel varukooipat salvestanud. Uuenda laiendust ikkagi?"
+  },
+  "js_update_button_export": {
+    "message": "Salvesta varukoopia"
+  },
+  "js_update_button_reload": {
+    "message": "Uuenda laiendust kohe"
+  },
+  "js_shortcuts_not_set": {
+    "message": "määramata"
+  },
+  "js_session_save_point": {
+    "message": "Automaatne salvestuspunkt v"
+  }
+}

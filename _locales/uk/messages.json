@@ -1,0 +1,686 @@
+{
+  "ext_extension_name": {
+    "message": "The Great Suspender | Tab Suspender - Заморозка вкладок 2026"
+  },
+  "ext_extension_description": {
+    "message": "Призупиняє неактивні вкладки Chrome і звільняє оперативну пам'ять. Заморозка вкладок автоматично. Tab Suspender — швидкий браузер без гальм."
+  },
+  "ext_default_title": {
+    "message": "The Great Suspender"
+  },
+  "ext_cmd_toggle_tab_suspension_description": {
+    "message": "Призупинити/Відновити активну вкладку"
+  },
+  "ext_cmd_toggle_tab_pause_description": {
+    "message": "Поставити на паузу/Відновити призупинення активної вкладки"
+  },
+  "ext_cmd_suspend_selected_tabs_description": {
+    "message": "Призупинити вибрані вкладки"
+  },
+  "ext_cmd_unsuspend_selected_tabs_description": {
+    "message": "Відновити вибрані вкладки"
+  },
+  "ext_cmd_soft_suspend_active_window_description": {
+    "message": "Призупинити всі інші вкладки в активному вікні"
+  },
+  "ext_cmd_force_suspend_active_window_description": {
+    "message": "Примусово призупинити всі інші вкладки в активному вікні"
+  },
+  "ext_cmd_unsuspend_active_window_description": {
+    "message": "Відновити всі вкладки в активному вікні"
+  },
+  "ext_cmd_soft_suspend_all_windows_description": {
+    "message": "Призупинити всі вкладки в усіх вікнах"
+  },
+  "ext_cmd_force_suspend_all_windows_description": {
+    "message": "Примусово призупинити всі вкладки в усіх вікнах"
+  },
+  "ext_cmd_unsuspend_all_windows_description": {
+    "message": "Відновити всі вкладки в усіх вікнах"
+  },
+  "js_context_open_link_in_suspended_tab": {
+    "message": "Відкрити посилання в новій призупиненій вкладці"
+  },
+  "js_context_toggle_suspend_state": {
+    "message": "Призупинити/Відновити цю вкладку"
+  },
+  "js_context_toggle_pause_suspension": {
+    "message": "Поставити на паузу/Відновити призупинення цієї вкладки"
+  },
+  "js_context_never_suspend_domain": {
+    "message": "Ніколи не призупиняти цей домен"
+  },
+  "js_context_never_suspend_page": {
+    "message": "Ніколи не призупиняти цей URL"
+  },
+  "js_context_suspend_selected_tabs": {
+    "message": "Призупинити вибрані вкладки"
+  },
+  "js_context_unsuspend_selected_tabs": {
+    "message": "Відновити вибрані вкладки"
+  },
+  "js_context_soft_suspend_other_tabs_in_window": {
+    "message": "Призупинити всі інші вкладки в цьому вікні"
+  },
+  "js_context_force_suspend_other_tabs_in_window": {
+    "message": "Примусово призупинити всі інші вкладки в цьому вікні"
+  },
+  "js_context_unsuspend_all_tabs_in_window": {
+    "message": "Відновити всі вкладки в цьому вікні"
+  },
+  "js_context_soft_suspend_all_tabs": {
+    "message": "Призупинити всі вкладки в усіх вікнах"
+  },
+  "js_context_force_suspend_all_tabs": {
+    "message": "Примусово призупинити всі вкладки в усіх вікнах"
+  },
+  "js_context_unsuspend_all_tabs": {
+    "message": "Відновити всі вкладки в усіх вікнах"
+  },
+  "html_about_title": {
+    "message": "Про розширення"
+  },
+  "html_history_title": {
+    "message": "Керування сесіями"
+  },
+  "html_history_current_session": {
+    "message": "Поточна сесія"
+  },
+  "html_history_recent_sessions": {
+    "message": "Останні сесії"
+  },
+  "html_history_saved_sessions": {
+    "message": "Збережені сесії"
+  },
+  "html_history_import_session": {
+    "message": "Імпортувати сесію"
+  },
+  "html_notice_title": {
+    "message": "Повідомлення"
+  },
+  "html_notice_important_notice": {
+    "message": "Важливе повідомлення від The Great Suspender"
+  },
+  "html_options_title": {
+    "message": "Налаштування"
+  },
+  "html_options_suspend_title": {
+    "message": "Автоматичне призупинення вкладок"
+  },
+  "html_options_suspended_title": {
+    "message": "Призупинені вкладки"
+  },
+  "html_options_other_title": {
+    "message": "Інше"
+  },
+  "html_options_suspend_automatically_after": {
+    "message": "Автоматично призупиняти вкладки через"
+  },
+  "html_options_suspend_never": {
+    "message": "Ніколи"
+  },
+  "html_options_suspend_seconds": {
+    "message": "секунд"
+  },
+  "html_options_suspend_minute": {
+    "message": "хв"
+  },
+  "html_options_suspend_minutes": {
+    "message": "хв"
+  },
+  "html_options_suspend_hour": {
+    "message": "година"
+  },
+  "html_options_suspend_hours": {
+    "message": "год"
+  },
+  "html_options_suspend_day": {
+    "message": "день"
+  },
+  "html_options_suspend_days": {
+    "message": "дні"
+  },
+  "html_options_suspend_week": {
+    "message": "тиждень"
+  },
+  "html_options_suspend_weeks": {
+    "message": "тижні"
+  },
+  "html_options_suspend_no_pinned": {
+    "message": "Ніколи не призупиняти закріплені вкладки"
+  },
+  "html_options_suspend_no_forms": {
+    "message": "Не призупиняти вкладки з незбереженими даними форм"
+  },
+  "html_options_suspend_no_audio": {
+    "message": "Не призупиняти вкладки, що відтворюють аудіо"
+  },
+  "html_options_suspend_only_connected": {
+    "message": "Не призупиняти вкладки без підключення до інтернету"
+  },
+  "html_options_suspend_only_on_battery": {
+    "message": "Не призупиняти вкладки при підключеному живленні"
+  },
+  "html_options_suspend_no_active_tabs": {
+    "message": "Ніколи не призупиняти активну вкладку в кожному вікні"
+  },
+  "html_options_suspend_automatically_unsuspend": {
+    "message": "Автоматично відновлювати вкладку при перегляді"
+  },
+  "html_options_suspend_discard_after_suspend": {
+    "message": "Застосовувати вбудовану функцію економії пам'яті Chrome при призупиненні"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1a": {
+    "message": "Ще більше зменшує використання пам'яті призупиненою вкладкою, використовуючи"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1b": {
+    "message": "вбудовану функцію 'відкидання вкладок' Chrome. Це може забезпечити до"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1c": {
+    "message": "500% економії пам'яті при роботі з великою кількістю вкладок."
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line2a": {
+    "message": "Однак це призведе до незначної затримки рендерингу при виборі"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line2b": {
+    "message": "призупиненої вкладки."
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line3a": {
+    "message": "Детальніше про відкидання вкладок Chrome:"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line3b": {
+    "message": "https://developers.google.com/web/updates/2015/09/tab-discarding"
+  },
+  "html_options_suspend_theme": {
+    "message": "Тема"
+  },
+  "html_options_suspend_theme_light": {
+    "message": "Світла"
+  },
+  "html_options_suspend_theme_dark": {
+    "message": "Темна"
+  },
+  "html_options_suspend_screen_capturing": {
+    "message": "Захоплення екрана"
+  },
+  "html_options_suspend_screen_capturing_disabled": {
+    "message": "Вимкнено"
+  },
+  "html_options_suspend_screen_capturing_screen_only": {
+    "message": "Захопити лише верхню частину екрана"
+  },
+  "html_options_suspend_screen_capturing_entire_page": {
+    "message": "Захопити всю сторінку"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line1a": {
+    "message": "На призупиненій вкладці розширення може показати попередній перегляд того, як виглядала вкладка"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line1b": {
+    "message": "безпосередньо перед призупиненням."
+  },
+  "html_options_suspend_screen_capturing_tooltip_line2a": {
+    "message": "Захоплення екрана є експериментальною функцією і може спричиняти значне навантаження на ЦП"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line2b": {
+    "message": "а також незначне збільшення використання пам'яті."
+  },
+  "html_options_suspend_screen_capturing_tooltip_line3a": {
+    "message": "Якщо ви помічаєте дивну поведінку (вкладки довго призупиняються або Chrome"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line3b": {
+    "message": "несподівано зависає), спробуйте вимкнути цю функцію."
+  },
+  "html_options_suspend_force_screen_capture": {
+    "message": "Увімкнути режим захоплення екрана високої якості"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line1": {
+    "message": "Коли вимкнено, захоплення екрана має такі обмеження для покращення продуктивності:"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line2": {
+    "message": "- Захоплення екрана низької якості"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line4": {
+    "message": "- Не захоплюватиме екран, якщо генерація зображення займає більше 1 хвилини"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line5": {
+    "message": "- Максимальна висота захоплення екрана обмежена 5000 пікселів"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line6": {
+    "message": "Увімкнення режиму високої якості може значно збільшити навантаження на ЦП"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line7": {
+    "message": "та використання пам'яті."
+  },
+  "html_options_whitelist_title": {
+    "message": "Ніколи не призупиняти вкладки з URL зі списку нижче:"
+  },
+  "html_options_whitelist_tooltip_line1": {
+    "message": "Додайте URL кожної сторінки, яку хочете занести до білого списку, з нового рядка. Наприклад:"
+  },
+  "html_options_whitelist_tooltip_line2": {
+    "message": "Щоб внести кілька сайтів в одному рядку, вкажіть частину URL:"
+  },
+  "html_options_whitelist_tooltip_line3": {
+    "message": "Можна також використовувати регулярні вирази, обернувши текст косими рисками:"
+  },
+  "html_options_whitelist_test": {
+    "message": "Тестувати білий список"
+  },
+  "html_options_other_enable_context_menu": {
+    "message": "Додати The Great Suspender до контекстного меню (права кнопка миші)"
+  },
+  "html_options_other_enable_context_menu_tooltip_line1": {
+    "message": "Додає елементи керування цим розширенням до контекстного меню веб-сторінки."
+  },
+  "html_options_other_enable_context_menu_tooltip_line2": {
+    "message": "Це дасть доступ до розширених дій призупинення, недоступних"
+  },
+  "html_options_other_enable_context_menu_tooltip_line3": {
+    "message": "в інших місцях розширення."
+  },
+  "html_options_other_enable_sync": {
+    "message": "Синхронізувати налаштування з профілем Chrome"
+  },
+  "html_options_other_enable_sync_tooltip_line1a": {
+    "message": "Налаштування розширення синхронізуватимуться в усіх браузерах Chrome,"
+  },
+  "html_options_other_enable_sync_tooltip_line1b": {
+    "message": "що увійшли з одним і тим самим профілем."
+  },
+  "html_options_other_enable_sync_tooltip_line2": {
+    "message": "Це також синхронізує налаштування в режимі анонімного перегляду."
+  },
+  "html_options_other_enable_sync_warning": {
+    "message": "Увімкнення цього параметра перезапише налаштування в усіх інших браузерах, що увійшли з тим самим профілем Chrome"
+  },
+  "html_options_suspend_on_low_memory": {
+    "message": "Негайно призупиняти при дуже низькому рівні пам'яті системи"
+  },
+  "html_options_suspend_on_low_memory_tooltip_line1": {
+    "message": "Цей параметр замінить функцію автоматичного відкидання вкладок Chrome."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line2": {
+    "message": "Якщо увімкнено, вкладка буде призупинена замість відкидання Chrome."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line3": {
+    "message": "Зазвичай Chrome відкидає вкладки лише коли пам'ять системи дуже низька."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line4": {
+    "message": "Зверніть увагу: це може призвести до призупинення вкладок раніше, ніж час,"
+  },
+  "html_options_suspend_on_low_memory_tooltip_line5": {
+    "message": "вказаний у параметрах автоматичного призупинення."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line6": {
+    "message": "Детальніше про відкидання вкладок Chrome:"
+  },
+  "html_options_suspend_on_low_memory_tooltip_discarding_link": {
+    "message": "https://developers.google.com/web/updates/2015/09/tab-discarding"
+  },
+  "html_popup_unsuspend_tab": {
+    "message": "Відновити цю вкладку"
+  },
+  "html_popup_suspend_tab": {
+    "message": "Призупинити цю вкладку зараз"
+  },
+  "html_popup_dont_suspend_now": {
+    "message": "Не призупиняти зараз"
+  },
+  "html_popup_never_suspend_domain": {
+    "message": "Ніколи не призупиняти цей домен"
+  },
+  "html_popup_never_suspend_page": {
+    "message": "Ніколи не призупиняти цей URL"
+  },
+  "html_popup_suspend_other_tabs": {
+    "message": "Призупинити всі інші вкладки"
+  },
+  "html_popup_unsuspend_all_tabs": {
+    "message": "Відновити всі вкладки"
+  },
+  "html_popup_suspend_selected_tabs": {
+    "message": "Призупинити вибрані вкладки"
+  },
+  "html_popup_unsuspend_selected_tabs": {
+    "message": "Відновити вибрані вкладки"
+  },
+  "html_popup_settings": {
+    "message": "Налаштування"
+  },
+  "html_restoring_title": {
+    "message": "Відновлення вікна"
+  },
+  "html_restoring_heading": {
+    "message": "Відновлення вкладок"
+  },
+  "html_restoring_detail": {
+    "message": "Зачекайте, поки відновлюється це вікно..."
+  },
+  "html_recovery_title": {
+    "message": "Відновлення"
+  },
+  "html_recovery_ruh_roh": {
+    "message": "Ой!"
+  },
+  "html_recovery_description_line1": {
+    "message": "Схоже, ви відновлюєтесь після збою розширення."
+  },
+  "html_recovery_description_line2": {
+    "message": "Ваші призупинені вкладки могли аварійно завершитись або зникнути."
+  },
+  "html_recovery_restore_tabs_automatically": {
+    "message": "Відновити вкладки автоматично"
+  },
+  "html_recovery_go_to_session_manager": {
+    "message": "Перейти до менеджера сесій"
+  },
+  "html_recovery_important_message": {
+    "message": "Захоплення екрана зараз увімкнено. Якщо розширення постійно зависає, рекомендується вимкнути цей параметр."
+  },
+  "html_recovery_disable_screen_capturing": {
+    "message": "Вимкнути захоплення екрана"
+  },
+  "html_recovery_tabs_to_restore": {
+    "message": "Вкладки для відновлення"
+  },
+  "html_shortcuts_title": {
+    "message": "Клавіатурні скорочення"
+  },
+  "html_shortcuts_keyboard_shortcuts": {
+    "message": "Клавіатурні скорочення"
+  },
+  "html_shortcuts_context_menu_note": {
+    "message": "Примітка: ці дії також доступні через контекстне меню (права кнопка миші)."
+  },
+  "html_shortcuts_remap_keys": {
+    "message": "Змінити скорочення"
+  },
+  "html_sidebar_general_settings": {
+    "message": "Налаштування"
+  },
+  "html_sidebar_session_management": {
+    "message": "Керування сесіями"
+  },
+  "html_sidebar_shortcuts": {
+    "message": "Клавіатурні скорочення"
+  },
+  "html_sidebar_support": {
+    "message": "Про розширення"
+  },
+  "html_success_great_success": {
+    "message": "Успіх!"
+  },
+  "html_success_all_tabs_restored": {
+    "message": "Усі ваші вкладки відновлено."
+  },
+  "html_success_goto_advanced_prefix": {
+    "message": "Для розширеного керування сесіями відвідайте"
+  },
+  "html_success_goto_advanced_suffix": {
+    "message": "сторінку"
+  },
+  "html_session_manager": {
+    "message": "керування сесіями"
+  },
+  "html_suspended_title": {
+    "message": "Призупинена вкладка"
+  },
+  "html_suspended_tab_suspended": {
+    "message": "Вкладку призупинено"
+  },
+  "html_suspended_tab_reload": {
+    "message": "Перезавантажити вкладку"
+  },
+  "html_suspended_tab_whitelist_prefix": {
+    "message": "Ніколи не призупиняти"
+  },
+  "html_suspended_tab_whitelist_suffix": {
+    "message": "..."
+  },
+  "html_suspended_click_to_reload": {
+    "message": "Оновити або натиснути для перезавантаження"
+  },
+  "html_suspended_toast_not_connected": {
+    "message": "Ви не підключені до інтернету"
+  },
+  "html_suspended_toast_reload_disabled": {
+    "message": "Автоматичне перезавантаження вкладок тимчасово вимкнено."
+  },
+  "html_suspended_donation_question": {
+    "message": "Чи робить це розширення вас щасливими?\nПідтримайте нас донатом."
+  },
+  "html_permissions_title": {
+    "message": "Дозволи"
+  },
+  "html_permissions_heading": {
+    "message": "Будь ласка, надайте мені доступ до URL локальних файлів"
+  },
+  "html_permissions_info": {
+    "message": "Це розширення наразі не має дозволу на призупинення URL, що починаються зі слова \"file\".\nЩоб змінити це, увімкніть «Дозволити доступ до URL файлів» на сторінці налаштувань розширення."
+  },
+  "html_permissions_backup": {
+    "message": "Примітка: зміна цього параметра призведе до тимчасового зникнення призупинених вкладок.\nПро всяк випадок, зараз може бути гарний час зберегти резервну копію вашої сесії вкладок."
+  },
+  "html_update_title": {
+    "message": "Оновлення"
+  },
+  "html_update_heading2": {
+    "message": "ось-ось стане ще кращим"
+  },
+  "html_update_info": {
+    "message": "Нова версія The Great Suspender готова до встановлення.\nПримітка: під час оновлення призупинені вкладки тимчасово зникнуть."
+  },
+  "html_update_info_withbackup": {
+    "message": "Про всяк випадок, зараз може бути гарний час зберегти резервну копію вашої сесії вкладок."
+  },
+  "html_update_info_nobackup_prefix": {
+    "message": "Настійно рекомендується експортувати копію поточної сесії з "
+  },
+  "html_update_info_nobackup_suffix": {
+    "message": " перед продовженням оновлення."
+  },
+  "html_updated_title": {
+    "message": "Оновлено"
+  },
+  "html_updating_heading": {
+    "message": "оновлюється"
+  },
+  "html_updating_message": {
+    "message": "Зачекайте, поки відновлюються призупинені вкладки..."
+  },
+  "html_updated_great_suspender_updated": {
+    "message": "було оновлено"
+  },
+  "html_updated_info_line1": {
+    "message": "Перед оновленням було автоматично створено резервну копію вкладок."
+  },
+  "html_updated_info_line2_prefix": {
+    "message": "Якщо під час оновлення виникли проблеми, ви можете відновити втрачені вкладки зі "
+  },
+  "html_updated_info_line2_suffix": {
+    "message": " сторінки."
+  },
+  "html_updated_detail_header_prefix": {
+    "message": "Що нового у версії "
+  },
+  "html_updated_detail_header_suffix": {
+    "message": "?"
+  },
+  "html_updated_new_features_header": {
+    "message": "Нові функції:"
+  },
+  "html_updated_bug_fixes_header": {
+    "message": "Виправлення помилок:"
+  },
+  "html_updated_release_notes": {
+    "message": "Відвідайте GitHub для повних приміток до випуску: "
+  },
+  "html_updated_patch_message": {
+    "message": "Вибачте за незручності. Потрібно було провести невеличке технічне обслуговування."
+  },
+  "html_welcome_title": {
+    "message": "Ласкаво просимо"
+  },
+  "html_welcome_text_line1": {
+    "message": "Дякуємо за те, що спробували"
+  },
+  "html_welcome_text_line2": {
+    "message": "Я забезпечую плавну роботу вашого комп'ютера, призупиняючи вкладки, які ви не використовуєте."
+  },
+  "html_welcome_text_line3": {
+    "message": "Ви можете налаштувати параметри нижче."
+  },
+  "html_thanks_title": {
+    "message": "Дякуємо"
+  },
+  "html_thanks_header": {
+    "message": "Дякуємо за підтримку!"
+  },
+  "html_thanks_sub_header": {
+    "message": "Нехай сьогодні вас чекають чудові речі."
+  },
+  "js_popup_normal": {
+    "message": "Вкладку буде призупинено автоматично."
+  },
+  "js_popup_normal_pause": {
+    "message": "Не зараз"
+  },
+  "js_popup_special": {
+    "message": "Вкладку не можна призупинити"
+  },
+  "js_popup_suspended": {
+    "message": "Вкладку призупинено"
+  },
+  "js_popup_suspended_pause": {
+    "message": "Не призупиняти"
+  },
+  "js_popup_whitelisted": {
+    "message": "Сайт у білому списку."
+  },
+  "js_popup_whitelisted_remove": {
+    "message": "Видалити з білого списку"
+  },
+  "js_popup_audible": {
+    "message": "Вкладка відтворює аудіо."
+  },
+  "js_popup_form_input": {
+    "message": "Вкладка отримує дані форми."
+  },
+  "js_popup_form_input_unpause": {
+    "message": "Відновити"
+  },
+  "js_popup_pinned": {
+    "message": "Вкладку закріплено"
+  },
+  "js_popup_temp_whitelist": {
+    "message": "Призупинення вкладки на паузі."
+  },
+  "js_popup_temp_whitelist_unpause": {
+    "message": "Відновити"
+  },
+  "js_popup_never": {
+    "message": "Автоматичне призупинення вкладок вимкнено."
+  },
+  "js_popup_no_connectivity": {
+    "message": "Немає підключення до мережі"
+  },
+  "js_popup_charging": {
+    "message": "Підключено до джерела живлення"
+  },
+  "js_popup_blockedFile": {
+    "message": "Локальні файли не можна призупинити."
+  },
+  "js_popup_blockedFile_enable": {
+    "message": "Увімкнути"
+  },
+  "js_popup_unknown": {
+    "message": "Очікування завантаження вкладки..."
+  },
+  "js_popup_initialising": {
+    "message": "Очікування ініціалізації розширення..."
+  },
+  "js_popup_error": {
+    "message": "Автоматичне призупинення недоступне для цієї вкладки"
+  },
+  "js_history_delete": {
+    "message": "видалити"
+  },
+  "js_history_export": {
+    "message": "експортувати"
+  },
+  "js_history_reload": {
+    "message": "відкрити та завантажити"
+  },
+  "js_history_resuspend": {
+    "message": "відкрити та призупинити"
+  },
+  "js_history_save": {
+    "message": "зберегти"
+  },
+  "js_history_window": {
+    "message": "Вікно"
+  },
+  "js_history_tab": {
+    "message": "Вкладка"
+  },
+  "js_history_plural": {
+    "message": "и"
+  },
+  "js_history_enter_name_for_session": {
+    "message": "Введіть назву для цієї сесії"
+  },
+  "js_history_confirm_delete": {
+    "message": "Ви впевнені, що хочете видалити цю сесію?"
+  },
+  "js_history_confirm_session_overwrite": {
+    "message": "Вже існує збережена сесія з такою назвою. Перезаписати існуючу сесію?"
+  },
+  "js_history_import_fail": {
+    "message": "Не вдалося завантажити файл. Переконайтесь, що це звичайний текст і містить одну URL-адресу на рядок."
+  },
+  "js_suspended_remove_from_whitelist": {
+    "message": "Видалити сайт з білого списку"
+  },
+  "js_suspended_hotkey_to_reload": {
+    "message": "Встановити клавіатурні скорочення"
+  },
+  "js_suspended_low_memory": {
+    "message": "Вкладку призупинено через низький рівень пам'яті системи"
+  },
+  "js_options_incognito_warning": {
+    "message": "Ви в режимі анонімного перегляду. Деякі функції будуть недоступні."
+  },
+  "js_options_whitelist_no_matches": {
+    "message": "Немає відкритих вкладок, що відповідають поточному білому списку."
+  },
+  "js_options_whitelist_matches_heading": {
+    "message": "Відкриті вкладки у білому списку:"
+  },
+  "js_options_whitelist_matches_overflow_prefix": {
+    "message": "та"
+  },
+  "js_options_whitelist_matches_overflow_suffix": {
+    "message": "більше."
+  },
+  "js_permissions_button_export": {
+    "message": "Зберегти резервну копію"
+  },
+  "js_permissions_button_set": {
+    "message": "Відкрити налаштування розширення"
+  },
+  "js_update_confirm": {
+    "message": "Ви ще не зберегли резервну копію. Оновити розширення все одно?"
+  },
+  "js_update_button_export": {
+    "message": "Зберегти резервну копію"
+  },
+  "js_update_button_reload": {
+    "message": "Оновити розширення зараз"
+  },
+  "js_shortcuts_not_set": {
+    "message": "не встановлено"
+  },
+  "js_session_save_point": {
+    "message": "Автоматична точка збереження для v"
+  }
+}

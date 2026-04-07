@@ -1,0 +1,686 @@
+{
+  "ext_extension_name": {
+    "message": "The Great Suspender | Tab Suspender - Πάγωμα καρτελών"
+  },
+  "ext_extension_description": {
+    "message": "Αναστείλτε ανενεργές καρτέλες Chrome για εξοικονόμηση RAM και αύξηση ταχύτητας. Ο καλύτερος Tab Suspender — παγώνει αυτόματα αχρησιμοποίητες καρτέλες και τις επαναφέρει άμεσα."
+  },
+  "ext_default_title": {
+    "message": "The Great Suspender"
+  },
+  "ext_cmd_toggle_tab_suspension_description": {
+    "message": "Αναστολή/Επαναφορά ενεργής καρτέλας"
+  },
+  "ext_cmd_toggle_tab_pause_description": {
+    "message": "Παύση/Συνέχιση αναστολής ενεργής καρτέλας"
+  },
+  "ext_cmd_suspend_selected_tabs_description": {
+    "message": "Αναστολή επιλεγμένων καρτελών"
+  },
+  "ext_cmd_unsuspend_selected_tabs_description": {
+    "message": "Επαναφορά επιλεγμένων καρτελών"
+  },
+  "ext_cmd_soft_suspend_active_window_description": {
+    "message": "Αναστολή όλων των άλλων καρτελών στο ενεργό παράθυρο"
+  },
+  "ext_cmd_force_suspend_active_window_description": {
+    "message": "Αναγκαστική αναστολή όλων των άλλων καρτελών στο ενεργό παράθυρο"
+  },
+  "ext_cmd_unsuspend_active_window_description": {
+    "message": "Επαναφορά όλων των καρτελών στο ενεργό παράθυρο"
+  },
+  "ext_cmd_soft_suspend_all_windows_description": {
+    "message": "Αναστολή όλων των καρτελών σε όλα τα παράθυρα"
+  },
+  "ext_cmd_force_suspend_all_windows_description": {
+    "message": "Αναγκαστική αναστολή όλων των καρτελών σε όλα τα παράθυρα"
+  },
+  "ext_cmd_unsuspend_all_windows_description": {
+    "message": "Επαναφορά όλων των καρτελών σε όλα τα παράθυρα"
+  },
+  "js_context_open_link_in_suspended_tab": {
+    "message": "Άνοιγμα συνδέσμου σε νέα ανασταλμένη καρτέλα"
+  },
+  "js_context_toggle_suspend_state": {
+    "message": "Αναστολή/Επαναφορά αυτής της καρτέλας"
+  },
+  "js_context_toggle_pause_suspension": {
+    "message": "Παύση/Συνέχιση αναστολής αυτής της καρτέλας"
+  },
+  "js_context_never_suspend_domain": {
+    "message": "Ποτέ να μην ανασταλεί αυτός ο τομέας"
+  },
+  "js_context_never_suspend_page": {
+    "message": "Ποτέ να μην ανασταλεί αυτό το URL"
+  },
+  "js_context_suspend_selected_tabs": {
+    "message": "Αναστολή επιλεγμένων καρτελών"
+  },
+  "js_context_unsuspend_selected_tabs": {
+    "message": "Επαναφορά επιλεγμένων καρτελών"
+  },
+  "js_context_soft_suspend_other_tabs_in_window": {
+    "message": "Αναστολή όλων των άλλων καρτελών σε αυτό το παράθυρο"
+  },
+  "js_context_force_suspend_other_tabs_in_window": {
+    "message": "Αναγκαστική αναστολή όλων των άλλων καρτελών σε αυτό το παράθυρο"
+  },
+  "js_context_unsuspend_all_tabs_in_window": {
+    "message": "Επαναφορά όλων των καρτελών σε αυτό το παράθυρο"
+  },
+  "js_context_soft_suspend_all_tabs": {
+    "message": "Αναστολή όλων των καρτελών σε όλα τα παράθυρα"
+  },
+  "js_context_force_suspend_all_tabs": {
+    "message": "Αναγκαστική αναστολή όλων των καρτελών σε όλα τα παράθυρα"
+  },
+  "js_context_unsuspend_all_tabs": {
+    "message": "Επαναφορά όλων των καρτελών σε όλα τα παράθυρα"
+  },
+  "html_about_title": {
+    "message": "Σχετικά"
+  },
+  "html_history_title": {
+    "message": "Διαχείριση συνεδριών"
+  },
+  "html_history_current_session": {
+    "message": "Τρέχουσα συνεδρία"
+  },
+  "html_history_recent_sessions": {
+    "message": "Πρόσφατες συνεδρίες"
+  },
+  "html_history_saved_sessions": {
+    "message": "Αποθηκευμένες συνεδρίες"
+  },
+  "html_history_import_session": {
+    "message": "Εισαγωγή συνεδρίας"
+  },
+  "html_notice_title": {
+    "message": "Ειδοποίηση"
+  },
+  "html_notice_important_notice": {
+    "message": "Σημαντική ειδοποίηση από το The Great Suspender"
+  },
+  "html_options_title": {
+    "message": "Ρυθμίσεις"
+  },
+  "html_options_suspend_title": {
+    "message": "Αυτόματη αναστολή καρτελών"
+  },
+  "html_options_suspended_title": {
+    "message": "Ανασταλμένες καρτέλες"
+  },
+  "html_options_other_title": {
+    "message": "Άλλα"
+  },
+  "html_options_suspend_automatically_after": {
+    "message": "Αυτόματη αναστολή καρτελών μετά από"
+  },
+  "html_options_suspend_never": {
+    "message": "Ποτέ"
+  },
+  "html_options_suspend_seconds": {
+    "message": "δευτερόλεπτα"
+  },
+  "html_options_suspend_minute": {
+    "message": "λεπτό"
+  },
+  "html_options_suspend_minutes": {
+    "message": "λεπτά"
+  },
+  "html_options_suspend_hour": {
+    "message": "ώρα"
+  },
+  "html_options_suspend_hours": {
+    "message": "ώρες"
+  },
+  "html_options_suspend_day": {
+    "message": "ημέρα"
+  },
+  "html_options_suspend_days": {
+    "message": "ημέρες"
+  },
+  "html_options_suspend_week": {
+    "message": "εβδομάδα"
+  },
+  "html_options_suspend_weeks": {
+    "message": "εβδομάδες"
+  },
+  "html_options_suspend_no_pinned": {
+    "message": "Ποτέ να μην ανασταλούν καρφιτσωμένες καρτέλες"
+  },
+  "html_options_suspend_no_forms": {
+    "message": "Ποτέ να μην ανασταλούν καρτέλες με μη αποθηκευμένες φόρμες"
+  },
+  "html_options_suspend_no_audio": {
+    "message": "Ποτέ να μην ανασταλούν καρτέλες που αναπαράγουν ήχο"
+  },
+  "html_options_suspend_only_connected": {
+    "message": "Ποτέ να μην ανασταλούν καρτέλες όταν είστε εκτός σύνδεσης"
+  },
+  "html_options_suspend_only_on_battery": {
+    "message": "Ποτέ να μην ανασταλούν καρτέλες όταν είστε συνδεδεμένοι σε τροφοδοτικό"
+  },
+  "html_options_suspend_no_active_tabs": {
+    "message": "Ποτέ να μην ανασταλεί η ενεργή καρτέλα σε κάθε παράθυρο"
+  },
+  "html_options_suspend_automatically_unsuspend": {
+    "message": "Αυτόματη επαναφορά καρτέλας όταν προβάλλεται"
+  },
+  "html_options_suspend_discard_after_suspend": {
+    "message": "Εφαρμογή ενσωματωμένης εξοικονόμησης μνήμης Chrome κατά την αναστολή"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1a": {
+    "message": "Μειώνει περαιτέρω τη χρήση μνήμης μιας ανασταλμένης καρτέλας, χρησιμοποιώντας"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1b": {
+    "message": "την ενσωματωμένη λειτουργία 'tab discarding' του Chrome. Μπορεί να εξοικονομήσει έως"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1c": {
+    "message": "500% μνήμης κατά την εργασία με πολλές καρτέλες."
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line2a": {
+    "message": "Ωστόσο, μπορεί να προκαλέσει μικρή καθυστέρηση απόδοσης κατά την επιλογή"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line2b": {
+    "message": "μιας ανασταλμένης καρτέλας."
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line3a": {
+    "message": "Για περισσότερες πληροφορίες σχετικά με το Chrome discarding:"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line3b": {
+    "message": "https://developers.google.com/web/updates/2015/09/tab-discarding"
+  },
+  "html_options_suspend_theme": {
+    "message": "Θέμα"
+  },
+  "html_options_suspend_theme_light": {
+    "message": "Φωτεινό"
+  },
+  "html_options_suspend_theme_dark": {
+    "message": "Σκοτεινό"
+  },
+  "html_options_suspend_screen_capturing": {
+    "message": "Λήψη οθόνης"
+  },
+  "html_options_suspend_screen_capturing_disabled": {
+    "message": "Απενεργοποιημένο"
+  },
+  "html_options_suspend_screen_capturing_screen_only": {
+    "message": "Λήψη μόνο της κορυφής της οθόνης"
+  },
+  "html_options_suspend_screen_capturing_entire_page": {
+    "message": "Λήψη ολόκληρης σελίδας"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line1a": {
+    "message": "Σε ανασταλμένη καρτέλα, η επέκταση μπορεί να εμφανίσει προεπισκόπηση εικόνας"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line1b": {
+    "message": "του πώς φαινόταν η καρτέλα πριν ανασταλεί."
+  },
+  "html_options_suspend_screen_capturing_tooltip_line2a": {
+    "message": "Η λειτουργία λήψης οθόνης είναι πειραματική και μπορεί να προκαλέσει υψηλή χρήση CPU"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line2b": {
+    "message": "καθώς και ελαφρώς αυξημένη χρήση μνήμης."
+  },
+  "html_options_suspend_screen_capturing_tooltip_line3a": {
+    "message": "Εάν παρατηρήσετε παράξενη συμπεριφορά, όπως καρτέλες που αργούν να ανασταλούν ή"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line3b": {
+    "message": "το Chrome κλείνει απροσδόκητα, δοκιμάστε να απενεργοποιήσετε αυτή τη λειτουργία."
+  },
+  "html_options_suspend_force_screen_capture": {
+    "message": "Ενεργοποίηση λήψης οθόνης υψηλής ποιότητας"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line1": {
+    "message": "Όταν απενεργοποιείται, οι λήψεις οθόνης έχουν τους εξής περιορισμούς απόδοσης:"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line2": {
+    "message": "- Χαμηλή ποιότητα λήψης"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line4": {
+    "message": "- Δεν λαμβάνει οθόνη εάν η δημιουργία εικόνας διαρκεί περισσότερο από 1 λεπτό"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line5": {
+    "message": "- Μέγιστο ύψος λήψης περιορισμένο στα 5000px"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line6": {
+    "message": "Η ενεργοποίηση της λήψης υψηλής ποιότητας μπορεί να αυξήσει σημαντικά τη φόρτωση CPU"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line7": {
+    "message": "και τη χρήση μνήμης."
+  },
+  "html_options_whitelist_title": {
+    "message": "Ποτέ να μην ανασταλούν καρτέλες με URL από την παρακάτω λίστα:"
+  },
+  "html_options_whitelist_tooltip_line1": {
+    "message": "Προσθέστε το URL κάθε σελίδας που θέλετε να συμπεριλάβετε σε νέα γραμμή."
+  },
+  "html_options_whitelist_tooltip_line2": {
+    "message": "Για να συμπεριλάβετε πολλές σελίδες σε μία γραμμή, καθορίστε μέρος του URL:"
+  },
+  "html_options_whitelist_tooltip_line3": {
+    "message": "Μπορείτε επίσης να καθορίσετε κανονικές εκφράσεις περικλείοντας το κείμενο σε κάθετες:"
+  },
+  "html_options_whitelist_test": {
+    "message": "Δοκιμή λίστας επιτρεπόμενων"
+  },
+  "html_options_other_enable_context_menu": {
+    "message": "Προσθήκη The Great Suspender στο μενού δεξί κλικ"
+  },
+  "html_options_other_enable_context_menu_tooltip_line1": {
+    "message": "Προσθέτει στοιχεία ελέγχου αυτής της επέκτασης στο μενού δεξί κλικ ιστοσελίδας."
+  },
+  "html_options_other_enable_context_menu_tooltip_line2": {
+    "message": "Αυτό θα σας δώσει πρόσβαση σε προηγμένες ενέργειες αναστολής που δεν είναι διαθέσιμες"
+  },
+  "html_options_other_enable_context_menu_tooltip_line3": {
+    "message": "αλλού στην επέκταση."
+  },
+  "html_options_other_enable_sync": {
+    "message": "Συγχρονισμός ρυθμίσεων με το προφίλ Chrome"
+  },
+  "html_options_other_enable_sync_tooltip_line1a": {
+    "message": "Οι ρυθμίσεις επέκτασης θα συγχρονιστούν σε όλα τα προγράμματα περιήγησης Chrome"
+  },
+  "html_options_other_enable_sync_tooltip_line1b": {
+    "message": "που είναι συνδεδεμένα με το ίδιο προφίλ."
+  },
+  "html_options_other_enable_sync_tooltip_line2": {
+    "message": "Αυτό θα συγχρονίσει επίσης τις ρυθμίσεις σε κατάσταση ανώνυμης περιήγησης."
+  },
+  "html_options_other_enable_sync_warning": {
+    "message": "Η ενεργοποίηση αυτού θα αντικαταστήσει τις ρυθμίσεις σε όλα τα άλλα προγράμματα περιήγησης με το ίδιο προφίλ Chrome"
+  },
+  "html_options_suspend_on_low_memory": {
+    "message": "Άμεση αναστολή όταν η μνήμη συστήματος γίνεται πολύ χαμηλή"
+  },
+  "html_options_suspend_on_low_memory_tooltip_line1": {
+    "message": "Αυτή η επιλογή θα παρακάμψει την αυτόματη λειτουργία απόρριψης καρτελών Chrome."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line2": {
+    "message": "Εάν ενεργοποιηθεί, θα αναγκάσει μια καρτέλα να ανασταλεί αντί να απορριφθεί από το Chrome."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line3": {
+    "message": "Συνήθως, το Chrome απορρίπτει καρτέλες μόνο όταν η μνήμη συστήματος γίνεται πολύ χαμηλή."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line4": {
+    "message": "Σημείωση: Αυτό μπορεί να προκαλέσει αναστολή καρτελών νωρίτερα από το χρόνο που έχετε"
+  },
+  "html_options_suspend_on_low_memory_tooltip_line5": {
+    "message": "ορίσει στις επιλογές αυτόματης αναστολής."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line6": {
+    "message": "Για περισσότερες πληροφορίες σχετικά με το Chrome discarding:"
+  },
+  "html_options_suspend_on_low_memory_tooltip_discarding_link": {
+    "message": "https://developers.google.com/web/updates/2015/09/tab-discarding"
+  },
+  "html_popup_unsuspend_tab": {
+    "message": "Επαναφορά αυτής της καρτέλας"
+  },
+  "html_popup_suspend_tab": {
+    "message": "Αναστολή αυτής της καρτέλας τώρα"
+  },
+  "html_popup_dont_suspend_now": {
+    "message": "Όχι τώρα"
+  },
+  "html_popup_never_suspend_domain": {
+    "message": "Ποτέ να μην ανασταλεί αυτός ο τομέας"
+  },
+  "html_popup_never_suspend_page": {
+    "message": "Ποτέ να μην ανασταλεί αυτό το URL"
+  },
+  "html_popup_suspend_other_tabs": {
+    "message": "Αναστολή όλων των άλλων καρτελών"
+  },
+  "html_popup_unsuspend_all_tabs": {
+    "message": "Επαναφορά όλων των καρτελών"
+  },
+  "html_popup_suspend_selected_tabs": {
+    "message": "Αναστολή επιλεγμένων καρτελών"
+  },
+  "html_popup_unsuspend_selected_tabs": {
+    "message": "Επαναφορά επιλεγμένων καρτελών"
+  },
+  "html_popup_settings": {
+    "message": "Ρυθμίσεις"
+  },
+  "html_restoring_title": {
+    "message": "Επαναφορά παραθύρου"
+  },
+  "html_restoring_heading": {
+    "message": "Επαναφορά καρτελών"
+  },
+  "html_restoring_detail": {
+    "message": "Παρακαλώ περιμένετε ενώ επαναφέρω αυτό το παράθυρο..."
+  },
+  "html_recovery_title": {
+    "message": "Ανάκτηση"
+  },
+  "html_recovery_ruh_roh": {
+    "message": "Ωχ!"
+  },
+  "html_recovery_description_line1": {
+    "message": "Φαίνεται ότι ανακτάτε από σφάλμα επέκτασης."
+  },
+  "html_recovery_description_line2": {
+    "message": "Οι ανασταλμένες καρτέλες σας μπορεί να κατέρρευσαν ή να εξαφανίστηκαν."
+  },
+  "html_recovery_restore_tabs_automatically": {
+    "message": "Αυτόματη επαναφορά καρτελών"
+  },
+  "html_recovery_go_to_session_manager": {
+    "message": "Μετάβαση στη διαχείριση συνεδριών"
+  },
+  "html_recovery_important_message": {
+    "message": "Έχετε ενεργοποιημένη τη λήψη οθόνης. Εάν η επέκταση καταρρέει επανειλημμένα, συνιστάται να απενεργοποιήσετε αυτή την επιλογή."
+  },
+  "html_recovery_disable_screen_capturing": {
+    "message": "Απενεργοποίηση λήψης οθόνης"
+  },
+  "html_recovery_tabs_to_restore": {
+    "message": "Καρτέλες για επαναφορά"
+  },
+  "html_shortcuts_title": {
+    "message": "Συντομεύσεις πληκτρολογίου"
+  },
+  "html_shortcuts_keyboard_shortcuts": {
+    "message": "Συντομεύσεις πληκτρολογίου"
+  },
+  "html_shortcuts_context_menu_note": {
+    "message": "Σημείωση: Αυτές οι ενέργειες είναι επίσης διαθέσιμες μέσω του μενού δεξί κλικ."
+  },
+  "html_shortcuts_remap_keys": {
+    "message": "Αλλαγή συντομεύσεων"
+  },
+  "html_sidebar_general_settings": {
+    "message": "Ρυθμίσεις"
+  },
+  "html_sidebar_session_management": {
+    "message": "Διαχείριση συνεδριών"
+  },
+  "html_sidebar_shortcuts": {
+    "message": "Συντομεύσεις πληκτρολογίου"
+  },
+  "html_sidebar_support": {
+    "message": "Σχετικά"
+  },
+  "html_success_great_success": {
+    "message": "Μεγάλη επιτυχία!"
+  },
+  "html_success_all_tabs_restored": {
+    "message": "Όλες οι καρτέλες σας επαναφέρθηκαν."
+  },
+  "html_success_goto_advanced_prefix": {
+    "message": "Για προηγμένη διαχείριση συνεδριών, επισκεφθείτε τη"
+  },
+  "html_success_goto_advanced_suffix": {
+    "message": "σελίδα"
+  },
+  "html_session_manager": {
+    "message": "διαχείριση συνεδριών"
+  },
+  "html_suspended_title": {
+    "message": "Ανασταλμένη καρτέλα"
+  },
+  "html_suspended_tab_suspended": {
+    "message": "Καρτέλα ανεσταλμένη"
+  },
+  "html_suspended_tab_reload": {
+    "message": "Επαναφόρτωση καρτέλας"
+  },
+  "html_suspended_tab_whitelist_prefix": {
+    "message": "Ποτέ να μην ανασταλεί"
+  },
+  "html_suspended_tab_whitelist_suffix": {
+    "message": "..."
+  },
+  "html_suspended_click_to_reload": {
+    "message": "Ανανέωση ή κλικ για επαναφόρτωση"
+  },
+  "html_suspended_toast_not_connected": {
+    "message": "Δεν είστε συνδεδεμένοι στο διαδίκτυο"
+  },
+  "html_suspended_toast_reload_disabled": {
+    "message": "Η αυτόματη επαναφόρτωση καρτέλας είναι προσωρινά απενεργοποιημένη."
+  },
+  "html_suspended_donation_question": {
+    "message": "Σας κάνει χαρούμενους αυτή η επέκταση;\nΔείξτε την υποστήριξή σας με δωρεά."
+  },
+  "html_permissions_title": {
+    "message": "Άδειες"
+  },
+  "html_permissions_heading": {
+    "message": "Δώστε μου πρόσβαση σε τοπικές διευθύνσεις URL αρχείων"
+  },
+  "html_permissions_info": {
+    "message": "Αυτή η επέκταση δεν επιτρέπεται αυτήν τη στιγμή να αναστείλει URL που ξεκινούν με τη λέξη \"file\".\nΓια να το αλλάξετε, ενεργοποιήστε \"Να επιτρέπεται η πρόσβαση σε URL αρχείων\" από τη σελίδα ρυθμίσεων επέκτασης."
+  },
+  "html_permissions_backup": {
+    "message": "Σημείωση: η αλλαγή αυτής της επιλογής θα προκαλέσει προσωρινή εξαφάνιση όλων των ανασταλμένων καρτελών.\nΜπορεί να είναι καλή στιγμή να αποθηκεύσετε αντίγραφο ασφαλείας της τρέχουσας συνεδρίας."
+  },
+  "html_update_title": {
+    "message": "Ενημέρωση"
+  },
+  "html_update_heading2": {
+    "message": "πρόκειται να γίνει ακόμα καλύτερο"
+  },
+  "html_update_info": {
+    "message": "Μια νέα έκδοση του The Great Suspender είναι έτοιμη για εγκατάσταση.\nΣημείωση: κατά την ενημέρωση, οι ανασταλμένες καρτέλες θα εξαφανιστούν προσωρινά."
+  },
+  "html_update_info_withbackup": {
+    "message": "Μπορεί να είναι καλή στιγμή να αποθηκεύσετε αντίγραφο ασφαλείας."
+  },
+  "html_update_info_nobackup_prefix": {
+    "message": "Συνιστάται έντονα να εξαγάγετε αντίγραφο της τρέχουσας συνεδρίας από "
+  },
+  "html_update_info_nobackup_suffix": {
+    "message": " πριν συνεχίσετε με την ενημέρωση."
+  },
+  "html_updated_title": {
+    "message": "Ενημερώθηκε"
+  },
+  "html_updating_heading": {
+    "message": "ενημερώνεται"
+  },
+  "html_updating_message": {
+    "message": "Παρακαλώ περιμένετε ενώ επαναφέρω τις ανασταλμένες καρτέλες..."
+  },
+  "html_updated_great_suspender_updated": {
+    "message": "ενημερώθηκε"
+  },
+  "html_updated_info_line1": {
+    "message": "Αυτόματο αντίγραφο ασφαλείας των καρτελών σας έγινε πριν από την ενημέρωση."
+  },
+  "html_updated_info_line2_prefix": {
+    "message": "Εάν αντιμετωπίσατε προβλήματα κατά την ενημέρωση, μπορείτε να ανακτήσετε χαμένες καρτέλες από "
+  },
+  "html_updated_info_line2_suffix": {
+    "message": " σελίδα."
+  },
+  "html_updated_detail_header_prefix": {
+    "message": "Τι νέο στην έκδοση "
+  },
+  "html_updated_detail_header_suffix": {
+    "message": ";"
+  },
+  "html_updated_new_features_header": {
+    "message": "Νέες λειτουργίες:"
+  },
+  "html_updated_bug_fixes_header": {
+    "message": "Διορθώσεις σφαλμάτων:"
+  },
+  "html_updated_release_notes": {
+    "message": "Επισκεφθείτε το GitHub για πλήρεις σημειώσεις έκδοσης: "
+  },
+  "html_updated_patch_message": {
+    "message": "Συγνώμη για την ενόχληση. Χρειάστηκε μόνο να κάνω λίγη συντήρηση."
+  },
+  "html_welcome_title": {
+    "message": "Καλώς ορίσατε"
+  },
+  "html_welcome_text_line1": {
+    "message": "Ευχαριστούμε που δοκιμάζετε"
+  },
+  "html_welcome_text_line2": {
+    "message": "Κρατώ τον υπολογιστή σας να λειτουργεί ομαλά αναστέλλοντας τις καρτέλες που δεν χρησιμοποιείτε."
+  },
+  "html_welcome_text_line3": {
+    "message": "Μπορείτε να ρυθμίσετε τις παραμέτρους παρακάτω."
+  },
+  "html_thanks_title": {
+    "message": "Ευχαριστίες"
+  },
+  "html_thanks_header": {
+    "message": "Ευχαριστούμε για την υποστήριξη!"
+  },
+  "html_thanks_sub_header": {
+    "message": "Να σας συνοδεύουν καλά πράγματα σήμερα."
+  },
+  "js_popup_normal": {
+    "message": "Η καρτέλα θα ανασταλεί αυτόματα."
+  },
+  "js_popup_normal_pause": {
+    "message": "Όχι τώρα"
+  },
+  "js_popup_special": {
+    "message": "Η καρτέλα δεν μπορεί να ανασταλεί"
+  },
+  "js_popup_suspended": {
+    "message": "Καρτέλα ανεσταλμένη"
+  },
+  "js_popup_suspended_pause": {
+    "message": "Να μην ανασταλεί"
+  },
+  "js_popup_whitelisted": {
+    "message": "Ο ιστότοπος είναι στη λίστα επιτρεπόμενων."
+  },
+  "js_popup_whitelisted_remove": {
+    "message": "Αφαίρεση από τη λίστα επιτρεπόμενων"
+  },
+  "js_popup_audible": {
+    "message": "Η καρτέλα αναπαράγει ήχο."
+  },
+  "js_popup_form_input": {
+    "message": "Η καρτέλα λαμβάνει είσοδο φόρμας."
+  },
+  "js_popup_form_input_unpause": {
+    "message": "Συνέχιση"
+  },
+  "js_popup_pinned": {
+    "message": "Η καρτέλα είναι καρφιτσωμένη"
+  },
+  "js_popup_temp_whitelist": {
+    "message": "Αναστολή καρτέλας σε παύση."
+  },
+  "js_popup_temp_whitelist_unpause": {
+    "message": "Συνέχιση"
+  },
+  "js_popup_never": {
+    "message": "Αυτόματη αναστολή καρτέλας απενεργοποιημένη."
+  },
+  "js_popup_no_connectivity": {
+    "message": "Δεν υπάρχει σύνδεση δικτύου"
+  },
+  "js_popup_charging": {
+    "message": "Συνδεδεμένο σε πηγή τροφοδοσίας"
+  },
+  "js_popup_blockedFile": {
+    "message": "Τα τοπικά αρχεία δεν μπορούν να ανασταλούν."
+  },
+  "js_popup_blockedFile_enable": {
+    "message": "Ενεργοποίηση"
+  },
+  "js_popup_unknown": {
+    "message": "Αναμονή φόρτωσης καρτέλας..."
+  },
+  "js_popup_initialising": {
+    "message": "Αναμονή αρχικοποίησης επέκτασης..."
+  },
+  "js_popup_error": {
+    "message": "Η αυτόματη αναστολή δεν είναι διαθέσιμη για αυτή την καρτέλα"
+  },
+  "js_history_delete": {
+    "message": "διαγραφή"
+  },
+  "js_history_export": {
+    "message": "εξαγωγή"
+  },
+  "js_history_reload": {
+    "message": "άνοιγμα και φόρτωση"
+  },
+  "js_history_resuspend": {
+    "message": "άνοιγμα και αναστολή"
+  },
+  "js_history_save": {
+    "message": "αποθήκευση"
+  },
+  "js_history_window": {
+    "message": "Παράθυρο"
+  },
+  "js_history_tab": {
+    "message": "Καρτέλα"
+  },
+  "js_history_plural": {
+    "message": "ες"
+  },
+  "js_history_enter_name_for_session": {
+    "message": "Εισάγετε όνομα για αυτή τη συνεδρία"
+  },
+  "js_history_confirm_delete": {
+    "message": "Είστε σίγουροι ότι θέλετε να διαγράψετε αυτή τη συνεδρία;"
+  },
+  "js_history_confirm_session_overwrite": {
+    "message": "Υπάρχει ήδη αποθηκευμένη συνεδρία με αυτό το όνομα. Αντικατάσταση υπάρχουσας;"
+  },
+  "js_history_import_fail": {
+    "message": "Αποτυχία φόρτωσης αρχείου. Βεβαιωθείτε ότι το αρχείο είναι απλό κείμενο με ένα URL ανά γραμμή."
+  },
+  "js_suspended_remove_from_whitelist": {
+    "message": "Αφαίρεση ιστότοπου από λίστα επιτρεπόμενων"
+  },
+  "js_suspended_hotkey_to_reload": {
+    "message": "Ορισμός συντομεύσεων πληκτρολογίου"
+  },
+  "js_suspended_low_memory": {
+    "message": "Καρτέλα ανεσταλμένη λόγω χαμηλής μνήμης συστήματος"
+  },
+  "js_options_incognito_warning": {
+    "message": "Είστε σε κατάσταση ανώνυμης περιήγησης. Ορισμένες λειτουργίες δεν θα είναι διαθέσιμες."
+  },
+  "js_options_whitelist_no_matches": {
+    "message": "Δεν υπάρχουν ανοιχτές καρτέλες που να ταιριάζουν με την τρέχουσα λίστα επιτρεπόμενων."
+  },
+  "js_options_whitelist_matches_heading": {
+    "message": "Ανοιχτές καρτέλες στη λίστα επιτρεπόμενων:"
+  },
+  "js_options_whitelist_matches_overflow_prefix": {
+    "message": "και"
+  },
+  "js_options_whitelist_matches_overflow_suffix": {
+    "message": "ακόμα."
+  },
+  "js_permissions_button_export": {
+    "message": "Αποθήκευση αντιγράφου ασφαλείας"
+  },
+  "js_permissions_button_set": {
+    "message": "Άνοιγμα ρυθμίσεων επέκτασης"
+  },
+  "js_update_confirm": {
+    "message": "Δεν έχετε αποθηκεύσει αντίγραφο ασφαλείας ακόμα. Να γίνει ενημέρωση επέκτασης;"
+  },
+  "js_update_button_export": {
+    "message": "Αποθήκευση αντιγράφου ασφαλείας"
+  },
+  "js_update_button_reload": {
+    "message": "Ενημέρωση επέκτασης τώρα"
+  },
+  "js_shortcuts_not_set": {
+    "message": "δεν έχει οριστεί"
+  },
+  "js_session_save_point": {
+    "message": "Αυτόματο σημείο αποθήκευσης για v"
+  }
+}

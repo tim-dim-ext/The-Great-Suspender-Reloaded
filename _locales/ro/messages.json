@@ -1,0 +1,686 @@
+{
+  "ext_extension_name": {
+    "message": "The Great Suspender | Tab Suspender - Înghețați filele"
+  },
+  "ext_extension_description": {
+    "message": "Suspendați filele Chrome inactive pentru a economisi RAM și a crește viteza. Cel mai bun Tab Suspender — înghețați automat filele neutilizate și le restaurați instantaneu."
+  },
+  "ext_default_title": {
+    "message": "The Great Suspender"
+  },
+  "ext_cmd_toggle_tab_suspension_description": {
+    "message": "Suspendă/Restaurează fila activă"
+  },
+  "ext_cmd_toggle_tab_pause_description": {
+    "message": "Pauză/Reluare suspendare filă activă"
+  },
+  "ext_cmd_suspend_selected_tabs_description": {
+    "message": "Suspendă filele selectate"
+  },
+  "ext_cmd_unsuspend_selected_tabs_description": {
+    "message": "Restaurează filele selectate"
+  },
+  "ext_cmd_soft_suspend_active_window_description": {
+    "message": "Suspendă toate celelalte file din fereastra activă"
+  },
+  "ext_cmd_force_suspend_active_window_description": {
+    "message": "Forțați suspendarea tuturor celorlalte file din fereastra activă"
+  },
+  "ext_cmd_unsuspend_active_window_description": {
+    "message": "Restaurează toate filele din fereastra activă"
+  },
+  "ext_cmd_soft_suspend_all_windows_description": {
+    "message": "Suspendă toate filele din toate ferestrele"
+  },
+  "ext_cmd_force_suspend_all_windows_description": {
+    "message": "Forțați suspendarea tuturor filelor din toate ferestrele"
+  },
+  "ext_cmd_unsuspend_all_windows_description": {
+    "message": "Restaurează toate filele din toate ferestrele"
+  },
+  "js_context_open_link_in_suspended_tab": {
+    "message": "Deschide link într-o filă suspendată nouă"
+  },
+  "js_context_toggle_suspend_state": {
+    "message": "Suspendă/Restaurează această filă"
+  },
+  "js_context_toggle_pause_suspension": {
+    "message": "Pauză/Reluare suspendare pentru această filă"
+  },
+  "js_context_never_suspend_domain": {
+    "message": "Nu suspenda niciodată acest domeniu"
+  },
+  "js_context_never_suspend_page": {
+    "message": "Nu suspenda niciodată acest URL"
+  },
+  "js_context_suspend_selected_tabs": {
+    "message": "Suspendă filele selectate"
+  },
+  "js_context_unsuspend_selected_tabs": {
+    "message": "Restaurează filele selectate"
+  },
+  "js_context_soft_suspend_other_tabs_in_window": {
+    "message": "Suspendă toate celelalte file din această fereastră"
+  },
+  "js_context_force_suspend_other_tabs_in_window": {
+    "message": "Forțați suspendarea tuturor celorlalte file din această fereastră"
+  },
+  "js_context_unsuspend_all_tabs_in_window": {
+    "message": "Restaurează toate filele din această fereastră"
+  },
+  "js_context_soft_suspend_all_tabs": {
+    "message": "Suspendă toate filele din toate ferestrele"
+  },
+  "js_context_force_suspend_all_tabs": {
+    "message": "Forțați suspendarea tuturor filelor din toate ferestrele"
+  },
+  "js_context_unsuspend_all_tabs": {
+    "message": "Restaurează toate filele din toate ferestrele"
+  },
+  "html_about_title": {
+    "message": "Despre"
+  },
+  "html_history_title": {
+    "message": "Gestionare sesiuni"
+  },
+  "html_history_current_session": {
+    "message": "Sesiunea curentă"
+  },
+  "html_history_recent_sessions": {
+    "message": "Sesiuni recente"
+  },
+  "html_history_saved_sessions": {
+    "message": "Sesiuni salvate"
+  },
+  "html_history_import_session": {
+    "message": "Importă sesiune"
+  },
+  "html_notice_title": {
+    "message": "Notificare"
+  },
+  "html_notice_important_notice": {
+    "message": "Notificare importantă de la The Great Suspender"
+  },
+  "html_options_title": {
+    "message": "Setări"
+  },
+  "html_options_suspend_title": {
+    "message": "Suspendare automată file"
+  },
+  "html_options_suspended_title": {
+    "message": "File suspendate"
+  },
+  "html_options_other_title": {
+    "message": "Altele"
+  },
+  "html_options_suspend_automatically_after": {
+    "message": "Suspendă automat filele după"
+  },
+  "html_options_suspend_never": {
+    "message": "Niciodată"
+  },
+  "html_options_suspend_seconds": {
+    "message": "secunde"
+  },
+  "html_options_suspend_minute": {
+    "message": "min"
+  },
+  "html_options_suspend_minutes": {
+    "message": "min"
+  },
+  "html_options_suspend_hour": {
+    "message": "oră"
+  },
+  "html_options_suspend_hours": {
+    "message": "ore"
+  },
+  "html_options_suspend_day": {
+    "message": "zi"
+  },
+  "html_options_suspend_days": {
+    "message": "zile"
+  },
+  "html_options_suspend_week": {
+    "message": "săptămână"
+  },
+  "html_options_suspend_weeks": {
+    "message": "săptămâni"
+  },
+  "html_options_suspend_no_pinned": {
+    "message": "Nu suspenda niciodată filele fixate"
+  },
+  "html_options_suspend_no_forms": {
+    "message": "Nu suspenda niciodată filele cu formulare nesalvate"
+  },
+  "html_options_suspend_no_audio": {
+    "message": "Nu suspenda niciodată filele care redau sunet"
+  },
+  "html_options_suspend_only_connected": {
+    "message": "Nu suspenda niciodată filele când ești offline"
+  },
+  "html_options_suspend_only_on_battery": {
+    "message": "Nu suspenda niciodată filele când ești conectat la sursa de alimentare"
+  },
+  "html_options_suspend_no_active_tabs": {
+    "message": "Nu suspenda niciodată fila activă din fiecare fereastră"
+  },
+  "html_options_suspend_automatically_unsuspend": {
+    "message": "Restaurează automat fila când este vizualizată"
+  },
+  "html_options_suspend_discard_after_suspend": {
+    "message": "Aplică economisirea de memorie integrată Chrome la suspendare"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1a": {
+    "message": "Reduce și mai mult utilizarea memoriei unei file suspendate, utilizând"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1b": {
+    "message": "funcționalitatea integrată Chrome 'tab discarding'. Poate economisi până la"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1c": {
+    "message": "500% memorie la lucrul cu multe file."
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line2a": {
+    "message": "Cu toate acestea, poate cauza o ușoară întârziere de redare la selectarea"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line2b": {
+    "message": "unei file suspendate."
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line3a": {
+    "message": "Mai multe informații despre Chrome discarding:"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line3b": {
+    "message": "https://developers.google.com/web/updates/2015/09/tab-discarding"
+  },
+  "html_options_suspend_theme": {
+    "message": "Temă"
+  },
+  "html_options_suspend_theme_light": {
+    "message": "Deschis"
+  },
+  "html_options_suspend_theme_dark": {
+    "message": "Întunecat"
+  },
+  "html_options_suspend_screen_capturing": {
+    "message": "Captură de ecran"
+  },
+  "html_options_suspend_screen_capturing_disabled": {
+    "message": "Dezactivat"
+  },
+  "html_options_suspend_screen_capturing_screen_only": {
+    "message": "Captează doar partea de sus a ecranului"
+  },
+  "html_options_suspend_screen_capturing_entire_page": {
+    "message": "Captează întreaga pagină"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line1a": {
+    "message": "Pe o filă suspendată, extensia poate afișa o previzualizare a cum arăta fila"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line1b": {
+    "message": "înainte de a fi suspendată."
+  },
+  "html_options_suspend_screen_capturing_tooltip_line2a": {
+    "message": "Funcția de captură de ecran este experimentală și poate cauza utilizare ridicată a CPU"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line2b": {
+    "message": "și utilizare ușor crescută a memoriei."
+  },
+  "html_options_suspend_screen_capturing_tooltip_line3a": {
+    "message": "Dacă observi comportament ciudat, precum file care durează mult să se suspende sau Chrome"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line3b": {
+    "message": "care se blochează neașteptat, încearcă să dezactivezi această funcție."
+  },
+  "html_options_suspend_force_screen_capture": {
+    "message": "Activează modul de captură de ecran de înaltă calitate"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line1": {
+    "message": "Când este dezactivat, capturile de ecran au aceste limitări de performanță:"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line2": {
+    "message": "- Captură de ecran de calitate scăzută"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line4": {
+    "message": "- Nu captează ecranul dacă durează mai mult de 1 minut să genereze imaginea"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line5": {
+    "message": "- Înălțimea maximă a capturii limitată la 5000px"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line6": {
+    "message": "Activarea capturii de ecran de înaltă calitate poate crește semnificativ încărcarea CPU"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line7": {
+    "message": "și utilizarea memoriei."
+  },
+  "html_options_whitelist_title": {
+    "message": "Nu suspenda niciodată filele cu URL-uri din lista de mai jos:"
+  },
+  "html_options_whitelist_tooltip_line1": {
+    "message": "Adaugă URL-ul fiecărei pagini pe care vrei să o incluzi în lista albă pe o linie nouă."
+  },
+  "html_options_whitelist_tooltip_line2": {
+    "message": "Pentru a include mai multe site-uri pe o linie, poți specifica o parte a URL-ului:"
+  },
+  "html_options_whitelist_tooltip_line3": {
+    "message": "Poți specifica și expresii regulate, închizând textul în bare oblice:"
+  },
+  "html_options_whitelist_test": {
+    "message": "Testează lista albă"
+  },
+  "html_options_other_enable_context_menu": {
+    "message": "Adaugă The Great Suspender în meniul contextual"
+  },
+  "html_options_other_enable_context_menu_tooltip_line1": {
+    "message": "Adaugă controale pentru această extensie în meniul cu clic dreapta al unei pagini web."
+  },
+  "html_options_other_enable_context_menu_tooltip_line2": {
+    "message": "Aceasta îți va oferi acces la acțiuni avansate de suspendare, care nu sunt disponibile"
+  },
+  "html_options_other_enable_context_menu_tooltip_line3": {
+    "message": "în altă parte în extensie."
+  },
+  "html_options_other_enable_sync": {
+    "message": "Sincronizează setările cu profilul tău Chrome"
+  },
+  "html_options_other_enable_sync_tooltip_line1a": {
+    "message": "Setările extensiei vor fi sincronizate pe toate browserele Chrome care sunt"
+  },
+  "html_options_other_enable_sync_tooltip_line1b": {
+    "message": "conectate cu același profil."
+  },
+  "html_options_other_enable_sync_tooltip_line2": {
+    "message": "Aceasta va sincroniza și setările în modul incognito."
+  },
+  "html_options_other_enable_sync_warning": {
+    "message": "Activarea va suprascrie setările pe toate celelalte browsere conectate cu același profil Chrome"
+  },
+  "html_options_suspend_on_low_memory": {
+    "message": "Suspendă imediat când memoria sistemului devine foarte scăzută"
+  },
+  "html_options_suspend_on_low_memory_tooltip_line1": {
+    "message": "Această opțiune va suprascrie funcționalitatea automată de eliminare a filelor Chrome."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line2": {
+    "message": "Dacă este activată, va forța o filă să se suspende în loc să fie eliminată de Chrome."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line3": {
+    "message": "De obicei, Chrome elimină filele doar când memoria sistemului devine foarte scăzută."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line4": {
+    "message": "Atenție: Aceasta poate face ca filele să se suspende mai devreme decât timpul setat"
+  },
+  "html_options_suspend_on_low_memory_tooltip_line5": {
+    "message": "în opțiunile de suspendare automată."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line6": {
+    "message": "Mai multe informații despre Chrome discarding:"
+  },
+  "html_options_suspend_on_low_memory_tooltip_discarding_link": {
+    "message": "https://developers.google.com/web/updates/2015/09/tab-discarding"
+  },
+  "html_popup_unsuspend_tab": {
+    "message": "Restaurează această filă"
+  },
+  "html_popup_suspend_tab": {
+    "message": "Suspendă această filă acum"
+  },
+  "html_popup_dont_suspend_now": {
+    "message": "Nu suspenda acum"
+  },
+  "html_popup_never_suspend_domain": {
+    "message": "Nu suspenda niciodată acest domeniu"
+  },
+  "html_popup_never_suspend_page": {
+    "message": "Nu suspenda niciodată acest URL"
+  },
+  "html_popup_suspend_other_tabs": {
+    "message": "Suspendă toate celelalte file"
+  },
+  "html_popup_unsuspend_all_tabs": {
+    "message": "Restaurează toate filele"
+  },
+  "html_popup_suspend_selected_tabs": {
+    "message": "Suspendă filele selectate"
+  },
+  "html_popup_unsuspend_selected_tabs": {
+    "message": "Restaurează filele selectate"
+  },
+  "html_popup_settings": {
+    "message": "Setări"
+  },
+  "html_restoring_title": {
+    "message": "Restaurare fereastră"
+  },
+  "html_restoring_heading": {
+    "message": "Restaurare file"
+  },
+  "html_restoring_detail": {
+    "message": "Așteptați în timp ce restaurez această fereastră..."
+  },
+  "html_recovery_title": {
+    "message": "Recuperare"
+  },
+  "html_recovery_ruh_roh": {
+    "message": "Ups!"
+  },
+  "html_recovery_description_line1": {
+    "message": "Se pare că te recuperezi după o blocare a extensiei."
+  },
+  "html_recovery_description_line2": {
+    "message": "Filele tale suspendate au putut să se blocheze sau să dispară."
+  },
+  "html_recovery_restore_tabs_automatically": {
+    "message": "Restaurează filele automat"
+  },
+  "html_recovery_go_to_session_manager": {
+    "message": "Mergi la gestionarul de sesiuni"
+  },
+  "html_recovery_important_message": {
+    "message": "Ai captura de ecran activată. Dacă extensia se blochează în mod repetat, îți recomandăm să dezactivezi această opțiune."
+  },
+  "html_recovery_disable_screen_capturing": {
+    "message": "Dezactivează captura de ecran"
+  },
+  "html_recovery_tabs_to_restore": {
+    "message": "File de restaurat"
+  },
+  "html_shortcuts_title": {
+    "message": "Comenzi rapide de la tastatură"
+  },
+  "html_shortcuts_keyboard_shortcuts": {
+    "message": "Comenzi rapide de la tastatură"
+  },
+  "html_shortcuts_context_menu_note": {
+    "message": "Notă: Aceste acțiuni sunt disponibile și prin meniul contextual cu clic dreapta."
+  },
+  "html_shortcuts_remap_keys": {
+    "message": "Schimbă comenzile rapide"
+  },
+  "html_sidebar_general_settings": {
+    "message": "Setări"
+  },
+  "html_sidebar_session_management": {
+    "message": "Gestionare sesiuni"
+  },
+  "html_sidebar_shortcuts": {
+    "message": "Comenzi rapide de la tastatură"
+  },
+  "html_sidebar_support": {
+    "message": "Despre"
+  },
+  "html_success_great_success": {
+    "message": "Mare succes!"
+  },
+  "html_success_all_tabs_restored": {
+    "message": "Toate filele tale au fost restaurate."
+  },
+  "html_success_goto_advanced_prefix": {
+    "message": "Pentru gestionare avansată a sesiunilor, vizitați"
+  },
+  "html_success_goto_advanced_suffix": {
+    "message": "pagina"
+  },
+  "html_session_manager": {
+    "message": "gestionare sesiuni"
+  },
+  "html_suspended_title": {
+    "message": "Filă suspendată"
+  },
+  "html_suspended_tab_suspended": {
+    "message": "Filă suspendată"
+  },
+  "html_suspended_tab_reload": {
+    "message": "Reîncarcă fila"
+  },
+  "html_suspended_tab_whitelist_prefix": {
+    "message": "Nu suspenda niciodată"
+  },
+  "html_suspended_tab_whitelist_suffix": {
+    "message": "..."
+  },
+  "html_suspended_click_to_reload": {
+    "message": "Actualizează sau dă clic pentru a reîncărca"
+  },
+  "html_suspended_toast_not_connected": {
+    "message": "Nu ești conectat la internet"
+  },
+  "html_suspended_toast_reload_disabled": {
+    "message": "Reîncărcarea automată a filei este temporar dezactivată."
+  },
+  "html_suspended_donation_question": {
+    "message": "Te face această extensie fericit?\nArată-ți sprijinul prin donații."
+  },
+  "html_permissions_title": {
+    "message": "Permisiuni"
+  },
+  "html_permissions_heading": {
+    "message": "Oferă-mi acces la URL-uri de fișiere locale"
+  },
+  "html_permissions_info": {
+    "message": "Această extensie nu are în prezent permisiunea de a suspenda URL-uri care încep cu cuvântul \"file\".\nPentru a schimba acest lucru, activați \"Permite accesul la URL-uri de fișiere\" din pagina de setări a extensiei."
+  },
+  "html_permissions_backup": {
+    "message": "Atenție: schimbarea acestei opțiuni va face ca toate filele suspendate să dispară temporar.\nPoate fi un moment bun să salvezi o copie de rezervă a sesiunii curente."
+  },
+  "html_update_title": {
+    "message": "Actualizare"
+  },
+  "html_update_heading2": {
+    "message": "este pe cale să devină și mai bun"
+  },
+  "html_update_info": {
+    "message": "O nouă versiune a The Great Suspender este gata de instalare.\nAtenție: în timpul actualizării, filele suspendate vor dispărea temporar."
+  },
+  "html_update_info_withbackup": {
+    "message": "Poate fi un moment bun să salvezi o copie de rezervă a sesiunii curente."
+  },
+  "html_update_info_nobackup_prefix": {
+    "message": "Este recomandat să exportați o copie a sesiunii curente din "
+  },
+  "html_update_info_nobackup_suffix": {
+    "message": " înainte de a continua cu actualizarea."
+  },
+  "html_updated_title": {
+    "message": "Actualizat"
+  },
+  "html_updating_heading": {
+    "message": "se actualizează"
+  },
+  "html_updating_message": {
+    "message": "Așteptați în timp ce restaurez filele suspendate..."
+  },
+  "html_updated_great_suspender_updated": {
+    "message": "a fost actualizat"
+  },
+  "html_updated_info_line1": {
+    "message": "O copie de rezervă automată a filelor tale a fost creată înainte de actualizare."
+  },
+  "html_updated_info_line2_prefix": {
+    "message": "Dacă ai întâmpinat probleme în timpul actualizării, poți recupera filele pierdute din "
+  },
+  "html_updated_info_line2_suffix": {
+    "message": " pagina."
+  },
+  "html_updated_detail_header_prefix": {
+    "message": "Ce e nou în "
+  },
+  "html_updated_detail_header_suffix": {
+    "message": "?"
+  },
+  "html_updated_new_features_header": {
+    "message": "Funcții noi:"
+  },
+  "html_updated_bug_fixes_header": {
+    "message": "Remedieri erori:"
+  },
+  "html_updated_release_notes": {
+    "message": "Vizitați GitHub pentru notele complete de lansare: "
+  },
+  "html_updated_patch_message": {
+    "message": "Scuze pentru deranj. Aveam nevoie să efectuez o mică întreținere."
+  },
+  "html_welcome_title": {
+    "message": "Bun venit"
+  },
+  "html_welcome_text_line1": {
+    "message": "Mulțumim că încerci"
+  },
+  "html_welcome_text_line2": {
+    "message": "Fac computerul tău să funcționeze fără probleme suspendând filele pe care nu le folosești."
+  },
+  "html_welcome_text_line3": {
+    "message": "Poți ajusta setările de mai jos."
+  },
+  "html_thanks_title": {
+    "message": "Mulțumiri"
+  },
+  "html_thanks_header": {
+    "message": "Mulțumim pentru sprijin!"
+  },
+  "html_thanks_sub_header": {
+    "message": "Să îți meargă bine astăzi."
+  },
+  "js_popup_normal": {
+    "message": "Fila va fi suspendată automat."
+  },
+  "js_popup_normal_pause": {
+    "message": "Nu acum"
+  },
+  "js_popup_special": {
+    "message": "Fila nu poate fi suspendată"
+  },
+  "js_popup_suspended": {
+    "message": "Filă suspendată"
+  },
+  "js_popup_suspended_pause": {
+    "message": "Nu suspenda"
+  },
+  "js_popup_whitelisted": {
+    "message": "Site inclus în lista albă."
+  },
+  "js_popup_whitelisted_remove": {
+    "message": "Elimină din lista albă"
+  },
+  "js_popup_audible": {
+    "message": "Fila redă sunet."
+  },
+  "js_popup_form_input": {
+    "message": "Fila primește date din formular."
+  },
+  "js_popup_form_input_unpause": {
+    "message": "Reluare"
+  },
+  "js_popup_pinned": {
+    "message": "Fila este fixată"
+  },
+  "js_popup_temp_whitelist": {
+    "message": "Suspendarea filei în pauză."
+  },
+  "js_popup_temp_whitelist_unpause": {
+    "message": "Reluare"
+  },
+  "js_popup_never": {
+    "message": "Suspendarea automată a filei dezactivată."
+  },
+  "js_popup_no_connectivity": {
+    "message": "Fără conexiune la rețea"
+  },
+  "js_popup_charging": {
+    "message": "Conectat la sursa de alimentare"
+  },
+  "js_popup_blockedFile": {
+    "message": "Fișierele locale nu pot fi suspendate."
+  },
+  "js_popup_blockedFile_enable": {
+    "message": "Activează"
+  },
+  "js_popup_unknown": {
+    "message": "Se așteaptă încărcarea filei..."
+  },
+  "js_popup_initialising": {
+    "message": "Se așteaptă inițializarea extensiei..."
+  },
+  "js_popup_error": {
+    "message": "Suspendarea automată indisponibilă pentru această filă"
+  },
+  "js_history_delete": {
+    "message": "șterge"
+  },
+  "js_history_export": {
+    "message": "exportă"
+  },
+  "js_history_reload": {
+    "message": "deschide și încarcă"
+  },
+  "js_history_resuspend": {
+    "message": "deschide și suspendă"
+  },
+  "js_history_save": {
+    "message": "salvează"
+  },
+  "js_history_window": {
+    "message": "Fereastră"
+  },
+  "js_history_tab": {
+    "message": "Filă"
+  },
+  "js_history_plural": {
+    "message": "e"
+  },
+  "js_history_enter_name_for_session": {
+    "message": "Introduceți un nume pentru această sesiune"
+  },
+  "js_history_confirm_delete": {
+    "message": "Sigur vrei să ștergi această sesiune?"
+  },
+  "js_history_confirm_session_overwrite": {
+    "message": "Există deja o sesiune salvată cu acest nume. Suprascrieți sesiunea existentă?"
+  },
+  "js_history_import_fail": {
+    "message": "Fișierul nu a putut fi încărcat. Asigurați-vă că fișierul este text simplu cu un URL pe linie."
+  },
+  "js_suspended_remove_from_whitelist": {
+    "message": "Elimină site-ul din lista albă"
+  },
+  "js_suspended_hotkey_to_reload": {
+    "message": "Setează comenzile rapide de la tastatură"
+  },
+  "js_suspended_low_memory": {
+    "message": "Filă suspendată din cauza memoriei de sistem scăzute"
+  },
+  "js_options_incognito_warning": {
+    "message": "Ești în modul incognito. Unele funcții nu vor fi disponibile."
+  },
+  "js_options_whitelist_no_matches": {
+    "message": "Nu există file deschise care să corespundă listei albe curente."
+  },
+  "js_options_whitelist_matches_heading": {
+    "message": "File deschise în lista albă:"
+  },
+  "js_options_whitelist_matches_overflow_prefix": {
+    "message": "și"
+  },
+  "js_options_whitelist_matches_overflow_suffix": {
+    "message": "mai multe."
+  },
+  "js_permissions_button_export": {
+    "message": "Salvează copie de rezervă"
+  },
+  "js_permissions_button_set": {
+    "message": "Deschide setările extensiei"
+  },
+  "js_update_confirm": {
+    "message": "Nu ai salvat încă o copie de rezervă. Actualizezi oricum extensia?"
+  },
+  "js_update_button_export": {
+    "message": "Salvează copie de rezervă"
+  },
+  "js_update_button_reload": {
+    "message": "Actualizează extensia acum"
+  },
+  "js_shortcuts_not_set": {
+    "message": "neatribuit"
+  },
+  "js_session_save_point": {
+    "message": "Punct de salvare automat pentru v"
+  }
+}

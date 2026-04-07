@@ -1,0 +1,686 @@
+{
+  "ext_extension_name": {
+    "message": "The Great Suspender | Tab Suspender - Įšaldyti skilteles"
+  },
+  "ext_extension_description": {
+    "message": "Sustabdykite neaktyvias Chrome skilteles, kad sutaupytumėte RAM ir padidintumėte greitį. Geriausias Tab Suspender — automatiškai įšaldo nenaudojamas skilteles ir iš karto jas atkuria."
+  },
+  "ext_default_title": {
+    "message": "The Great Suspender"
+  },
+  "ext_cmd_toggle_tab_suspension_description": {
+    "message": "Sustabdyti/Atkurti aktyvią skiltelę"
+  },
+  "ext_cmd_toggle_tab_pause_description": {
+    "message": "Pristabdyti/Tęsti aktyvios skiltelės sustabdymą"
+  },
+  "ext_cmd_suspend_selected_tabs_description": {
+    "message": "Sustabdyti pasirinktas skilteles"
+  },
+  "ext_cmd_unsuspend_selected_tabs_description": {
+    "message": "Atkurti pasirinktas skilteles"
+  },
+  "ext_cmd_soft_suspend_active_window_description": {
+    "message": "Sustabdyti visas kitas skilteles aktyvame lange"
+  },
+  "ext_cmd_force_suspend_active_window_description": {
+    "message": "Priverstinai sustabdyti visas kitas skilteles aktyvame lange"
+  },
+  "ext_cmd_unsuspend_active_window_description": {
+    "message": "Atkurti visas skilteles aktyvame lange"
+  },
+  "ext_cmd_soft_suspend_all_windows_description": {
+    "message": "Sustabdyti visas skilteles visuose languose"
+  },
+  "ext_cmd_force_suspend_all_windows_description": {
+    "message": "Priverstinai sustabdyti visas skilteles visuose languose"
+  },
+  "ext_cmd_unsuspend_all_windows_description": {
+    "message": "Atkurti visas skilteles visuose languose"
+  },
+  "js_context_open_link_in_suspended_tab": {
+    "message": "Atidaryti nuorodą naujoje sustabdytoje skiltelėje"
+  },
+  "js_context_toggle_suspend_state": {
+    "message": "Sustabdyti/Atkurti šią skiltelę"
+  },
+  "js_context_toggle_pause_suspension": {
+    "message": "Pristabdyti/Tęsti šios skiltelės sustabdymą"
+  },
+  "js_context_never_suspend_domain": {
+    "message": "Niekada nesustabdyti šio domeno"
+  },
+  "js_context_never_suspend_page": {
+    "message": "Niekada nesustabdyti šio URL"
+  },
+  "js_context_suspend_selected_tabs": {
+    "message": "Sustabdyti pasirinktas skilteles"
+  },
+  "js_context_unsuspend_selected_tabs": {
+    "message": "Atkurti pasirinktas skilteles"
+  },
+  "js_context_soft_suspend_other_tabs_in_window": {
+    "message": "Sustabdyti visas kitas skilteles šiame lange"
+  },
+  "js_context_force_suspend_other_tabs_in_window": {
+    "message": "Priverstinai sustabdyti visas kitas skilteles šiame lange"
+  },
+  "js_context_unsuspend_all_tabs_in_window": {
+    "message": "Atkurti visas skilteles šiame lange"
+  },
+  "js_context_soft_suspend_all_tabs": {
+    "message": "Sustabdyti visas skilteles visuose languose"
+  },
+  "js_context_force_suspend_all_tabs": {
+    "message": "Priverstinai sustabdyti visas skilteles visuose languose"
+  },
+  "js_context_unsuspend_all_tabs": {
+    "message": "Atkurti visas skilteles visuose languose"
+  },
+  "html_about_title": {
+    "message": "Apie"
+  },
+  "html_history_title": {
+    "message": "Seansų valdymas"
+  },
+  "html_history_current_session": {
+    "message": "Dabartinis seansas"
+  },
+  "html_history_recent_sessions": {
+    "message": "Nesenūs seansai"
+  },
+  "html_history_saved_sessions": {
+    "message": "Išsaugoti seansai"
+  },
+  "html_history_import_session": {
+    "message": "Importuoti seansą"
+  },
+  "html_notice_title": {
+    "message": "Pranešimas"
+  },
+  "html_notice_important_notice": {
+    "message": "Svarbus pranešimas iš The Great Suspender"
+  },
+  "html_options_title": {
+    "message": "Nustatymai"
+  },
+  "html_options_suspend_title": {
+    "message": "Automatinis skiltelių sustabdymas"
+  },
+  "html_options_suspended_title": {
+    "message": "Sustabdytos skiltelės"
+  },
+  "html_options_other_title": {
+    "message": "Kita"
+  },
+  "html_options_suspend_automatically_after": {
+    "message": "Automatiškai sustabdyti skilteles po"
+  },
+  "html_options_suspend_never": {
+    "message": "Niekada"
+  },
+  "html_options_suspend_seconds": {
+    "message": "sek."
+  },
+  "html_options_suspend_minute": {
+    "message": "min"
+  },
+  "html_options_suspend_minutes": {
+    "message": "min"
+  },
+  "html_options_suspend_hour": {
+    "message": "val."
+  },
+  "html_options_suspend_hours": {
+    "message": "val."
+  },
+  "html_options_suspend_day": {
+    "message": "d."
+  },
+  "html_options_suspend_days": {
+    "message": "d."
+  },
+  "html_options_suspend_week": {
+    "message": "sav."
+  },
+  "html_options_suspend_weeks": {
+    "message": "sav."
+  },
+  "html_options_suspend_no_pinned": {
+    "message": "Niekada nesustabdyti prisegтų skiltelių"
+  },
+  "html_options_suspend_no_forms": {
+    "message": "Niekada nesustabdyti skiltelių su neišsaugotomis formomis"
+  },
+  "html_options_suspend_no_audio": {
+    "message": "Niekada nesustabdyti skiltelių, kurios groja garsą"
+  },
+  "html_options_suspend_only_connected": {
+    "message": "Niekada nesustabdyti skiltelių kai neprisijungta"
+  },
+  "html_options_suspend_only_on_battery": {
+    "message": "Niekada nesustabdyti skiltelių kai prijungta prie maitinimo"
+  },
+  "html_options_suspend_no_active_tabs": {
+    "message": "Niekada nesustabdyti aktyvios skiltelės kiekviename lange"
+  },
+  "html_options_suspend_automatically_unsuspend": {
+    "message": "Automatiškai atkurti skiltelę kai ji peržiūrima"
+  },
+  "html_options_suspend_discard_after_suspend": {
+    "message": "Naudoti Chrome integruotą atminties taupymo funkciją sustabdant"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1a": {
+    "message": "Dar labiau sumažina sustabdytos skiltelės atminties naudojimą naudojant"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1b": {
+    "message": "Chrome integruotą 'tab discarding' funkciją. Galima sutaupyti iki"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1c": {
+    "message": "500% atminties dirbant su daugeliu skiltelių."
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line2a": {
+    "message": "Tačiau gali sukelti nedidelį vaizdo atvaizdavimo delsimą renkantis"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line2b": {
+    "message": "sustabdytą skiltelę."
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line3a": {
+    "message": "Daugiau informacijos apie Chrome discarding:"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line3b": {
+    "message": "https://developers.google.com/web/updates/2015/09/tab-discarding"
+  },
+  "html_options_suspend_theme": {
+    "message": "Tema"
+  },
+  "html_options_suspend_theme_light": {
+    "message": "Šviesi"
+  },
+  "html_options_suspend_theme_dark": {
+    "message": "Tamsi"
+  },
+  "html_options_suspend_screen_capturing": {
+    "message": "Ekrano fiksavimas"
+  },
+  "html_options_suspend_screen_capturing_disabled": {
+    "message": "Išjungtas"
+  },
+  "html_options_suspend_screen_capturing_screen_only": {
+    "message": "Fiksuoti tik ekrano viršų"
+  },
+  "html_options_suspend_screen_capturing_entire_page": {
+    "message": "Fiksuoti visą puslapį"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line1a": {
+    "message": "Sustabdytoje skiltelėje plėtinys gali rodyti peržiūros vaizdą"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line1b": {
+    "message": "kaip skiltelė atrodė prieš sustabdymą."
+  },
+  "html_options_suspend_screen_capturing_tooltip_line2a": {
+    "message": "Ekrano fiksavimo funkcija yra eksperimentinė ir gali sukelti didelį CPU naudojimą"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line2b": {
+    "message": "bei šiek tiek padidėjusį atminties naudojimą."
+  },
+  "html_options_suspend_screen_capturing_tooltip_line3a": {
+    "message": "Jei pastebite keistą elgesį, išbandykite išjungti šią funkciją."
+  },
+  "html_options_suspend_screen_capturing_tooltip_line3b": {
+    "message": "Pvz., lėtą skiltelių sustabdymą ar netikėtus Chrome gedimus."
+  },
+  "html_options_suspend_force_screen_capture": {
+    "message": "Įgalinti aukštos kokybės ekrano fiksavimo režimą"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line1": {
+    "message": "Kai išjungta, ekrano fiksavimas turi šiuos veikimo apribojimus:"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line2": {
+    "message": "- Žemos kokybės ekrano fiksavimas"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line4": {
+    "message": "- Nefiksuos ekrano jei vaizdo generavimas užtrunka daugiau nei 1 minutę"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line5": {
+    "message": "- Maksimalus fiksavimo aukštis apribotas iki 5000px"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line6": {
+    "message": "Įgalinę aukštos kokybės fiksavimą galite labai padidinti CPU apkrovą"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line7": {
+    "message": "ir atminties naudojimą."
+  },
+  "html_options_whitelist_title": {
+    "message": "Niekada nesustabdyti skiltelių su URL iš šio sąrašo:"
+  },
+  "html_options_whitelist_tooltip_line1": {
+    "message": "Pridėkite kiekvieno puslapio URL kurį norite į baltąjį sąrašą naujoje eilutėje."
+  },
+  "html_options_whitelist_tooltip_line2": {
+    "message": "Keliems svetainėms vienoje eilutėje nurodykite URL dalį:"
+  },
+  "html_options_whitelist_tooltip_line3": {
+    "message": "Taip pat galite nurodyti reguliarius reiškinius apgaubiamą tekstą pasviraisiais brūkšniais:"
+  },
+  "html_options_whitelist_test": {
+    "message": "Tikrinti baltąjį sąrašą"
+  },
+  "html_options_other_enable_context_menu": {
+    "message": "Pridėti The Great Suspender į kontekstinį meniu"
+  },
+  "html_options_other_enable_context_menu_tooltip_line1": {
+    "message": "Prideda šio plėtinio valdiklius į dešinio pelės mygtuko meniu."
+  },
+  "html_options_other_enable_context_menu_tooltip_line2": {
+    "message": "Tai suteikia prieigą prie išplėstinių sustabdymo veiksmų, kurių nėra"
+  },
+  "html_options_other_enable_context_menu_tooltip_line3": {
+    "message": "kitur plėtinyje."
+  },
+  "html_options_other_enable_sync": {
+    "message": "Sinchronizuoti nustatymus su Chrome profiliu"
+  },
+  "html_options_other_enable_sync_tooltip_line1a": {
+    "message": "Plėtinio nustatymai bus sinchronizuoti visuose Chrome naršyklėse, kurios"
+  },
+  "html_options_other_enable_sync_tooltip_line1b": {
+    "message": "prisijungusios su tuo pačiu profiliu."
+  },
+  "html_options_other_enable_sync_tooltip_line2": {
+    "message": "Tai taip pat sinchronizuos nustatymus inkognito režimu."
+  },
+  "html_options_other_enable_sync_warning": {
+    "message": "Įjungus tai bus perrašyti nustatymai visose kitose naršyklėse prisijungusiose su tuo pačiu Chrome profiliu"
+  },
+  "html_options_suspend_on_low_memory": {
+    "message": "Iš karto sustabdyti kai sistemos atmintis tampa labai maža"
+  },
+  "html_options_suspend_on_low_memory_tooltip_line1": {
+    "message": "Šis parinktis perrašys Chrome automatinio skiltelių šalinimo funkciją."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line2": {
+    "message": "Jei įjungta, privers skiltelę sustabdyti vietoj to, kad Chrome ją pašalintų."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line3": {
+    "message": "Chrome paprastai šalina skilteles tik kai sistemos atmintis labai maža."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line4": {
+    "message": "Pastaba: tai gali sukelti skiltelių sustabdymą anksčiau nei nustatėte"
+  },
+  "html_options_suspend_on_low_memory_tooltip_line5": {
+    "message": "automatinio sustabdymo parinktyse."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line6": {
+    "message": "Daugiau informacijos apie Chrome discarding:"
+  },
+  "html_options_suspend_on_low_memory_tooltip_discarding_link": {
+    "message": "https://developers.google.com/web/updates/2015/09/tab-discarding"
+  },
+  "html_popup_unsuspend_tab": {
+    "message": "Atkurti šią skiltelę"
+  },
+  "html_popup_suspend_tab": {
+    "message": "Sustabdyti šią skiltelę dabar"
+  },
+  "html_popup_dont_suspend_now": {
+    "message": "Dabar ne"
+  },
+  "html_popup_never_suspend_domain": {
+    "message": "Niekada nesustabdyti šio domeno"
+  },
+  "html_popup_never_suspend_page": {
+    "message": "Niekada nesustabdyti šio URL"
+  },
+  "html_popup_suspend_other_tabs": {
+    "message": "Sustabdyti visas kitas skilteles"
+  },
+  "html_popup_unsuspend_all_tabs": {
+    "message": "Atkurti visas skilteles"
+  },
+  "html_popup_suspend_selected_tabs": {
+    "message": "Sustabdyti pasirinktas skilteles"
+  },
+  "html_popup_unsuspend_selected_tabs": {
+    "message": "Atkurti pasirinktas skilteles"
+  },
+  "html_popup_settings": {
+    "message": "Nustatymai"
+  },
+  "html_restoring_title": {
+    "message": "Atkuriamas langas"
+  },
+  "html_restoring_heading": {
+    "message": "Atkuriamos skiltelės"
+  },
+  "html_restoring_detail": {
+    "message": "Palaukite kol atkuriu šį langą..."
+  },
+  "html_recovery_title": {
+    "message": "Atkūrimas"
+  },
+  "html_recovery_ruh_roh": {
+    "message": "Oi!"
+  },
+  "html_recovery_description_line1": {
+    "message": "Atrodo, jūs atsigaunate po plėtinio gedimo."
+  },
+  "html_recovery_description_line2": {
+    "message": "Jūsų sustabdytos skiltelės gali būti gedusi arba dingę."
+  },
+  "html_recovery_restore_tabs_automatically": {
+    "message": "Automatiškai atkurti skilteles"
+  },
+  "html_recovery_go_to_session_manager": {
+    "message": "Eiti į seansų tvarkyklę"
+  },
+  "html_recovery_important_message": {
+    "message": "Šiuo metu įjungtas ekrano fiksavimas. Jei plėtinys nuolat genda, rekomenduojama išjungti šią parinktį."
+  },
+  "html_recovery_disable_screen_capturing": {
+    "message": "Išjungti ekrano fiksavimą"
+  },
+  "html_recovery_tabs_to_restore": {
+    "message": "Skiltelės kurias reikia atkurti"
+  },
+  "html_shortcuts_title": {
+    "message": "Klaviatūros spartieji klavišai"
+  },
+  "html_shortcuts_keyboard_shortcuts": {
+    "message": "Klaviatūros spartieji klavišai"
+  },
+  "html_shortcuts_context_menu_note": {
+    "message": "Pastaba: šie veiksmai taip pat pasiekiami per kontekstinį meniu."
+  },
+  "html_shortcuts_remap_keys": {
+    "message": "Keisti sparčiuosius klavišus"
+  },
+  "html_sidebar_general_settings": {
+    "message": "Nustatymai"
+  },
+  "html_sidebar_session_management": {
+    "message": "Seansų valdymas"
+  },
+  "html_sidebar_shortcuts": {
+    "message": "Klaviatūros spartieji klavišai"
+  },
+  "html_sidebar_support": {
+    "message": "Apie"
+  },
+  "html_success_great_success": {
+    "message": "Puiki sėkmė!"
+  },
+  "html_success_all_tabs_restored": {
+    "message": "Visos jūsų skiltelės atkurtos."
+  },
+  "html_success_goto_advanced_prefix": {
+    "message": "Išplėstiniam seansų valdymui apsilankykite"
+  },
+  "html_success_goto_advanced_suffix": {
+    "message": "puslapyje"
+  },
+  "html_session_manager": {
+    "message": "seansų valdymas"
+  },
+  "html_suspended_title": {
+    "message": "Sustabdyta skiltelė"
+  },
+  "html_suspended_tab_suspended": {
+    "message": "Skiltelė sustabdyta"
+  },
+  "html_suspended_tab_reload": {
+    "message": "Perkrauti skiltelę"
+  },
+  "html_suspended_tab_whitelist_prefix": {
+    "message": "Niekada nesustabdyti"
+  },
+  "html_suspended_tab_whitelist_suffix": {
+    "message": "..."
+  },
+  "html_suspended_click_to_reload": {
+    "message": "Atnaujinti arba spustelėkite norėdami perkrauti"
+  },
+  "html_suspended_toast_not_connected": {
+    "message": "Nesate prisijungę prie interneto"
+  },
+  "html_suspended_toast_reload_disabled": {
+    "message": "Automatinis skiltelių perkrovimas laikinai išjungtas."
+  },
+  "html_suspended_donation_question": {
+    "message": "Ar šis plėtinys jus džiugina?\nParodykite palaikymą paaukoję."
+  },
+  "html_permissions_title": {
+    "message": "Leidimai"
+  },
+  "html_permissions_heading": {
+    "message": "Suteikite man prieigą prie vietinių failų URL"
+  },
+  "html_permissions_info": {
+    "message": "Šiam plėtiniui šiuo metu neleidžiama sustabdyti URL prasidedančių žodžiu \"file\".\nNorėdami tai pakeisti, įjunkite \"Leisti prieigą prie failų URL\" plėtinio nustatymų puslapyje."
+  },
+  "html_permissions_backup": {
+    "message": "Pastaba: keičiant šią parinktį visos sustabdytos skiltelės laikinai dings.\nGalbūt geras laikas išsaugoti atsarginę dabartinio seanso kopiją."
+  },
+  "html_update_title": {
+    "message": "Atnaujinimas"
+  },
+  "html_update_heading2": {
+    "message": "netrukus taps dar geresnis"
+  },
+  "html_update_info": {
+    "message": "Nauja The Great Suspender versija yra paruošta diegimui.\nPastaba: atnaujinimo metu sustabdytos skiltelės laikinai dings."
+  },
+  "html_update_info_withbackup": {
+    "message": "Galbūt geras laikas išsaugoti atsarginę dabartinio seanso kopiją."
+  },
+  "html_update_info_nobackup_prefix": {
+    "message": "Primygtinai rekomenduojama eksportuoti dabartinio seanso kopiją iš "
+  },
+  "html_update_info_nobackup_suffix": {
+    "message": " prieš tęsiant atnaujinimą."
+  },
+  "html_updated_title": {
+    "message": "Atnaujinta"
+  },
+  "html_updating_heading": {
+    "message": "atnaujinama"
+  },
+  "html_updating_message": {
+    "message": "Palaukite kol atkuriu sustabdytas skilteles..."
+  },
+  "html_updated_great_suspender_updated": {
+    "message": "buvo atnaujintas"
+  },
+  "html_updated_info_line1": {
+    "message": "Prieš atnaujinimą automatiškai buvo sukurta jūsų skiltelių atsarginė kopija."
+  },
+  "html_updated_info_line2_prefix": {
+    "message": "Jei atnaujinimo metu kilo problemų, prarastas skilteles galite atkurti iš "
+  },
+  "html_updated_info_line2_suffix": {
+    "message": " puslapio."
+  },
+  "html_updated_detail_header_prefix": {
+    "message": "Kas naujo "
+  },
+  "html_updated_detail_header_suffix": {
+    "message": "?"
+  },
+  "html_updated_new_features_header": {
+    "message": "Naujos funkcijos:"
+  },
+  "html_updated_bug_fixes_header": {
+    "message": "Klaidų pataisymai:"
+  },
+  "html_updated_release_notes": {
+    "message": "Apsilankykite GitHub dėl išsamių išleidimo pastabų: "
+  },
+  "html_updated_patch_message": {
+    "message": "Atsiprašome už nepatogumus. Tik reikėjo atlikti nedidelę priežiūrą."
+  },
+  "html_welcome_title": {
+    "message": "Sveiki atvykę"
+  },
+  "html_welcome_text_line1": {
+    "message": "Dėkojame, kad išbandote"
+  },
+  "html_welcome_text_line2": {
+    "message": "Užtikrinama, kad jūsų kompiuteris veiktų sklandžiai sustabdant nenaudojamas skilteles."
+  },
+  "html_welcome_text_line3": {
+    "message": "Žemiau galite tiksliai nustatyti parametrus."
+  },
+  "html_thanks_title": {
+    "message": "Dėkojame"
+  },
+  "html_thanks_header": {
+    "message": "Dėkojame už palaikymą!"
+  },
+  "html_thanks_sub_header": {
+    "message": "Tegul šiandien jus lydi geri dalykai."
+  },
+  "js_popup_normal": {
+    "message": "Skiltelė bus automatiškai sustabdyta."
+  },
+  "js_popup_normal_pause": {
+    "message": "Ne dabar"
+  },
+  "js_popup_special": {
+    "message": "Skiltelė negali būti sustabdyta"
+  },
+  "js_popup_suspended": {
+    "message": "Skiltelė sustabdyta"
+  },
+  "js_popup_suspended_pause": {
+    "message": "Nesustabdyti"
+  },
+  "js_popup_whitelisted": {
+    "message": "Svetainė yra baltajame sąraše."
+  },
+  "js_popup_whitelisted_remove": {
+    "message": "Pašalinti iš baltojo sąrašo"
+  },
+  "js_popup_audible": {
+    "message": "Skiltelė groja garsą."
+  },
+  "js_popup_form_input": {
+    "message": "Skiltelė gauna formos įvestį."
+  },
+  "js_popup_form_input_unpause": {
+    "message": "Tęsti"
+  },
+  "js_popup_pinned": {
+    "message": "Skiltelė prisegta"
+  },
+  "js_popup_temp_whitelist": {
+    "message": "Skiltelės sustabdymas pristabdytas."
+  },
+  "js_popup_temp_whitelist_unpause": {
+    "message": "Tęsti"
+  },
+  "js_popup_never": {
+    "message": "Automatinis skiltelių sustabdymas išjungtas."
+  },
+  "js_popup_no_connectivity": {
+    "message": "Nėra tinklo ryšio"
+  },
+  "js_popup_charging": {
+    "message": "Prijungta prie maitinimo šaltinio"
+  },
+  "js_popup_blockedFile": {
+    "message": "Vietinių failų negalima sustabdyti."
+  },
+  "js_popup_blockedFile_enable": {
+    "message": "Įjungti"
+  },
+  "js_popup_unknown": {
+    "message": "Laukiama skiltelės įkėlimo..."
+  },
+  "js_popup_initialising": {
+    "message": "Laukiama plėtinio inicijavimo..."
+  },
+  "js_popup_error": {
+    "message": "Automatinis sustabdymas nepasiekiamas šiai skiltelei"
+  },
+  "js_history_delete": {
+    "message": "ištrinti"
+  },
+  "js_history_export": {
+    "message": "eksportuoti"
+  },
+  "js_history_reload": {
+    "message": "atidaryti ir įkelti"
+  },
+  "js_history_resuspend": {
+    "message": "atidaryti ir sustabdyti"
+  },
+  "js_history_save": {
+    "message": "išsaugoti"
+  },
+  "js_history_window": {
+    "message": "Langas"
+  },
+  "js_history_tab": {
+    "message": "Skiltelė"
+  },
+  "js_history_plural": {
+    "message": "s"
+  },
+  "js_history_enter_name_for_session": {
+    "message": "Įveskite šio seanso pavadinimą"
+  },
+  "js_history_confirm_delete": {
+    "message": "Ar tikrai norite ištrinti šį seansą?"
+  },
+  "js_history_confirm_session_overwrite": {
+    "message": "Jau yra išsaugotas seansas tokiu pavadinimu. Perrašyti esamą seansą?"
+  },
+  "js_history_import_fail": {
+    "message": "Nepavyko įkelti failo. Įsitikinkite, kad failas yra paprastas tekstas su vienu URL eilutėje."
+  },
+  "js_suspended_remove_from_whitelist": {
+    "message": "Pašalinti svetainę iš baltojo sąrašo"
+  },
+  "js_suspended_hotkey_to_reload": {
+    "message": "Nustatyti klaviatūros sparčiuosius klavišus"
+  },
+  "js_suspended_low_memory": {
+    "message": "Skiltelė sustabdyta dėl mažos sistemos atminties"
+  },
+  "js_options_incognito_warning": {
+    "message": "Esate inkognito režime. Kai kurios funkcijos nebus pasiekiamos."
+  },
+  "js_options_whitelist_no_matches": {
+    "message": "Nėra atvirų skiltelių atitinkančių dabartinį baltąjį sąrašą."
+  },
+  "js_options_whitelist_matches_heading": {
+    "message": "Atvirų skiltelių baltajame sąraše:"
+  },
+  "js_options_whitelist_matches_overflow_prefix": {
+    "message": "ir dar"
+  },
+  "js_options_whitelist_matches_overflow_suffix": {
+    "message": "."
+  },
+  "js_permissions_button_export": {
+    "message": "Išsaugoti atsarginę kopiją"
+  },
+  "js_permissions_button_set": {
+    "message": "Atidaryti plėtinio nustatymus"
+  },
+  "js_update_confirm": {
+    "message": "Dar neišsaugojote atsarginės kopijos. Vis tiek atnaujinti plėtinį?"
+  },
+  "js_update_button_export": {
+    "message": "Išsaugoti atsarginę kopiją"
+  },
+  "js_update_button_reload": {
+    "message": "Atnaujinti plėtinį dabar"
+  },
+  "js_shortcuts_not_set": {
+    "message": "nenustatyta"
+  },
+  "js_session_save_point": {
+    "message": "Automatinis išsaugojimo taškas v"
+  }
+}

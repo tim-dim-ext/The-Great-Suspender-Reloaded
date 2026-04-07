@@ -1,0 +1,686 @@
+{
+  "ext_extension_name": {
+    "message": "The Great Suspender | Tab Suspender - Frysa flikar"
+  },
+  "ext_extension_description": {
+    "message": "Pausa inaktiva Chrome-flikar för att spara RAM och öka hastigheten. Bästa Tab Suspender — fryser automatiskt oanvända flikar och återställer dem omedelbart."
+  },
+  "ext_default_title": {
+    "message": "The Great Suspender"
+  },
+  "ext_cmd_toggle_tab_suspension_description": {
+    "message": "Pausa/Återuppta aktiv flik"
+  },
+  "ext_cmd_toggle_tab_pause_description": {
+    "message": "Pausa/Återuppta paus av aktiv flik"
+  },
+  "ext_cmd_suspend_selected_tabs_description": {
+    "message": "Pausa valda flikar"
+  },
+  "ext_cmd_unsuspend_selected_tabs_description": {
+    "message": "Återuppta valda flikar"
+  },
+  "ext_cmd_soft_suspend_active_window_description": {
+    "message": "Pausa alla andra flikar i aktivt fönster"
+  },
+  "ext_cmd_force_suspend_active_window_description": {
+    "message": "Tvinga pausa alla andra flikar i aktivt fönster"
+  },
+  "ext_cmd_unsuspend_active_window_description": {
+    "message": "Återuppta alla flikar i aktivt fönster"
+  },
+  "ext_cmd_soft_suspend_all_windows_description": {
+    "message": "Pausa alla flikar i alla fönster"
+  },
+  "ext_cmd_force_suspend_all_windows_description": {
+    "message": "Tvinga pausa alla flikar i alla fönster"
+  },
+  "ext_cmd_unsuspend_all_windows_description": {
+    "message": "Återuppta alla flikar i alla fönster"
+  },
+  "js_context_open_link_in_suspended_tab": {
+    "message": "Öppna länk i ny pausad flik"
+  },
+  "js_context_toggle_suspend_state": {
+    "message": "Pausa/Återuppta denna flik"
+  },
+  "js_context_toggle_pause_suspension": {
+    "message": "Pausa/Återuppta paus av denna flik"
+  },
+  "js_context_never_suspend_domain": {
+    "message": "Pausa aldrig denna domän"
+  },
+  "js_context_never_suspend_page": {
+    "message": "Pausa aldrig denna URL"
+  },
+  "js_context_suspend_selected_tabs": {
+    "message": "Pausa valda flikar"
+  },
+  "js_context_unsuspend_selected_tabs": {
+    "message": "Återuppta valda flikar"
+  },
+  "js_context_soft_suspend_other_tabs_in_window": {
+    "message": "Pausa alla andra flikar i detta fönster"
+  },
+  "js_context_force_suspend_other_tabs_in_window": {
+    "message": "Tvinga pausa alla andra flikar i detta fönster"
+  },
+  "js_context_unsuspend_all_tabs_in_window": {
+    "message": "Återuppta alla flikar i detta fönster"
+  },
+  "js_context_soft_suspend_all_tabs": {
+    "message": "Pausa alla flikar i alla fönster"
+  },
+  "js_context_force_suspend_all_tabs": {
+    "message": "Tvinga pausa alla flikar i alla fönster"
+  },
+  "js_context_unsuspend_all_tabs": {
+    "message": "Återuppta alla flikar i alla fönster"
+  },
+  "html_about_title": {
+    "message": "Om"
+  },
+  "html_history_title": {
+    "message": "Sessionshantering"
+  },
+  "html_history_current_session": {
+    "message": "Aktuell session"
+  },
+  "html_history_recent_sessions": {
+    "message": "Senaste sessioner"
+  },
+  "html_history_saved_sessions": {
+    "message": "Sparade sessioner"
+  },
+  "html_history_import_session": {
+    "message": "Importera session"
+  },
+  "html_notice_title": {
+    "message": "Meddelande"
+  },
+  "html_notice_important_notice": {
+    "message": "Viktigt meddelande från The Great Suspender"
+  },
+  "html_options_title": {
+    "message": "Inställningar"
+  },
+  "html_options_suspend_title": {
+    "message": "Automatisk flikpaus"
+  },
+  "html_options_suspended_title": {
+    "message": "Pausade flikar"
+  },
+  "html_options_other_title": {
+    "message": "Övrigt"
+  },
+  "html_options_suspend_automatically_after": {
+    "message": "Pausa flikar automatiskt efter"
+  },
+  "html_options_suspend_never": {
+    "message": "Aldrig"
+  },
+  "html_options_suspend_seconds": {
+    "message": "sekunder"
+  },
+  "html_options_suspend_minute": {
+    "message": "min"
+  },
+  "html_options_suspend_minutes": {
+    "message": "min"
+  },
+  "html_options_suspend_hour": {
+    "message": "timme"
+  },
+  "html_options_suspend_hours": {
+    "message": "timmar"
+  },
+  "html_options_suspend_day": {
+    "message": "dag"
+  },
+  "html_options_suspend_days": {
+    "message": "dagar"
+  },
+  "html_options_suspend_week": {
+    "message": "vecka"
+  },
+  "html_options_suspend_weeks": {
+    "message": "veckor"
+  },
+  "html_options_suspend_no_pinned": {
+    "message": "Pausa aldrig fästa flikar"
+  },
+  "html_options_suspend_no_forms": {
+    "message": "Pausa aldrig flikar med osparade formulärinmatningar"
+  },
+  "html_options_suspend_no_audio": {
+    "message": "Pausa aldrig flikar som spelar ljud"
+  },
+  "html_options_suspend_only_connected": {
+    "message": "Pausa aldrig flikar när offline"
+  },
+  "html_options_suspend_only_on_battery": {
+    "message": "Pausa aldrig flikar när ansluten till strömkälla"
+  },
+  "html_options_suspend_no_active_tabs": {
+    "message": "Pausa aldrig aktiv flik i varje fönster"
+  },
+  "html_options_suspend_automatically_unsuspend": {
+    "message": "Återuppta automatiskt flik när den visas"
+  },
+  "html_options_suspend_discard_after_suspend": {
+    "message": "Använd Chromes inbyggda minnesbesparning vid paus"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1a": {
+    "message": "Minskar en pausad fliks minnesanvändning ytterligare genom att använda"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1b": {
+    "message": "Chromes inbyggda 'tab discarding'-funktion. Detta kan ge upp till"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1c": {
+    "message": "500% minnesbesparing vid arbete med många flikar."
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line2a": {
+    "message": "Det kan dock orsaka en liten renderingsfördröjning när du väljer"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line2b": {
+    "message": "en pausad flik."
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line3a": {
+    "message": "Mer information om Chrome discarding finns på:"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line3b": {
+    "message": "https://developers.google.com/web/updates/2015/09/tab-discarding"
+  },
+  "html_options_suspend_theme": {
+    "message": "Tema"
+  },
+  "html_options_suspend_theme_light": {
+    "message": "Ljust"
+  },
+  "html_options_suspend_theme_dark": {
+    "message": "Mörkt"
+  },
+  "html_options_suspend_screen_capturing": {
+    "message": "Skärmdump"
+  },
+  "html_options_suspend_screen_capturing_disabled": {
+    "message": "Inaktiverad"
+  },
+  "html_options_suspend_screen_capturing_screen_only": {
+    "message": "Fånga bara toppen av skärmen"
+  },
+  "html_options_suspend_screen_capturing_entire_page": {
+    "message": "Fånga hela sidan"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line1a": {
+    "message": "På en pausad flik kan tillägget visa en förhandsvisning av hur fliken"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line1b": {
+    "message": "såg ut precis innan den pausades."
+  },
+  "html_options_suspend_screen_capturing_tooltip_line2a": {
+    "message": "Skärmdumpsfunktionen är experimentell och kan orsaka hög CPU-användning"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line2b": {
+    "message": "samt något ökad minnesanvändning."
+  },
+  "html_options_suspend_screen_capturing_tooltip_line3a": {
+    "message": "Om du märker konstigt beteende som att flikar tar lång tid att pausa, eller att Chrome"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line3b": {
+    "message": "kraschar oväntat, försök stänga av den här funktionen."
+  },
+  "html_options_suspend_force_screen_capture": {
+    "message": "Aktivera högkvalitativt skärmdumpsläge"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line1": {
+    "message": "När inaktiverat har skärmdumpar följande begränsningar för prestanda:"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line2": {
+    "message": "- Låg kvalitet på skärmdumpar"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line4": {
+    "message": "- Tar inte skärmdump om det tar mer än 1 minut att generera bilden"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line5": {
+    "message": "- Maximal höjd på skärmdump begränsad till 5000px"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line6": {
+    "message": "Aktivering av högkvalitativt skärmdumpsläge kan öka CPU-belastningen"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line7": {
+    "message": "och minnesanvändningen avsevärt."
+  },
+  "html_options_whitelist_title": {
+    "message": "Pausa aldrig flikar med URL:er från följande lista:"
+  },
+  "html_options_whitelist_tooltip_line1": {
+    "message": "Lägg till URL:en för varje sida du vill vitlista på en ny rad. Till exempel:"
+  },
+  "html_options_whitelist_tooltip_line2": {
+    "message": "För att vitlista flera sidor på en rad kan du ange del av URL:en istället:"
+  },
+  "html_options_whitelist_tooltip_line3": {
+    "message": "Du kan också ange reguljära uttryck genom att omge texten med snedstreck:"
+  },
+  "html_options_whitelist_test": {
+    "message": "Testa vitlistan"
+  },
+  "html_options_other_enable_context_menu": {
+    "message": "Lägg till The Great Suspender i högerklicksmenyn"
+  },
+  "html_options_other_enable_context_menu_tooltip_line1": {
+    "message": "Lägg till kontroller för detta tillägg i högerklicksmenyn på en webbsida."
+  },
+  "html_options_other_enable_context_menu_tooltip_line2": {
+    "message": "Detta ger dig tillgång till avancerade pausåtgärder som inte är tillgängliga"
+  },
+  "html_options_other_enable_context_menu_tooltip_line3": {
+    "message": "på andra ställen i tillägget."
+  },
+  "html_options_other_enable_sync": {
+    "message": "Synkronisera inställningar med din Chrome-profil"
+  },
+  "html_options_other_enable_sync_tooltip_line1a": {
+    "message": "Tilläggsinställningar synkroniseras över alla Chrome-webbläsare som är"
+  },
+  "html_options_other_enable_sync_tooltip_line1b": {
+    "message": "inloggade med samma profil."
+  },
+  "html_options_other_enable_sync_tooltip_line2": {
+    "message": "Detta synkroniserar också inställningar i inkognitoläge."
+  },
+  "html_options_other_enable_sync_warning": {
+    "message": "Att aktivera detta skriver över inställningar på alla andra webbläsare inloggade med samma Chrome-profil"
+  },
+  "html_options_suspend_on_low_memory": {
+    "message": "Pausa omedelbart när systemminnet blir mycket lågt"
+  },
+  "html_options_suspend_on_low_memory_tooltip_line1": {
+    "message": "Det här alternativet åsidosätter Chromes automatiska tab discarding-funktion."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line2": {
+    "message": "Om aktiverat tvingar det en flik att pausas istället för att kasseras av Chrome."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line3": {
+    "message": "Vanligtvis kasserar Chrome bara flikar när systemminnet är mycket lågt."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line4": {
+    "message": "Observera: Detta kan orsaka att flikar pausas tidigare än den tid du har"
+  },
+  "html_options_suspend_on_low_memory_tooltip_line5": {
+    "message": "angett i alternativen för automatisk flikpaus."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line6": {
+    "message": "Mer information om Chrome discarding finns på:"
+  },
+  "html_options_suspend_on_low_memory_tooltip_discarding_link": {
+    "message": "https://developers.google.com/web/updates/2015/09/tab-discarding"
+  },
+  "html_popup_unsuspend_tab": {
+    "message": "Återuppta denna flik"
+  },
+  "html_popup_suspend_tab": {
+    "message": "Pausa denna flik nu"
+  },
+  "html_popup_dont_suspend_now": {
+    "message": "Pausa inte nu"
+  },
+  "html_popup_never_suspend_domain": {
+    "message": "Pausa aldrig denna domän"
+  },
+  "html_popup_never_suspend_page": {
+    "message": "Pausa aldrig denna URL"
+  },
+  "html_popup_suspend_other_tabs": {
+    "message": "Pausa alla andra flikar"
+  },
+  "html_popup_unsuspend_all_tabs": {
+    "message": "Återuppta alla flikar"
+  },
+  "html_popup_suspend_selected_tabs": {
+    "message": "Pausa valda flikar"
+  },
+  "html_popup_unsuspend_selected_tabs": {
+    "message": "Återuppta valda flikar"
+  },
+  "html_popup_settings": {
+    "message": "Inställningar"
+  },
+  "html_restoring_title": {
+    "message": "Återställer fönster"
+  },
+  "html_restoring_heading": {
+    "message": "Återställer flikar"
+  },
+  "html_restoring_detail": {
+    "message": "Vänta medan jag återställer detta fönster..."
+  },
+  "html_recovery_title": {
+    "message": "Återställning"
+  },
+  "html_recovery_ruh_roh": {
+    "message": "Hoppsan!"
+  },
+  "html_recovery_description_line1": {
+    "message": "Det verkar som att du återhämtar dig från en tilläggskrasch."
+  },
+  "html_recovery_description_line2": {
+    "message": "Dina pausade flikar kan ha kraschat eller försvunnit."
+  },
+  "html_recovery_restore_tabs_automatically": {
+    "message": "Återställ flikar automatiskt"
+  },
+  "html_recovery_go_to_session_manager": {
+    "message": "Gå till sessionshanteraren"
+  },
+  "html_recovery_important_message": {
+    "message": "Du har för närvarande skärmdumpar aktiverat. Om detta tillägg kraschar upprepade gånger rekommenderas du att inaktivera det här alternativet."
+  },
+  "html_recovery_disable_screen_capturing": {
+    "message": "Stäng av skärmdumpar"
+  },
+  "html_recovery_tabs_to_restore": {
+    "message": "Flikar att återställa"
+  },
+  "html_shortcuts_title": {
+    "message": "Tangentbordsgenvägar"
+  },
+  "html_shortcuts_keyboard_shortcuts": {
+    "message": "Tangentbordsgenvägar"
+  },
+  "html_shortcuts_context_menu_note": {
+    "message": "Obs: Dessa åtgärder är också tillgängliga via högerklicksmenyn."
+  },
+  "html_shortcuts_remap_keys": {
+    "message": "Ändra genvägar"
+  },
+  "html_sidebar_general_settings": {
+    "message": "Inställningar"
+  },
+  "html_sidebar_session_management": {
+    "message": "Sessionshantering"
+  },
+  "html_sidebar_shortcuts": {
+    "message": "Tangentbordsgenvägar"
+  },
+  "html_sidebar_support": {
+    "message": "Om"
+  },
+  "html_success_great_success": {
+    "message": "Stor framgång!"
+  },
+  "html_success_all_tabs_restored": {
+    "message": "Alla dina flikar har återställts."
+  },
+  "html_success_goto_advanced_prefix": {
+    "message": "För avancerad sessionshantering, besök"
+  },
+  "html_success_goto_advanced_suffix": {
+    "message": "sidan"
+  },
+  "html_session_manager": {
+    "message": "sessionshantering"
+  },
+  "html_suspended_title": {
+    "message": "Pausad flik"
+  },
+  "html_suspended_tab_suspended": {
+    "message": "Flik pausad"
+  },
+  "html_suspended_tab_reload": {
+    "message": "Ladda om flik"
+  },
+  "html_suspended_tab_whitelist_prefix": {
+    "message": "Pausa aldrig"
+  },
+  "html_suspended_tab_whitelist_suffix": {
+    "message": "..."
+  },
+  "html_suspended_click_to_reload": {
+    "message": "Uppdatera eller klicka för att ladda om"
+  },
+  "html_suspended_toast_not_connected": {
+    "message": "Du är inte ansluten till internet"
+  },
+  "html_suspended_toast_reload_disabled": {
+    "message": "Automatisk flikladdning är tillfälligt inaktiverad."
+  },
+  "html_suspended_donation_question": {
+    "message": "Gör detta tillägg dig glad?\nVisa ditt stöd genom att donera."
+  },
+  "html_permissions_title": {
+    "message": "Behörigheter"
+  },
+  "html_permissions_heading": {
+    "message": "Ge mig åtkomst till lokala fil-URL:er"
+  },
+  "html_permissions_info": {
+    "message": "Detta tillägg är för närvarande inte tillåtet att pausa URL:er som börjar med ordet \"file\".\nFör att ändra detta, aktivera \"Tillåt åtkomst till fil-URL:er\" från tilläggsinställningssidan."
+  },
+  "html_permissions_backup": {
+    "message": "Observera: Om du ändrar det här alternativet försvinner alla dina pausade flikar tillfälligt.\nDet kan vara bra att spara en säkerhetskopia av din nuvarande fliksession."
+  },
+  "html_update_title": {
+    "message": "Uppdatering"
+  },
+  "html_update_heading2": {
+    "message": "håller på att bli ännu bättre"
+  },
+  "html_update_info": {
+    "message": "En ny version av The Great Suspender är redo att installeras.\nObs: Under uppdateringen försvinner dina pausade flikar tillfälligt."
+  },
+  "html_update_info_withbackup": {
+    "message": "Det kan vara bra att spara en säkerhetskopia av din nuvarande fliksession."
+  },
+  "html_update_info_nobackup_prefix": {
+    "message": "Det rekommenderas starkt att du exporterar en kopia av din nuvarande session från "
+  },
+  "html_update_info_nobackup_suffix": {
+    "message": " innan du fortsätter med uppdateringen."
+  },
+  "html_updated_title": {
+    "message": "Uppdaterad"
+  },
+  "html_updating_heading": {
+    "message": "uppdaterar"
+  },
+  "html_updating_message": {
+    "message": "Vänta medan jag återställer dina pausade flikar..."
+  },
+  "html_updated_great_suspender_updated": {
+    "message": "har uppdaterats"
+  },
+  "html_updated_info_line1": {
+    "message": "En automatisk säkerhetskopia av dina flikar gjordes innan uppdateringen."
+  },
+  "html_updated_info_line2_prefix": {
+    "message": "Om du stötte på problem under uppdateringen kan du återställa förlorade flikar från "
+  },
+  "html_updated_info_line2_suffix": {
+    "message": " sidan."
+  },
+  "html_updated_detail_header_prefix": {
+    "message": "Nyheter i "
+  },
+  "html_updated_detail_header_suffix": {
+    "message": "?"
+  },
+  "html_updated_new_features_header": {
+    "message": "Nya funktioner:"
+  },
+  "html_updated_bug_fixes_header": {
+    "message": "Felrättningar:"
+  },
+  "html_updated_release_notes": {
+    "message": "Besök GitHub för fullständiga versionsnoteringar: "
+  },
+  "html_updated_patch_message": {
+    "message": "Ursäkta störningen. Jag behövde bara utföra lite underhåll."
+  },
+  "html_welcome_title": {
+    "message": "Välkommen"
+  },
+  "html_welcome_text_line1": {
+    "message": "Tack för att du provar"
+  },
+  "html_welcome_text_line2": {
+    "message": "Jag ser till att din dator körs smidigt genom att pausa flikar du inte använder."
+  },
+  "html_welcome_text_line3": {
+    "message": "Du kan finjustera inställningarna nedan."
+  },
+  "html_thanks_title": {
+    "message": "Tack"
+  },
+  "html_thanks_header": {
+    "message": "Tack för stödet!"
+  },
+  "html_thanks_sub_header": {
+    "message": "Må goda saker komma din väg idag."
+  },
+  "js_popup_normal": {
+    "message": "Flik pausas automatiskt."
+  },
+  "js_popup_normal_pause": {
+    "message": "Inte nu"
+  },
+  "js_popup_special": {
+    "message": "Flik kan inte pausas"
+  },
+  "js_popup_suspended": {
+    "message": "Flik pausad"
+  },
+  "js_popup_suspended_pause": {
+    "message": "Pausa inte"
+  },
+  "js_popup_whitelisted": {
+    "message": "Sida vitlistad."
+  },
+  "js_popup_whitelisted_remove": {
+    "message": "Ta bort från vitlistan"
+  },
+  "js_popup_audible": {
+    "message": "Flik spelar ljud."
+  },
+  "js_popup_form_input": {
+    "message": "Flik tar emot formulärinmatning."
+  },
+  "js_popup_form_input_unpause": {
+    "message": "Återuppta"
+  },
+  "js_popup_pinned": {
+    "message": "Flik är fäst"
+  },
+  "js_popup_temp_whitelist": {
+    "message": "Flikpaus pausad."
+  },
+  "js_popup_temp_whitelist_unpause": {
+    "message": "Återuppta"
+  },
+  "js_popup_never": {
+    "message": "Automatisk flikpaus inaktiverad."
+  },
+  "js_popup_no_connectivity": {
+    "message": "Ingen nätverksanslutning"
+  },
+  "js_popup_charging": {
+    "message": "Ansluten till strömkälla"
+  },
+  "js_popup_blockedFile": {
+    "message": "Lokala filer kan inte pausas."
+  },
+  "js_popup_blockedFile_enable": {
+    "message": "Aktivera"
+  },
+  "js_popup_unknown": {
+    "message": "Väntar på att fliken ska laddas..."
+  },
+  "js_popup_initialising": {
+    "message": "Väntar på att tillägget ska initieras..."
+  },
+  "js_popup_error": {
+    "message": "Automatisk paus ej tillgänglig för denna flik"
+  },
+  "js_history_delete": {
+    "message": "ta bort"
+  },
+  "js_history_export": {
+    "message": "exportera"
+  },
+  "js_history_reload": {
+    "message": "öppna och ladda"
+  },
+  "js_history_resuspend": {
+    "message": "öppna och pausa"
+  },
+  "js_history_save": {
+    "message": "spara"
+  },
+  "js_history_window": {
+    "message": "Fönster"
+  },
+  "js_history_tab": {
+    "message": "Flik"
+  },
+  "js_history_plural": {
+    "message": "ar"
+  },
+  "js_history_enter_name_for_session": {
+    "message": "Ange ett namn för denna session"
+  },
+  "js_history_confirm_delete": {
+    "message": "Är du säker på att du vill ta bort denna session?"
+  },
+  "js_history_confirm_session_overwrite": {
+    "message": "Det finns redan en sparad session med detta namn. Skriva över befintlig session?"
+  },
+  "js_history_import_fail": {
+    "message": "Det gick inte att läsa in filen. Se till att filen är ren text och innehåller en URL per rad."
+  },
+  "js_suspended_remove_from_whitelist": {
+    "message": "Ta bort sida från vitlistan"
+  },
+  "js_suspended_hotkey_to_reload": {
+    "message": "Ange tangentbordsgenvägar"
+  },
+  "js_suspended_low_memory": {
+    "message": "Flik pausad på grund av lågt systemminne"
+  },
+  "js_options_incognito_warning": {
+    "message": "Du är i inkognitoläge. Vissa funktioner är inte tillgängliga."
+  },
+  "js_options_whitelist_no_matches": {
+    "message": "Det finns inga öppna flikar som matchar den aktuella vitlistan."
+  },
+  "js_options_whitelist_matches_heading": {
+    "message": "Vitlistade öppna flikar:"
+  },
+  "js_options_whitelist_matches_overflow_prefix": {
+    "message": "och"
+  },
+  "js_options_whitelist_matches_overflow_suffix": {
+    "message": "till."
+  },
+  "js_permissions_button_export": {
+    "message": "Spara säkerhetskopia"
+  },
+  "js_permissions_button_set": {
+    "message": "Öppna tilläggsinställningar"
+  },
+  "js_update_confirm": {
+    "message": "Du har inte sparat en säkerhetskopia ännu. Uppdatera tillägget ändå?"
+  },
+  "js_update_button_export": {
+    "message": "Spara säkerhetskopia"
+  },
+  "js_update_button_reload": {
+    "message": "Uppdatera tillägget nu"
+  },
+  "js_shortcuts_not_set": {
+    "message": "ej angiven"
+  },
+  "js_session_save_point": {
+    "message": "Automatisk sparningspunkt för v"
+  }
+}

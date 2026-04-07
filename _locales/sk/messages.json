@@ -1,0 +1,686 @@
+{
+  "ext_extension_name": {
+    "message": "The Great Suspender | Tab Suspender - Zmraziť karty"
+  },
+  "ext_extension_description": {
+    "message": "Pozastavte neaktívne karty Chrome na úsporu RAM a zvýšenie rýchlosti. Najlepší Tab Suspender — automaticky zmrazuje nepoužívané karty a okamžite ich obnovuje."
+  },
+  "ext_default_title": {
+    "message": "The Great Suspender"
+  },
+  "ext_cmd_toggle_tab_suspension_description": {
+    "message": "Pozastaviť/Obnoviť aktívnu kartu"
+  },
+  "ext_cmd_toggle_tab_pause_description": {
+    "message": "Pozastaviť/Pokračovať v pauze aktívnej karty"
+  },
+  "ext_cmd_suspend_selected_tabs_description": {
+    "message": "Pozastaviť vybrané karty"
+  },
+  "ext_cmd_unsuspend_selected_tabs_description": {
+    "message": "Obnoviť vybrané karty"
+  },
+  "ext_cmd_soft_suspend_active_window_description": {
+    "message": "Pozastaviť všetky ostatné karty v aktívnom okne"
+  },
+  "ext_cmd_force_suspend_active_window_description": {
+    "message": "Vynútiť pozastavenie všetkých ostatných kariet v aktívnom okne"
+  },
+  "ext_cmd_unsuspend_active_window_description": {
+    "message": "Obnoviť všetky karty v aktívnom okne"
+  },
+  "ext_cmd_soft_suspend_all_windows_description": {
+    "message": "Pozastaviť všetky karty vo všetkých oknách"
+  },
+  "ext_cmd_force_suspend_all_windows_description": {
+    "message": "Vynútiť pozastavenie všetkých kariet vo všetkých oknách"
+  },
+  "ext_cmd_unsuspend_all_windows_description": {
+    "message": "Obnoviť všetky karty vo všetkých oknách"
+  },
+  "js_context_open_link_in_suspended_tab": {
+    "message": "Otvoriť odkaz v novej pozastavenej karte"
+  },
+  "js_context_toggle_suspend_state": {
+    "message": "Pozastaviť/Obnoviť túto kartu"
+  },
+  "js_context_toggle_pause_suspension": {
+    "message": "Pozastaviť/Pokračovať v pauze tejto karty"
+  },
+  "js_context_never_suspend_domain": {
+    "message": "Nikdy nepozastavovať túto doménu"
+  },
+  "js_context_never_suspend_page": {
+    "message": "Nikdy nepozastavovať toto URL"
+  },
+  "js_context_suspend_selected_tabs": {
+    "message": "Pozastaviť vybrané karty"
+  },
+  "js_context_unsuspend_selected_tabs": {
+    "message": "Obnoviť vybrané karty"
+  },
+  "js_context_soft_suspend_other_tabs_in_window": {
+    "message": "Pozastaviť všetky ostatné karty v tomto okne"
+  },
+  "js_context_force_suspend_other_tabs_in_window": {
+    "message": "Vynútiť pozastavenie všetkých ostatných kariet v tomto okne"
+  },
+  "js_context_unsuspend_all_tabs_in_window": {
+    "message": "Obnoviť všetky karty v tomto okne"
+  },
+  "js_context_soft_suspend_all_tabs": {
+    "message": "Pozastaviť všetky karty vo všetkých oknách"
+  },
+  "js_context_force_suspend_all_tabs": {
+    "message": "Vynútiť pozastavenie všetkých kariet vo všetkých oknách"
+  },
+  "js_context_unsuspend_all_tabs": {
+    "message": "Obnoviť všetky karty vo všetkých oknách"
+  },
+  "html_about_title": {
+    "message": "O rozšírení"
+  },
+  "html_history_title": {
+    "message": "Správa relácií"
+  },
+  "html_history_current_session": {
+    "message": "Aktuálna relácia"
+  },
+  "html_history_recent_sessions": {
+    "message": "Nedávne relácie"
+  },
+  "html_history_saved_sessions": {
+    "message": "Uložené relácie"
+  },
+  "html_history_import_session": {
+    "message": "Importovať reláciu"
+  },
+  "html_notice_title": {
+    "message": "Upozornenie"
+  },
+  "html_notice_important_notice": {
+    "message": "Dôležité upozornenie od The Great Suspender"
+  },
+  "html_options_title": {
+    "message": "Nastavenia"
+  },
+  "html_options_suspend_title": {
+    "message": "Automatické pozastavovanie kariet"
+  },
+  "html_options_suspended_title": {
+    "message": "Pozastavené karty"
+  },
+  "html_options_other_title": {
+    "message": "Ostatné"
+  },
+  "html_options_suspend_automatically_after": {
+    "message": "Automaticky pozastaviť karty po"
+  },
+  "html_options_suspend_never": {
+    "message": "Nikdy"
+  },
+  "html_options_suspend_seconds": {
+    "message": "sekundách"
+  },
+  "html_options_suspend_minute": {
+    "message": "min"
+  },
+  "html_options_suspend_minutes": {
+    "message": "min"
+  },
+  "html_options_suspend_hour": {
+    "message": "hodina"
+  },
+  "html_options_suspend_hours": {
+    "message": "hodín"
+  },
+  "html_options_suspend_day": {
+    "message": "deň"
+  },
+  "html_options_suspend_days": {
+    "message": "dní"
+  },
+  "html_options_suspend_week": {
+    "message": "týždeň"
+  },
+  "html_options_suspend_weeks": {
+    "message": "týždňov"
+  },
+  "html_options_suspend_no_pinned": {
+    "message": "Nikdy nepozastavovať pripnuté karty"
+  },
+  "html_options_suspend_no_forms": {
+    "message": "Nikdy nepozastavovať karty s neuloženými formulármi"
+  },
+  "html_options_suspend_no_audio": {
+    "message": "Nikdy nepozastavovať karty prehrávajúce zvuk"
+  },
+  "html_options_suspend_only_connected": {
+    "message": "Nikdy nepozastavovať karty pri offline"
+  },
+  "html_options_suspend_only_on_battery": {
+    "message": "Nikdy nepozastavovať karty pri pripojení k napájaniu"
+  },
+  "html_options_suspend_no_active_tabs": {
+    "message": "Nikdy nepozastavovať aktívnu kartu v každom okne"
+  },
+  "html_options_suspend_automatically_unsuspend": {
+    "message": "Automaticky obnoviť kartu pri zobrazení"
+  },
+  "html_options_suspend_discard_after_suspend": {
+    "message": "Použiť vstavanú funkciu úspory pamäte Chrome pri pozastavení"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1a": {
+    "message": "Ďalej znižuje využitie pamäte pozastavenej karty pomocou"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1b": {
+    "message": "vstavanej funkcie Chrome 'tab discarding'. Môže ušetriť až"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1c": {
+    "message": "500% pamäte pri práci s množstvom kariet."
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line2a": {
+    "message": "Môže však spôsobiť mierne oneskorenie pri výbere"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line2b": {
+    "message": "pozastavenej karty."
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line3a": {
+    "message": "Viac informácií o Chrome discarding:"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line3b": {
+    "message": "https://developers.google.com/web/updates/2015/09/tab-discarding"
+  },
+  "html_options_suspend_theme": {
+    "message": "Motív"
+  },
+  "html_options_suspend_theme_light": {
+    "message": "Svetlý"
+  },
+  "html_options_suspend_theme_dark": {
+    "message": "Tmavý"
+  },
+  "html_options_suspend_screen_capturing": {
+    "message": "Snímanie obrazovky"
+  },
+  "html_options_suspend_screen_capturing_disabled": {
+    "message": "Zakázané"
+  },
+  "html_options_suspend_screen_capturing_screen_only": {
+    "message": "Zachytiť iba hornú časť obrazovky"
+  },
+  "html_options_suspend_screen_capturing_entire_page": {
+    "message": "Zachytiť celú stránku"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line1a": {
+    "message": "Na pozastavenej karte môže rozšírenie zobraziť náhľad toho, ako karta"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line1b": {
+    "message": "vyzerala tesne pred pozastavením."
+  },
+  "html_options_suspend_screen_capturing_tooltip_line2a": {
+    "message": "Funkcia snímania obrazovky je experimentálna a môže spôsobiť vysoké využitie CPU"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line2b": {
+    "message": "a mierne zvýšené využitie pamäte."
+  },
+  "html_options_suspend_screen_capturing_tooltip_line3a": {
+    "message": "Ak zaznamenáte zvláštne správanie, skúste túto funkciu vypnúť."
+  },
+  "html_options_suspend_screen_capturing_tooltip_line3b": {
+    "message": "Napríklad dlhú dobu pozastavenia alebo neočakávané pády Chrome."
+  },
+  "html_options_suspend_force_screen_capture": {
+    "message": "Povoliť vysokokvalitné snímanie obrazovky"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line1": {
+    "message": "Pri zakázaní majú snímky obrazovky tieto obmedzenia výkonu:"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line2": {
+    "message": "- Nízka kvalita snímok"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line4": {
+    "message": "- Nesnímuje obrazovku ak generovanie trvá viac ako 1 minútu"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line5": {
+    "message": "- Maximálna výška snímku obmedzená na 5000 px"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line6": {
+    "message": "Povolenie vysokokvalitného snímania môže výrazne zvýšiť zaťaženie CPU"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line7": {
+    "message": "a využitie pamäte."
+  },
+  "html_options_whitelist_title": {
+    "message": "Nikdy nepozastavovať karty s URL z nasledujúceho zoznamu:"
+  },
+  "html_options_whitelist_tooltip_line1": {
+    "message": "Pridajte URL každej stránky, ktorú chcete zaradiť na whitelist, na nový riadok."
+  },
+  "html_options_whitelist_tooltip_line2": {
+    "message": "Pre viacero stránok na jednom riadku zadajte časť URL:"
+  },
+  "html_options_whitelist_tooltip_line3": {
+    "message": "Môžete tiež zadať regulárne výrazy uzatvorením textu do lomítek:"
+  },
+  "html_options_whitelist_test": {
+    "message": "Otestovať whitelist"
+  },
+  "html_options_other_enable_context_menu": {
+    "message": "Pridať The Great Suspender do kontextového menu"
+  },
+  "html_options_other_enable_context_menu_tooltip_line1": {
+    "message": "Pridá ovládacie prvky tohto rozšírenia do kontextového menu webovej stránky."
+  },
+  "html_options_other_enable_context_menu_tooltip_line2": {
+    "message": "Získate tak prístup k pokročilým akciám pozastavenia, ktoré nie sú dostupné"
+  },
+  "html_options_other_enable_context_menu_tooltip_line3": {
+    "message": "inde v rozšírení."
+  },
+  "html_options_other_enable_sync": {
+    "message": "Synchronizovať nastavenia s profilom Chrome"
+  },
+  "html_options_other_enable_sync_tooltip_line1a": {
+    "message": "Nastavenia rozšírenia budú synchronizované vo všetkých prehliadačoch Chrome prihlásených"
+  },
+  "html_options_other_enable_sync_tooltip_line1b": {
+    "message": "s rovnakým profilom."
+  },
+  "html_options_other_enable_sync_tooltip_line2": {
+    "message": "Tým sa synchronizujú aj nastavenia v anonymnom režime."
+  },
+  "html_options_other_enable_sync_warning": {
+    "message": "Zapnutím sa prepíšu nastavenia na všetkých ostatných prehliadačoch prihlásených s rovnakým Chrome profilom"
+  },
+  "html_options_suspend_on_low_memory": {
+    "message": "Okamžite pozastaviť pri veľmi nízkej systémovej pamäti"
+  },
+  "html_options_suspend_on_low_memory_tooltip_line1": {
+    "message": "Táto možnosť prepíše automatické zahadzovanie kariet Chrome."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line2": {
+    "message": "Ak je povolená, vynúti pozastavenie karty namiesto zahadzania Chrome."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line3": {
+    "message": "Chrome zvyčajne zahadzuje karty iba pri veľmi nízkej systémovej pamäti."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line4": {
+    "message": "Upozornenie: Môže spôsobiť pozastavenie kariet skôr, ako ste nastavili"
+  },
+  "html_options_suspend_on_low_memory_tooltip_line5": {
+    "message": "v možnostiach automatického pozastavenia."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line6": {
+    "message": "Viac informácií o Chrome discarding:"
+  },
+  "html_options_suspend_on_low_memory_tooltip_discarding_link": {
+    "message": "https://developers.google.com/web/updates/2015/09/tab-discarding"
+  },
+  "html_popup_unsuspend_tab": {
+    "message": "Obnoviť túto kartu"
+  },
+  "html_popup_suspend_tab": {
+    "message": "Pozastaviť túto kartu teraz"
+  },
+  "html_popup_dont_suspend_now": {
+    "message": "Teraz nepozastavovať"
+  },
+  "html_popup_never_suspend_domain": {
+    "message": "Nikdy nepozastavovať túto doménu"
+  },
+  "html_popup_never_suspend_page": {
+    "message": "Nikdy nepozastavovať toto URL"
+  },
+  "html_popup_suspend_other_tabs": {
+    "message": "Pozastaviť všetky ostatné karty"
+  },
+  "html_popup_unsuspend_all_tabs": {
+    "message": "Obnoviť všetky karty"
+  },
+  "html_popup_suspend_selected_tabs": {
+    "message": "Pozastaviť vybrané karty"
+  },
+  "html_popup_unsuspend_selected_tabs": {
+    "message": "Obnoviť vybrané karty"
+  },
+  "html_popup_settings": {
+    "message": "Nastavenia"
+  },
+  "html_restoring_title": {
+    "message": "Obnova okna"
+  },
+  "html_restoring_heading": {
+    "message": "Obnova kariet"
+  },
+  "html_restoring_detail": {
+    "message": "Počkajte prosím, obnovujem toto okno..."
+  },
+  "html_recovery_title": {
+    "message": "Obnovenie"
+  },
+  "html_recovery_ruh_roh": {
+    "message": "Jéj!"
+  },
+  "html_recovery_description_line1": {
+    "message": "Zdá sa, že sa zotavujete z pádu rozšírenia."
+  },
+  "html_recovery_description_line2": {
+    "message": "Vaše pozastavené karty mohli havariovať alebo zmiznúť."
+  },
+  "html_recovery_restore_tabs_automatically": {
+    "message": "Automaticky obnoviť karty"
+  },
+  "html_recovery_go_to_session_manager": {
+    "message": "Prejsť na správcu relácií"
+  },
+  "html_recovery_important_message": {
+    "message": "Máte zapnuté snímanie obrazovky. Ak rozšírenie opakovane havaruje, odporúčame túto možnosť zakázať."
+  },
+  "html_recovery_disable_screen_capturing": {
+    "message": "Vypnúť snímanie obrazovky"
+  },
+  "html_recovery_tabs_to_restore": {
+    "message": "Karty na obnovenie"
+  },
+  "html_shortcuts_title": {
+    "message": "Klávesové skratky"
+  },
+  "html_shortcuts_keyboard_shortcuts": {
+    "message": "Klávesové skratky"
+  },
+  "html_shortcuts_context_menu_note": {
+    "message": "Poznámka: Tieto akcie sú dostupné aj cez kontextové menu."
+  },
+  "html_shortcuts_remap_keys": {
+    "message": "Zmeniť skratky"
+  },
+  "html_sidebar_general_settings": {
+    "message": "Nastavenia"
+  },
+  "html_sidebar_session_management": {
+    "message": "Správa relácií"
+  },
+  "html_sidebar_shortcuts": {
+    "message": "Klávesové skratky"
+  },
+  "html_sidebar_support": {
+    "message": "O rozšírení"
+  },
+  "html_success_great_success": {
+    "message": "Skvelý úspech!"
+  },
+  "html_success_all_tabs_restored": {
+    "message": "Všetky vaše karty boli obnovené."
+  },
+  "html_success_goto_advanced_prefix": {
+    "message": "Pre pokročilú správu relácií navštívte"
+  },
+  "html_success_goto_advanced_suffix": {
+    "message": "stránku"
+  },
+  "html_session_manager": {
+    "message": "správa relácií"
+  },
+  "html_suspended_title": {
+    "message": "Pozastavená karta"
+  },
+  "html_suspended_tab_suspended": {
+    "message": "Karta pozastavená"
+  },
+  "html_suspended_tab_reload": {
+    "message": "Znovu načítať kartu"
+  },
+  "html_suspended_tab_whitelist_prefix": {
+    "message": "Nikdy nepozastavovať"
+  },
+  "html_suspended_tab_whitelist_suffix": {
+    "message": "..."
+  },
+  "html_suspended_click_to_reload": {
+    "message": "Obnoviť alebo kliknúť pre načítanie"
+  },
+  "html_suspended_toast_not_connected": {
+    "message": "Nie ste pripojení k internetu"
+  },
+  "html_suspended_toast_reload_disabled": {
+    "message": "Automatické načítanie kariet je dočasne zakázané."
+  },
+  "html_suspended_donation_question": {
+    "message": "Robí vás toto rozšírenie šťastným?\nUkážte svoju podporu darovaním."
+  },
+  "html_permissions_title": {
+    "message": "Oprávnenia"
+  },
+  "html_permissions_heading": {
+    "message": "Dajte mi prístup k lokálnym URL súborov"
+  },
+  "html_permissions_info": {
+    "message": "Toto rozšírenie nemá aktuálne povolenie pozastavovať URL začínajúce slovom \"file\".\nZmeňte to povolením \"Povoliť prístup k URL súborov\" v nastaveniach rozšírenia."
+  },
+  "html_permissions_backup": {
+    "message": "Upozornenie: zmena tejto možnosti spôsobí dočasné zmiznutie pozastavených kariet.\nMôže byť vhodný čas uložiť zálohu aktuálnej relácie."
+  },
+  "html_update_title": {
+    "message": "Aktualizácia"
+  },
+  "html_update_heading2": {
+    "message": "sa chystá stať ešte lepším"
+  },
+  "html_update_info": {
+    "message": "Nová verzia The Great Suspender je pripravená na inštaláciu.\nUpozornenie: počas aktualizácie pozastavené karty dočasne zmiznú."
+  },
+  "html_update_info_withbackup": {
+    "message": "Môže byť vhodný čas uložiť zálohu aktuálnej relácie."
+  },
+  "html_update_info_nobackup_prefix": {
+    "message": "Dôrazne odporúčame exportovať kópiu aktuálnej relácie z "
+  },
+  "html_update_info_nobackup_suffix": {
+    "message": " pred pokračovaním s aktualizáciou."
+  },
+  "html_updated_title": {
+    "message": "Aktualizované"
+  },
+  "html_updating_heading": {
+    "message": "aktualizuje sa"
+  },
+  "html_updating_message": {
+    "message": "Počkajte prosím, obnovujem pozastavené karty..."
+  },
+  "html_updated_great_suspender_updated": {
+    "message": "bolo aktualizované"
+  },
+  "html_updated_info_line1": {
+    "message": "Pred aktualizáciou bola automaticky vytvorená záloha vašich kariet."
+  },
+  "html_updated_info_line2_prefix": {
+    "message": "Ak ste narazili na problémy, stratené karty obnovíte na stránke "
+  },
+  "html_updated_info_line2_suffix": {
+    "message": "."
+  },
+  "html_updated_detail_header_prefix": {
+    "message": "Čo je nového v "
+  },
+  "html_updated_detail_header_suffix": {
+    "message": "?"
+  },
+  "html_updated_new_features_header": {
+    "message": "Nové funkcie:"
+  },
+  "html_updated_bug_fixes_header": {
+    "message": "Opravy chýb:"
+  },
+  "html_updated_release_notes": {
+    "message": "Navštívte GitHub pre úplné poznámky k vydaniu: "
+  },
+  "html_updated_patch_message": {
+    "message": "Ospravedlňujeme sa za rušenie. Stačilo len vykonať malú údržbu."
+  },
+  "html_welcome_title": {
+    "message": "Vitajte"
+  },
+  "html_welcome_text_line1": {
+    "message": "Ďakujeme, že skúšate"
+  },
+  "html_welcome_text_line2": {
+    "message": "Zabezpečujem plynulý chod vášho počítača pozastavením kariet, ktoré nepoužívate."
+  },
+  "html_welcome_text_line3": {
+    "message": "Nižšie si môžete doladiť nastavenia."
+  },
+  "html_thanks_title": {
+    "message": "Ďakujeme"
+  },
+  "html_thanks_header": {
+    "message": "Ďakujeme za podporu!"
+  },
+  "html_thanks_sub_header": {
+    "message": "Nech vás dnes stretnú len dobré veci."
+  },
+  "js_popup_normal": {
+    "message": "Karta bude automaticky pozastavená."
+  },
+  "js_popup_normal_pause": {
+    "message": "Teraz nie"
+  },
+  "js_popup_special": {
+    "message": "Kartu nie je možné pozastaviť"
+  },
+  "js_popup_suspended": {
+    "message": "Karta pozastavená"
+  },
+  "js_popup_suspended_pause": {
+    "message": "Nepozastavovať"
+  },
+  "js_popup_whitelisted": {
+    "message": "Stránka je na whiteliste."
+  },
+  "js_popup_whitelisted_remove": {
+    "message": "Odstrániť z whitelistu"
+  },
+  "js_popup_audible": {
+    "message": "Karta prehráva zvuk."
+  },
+  "js_popup_form_input": {
+    "message": "Karta prijíma vstup formulára."
+  },
+  "js_popup_form_input_unpause": {
+    "message": "Obnoviť"
+  },
+  "js_popup_pinned": {
+    "message": "Karta je pripnutá"
+  },
+  "js_popup_temp_whitelist": {
+    "message": "Pozastavenie karty pozastavené."
+  },
+  "js_popup_temp_whitelist_unpause": {
+    "message": "Obnoviť"
+  },
+  "js_popup_never": {
+    "message": "Automatické pozastavovanie zakázané."
+  },
+  "js_popup_no_connectivity": {
+    "message": "Žiadne sieťové pripojenie"
+  },
+  "js_popup_charging": {
+    "message": "Pripojené k napájaniu"
+  },
+  "js_popup_blockedFile": {
+    "message": "Lokálne súbory nie je možné pozastaviť."
+  },
+  "js_popup_blockedFile_enable": {
+    "message": "Povoliť"
+  },
+  "js_popup_unknown": {
+    "message": "Čakám na načítanie karty..."
+  },
+  "js_popup_initialising": {
+    "message": "Čakám na inicializáciu rozšírenia..."
+  },
+  "js_popup_error": {
+    "message": "Automatické pozastavenie nie je dostupné pre túto kartu"
+  },
+  "js_history_delete": {
+    "message": "zmazať"
+  },
+  "js_history_export": {
+    "message": "exportovať"
+  },
+  "js_history_reload": {
+    "message": "otvoriť a načítať"
+  },
+  "js_history_resuspend": {
+    "message": "otvoriť a pozastaviť"
+  },
+  "js_history_save": {
+    "message": "uložiť"
+  },
+  "js_history_window": {
+    "message": "Okno"
+  },
+  "js_history_tab": {
+    "message": "Karta"
+  },
+  "js_history_plural": {
+    "message": "y"
+  },
+  "js_history_enter_name_for_session": {
+    "message": "Zadajte názov pre túto reláciu"
+  },
+  "js_history_confirm_delete": {
+    "message": "Naozaj chcete zmazať túto reláciu?"
+  },
+  "js_history_confirm_session_overwrite": {
+    "message": "Relácia s týmto názvom už existuje. Prepísať existujúcu?"
+  },
+  "js_history_import_fail": {
+    "message": "Súbor sa nepodarilo načítať. Skontrolujte, že súbor je čistý text s jednou URL na riadok."
+  },
+  "js_suspended_remove_from_whitelist": {
+    "message": "Odstrániť stránku z whitelistu"
+  },
+  "js_suspended_hotkey_to_reload": {
+    "message": "Nastaviť klávesové skratky"
+  },
+  "js_suspended_low_memory": {
+    "message": "Karta pozastavená kvôli nízkej systémovej pamäti"
+  },
+  "js_options_incognito_warning": {
+    "message": "Ste v anonymnom režime. Niektoré funkcie nebudú dostupné."
+  },
+  "js_options_whitelist_no_matches": {
+    "message": "Žiadne otvorené karty nezodpovedajú aktuálnemu whitelistu."
+  },
+  "js_options_whitelist_matches_heading": {
+    "message": "Otvorené karty na whiteliste:"
+  },
+  "js_options_whitelist_matches_overflow_prefix": {
+    "message": "a ďalších"
+  },
+  "js_options_whitelist_matches_overflow_suffix": {
+    "message": "."
+  },
+  "js_permissions_button_export": {
+    "message": "Uložiť zálohu"
+  },
+  "js_permissions_button_set": {
+    "message": "Otvoriť nastavenia rozšírenia"
+  },
+  "js_update_confirm": {
+    "message": "Ešte ste neuložili zálohu. Napriek tomu aktualizovať rozšírenie?"
+  },
+  "js_update_button_export": {
+    "message": "Uložiť zálohu"
+  },
+  "js_update_button_reload": {
+    "message": "Aktualizovať rozšírenie teraz"
+  },
+  "js_shortcuts_not_set": {
+    "message": "nenastavené"
+  },
+  "js_session_save_point": {
+    "message": "Automatický bod uloženia pre v"
+  }
+}

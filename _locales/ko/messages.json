@@ -1,0 +1,686 @@
+{
+  "ext_extension_name": {
+    "message": "The Great Suspender | Tab Suspender - 탭 일시정지 2026"
+  },
+  "ext_extension_description": {
+    "message": "미사용 Chrome 탭을 자동으로 중단하여 RAM 절약. 최고의 Tab Suspender — 탭을 자동 일시정지하고 한 번의 클릭으로 복원."
+  },
+  "ext_default_title": {
+    "message": "The Great Suspender"
+  },
+  "ext_cmd_toggle_tab_suspension_description": {
+    "message": "활성 탭 일시정지/재개"
+  },
+  "ext_cmd_toggle_tab_pause_description": {
+    "message": "활성 탭의 일시정지 중단/재개"
+  },
+  "ext_cmd_suspend_selected_tabs_description": {
+    "message": "선택한 탭 일시정지"
+  },
+  "ext_cmd_unsuspend_selected_tabs_description": {
+    "message": "선택한 탭 재개"
+  },
+  "ext_cmd_soft_suspend_active_window_description": {
+    "message": "활성 창의 다른 모든 탭 일시정지"
+  },
+  "ext_cmd_force_suspend_active_window_description": {
+    "message": "활성 창의 다른 모든 탭 강제 일시정지"
+  },
+  "ext_cmd_unsuspend_active_window_description": {
+    "message": "활성 창의 모든 탭 재개"
+  },
+  "ext_cmd_soft_suspend_all_windows_description": {
+    "message": "모든 창의 모든 탭 일시정지"
+  },
+  "ext_cmd_force_suspend_all_windows_description": {
+    "message": "모든 창의 모든 탭 강제 일시정지"
+  },
+  "ext_cmd_unsuspend_all_windows_description": {
+    "message": "모든 창의 모든 탭 재개"
+  },
+  "js_context_open_link_in_suspended_tab": {
+    "message": "새 일시정지 탭에서 링크 열기"
+  },
+  "js_context_toggle_suspend_state": {
+    "message": "이 탭 일시정지/재개"
+  },
+  "js_context_toggle_pause_suspension": {
+    "message": "이 탭의 일시정지 중단/재개"
+  },
+  "js_context_never_suspend_domain": {
+    "message": "이 도메인은 일시정지하지 않음"
+  },
+  "js_context_never_suspend_page": {
+    "message": "이 URL은 일시정지하지 않음"
+  },
+  "js_context_suspend_selected_tabs": {
+    "message": "선택한 탭 일시정지"
+  },
+  "js_context_unsuspend_selected_tabs": {
+    "message": "선택한 탭 재개"
+  },
+  "js_context_soft_suspend_other_tabs_in_window": {
+    "message": "이 창의 다른 모든 탭 일시정지"
+  },
+  "js_context_force_suspend_other_tabs_in_window": {
+    "message": "이 창의 다른 모든 탭 강제 일시정지"
+  },
+  "js_context_unsuspend_all_tabs_in_window": {
+    "message": "이 창의 모든 탭 재개"
+  },
+  "js_context_soft_suspend_all_tabs": {
+    "message": "모든 창의 모든 탭 일시정지"
+  },
+  "js_context_force_suspend_all_tabs": {
+    "message": "모든 창의 모든 탭 강제 일시정지"
+  },
+  "js_context_unsuspend_all_tabs": {
+    "message": "모든 창의 모든 탭 재개"
+  },
+  "html_about_title": {
+    "message": "정보"
+  },
+  "html_history_title": {
+    "message": "세션 관리"
+  },
+  "html_history_current_session": {
+    "message": "현재 세션"
+  },
+  "html_history_recent_sessions": {
+    "message": "최근 세션"
+  },
+  "html_history_saved_sessions": {
+    "message": "저장된 세션"
+  },
+  "html_history_import_session": {
+    "message": "세션 가져오기"
+  },
+  "html_notice_title": {
+    "message": "공지"
+  },
+  "html_notice_important_notice": {
+    "message": "The Great Suspender의 중요 공지"
+  },
+  "html_options_title": {
+    "message": "설정"
+  },
+  "html_options_suspend_title": {
+    "message": "탭 자동 일시정지"
+  },
+  "html_options_suspended_title": {
+    "message": "일시정지된 탭"
+  },
+  "html_options_other_title": {
+    "message": "기타"
+  },
+  "html_options_suspend_automatically_after": {
+    "message": "탭 자동 일시정지 시간"
+  },
+  "html_options_suspend_never": {
+    "message": "안 함"
+  },
+  "html_options_suspend_seconds": {
+    "message": "초"
+  },
+  "html_options_suspend_minute": {
+    "message": "분"
+  },
+  "html_options_suspend_minutes": {
+    "message": "분"
+  },
+  "html_options_suspend_hour": {
+    "message": "시간"
+  },
+  "html_options_suspend_hours": {
+    "message": "시간"
+  },
+  "html_options_suspend_day": {
+    "message": "일"
+  },
+  "html_options_suspend_days": {
+    "message": "일"
+  },
+  "html_options_suspend_week": {
+    "message": "주"
+  },
+  "html_options_suspend_weeks": {
+    "message": "주"
+  },
+  "html_options_suspend_no_pinned": {
+    "message": "고정된 탭은 일시정지하지 않음"
+  },
+  "html_options_suspend_no_forms": {
+    "message": "저장되지 않은 양식 입력이 있는 탭은 일시정지하지 않음"
+  },
+  "html_options_suspend_no_audio": {
+    "message": "오디오를 재생 중인 탭은 일시정지하지 않음"
+  },
+  "html_options_suspend_only_connected": {
+    "message": "오프라인 시 탭을 일시정지하지 않음"
+  },
+  "html_options_suspend_only_on_battery": {
+    "message": "전원에 연결된 경우 탭을 일시정지하지 않음"
+  },
+  "html_options_suspend_no_active_tabs": {
+    "message": "각 창의 활성 탭은 일시정지하지 않음"
+  },
+  "html_options_suspend_automatically_unsuspend": {
+    "message": "탭을 볼 때 자동으로 재개"
+  },
+  "html_options_suspend_discard_after_suspend": {
+    "message": "일시정지 시 Chrome의 내장 메모리 절약 기능 적용"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1a": {
+    "message": "Chrome의 내장 '탭 삭제' 기능을 활용하여"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1b": {
+    "message": "일시정지된 탭의 메모리 사용량을 더욱 줄입니다. 탭이 많을 경우 최대"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1c": {
+    "message": "500%의 메모리를 절약할 수 있습니다."
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line2a": {
+    "message": "다만, 일시정지된 탭을 선택할 때"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line2b": {
+    "message": "약간의 렌더링 지연이 발생할 수 있습니다."
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line3a": {
+    "message": "Chrome 탭 삭제에 대한 자세한 내용:"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line3b": {
+    "message": "https://developers.google.com/web/updates/2015/09/tab-discarding"
+  },
+  "html_options_suspend_theme": {
+    "message": "테마"
+  },
+  "html_options_suspend_theme_light": {
+    "message": "밝게"
+  },
+  "html_options_suspend_theme_dark": {
+    "message": "어둡게"
+  },
+  "html_options_suspend_screen_capturing": {
+    "message": "화면 캡처"
+  },
+  "html_options_suspend_screen_capturing_disabled": {
+    "message": "비활성화"
+  },
+  "html_options_suspend_screen_capturing_screen_only": {
+    "message": "화면 상단만 캡처"
+  },
+  "html_options_suspend_screen_capturing_entire_page": {
+    "message": "전체 페이지 캡처"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line1a": {
+    "message": "일시정지된 탭에서, 탭이 일시정지되기 직전의"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line1b": {
+    "message": "미리보기 이미지를 표시할 수 있습니다."
+  },
+  "html_options_suspend_screen_capturing_tooltip_line2a": {
+    "message": "화면 캡처는 실험적 기능으로 CPU 사용량이 크게 증가하거나"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line2b": {
+    "message": "메모리 사용량이 약간 증가할 수 있습니다."
+  },
+  "html_options_suspend_screen_capturing_tooltip_line3a": {
+    "message": "탭 일시정지가 오래 걸리거나 Chrome이 예기치 않게 충돌하는 경우"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line3b": {
+    "message": "이 기능을 끄시기 바랍니다."
+  },
+  "html_options_suspend_force_screen_capture": {
+    "message": "고품질 화면 캡처 모드 활성화"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line1": {
+    "message": "비활성화 시 성능 향상을 위해 다음과 같은 제한이 적용됩니다:"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line2": {
+    "message": "- 저품질 화면 캡처"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line4": {
+    "message": "- 이미지 생성에 1분 이상 걸리면 캡처하지 않음"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line5": {
+    "message": "- 화면 캡처 최대 높이 5000px로 제한"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line6": {
+    "message": "고품질 모드를 활성화하면 CPU 부하가 크게 증가할 수 있습니다."
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line7": {
+    "message": "메모리 사용량도 증가합니다."
+  },
+  "html_options_whitelist_title": {
+    "message": "다음 목록의 URL이 포함된 탭은 일시정지하지 않음:"
+  },
+  "html_options_whitelist_tooltip_line1": {
+    "message": "화이트리스트에 추가할 각 페이지의 URL을 새 줄에 입력하세요. 예:"
+  },
+  "html_options_whitelist_tooltip_line2": {
+    "message": "한 줄에 여러 사이트를 추가하려면 URL의 일부를 입력하세요:"
+  },
+  "html_options_whitelist_tooltip_line3": {
+    "message": "텍스트를 슬래시로 감싸서 정규식을 사용할 수도 있습니다:"
+  },
+  "html_options_whitelist_test": {
+    "message": "화이트리스트 테스트"
+  },
+  "html_options_other_enable_context_menu": {
+    "message": "우클릭 메뉴에 The Great Suspender 추가"
+  },
+  "html_options_other_enable_context_menu_tooltip_line1": {
+    "message": "웹 페이지의 우클릭 메뉴에 이 확장 프로그램의 컨트롤을 추가합니다."
+  },
+  "html_options_other_enable_context_menu_tooltip_line2": {
+    "message": "확장 프로그램의 다른 곳에서는 사용할 수 없는"
+  },
+  "html_options_other_enable_context_menu_tooltip_line3": {
+    "message": "고급 일시정지 기능에 접근할 수 있습니다."
+  },
+  "html_options_other_enable_sync": {
+    "message": "Chrome 프로필과 설정 동기화"
+  },
+  "html_options_other_enable_sync_tooltip_line1a": {
+    "message": "동일한 프로필로 로그인된 모든 Chrome 브라우저에서"
+  },
+  "html_options_other_enable_sync_tooltip_line1b": {
+    "message": "확장 프로그램 설정이 동기화됩니다."
+  },
+  "html_options_other_enable_sync_tooltip_line2": {
+    "message": "시크릿 모드의 설정도 동기화됩니다."
+  },
+  "html_options_other_enable_sync_warning": {
+    "message": "이것을 켜면 동일한 Chrome 프로필로 로그인된 다른 모든 브라우저의 설정을 덮어씁니다"
+  },
+  "html_options_suspend_on_low_memory": {
+    "message": "시스템 메모리가 매우 낮아지면 즉시 일시정지"
+  },
+  "html_options_suspend_on_low_memory_tooltip_line1": {
+    "message": "이 옵션은 Chrome의 자동 탭 삭제 기능을 재정의합니다."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line2": {
+    "message": "활성화하면 Chrome에 의해 삭제되는 대신 탭이 일시정지됩니다."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line3": {
+    "message": "일반적으로 Chrome은 시스템 메모리가 매우 낮아질 때만 탭을 삭제합니다."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line4": {
+    "message": "주의: 탭 자동 일시정지 옵션에서 설정한 시간보다"
+  },
+  "html_options_suspend_on_low_memory_tooltip_line5": {
+    "message": "일찍 탭이 일시정지될 수 있습니다."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line6": {
+    "message": "Chrome 탭 삭제에 대한 자세한 내용:"
+  },
+  "html_options_suspend_on_low_memory_tooltip_discarding_link": {
+    "message": "https://developers.google.com/web/updates/2015/09/tab-discarding"
+  },
+  "html_popup_unsuspend_tab": {
+    "message": "이 탭 재개"
+  },
+  "html_popup_suspend_tab": {
+    "message": "이 탭 지금 일시정지"
+  },
+  "html_popup_dont_suspend_now": {
+    "message": "지금은 일시정지하지 않음"
+  },
+  "html_popup_never_suspend_domain": {
+    "message": "이 도메인은 일시정지하지 않음"
+  },
+  "html_popup_never_suspend_page": {
+    "message": "이 URL은 일시정지하지 않음"
+  },
+  "html_popup_suspend_other_tabs": {
+    "message": "다른 모든 탭 일시정지"
+  },
+  "html_popup_unsuspend_all_tabs": {
+    "message": "모든 탭 재개"
+  },
+  "html_popup_suspend_selected_tabs": {
+    "message": "선택한 탭 일시정지"
+  },
+  "html_popup_unsuspend_selected_tabs": {
+    "message": "선택한 탭 재개"
+  },
+  "html_popup_settings": {
+    "message": "설정"
+  },
+  "html_restoring_title": {
+    "message": "창 복원 중"
+  },
+  "html_restoring_heading": {
+    "message": "탭 복원 중"
+  },
+  "html_restoring_detail": {
+    "message": "이 창을 복원하는 동안 잠시 기다려 주세요..."
+  },
+  "html_recovery_title": {
+    "message": "복구"
+  },
+  "html_recovery_ruh_roh": {
+    "message": "이런!"
+  },
+  "html_recovery_description_line1": {
+    "message": "확장 프로그램 충돌에서 복구 중인 것 같습니다."
+  },
+  "html_recovery_description_line2": {
+    "message": "일시정지된 탭이 충돌하거나 사라졌을 수 있습니다."
+  },
+  "html_recovery_restore_tabs_automatically": {
+    "message": "탭 자동 복원"
+  },
+  "html_recovery_go_to_session_manager": {
+    "message": "세션 관리자로 이동"
+  },
+  "html_recovery_important_message": {
+    "message": "화면 캡처가 켜져 있습니다. 확장 프로그램이 반복적으로 충돌하는 경우 이 옵션을 비활성화하는 것이 좋습니다."
+  },
+  "html_recovery_disable_screen_capturing": {
+    "message": "화면 캡처 끄기"
+  },
+  "html_recovery_tabs_to_restore": {
+    "message": "복원할 탭"
+  },
+  "html_shortcuts_title": {
+    "message": "키보드 단축키"
+  },
+  "html_shortcuts_keyboard_shortcuts": {
+    "message": "키보드 단축키"
+  },
+  "html_shortcuts_context_menu_note": {
+    "message": "참고: 이 작업은 우클릭 메뉴를 통해서도 사용할 수 있습니다."
+  },
+  "html_shortcuts_remap_keys": {
+    "message": "단축키 변경"
+  },
+  "html_sidebar_general_settings": {
+    "message": "설정"
+  },
+  "html_sidebar_session_management": {
+    "message": "세션 관리"
+  },
+  "html_sidebar_shortcuts": {
+    "message": "키보드 단축키"
+  },
+  "html_sidebar_support": {
+    "message": "정보"
+  },
+  "html_success_great_success": {
+    "message": "성공!"
+  },
+  "html_success_all_tabs_restored": {
+    "message": "모든 탭이 복원되었습니다."
+  },
+  "html_success_goto_advanced_prefix": {
+    "message": "고급 세션 관리를 위해"
+  },
+  "html_success_goto_advanced_suffix": {
+    "message": "페이지를 방문하세요"
+  },
+  "html_session_manager": {
+    "message": "세션 관리"
+  },
+  "html_suspended_title": {
+    "message": "일시정지된 탭"
+  },
+  "html_suspended_tab_suspended": {
+    "message": "탭 일시정지됨"
+  },
+  "html_suspended_tab_reload": {
+    "message": "탭 새로고침"
+  },
+  "html_suspended_tab_whitelist_prefix": {
+    "message": "일시정지 안 함"
+  },
+  "html_suspended_tab_whitelist_suffix": {
+    "message": "..."
+  },
+  "html_suspended_click_to_reload": {
+    "message": "새로고침 또는 클릭하여 다시 로드"
+  },
+  "html_suspended_toast_not_connected": {
+    "message": "인터넷에 연결되어 있지 않습니다"
+  },
+  "html_suspended_toast_reload_disabled": {
+    "message": "탭 자동 새로고침이 일시적으로 비활성화되었습니다."
+  },
+  "html_suspended_donation_question": {
+    "message": "이 확장 프로그램이 도움이 되나요?\n기부로 지원해 주세요."
+  },
+  "html_permissions_title": {
+    "message": "권한"
+  },
+  "html_permissions_heading": {
+    "message": "로컬 파일 URL에 대한 액세스를 허용해 주세요"
+  },
+  "html_permissions_info": {
+    "message": "이 확장 프로그램은 현재 \"file\"로 시작하는 URL을 일시정지할 권한이 없습니다.\n변경하려면 확장 프로그램 설정 페이지에서 \"파일 URL에 대한 액세스 허용\"을 켜세요."
+  },
+  "html_permissions_backup": {
+    "message": "주의: 이 옵션을 변경하면 일시정지된 탭이 잠시 사라집니다.\n혹시 모르니 현재 탭 세션의 백업을 저장해 두는 것이 좋습니다."
+  },
+  "html_update_title": {
+    "message": "업데이트"
+  },
+  "html_update_heading2": {
+    "message": "더 좋아질 예정입니다"
+  },
+  "html_update_info": {
+    "message": "The Great Suspender의 새 버전을 설치할 준비가 되었습니다.\n주의: 업데이트 중 일시정지된 탭이 잠시 사라집니다."
+  },
+  "html_update_info_withbackup": {
+    "message": "혹시 모르니 현재 탭 세션의 백업을 저장해 두는 것이 좋습니다."
+  },
+  "html_update_info_nobackup_prefix": {
+    "message": "업데이트를 계속하기 전에 현재 세션의 사본을 내보내는 것을 강력히 권장합니다 "
+  },
+  "html_update_info_nobackup_suffix": {
+    "message": "."
+  },
+  "html_updated_title": {
+    "message": "업데이트 완료"
+  },
+  "html_updating_heading": {
+    "message": "업데이트 중"
+  },
+  "html_updating_message": {
+    "message": "일시정지된 탭을 복원하는 동안 잠시 기다려 주세요..."
+  },
+  "html_updated_great_suspender_updated": {
+    "message": "이(가) 업데이트되었습니다"
+  },
+  "html_updated_info_line1": {
+    "message": "업데이트 전에 탭의 자동 백업이 생성되었습니다."
+  },
+  "html_updated_info_line2_prefix": {
+    "message": "업데이트 중 문제가 발생한 경우 "
+  },
+  "html_updated_info_line2_suffix": {
+    "message": " 페이지에서 잃어버린 탭을 복구할 수 있습니다."
+  },
+  "html_updated_detail_header_prefix": {
+    "message": "버전 "
+  },
+  "html_updated_detail_header_suffix": {
+    "message": "의 새로운 기능"
+  },
+  "html_updated_new_features_header": {
+    "message": "새 기능:"
+  },
+  "html_updated_bug_fixes_header": {
+    "message": "버그 수정:"
+  },
+  "html_updated_release_notes": {
+    "message": "전체 릴리스 노트는 GitHub를 방문하세요: "
+  },
+  "html_updated_patch_message": {
+    "message": "불편을 드려 죄송합니다. 약간의 유지 관리가 필요했습니다."
+  },
+  "html_welcome_title": {
+    "message": "환영합니다"
+  },
+  "html_welcome_text_line1": {
+    "message": "사용해 주셔서 감사합니다"
+  },
+  "html_welcome_text_line2": {
+    "message": "사용하지 않는 탭을 일시정지하여 컴퓨터를 원활하게 실행합니다."
+  },
+  "html_welcome_text_line3": {
+    "message": "아래 설정을 세부 조정할 수 있습니다."
+  },
+  "html_thanks_title": {
+    "message": "감사합니다"
+  },
+  "html_thanks_header": {
+    "message": "지원해 주셔서 감사합니다!"
+  },
+  "html_thanks_sub_header": {
+    "message": "오늘 좋은 일들이 가득하길 바랍니다."
+  },
+  "js_popup_normal": {
+    "message": "탭이 자동으로 일시정지됩니다."
+  },
+  "js_popup_normal_pause": {
+    "message": "지금 안 함"
+  },
+  "js_popup_special": {
+    "message": "탭을 일시정지할 수 없습니다"
+  },
+  "js_popup_suspended": {
+    "message": "탭 일시정지됨"
+  },
+  "js_popup_suspended_pause": {
+    "message": "일시정지 안 함"
+  },
+  "js_popup_whitelisted": {
+    "message": "사이트가 화이트리스트에 있습니다."
+  },
+  "js_popup_whitelisted_remove": {
+    "message": "화이트리스트에서 제거"
+  },
+  "js_popup_audible": {
+    "message": "탭에서 오디오가 재생 중입니다."
+  },
+  "js_popup_form_input": {
+    "message": "탭에서 양식 입력을 받고 있습니다."
+  },
+  "js_popup_form_input_unpause": {
+    "message": "재개"
+  },
+  "js_popup_pinned": {
+    "message": "탭이 고정되었습니다"
+  },
+  "js_popup_temp_whitelist": {
+    "message": "탭 일시정지가 중단되었습니다."
+  },
+  "js_popup_temp_whitelist_unpause": {
+    "message": "재개"
+  },
+  "js_popup_never": {
+    "message": "탭 자동 일시정지가 비활성화되었습니다."
+  },
+  "js_popup_no_connectivity": {
+    "message": "네트워크 연결 없음"
+  },
+  "js_popup_charging": {
+    "message": "전원에 연결됨"
+  },
+  "js_popup_blockedFile": {
+    "message": "로컬 파일은 일시정지할 수 없습니다."
+  },
+  "js_popup_blockedFile_enable": {
+    "message": "활성화"
+  },
+  "js_popup_unknown": {
+    "message": "탭 로딩을 기다리는 중..."
+  },
+  "js_popup_initialising": {
+    "message": "확장 프로그램 초기화를 기다리는 중..."
+  },
+  "js_popup_error": {
+    "message": "이 탭에서는 자동 일시정지를 사용할 수 없습니다"
+  },
+  "js_history_delete": {
+    "message": "삭제"
+  },
+  "js_history_export": {
+    "message": "내보내기"
+  },
+  "js_history_reload": {
+    "message": "열고 로드"
+  },
+  "js_history_resuspend": {
+    "message": "열고 일시정지"
+  },
+  "js_history_save": {
+    "message": "저장"
+  },
+  "js_history_window": {
+    "message": "창"
+  },
+  "js_history_tab": {
+    "message": "탭"
+  },
+  "js_history_plural": {
+    "message": ""
+  },
+  "js_history_enter_name_for_session": {
+    "message": "이 세션의 이름을 입력하세요"
+  },
+  "js_history_confirm_delete": {
+    "message": "이 세션을 삭제하시겠습니까?"
+  },
+  "js_history_confirm_session_overwrite": {
+    "message": "이 이름의 저장된 세션이 이미 있습니다. 기존 세션을 덮어쓸까요?"
+  },
+  "js_history_import_fail": {
+    "message": "파일을 불러오지 못했습니다. 파일이 일반 텍스트이고 한 줄에 하나의 URL이 포함되어 있는지 확인하세요."
+  },
+  "js_suspended_remove_from_whitelist": {
+    "message": "화이트리스트에서 사이트 제거"
+  },
+  "js_suspended_hotkey_to_reload": {
+    "message": "키보드 단축키 설정"
+  },
+  "js_suspended_low_memory": {
+    "message": "시스템 메모리 부족으로 탭이 일시정지되었습니다"
+  },
+  "js_options_incognito_warning": {
+    "message": "시크릿 모드입니다. 일부 기능을 사용할 수 없습니다."
+  },
+  "js_options_whitelist_no_matches": {
+    "message": "현재 화이트리스트와 일치하는 열린 탭이 없습니다."
+  },
+  "js_options_whitelist_matches_heading": {
+    "message": "화이트리스트에 있는 열린 탭:"
+  },
+  "js_options_whitelist_matches_overflow_prefix": {
+    "message": "및"
+  },
+  "js_options_whitelist_matches_overflow_suffix": {
+    "message": "개 더."
+  },
+  "js_permissions_button_export": {
+    "message": "백업 저장"
+  },
+  "js_permissions_button_set": {
+    "message": "확장 프로그램 설정 열기"
+  },
+  "js_update_confirm": {
+    "message": "아직 백업을 저장하지 않았습니다. 그래도 확장 프로그램을 업데이트할까요?"
+  },
+  "js_update_button_export": {
+    "message": "백업 저장"
+  },
+  "js_update_button_reload": {
+    "message": "지금 확장 프로그램 업데이트"
+  },
+  "js_shortcuts_not_set": {
+    "message": "설정 안 됨"
+  },
+  "js_session_save_point": {
+    "message": "v에 대한 자동 저장 지점"
+  }
+}

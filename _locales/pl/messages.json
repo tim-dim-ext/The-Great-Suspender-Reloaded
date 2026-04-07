@@ -1,0 +1,686 @@
+{
+  "ext_extension_name": {
+    "message": "The Great Suspender | Tab Suspender - Zawieś karty 2026"
+  },
+  "ext_extension_description": {
+    "message": "Zawiesza nieaktywne karty Chrome, zwalniając pamięć RAM. Najlepszy Tab Suspender — automatycznie zawiesza karty i przywraca jednym kliknięciem."
+  },
+  "ext_default_title": {
+    "message": "The Great Suspender"
+  },
+  "ext_cmd_toggle_tab_suspension_description": {
+    "message": "Zawieś/Wznów aktywną kartę"
+  },
+  "ext_cmd_toggle_tab_pause_description": {
+    "message": "Wstrzymaj/Wznów zawieszanie aktywnej karty"
+  },
+  "ext_cmd_suspend_selected_tabs_description": {
+    "message": "Zawieś wybrane karty"
+  },
+  "ext_cmd_unsuspend_selected_tabs_description": {
+    "message": "Wznów wybrane karty"
+  },
+  "ext_cmd_soft_suspend_active_window_description": {
+    "message": "Zawieś wszystkie inne karty w aktywnym oknie"
+  },
+  "ext_cmd_force_suspend_active_window_description": {
+    "message": "Wymuś zawieszenie wszystkich innych kart w aktywnym oknie"
+  },
+  "ext_cmd_unsuspend_active_window_description": {
+    "message": "Wznów wszystkie karty w aktywnym oknie"
+  },
+  "ext_cmd_soft_suspend_all_windows_description": {
+    "message": "Zawieś wszystkie karty we wszystkich oknach"
+  },
+  "ext_cmd_force_suspend_all_windows_description": {
+    "message": "Wymuś zawieszenie wszystkich kart we wszystkich oknach"
+  },
+  "ext_cmd_unsuspend_all_windows_description": {
+    "message": "Wznów wszystkie karty we wszystkich oknach"
+  },
+  "js_context_open_link_in_suspended_tab": {
+    "message": "Otwórz link w nowej zawieszonej karcie"
+  },
+  "js_context_toggle_suspend_state": {
+    "message": "Zawieś/Wznów tę kartę"
+  },
+  "js_context_toggle_pause_suspension": {
+    "message": "Wstrzymaj/Wznów zawieszanie tej karty"
+  },
+  "js_context_never_suspend_domain": {
+    "message": "Nigdy nie zawieszaj tej domeny"
+  },
+  "js_context_never_suspend_page": {
+    "message": "Nigdy nie zawieszaj tego URL"
+  },
+  "js_context_suspend_selected_tabs": {
+    "message": "Zawieś wybrane karty"
+  },
+  "js_context_unsuspend_selected_tabs": {
+    "message": "Wznów wybrane karty"
+  },
+  "js_context_soft_suspend_other_tabs_in_window": {
+    "message": "Zawieś wszystkie inne karty w tym oknie"
+  },
+  "js_context_force_suspend_other_tabs_in_window": {
+    "message": "Wymuś zawieszenie wszystkich innych kart w tym oknie"
+  },
+  "js_context_unsuspend_all_tabs_in_window": {
+    "message": "Wznów wszystkie karty w tym oknie"
+  },
+  "js_context_soft_suspend_all_tabs": {
+    "message": "Zawieś wszystkie karty we wszystkich oknach"
+  },
+  "js_context_force_suspend_all_tabs": {
+    "message": "Wymuś zawieszenie wszystkich kart we wszystkich oknach"
+  },
+  "js_context_unsuspend_all_tabs": {
+    "message": "Wznów wszystkie karty we wszystkich oknach"
+  },
+  "html_about_title": {
+    "message": "O rozszerzeniu"
+  },
+  "html_history_title": {
+    "message": "Zarządzanie sesjami"
+  },
+  "html_history_current_session": {
+    "message": "Bieżąca sesja"
+  },
+  "html_history_recent_sessions": {
+    "message": "Ostatnie sesje"
+  },
+  "html_history_saved_sessions": {
+    "message": "Zapisane sesje"
+  },
+  "html_history_import_session": {
+    "message": "Importuj sesję"
+  },
+  "html_notice_title": {
+    "message": "Powiadomienie"
+  },
+  "html_notice_important_notice": {
+    "message": "Ważne powiadomienie od The Great Suspender"
+  },
+  "html_options_title": {
+    "message": "Ustawienia"
+  },
+  "html_options_suspend_title": {
+    "message": "Automatyczne zawieszanie kart"
+  },
+  "html_options_suspended_title": {
+    "message": "Zawieszone karty"
+  },
+  "html_options_other_title": {
+    "message": "Inne"
+  },
+  "html_options_suspend_automatically_after": {
+    "message": "Automatycznie zawieszaj karty po"
+  },
+  "html_options_suspend_never": {
+    "message": "Nigdy"
+  },
+  "html_options_suspend_seconds": {
+    "message": "sekundy"
+  },
+  "html_options_suspend_minute": {
+    "message": "min"
+  },
+  "html_options_suspend_minutes": {
+    "message": "min"
+  },
+  "html_options_suspend_hour": {
+    "message": "godzina"
+  },
+  "html_options_suspend_hours": {
+    "message": "godz."
+  },
+  "html_options_suspend_day": {
+    "message": "dzień"
+  },
+  "html_options_suspend_days": {
+    "message": "dni"
+  },
+  "html_options_suspend_week": {
+    "message": "tydzień"
+  },
+  "html_options_suspend_weeks": {
+    "message": "tygodnie"
+  },
+  "html_options_suspend_no_pinned": {
+    "message": "Nigdy nie zawieszaj przypiętych kart"
+  },
+  "html_options_suspend_no_forms": {
+    "message": "Nigdy nie zawieszaj kart z niezapisanymi danymi formularza"
+  },
+  "html_options_suspend_no_audio": {
+    "message": "Nigdy nie zawieszaj kart odtwarzających dźwięk"
+  },
+  "html_options_suspend_only_connected": {
+    "message": "Nigdy nie zawieszaj kart bez połączenia z internetem"
+  },
+  "html_options_suspend_only_on_battery": {
+    "message": "Nigdy nie zawieszaj kart przy podłączonym zasilaniu"
+  },
+  "html_options_suspend_no_active_tabs": {
+    "message": "Nigdy nie zawieszaj aktywnej karty w każdym oknie"
+  },
+  "html_options_suspend_automatically_unsuspend": {
+    "message": "Automatycznie wznów kartę po jej wyświetleniu"
+  },
+  "html_options_suspend_discard_after_suspend": {
+    "message": "Zastosuj wbudowane oszczędzanie pamięci Chrome przy zawieszaniu"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1a": {
+    "message": "Jeszcze bardziej zmniejsza użycie pamięci zawieszonej karty, korzystając z"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1b": {
+    "message": "wbudowanej funkcji 'odrzucania kart' Chrome. Może to skutkować oszczędnością nawet"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1c": {
+    "message": "500% pamięci przy dużej liczbie otwartych kart."
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line2a": {
+    "message": "Spowoduje to jednak niewielkie opóźnienie renderowania przy wyborze"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line2b": {
+    "message": "zawieszonej karty."
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line3a": {
+    "message": "Więcej informacji o odrzucaniu kart Chrome:"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line3b": {
+    "message": "https://developers.google.com/web/updates/2015/09/tab-discarding"
+  },
+  "html_options_suspend_theme": {
+    "message": "Motyw"
+  },
+  "html_options_suspend_theme_light": {
+    "message": "Jasny"
+  },
+  "html_options_suspend_theme_dark": {
+    "message": "Ciemny"
+  },
+  "html_options_suspend_screen_capturing": {
+    "message": "Przechwytywanie ekranu"
+  },
+  "html_options_suspend_screen_capturing_disabled": {
+    "message": "Wyłączone"
+  },
+  "html_options_suspend_screen_capturing_screen_only": {
+    "message": "Przechwyć tylko górną część ekranu"
+  },
+  "html_options_suspend_screen_capturing_entire_page": {
+    "message": "Przechwyć całą stronę"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line1a": {
+    "message": "Na zawieszonej karcie rozszerzenie może wyświetlić podgląd tego, jak wyglądała karta"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line1b": {
+    "message": "tuż przed zawieszeniem."
+  },
+  "html_options_suspend_screen_capturing_tooltip_line2a": {
+    "message": "Przechwytywanie ekranu jest funkcją eksperymentalną i może powodować znaczne użycie CPU"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line2b": {
+    "message": "oraz nieznaczny wzrost użycia pamięci."
+  },
+  "html_options_suspend_screen_capturing_tooltip_line3a": {
+    "message": "Jeśli zauważysz dziwne zachowanie (karty długo się zawieszają lub Chrome"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line3b": {
+    "message": "nieoczekiwanie się zawiesza), spróbuj wyłączyć tę funkcję."
+  },
+  "html_options_suspend_force_screen_capture": {
+    "message": "Włącz wysokiej jakości przechwytywanie ekranu"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line1": {
+    "message": "Gdy wyłączone, przechwytywanie ekranu ma następujące ograniczenia dla poprawy wydajności:"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line2": {
+    "message": "- Niska jakość przechwytywania ekranu"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line4": {
+    "message": "- Nie przechwyci ekranu, jeśli generowanie obrazu zajmuje ponad 1 minutę"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line5": {
+    "message": "- Maksymalna wysokość zrzutu ekranu ograniczona do 5000 px"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line6": {
+    "message": "Włączenie trybu wysokiej jakości może znacznie zwiększyć obciążenie CPU"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line7": {
+    "message": "i użycie pamięci."
+  },
+  "html_options_whitelist_title": {
+    "message": "Nigdy nie zawieszaj kart z adresami URL z poniższej listy:"
+  },
+  "html_options_whitelist_tooltip_line1": {
+    "message": "Dodaj URL każdej strony, którą chcesz umieścić na białej liście, w nowej linii. Na przykład:"
+  },
+  "html_options_whitelist_tooltip_line2": {
+    "message": "Aby dodać wiele witryn w jednej linii, podaj część adresu URL:"
+  },
+  "html_options_whitelist_tooltip_line3": {
+    "message": "Możesz też używać wyrażeń regularnych, otaczając tekst ukośnikami:"
+  },
+  "html_options_whitelist_test": {
+    "message": "Testuj białą listę"
+  },
+  "html_options_other_enable_context_menu": {
+    "message": "Dodaj The Great Suspender do menu kontekstowego (prawy przycisk myszy)"
+  },
+  "html_options_other_enable_context_menu_tooltip_line1": {
+    "message": "Dodaje kontrolki tego rozszerzenia do menu kontekstowego strony internetowej."
+  },
+  "html_options_other_enable_context_menu_tooltip_line2": {
+    "message": "Zapewni dostęp do zaawansowanych akcji zawieszania niedostępnych"
+  },
+  "html_options_other_enable_context_menu_tooltip_line3": {
+    "message": "w innych częściach rozszerzenia."
+  },
+  "html_options_other_enable_sync": {
+    "message": "Synchronizuj ustawienia z profilem Chrome"
+  },
+  "html_options_other_enable_sync_tooltip_line1a": {
+    "message": "Ustawienia rozszerzenia zostaną zsynchronizowane we wszystkich przeglądarkach Chrome,"
+  },
+  "html_options_other_enable_sync_tooltip_line1b": {
+    "message": "które są zalogowane tym samym profilem."
+  },
+  "html_options_other_enable_sync_tooltip_line2": {
+    "message": "Spowoduje to również synchronizację ustawień w trybie incognito."
+  },
+  "html_options_other_enable_sync_warning": {
+    "message": "Włączenie tej opcji zastąpi ustawienia na wszystkich innych przeglądarkach zalogowanych tym samym profilem Chrome"
+  },
+  "html_options_suspend_on_low_memory": {
+    "message": "Natychmiast zawieś, gdy pamięć systemowa jest bardzo niska"
+  },
+  "html_options_suspend_on_low_memory_tooltip_line1": {
+    "message": "Ta opcja zastąpi funkcję automatycznego odrzucania kart Chrome."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line2": {
+    "message": "Jeśli włączona, karta zostanie zawieszona zamiast odrzucona przez Chrome."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line3": {
+    "message": "Zazwyczaj Chrome odrzuca karty tylko gdy pamięć systemowa jest bardzo niska."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line4": {
+    "message": "Uwaga: może to spowodować zawieszenie kart wcześniej niż czas"
+  },
+  "html_options_suspend_on_low_memory_tooltip_line5": {
+    "message": "ustawiony w opcjach automatycznego zawieszania."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line6": {
+    "message": "Więcej informacji o odrzucaniu kart Chrome:"
+  },
+  "html_options_suspend_on_low_memory_tooltip_discarding_link": {
+    "message": "https://developers.google.com/web/updates/2015/09/tab-discarding"
+  },
+  "html_popup_unsuspend_tab": {
+    "message": "Wznów tę kartę"
+  },
+  "html_popup_suspend_tab": {
+    "message": "Zawieś tę kartę teraz"
+  },
+  "html_popup_dont_suspend_now": {
+    "message": "Nie zawieszaj teraz"
+  },
+  "html_popup_never_suspend_domain": {
+    "message": "Nigdy nie zawieszaj tej domeny"
+  },
+  "html_popup_never_suspend_page": {
+    "message": "Nigdy nie zawieszaj tego URL"
+  },
+  "html_popup_suspend_other_tabs": {
+    "message": "Zawieś wszystkie inne karty"
+  },
+  "html_popup_unsuspend_all_tabs": {
+    "message": "Wznów wszystkie karty"
+  },
+  "html_popup_suspend_selected_tabs": {
+    "message": "Zawieś wybrane karty"
+  },
+  "html_popup_unsuspend_selected_tabs": {
+    "message": "Wznów wybrane karty"
+  },
+  "html_popup_settings": {
+    "message": "Ustawienia"
+  },
+  "html_restoring_title": {
+    "message": "Przywracanie okna"
+  },
+  "html_restoring_heading": {
+    "message": "Przywracanie kart"
+  },
+  "html_restoring_detail": {
+    "message": "Proszę czekać na przywrócenie tego okna..."
+  },
+  "html_recovery_title": {
+    "message": "Odzyskiwanie"
+  },
+  "html_recovery_ruh_roh": {
+    "message": "Ojej!"
+  },
+  "html_recovery_description_line1": {
+    "message": "Wygląda na to, że rekonwalesujesz po awarii rozszerzenia."
+  },
+  "html_recovery_description_line2": {
+    "message": "Twoje zawieszone karty mogły ulec awarii lub zniknąć."
+  },
+  "html_recovery_restore_tabs_automatically": {
+    "message": "Przywróć karty automatycznie"
+  },
+  "html_recovery_go_to_session_manager": {
+    "message": "Przejdź do menedżera sesji"
+  },
+  "html_recovery_important_message": {
+    "message": "Przechwytywanie ekranu jest włączone. Jeśli rozszerzenie wielokrotnie się zawiesza, zaleca się wyłączenie tej opcji."
+  },
+  "html_recovery_disable_screen_capturing": {
+    "message": "Wyłącz przechwytywanie ekranu"
+  },
+  "html_recovery_tabs_to_restore": {
+    "message": "Karty do przywrócenia"
+  },
+  "html_shortcuts_title": {
+    "message": "Skróty klawiszowe"
+  },
+  "html_shortcuts_keyboard_shortcuts": {
+    "message": "Skróty klawiszowe"
+  },
+  "html_shortcuts_context_menu_note": {
+    "message": "Uwaga: te akcje są również dostępne przez menu kontekstowe (prawy przycisk myszy)."
+  },
+  "html_shortcuts_remap_keys": {
+    "message": "Zmień skróty"
+  },
+  "html_sidebar_general_settings": {
+    "message": "Ustawienia"
+  },
+  "html_sidebar_session_management": {
+    "message": "Zarządzanie sesjami"
+  },
+  "html_sidebar_shortcuts": {
+    "message": "Skróty klawiszowe"
+  },
+  "html_sidebar_support": {
+    "message": "O rozszerzeniu"
+  },
+  "html_success_great_success": {
+    "message": "Sukces!"
+  },
+  "html_success_all_tabs_restored": {
+    "message": "Wszystkie twoje karty zostały przywrócone."
+  },
+  "html_success_goto_advanced_prefix": {
+    "message": "Aby uzyskać zaawansowane zarządzanie sesjami, odwiedź"
+  },
+  "html_success_goto_advanced_suffix": {
+    "message": "stronę"
+  },
+  "html_session_manager": {
+    "message": "zarządzanie sesjami"
+  },
+  "html_suspended_title": {
+    "message": "Zawieszona karta"
+  },
+  "html_suspended_tab_suspended": {
+    "message": "Karta zawieszona"
+  },
+  "html_suspended_tab_reload": {
+    "message": "Przeładuj kartę"
+  },
+  "html_suspended_tab_whitelist_prefix": {
+    "message": "Nigdy nie zawieszaj"
+  },
+  "html_suspended_tab_whitelist_suffix": {
+    "message": "..."
+  },
+  "html_suspended_click_to_reload": {
+    "message": "Odśwież lub kliknij, aby przeładować"
+  },
+  "html_suspended_toast_not_connected": {
+    "message": "Nie masz połączenia z internetem"
+  },
+  "html_suspended_toast_reload_disabled": {
+    "message": "Automatyczne przeładowywanie kart jest tymczasowo wyłączone."
+  },
+  "html_suspended_donation_question": {
+    "message": "Czy to rozszerzenie sprawia, że jesteś szczęśliwy?\nOkaż wsparcie, przekazując darowiznę."
+  },
+  "html_permissions_title": {
+    "message": "Uprawnienia"
+  },
+  "html_permissions_heading": {
+    "message": "Proszę przyznać mi dostęp do lokalnych adresów URL plików"
+  },
+  "html_permissions_info": {
+    "message": "To rozszerzenie nie ma uprawnień do zawieszania adresów URL zaczynających się od słowa \"file\".\nAby to zmienić, włącz \"Zezwalaj na dostęp do adresów URL plików\" na stronie ustawień rozszerzenia."
+  },
+  "html_permissions_backup": {
+    "message": "Uwaga: zmiana tej opcji spowoduje chwilowe zniknięcie zawieszonych kart.\nNa wszelki wypadek warto teraz zapisać kopię zapasową bieżącej sesji kart."
+  },
+  "html_update_title": {
+    "message": "Aktualizacja"
+  },
+  "html_update_heading2": {
+    "message": "zaraz stanie się jeszcze lepszy"
+  },
+  "html_update_info": {
+    "message": "Nowa wersja The Great Suspender jest gotowa do zainstalowania.\nUwaga: podczas aktualizacji zawieszone karty chwilowo znikną."
+  },
+  "html_update_info_withbackup": {
+    "message": "Na wszelki wypadek warto teraz zapisać kopię zapasową bieżącej sesji kart."
+  },
+  "html_update_info_nobackup_prefix": {
+    "message": "Zdecydowanie zaleca się wyeksportowanie kopii bieżącej sesji z "
+  },
+  "html_update_info_nobackup_suffix": {
+    "message": " przed kontynuowaniem aktualizacji."
+  },
+  "html_updated_title": {
+    "message": "Zaktualizowano"
+  },
+  "html_updating_heading": {
+    "message": "jest aktualizowany"
+  },
+  "html_updating_message": {
+    "message": "Proszę czekać na przywrócenie zawieszonych kart..."
+  },
+  "html_updated_great_suspender_updated": {
+    "message": "został zaktualizowany"
+  },
+  "html_updated_info_line1": {
+    "message": "Automatyczna kopia zapasowa kart została wykonana przed aktualizacją."
+  },
+  "html_updated_info_line2_prefix": {
+    "message": "Jeśli napotkałeś problemy podczas aktualizacji, możesz odzyskać utracone karty ze strony "
+  },
+  "html_updated_info_line2_suffix": {
+    "message": "."
+  },
+  "html_updated_detail_header_prefix": {
+    "message": "Co nowego w wersji "
+  },
+  "html_updated_detail_header_suffix": {
+    "message": "?"
+  },
+  "html_updated_new_features_header": {
+    "message": "Nowe funkcje:"
+  },
+  "html_updated_bug_fixes_header": {
+    "message": "Poprawki błędów:"
+  },
+  "html_updated_release_notes": {
+    "message": "Odwiedź GitHub, aby zobaczyć pełne informacje o wydaniu: "
+  },
+  "html_updated_patch_message": {
+    "message": "Przepraszamy za zakłócenia. Musiałem tylko przeprowadzić niewielką konserwację."
+  },
+  "html_welcome_title": {
+    "message": "Witamy"
+  },
+  "html_welcome_text_line1": {
+    "message": "Dziękujemy za wypróbowanie"
+  },
+  "html_welcome_text_line2": {
+    "message": "Sprawiasz, że twój komputer działa płynnie, zawieszając karty, których nie używasz."
+  },
+  "html_welcome_text_line3": {
+    "message": "Możesz dostosować ustawienia poniżej."
+  },
+  "html_thanks_title": {
+    "message": "Dziękujemy"
+  },
+  "html_thanks_header": {
+    "message": "Dziękujemy za wsparcie!"
+  },
+  "html_thanks_sub_header": {
+    "message": "Niech dzisiaj spotkają cię same wspaniałe rzeczy."
+  },
+  "js_popup_normal": {
+    "message": "Karta zostanie automatycznie zawieszona."
+  },
+  "js_popup_normal_pause": {
+    "message": "Nie teraz"
+  },
+  "js_popup_special": {
+    "message": "Karta nie może zostać zawieszona"
+  },
+  "js_popup_suspended": {
+    "message": "Karta zawieszona"
+  },
+  "js_popup_suspended_pause": {
+    "message": "Nie zawieszaj"
+  },
+  "js_popup_whitelisted": {
+    "message": "Witryna na białej liście."
+  },
+  "js_popup_whitelisted_remove": {
+    "message": "Usuń z białej listy"
+  },
+  "js_popup_audible": {
+    "message": "Karta odtwarza dźwięk."
+  },
+  "js_popup_form_input": {
+    "message": "Karta odbiera dane formularza."
+  },
+  "js_popup_form_input_unpause": {
+    "message": "Wznów"
+  },
+  "js_popup_pinned": {
+    "message": "Karta została przypięta"
+  },
+  "js_popup_temp_whitelist": {
+    "message": "Zawieszanie karty wstrzymane."
+  },
+  "js_popup_temp_whitelist_unpause": {
+    "message": "Wznów"
+  },
+  "js_popup_never": {
+    "message": "Automatyczne zawieszanie kart wyłączone."
+  },
+  "js_popup_no_connectivity": {
+    "message": "Brak połączenia sieciowego"
+  },
+  "js_popup_charging": {
+    "message": "Podłączono do źródła zasilania"
+  },
+  "js_popup_blockedFile": {
+    "message": "Pliki lokalne nie mogą być zawieszone."
+  },
+  "js_popup_blockedFile_enable": {
+    "message": "Włącz"
+  },
+  "js_popup_unknown": {
+    "message": "Oczekiwanie na załadowanie karty..."
+  },
+  "js_popup_initialising": {
+    "message": "Oczekiwanie na inicjalizację rozszerzenia..."
+  },
+  "js_popup_error": {
+    "message": "Automatyczne zawieszanie niedostępne dla tej karty"
+  },
+  "js_history_delete": {
+    "message": "usuń"
+  },
+  "js_history_export": {
+    "message": "eksportuj"
+  },
+  "js_history_reload": {
+    "message": "otwórz i załaduj"
+  },
+  "js_history_resuspend": {
+    "message": "otwórz i zawieś"
+  },
+  "js_history_save": {
+    "message": "zapisz"
+  },
+  "js_history_window": {
+    "message": "Okno"
+  },
+  "js_history_tab": {
+    "message": "Karta"
+  },
+  "js_history_plural": {
+    "message": "y"
+  },
+  "js_history_enter_name_for_session": {
+    "message": "Wprowadź nazwę dla tej sesji"
+  },
+  "js_history_confirm_delete": {
+    "message": "Czy na pewno chcesz usunąć tę sesję?"
+  },
+  "js_history_confirm_session_overwrite": {
+    "message": "Istnieje już zapisana sesja o tej nazwie. Nadpisać istniejącą sesję?"
+  },
+  "js_history_import_fail": {
+    "message": "Nie udało się załadować pliku. Upewnij się, że jest to zwykły tekst z jednym adresem URL na linię."
+  },
+  "js_suspended_remove_from_whitelist": {
+    "message": "Usuń witrynę z białej listy"
+  },
+  "js_suspended_hotkey_to_reload": {
+    "message": "Ustaw skróty klawiszowe"
+  },
+  "js_suspended_low_memory": {
+    "message": "Karta zawieszona z powodu niskiej pamięci systemowej"
+  },
+  "js_options_incognito_warning": {
+    "message": "Jesteś w trybie incognito. Niektóre funkcje nie będą dostępne."
+  },
+  "js_options_whitelist_no_matches": {
+    "message": "Brak otwartych kart pasujących do bieżącej białej listy."
+  },
+  "js_options_whitelist_matches_heading": {
+    "message": "Otwarte karty na białej liście:"
+  },
+  "js_options_whitelist_matches_overflow_prefix": {
+    "message": "i"
+  },
+  "js_options_whitelist_matches_overflow_suffix": {
+    "message": "więcej."
+  },
+  "js_permissions_button_export": {
+    "message": "Zapisz kopię zapasową"
+  },
+  "js_permissions_button_set": {
+    "message": "Otwórz ustawienia rozszerzenia"
+  },
+  "js_update_confirm": {
+    "message": "Nie zapisałeś jeszcze kopii zapasowej. Zaktualizować rozszerzenie mimo to?"
+  },
+  "js_update_button_export": {
+    "message": "Zapisz kopię zapasową"
+  },
+  "js_update_button_reload": {
+    "message": "Zaktualizuj rozszerzenie teraz"
+  },
+  "js_shortcuts_not_set": {
+    "message": "nie ustawiono"
+  },
+  "js_session_save_point": {
+    "message": "Automatyczny punkt zapisu dla v"
+  }
+}

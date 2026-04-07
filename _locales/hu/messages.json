@@ -1,0 +1,686 @@
+{
+  "ext_extension_name": {
+    "message": "The Great Suspender | Tab Suspender - Lapok felfüggesztése"
+  },
+  "ext_extension_description": {
+    "message": "Függessze fel az inaktív Chrome lapokat a RAM megtakarításához és a gyorsítás érdekében. A legjobb Tab Suspender — automatikusan lefagyasztja a nem használt lapokat és azonnal visszaállítja őket."
+  },
+  "ext_default_title": {
+    "message": "The Great Suspender"
+  },
+  "ext_cmd_toggle_tab_suspension_description": {
+    "message": "Aktív lap felfüggesztése/Visszaállítása"
+  },
+  "ext_cmd_toggle_tab_pause_description": {
+    "message": "Aktív lap szüneteltetése/Folytatása"
+  },
+  "ext_cmd_suspend_selected_tabs_description": {
+    "message": "Kijelölt lapok felfüggesztése"
+  },
+  "ext_cmd_unsuspend_selected_tabs_description": {
+    "message": "Kijelölt lapok visszaállítása"
+  },
+  "ext_cmd_soft_suspend_active_window_description": {
+    "message": "Az összes többi lap felfüggesztése az aktív ablakban"
+  },
+  "ext_cmd_force_suspend_active_window_description": {
+    "message": "Az összes többi lap kényszer-felfüggesztése az aktív ablakban"
+  },
+  "ext_cmd_unsuspend_active_window_description": {
+    "message": "Az összes lap visszaállítása az aktív ablakban"
+  },
+  "ext_cmd_soft_suspend_all_windows_description": {
+    "message": "Az összes lap felfüggesztése minden ablakban"
+  },
+  "ext_cmd_force_suspend_all_windows_description": {
+    "message": "Az összes lap kényszer-felfüggesztése minden ablakban"
+  },
+  "ext_cmd_unsuspend_all_windows_description": {
+    "message": "Az összes lap visszaállítása minden ablakban"
+  },
+  "js_context_open_link_in_suspended_tab": {
+    "message": "Link megnyitása új felfüggesztett lapban"
+  },
+  "js_context_toggle_suspend_state": {
+    "message": "Ezen lap felfüggesztése/Visszaállítása"
+  },
+  "js_context_toggle_pause_suspension": {
+    "message": "Ezen lap szüneteltetése/Folytatása"
+  },
+  "js_context_never_suspend_domain": {
+    "message": "Soha ne függessze fel ezt a domént"
+  },
+  "js_context_never_suspend_page": {
+    "message": "Soha ne függessze fel ezt az URL-t"
+  },
+  "js_context_suspend_selected_tabs": {
+    "message": "Kijelölt lapok felfüggesztése"
+  },
+  "js_context_unsuspend_selected_tabs": {
+    "message": "Kijelölt lapok visszaállítása"
+  },
+  "js_context_soft_suspend_other_tabs_in_window": {
+    "message": "Az összes többi lap felfüggesztése ebben az ablakban"
+  },
+  "js_context_force_suspend_other_tabs_in_window": {
+    "message": "Az összes többi lap kényszer-felfüggesztése ebben az ablakban"
+  },
+  "js_context_unsuspend_all_tabs_in_window": {
+    "message": "Az összes lap visszaállítása ebben az ablakban"
+  },
+  "js_context_soft_suspend_all_tabs": {
+    "message": "Az összes lap felfüggesztése minden ablakban"
+  },
+  "js_context_force_suspend_all_tabs": {
+    "message": "Az összes lap kényszer-felfüggesztése minden ablakban"
+  },
+  "js_context_unsuspend_all_tabs": {
+    "message": "Az összes lap visszaállítása minden ablakban"
+  },
+  "html_about_title": {
+    "message": "Névjegy"
+  },
+  "html_history_title": {
+    "message": "Munkamenet-kezelés"
+  },
+  "html_history_current_session": {
+    "message": "Jelenlegi munkamenet"
+  },
+  "html_history_recent_sessions": {
+    "message": "Legutóbbi munkamenetek"
+  },
+  "html_history_saved_sessions": {
+    "message": "Mentett munkamenetek"
+  },
+  "html_history_import_session": {
+    "message": "Munkamenet importálása"
+  },
+  "html_notice_title": {
+    "message": "Értesítés"
+  },
+  "html_notice_important_notice": {
+    "message": "Fontos értesítés a The Great Suspendertől"
+  },
+  "html_options_title": {
+    "message": "Beállítások"
+  },
+  "html_options_suspend_title": {
+    "message": "Automatikus lapfelfüggesztés"
+  },
+  "html_options_suspended_title": {
+    "message": "Felfüggesztett lapok"
+  },
+  "html_options_other_title": {
+    "message": "Egyéb"
+  },
+  "html_options_suspend_automatically_after": {
+    "message": "Lapok automatikus felfüggesztése után"
+  },
+  "html_options_suspend_never": {
+    "message": "Soha"
+  },
+  "html_options_suspend_seconds": {
+    "message": "másodperc"
+  },
+  "html_options_suspend_minute": {
+    "message": "perc"
+  },
+  "html_options_suspend_minutes": {
+    "message": "perc"
+  },
+  "html_options_suspend_hour": {
+    "message": "óra"
+  },
+  "html_options_suspend_hours": {
+    "message": "óra"
+  },
+  "html_options_suspend_day": {
+    "message": "nap"
+  },
+  "html_options_suspend_days": {
+    "message": "nap"
+  },
+  "html_options_suspend_week": {
+    "message": "hét"
+  },
+  "html_options_suspend_weeks": {
+    "message": "hét"
+  },
+  "html_options_suspend_no_pinned": {
+    "message": "Rögzített lapok soha ne legyenek felfüggesztve"
+  },
+  "html_options_suspend_no_forms": {
+    "message": "Nem mentett űrlapot tartalmazó lapok soha ne legyenek felfüggesztve"
+  },
+  "html_options_suspend_no_audio": {
+    "message": "Hangot lejátszó lapok soha ne legyenek felfüggesztve"
+  },
+  "html_options_suspend_only_connected": {
+    "message": "Offline állapotban soha ne függessze fel a lapokat"
+  },
+  "html_options_suspend_only_on_battery": {
+    "message": "Töltő csatlakoztatásakor soha ne függessze fel a lapokat"
+  },
+  "html_options_suspend_no_active_tabs": {
+    "message": "Az egyes ablakokban aktív lap soha ne legyen felfüggesztve"
+  },
+  "html_options_suspend_automatically_unsuspend": {
+    "message": "Lap megtekintésekor automatikus visszaállítás"
+  },
+  "html_options_suspend_discard_after_suspend": {
+    "message": "Chrome beépített memóriatakarékos funkciójának alkalmazása felfüggesztéskor"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1a": {
+    "message": "Tovább csökkenti a felfüggesztett lap memóriahasználatát a Chrome beépített"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1b": {
+    "message": "'tab discarding' funkciójával. Akár 500%-os memóriamegtakarítást"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1c": {
+    "message": "eredményezhet sok lappal való munkavégzéskor."
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line2a": {
+    "message": "Ez azonban enyhe megjelenítési késedelmet okozhat"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line2b": {
+    "message": "felfüggesztett lap kiválasztásakor."
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line3a": {
+    "message": "A Chrome tab discarding funkciójáról bővebb információ:"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line3b": {
+    "message": "https://developers.google.com/web/updates/2015/09/tab-discarding"
+  },
+  "html_options_suspend_theme": {
+    "message": "Téma"
+  },
+  "html_options_suspend_theme_light": {
+    "message": "Világos"
+  },
+  "html_options_suspend_theme_dark": {
+    "message": "Sötét"
+  },
+  "html_options_suspend_screen_capturing": {
+    "message": "Képernyőrögzítés"
+  },
+  "html_options_suspend_screen_capturing_disabled": {
+    "message": "Letiltva"
+  },
+  "html_options_suspend_screen_capturing_screen_only": {
+    "message": "Csak a képernyő tetejének rögzítése"
+  },
+  "html_options_suspend_screen_capturing_entire_page": {
+    "message": "Teljes oldal rögzítése"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line1a": {
+    "message": "Felfüggesztett lapon a bővítmény megjeleníthet egy előnézetet arról,"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line1b": {
+    "message": "hogyan nézett ki a lap a felfüggesztés előtt."
+  },
+  "html_options_suspend_screen_capturing_tooltip_line2a": {
+    "message": "A képernyőrögzítő funkció kísérleti és magas CPU-használatot okozhat,"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line2b": {
+    "message": "valamint némileg megnövelt memóriahasználatot."
+  },
+  "html_options_suspend_screen_capturing_tooltip_line3a": {
+    "message": "Ha furcsaságot tapasztal (pl. lapok lassan függesztődnek fel, Chrome váratlanul leáll),"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line3b": {
+    "message": "próbálja kikapcsolni ezt a funkciót."
+  },
+  "html_options_suspend_force_screen_capture": {
+    "message": "Kiváló minőségű képernyőrögzítési mód engedélyezése"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line1": {
+    "message": "Letiltva esetén a képernyőfelvételekre teljesítménybeli korlátozások vonatkoznak:"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line2": {
+    "message": "- Alacsony minőségű képernyőfelvétel"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line4": {
+    "message": "- Nem rögzíti a képernyőt, ha a kép generálása több mint 1 percig tart"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line5": {
+    "message": "- Képernyőfelvétel maximális magassága 5000 pixelre korlátozva"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line6": {
+    "message": "A kiváló minőségű képernyőrögzítési mód engedélyezése jelentősen növelheti a CPU-terhelést"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line7": {
+    "message": "és a memóriahasználatot."
+  },
+  "html_options_whitelist_title": {
+    "message": "Soha ne függessze fel az alábbi listában szereplő URL-lel rendelkező lapokat:"
+  },
+  "html_options_whitelist_tooltip_line1": {
+    "message": "Adja hozzá az engedélyezni kívánt oldalak URL-jét új sorba. Például:"
+  },
+  "html_options_whitelist_tooltip_line2": {
+    "message": "Több oldal egy sorban: adja meg az URL egy részét:"
+  },
+  "html_options_whitelist_tooltip_line3": {
+    "message": "Reguláris kifejezések is megadhatók, ha a szöveget perjel közé zárja:"
+  },
+  "html_options_whitelist_test": {
+    "message": "Engedélyezési lista tesztelése"
+  },
+  "html_options_other_enable_context_menu": {
+    "message": "The Great Suspender hozzáadása a jobb gombos menühöz"
+  },
+  "html_options_other_enable_context_menu_tooltip_line1": {
+    "message": "A bővítmény vezérlőit a weboldal jobb gombos menüjéhez adja."
+  },
+  "html_options_other_enable_context_menu_tooltip_line2": {
+    "message": "Hozzáférést biztosít a speciális felfüggesztési műveletekhez,"
+  },
+  "html_options_other_enable_context_menu_tooltip_line3": {
+    "message": "amelyek a bővítmény más részein nem érhetők el."
+  },
+  "html_options_other_enable_sync": {
+    "message": "Beállítások szinkronizálása Chrome profillal"
+  },
+  "html_options_other_enable_sync_tooltip_line1a": {
+    "message": "A bővítmény beállításai szinkronizálva lesznek az összes Chrome böngészőn,"
+  },
+  "html_options_other_enable_sync_tooltip_line1b": {
+    "message": "amelyek ugyanazzal a profillal vannak bejelentkezve."
+  },
+  "html_options_other_enable_sync_tooltip_line2": {
+    "message": "Ez az inkognito módban is szinkronizálja a beállításokat."
+  },
+  "html_options_other_enable_sync_warning": {
+    "message": "Bekapcsolásával felülírja a beállításokat az összes többi, ugyanazon Chrome profillal bejelentkezve lévő böngészőn"
+  },
+  "html_options_suspend_on_low_memory": {
+    "message": "Azonnali felfüggesztés, ha a rendszermemória nagyon alacsonyra csökken"
+  },
+  "html_options_suspend_on_low_memory_tooltip_line1": {
+    "message": "Ez a beállítás felülírja a Chrome automatikus lapeldobási funkcióját."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line2": {
+    "message": "Ha engedélyezve van, a lapot felfüggesztésre kényszeríti ahelyett, hogy a Chrome eldobná."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line3": {
+    "message": "A Chrome általában csak akkor dobja el a lapokat, amikor a rendszermemória nagyon alacsony."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line4": {
+    "message": "Megjegyzés: Ez azt okozhatja, hogy a lapok az automatikus felfüggesztési beállításban"
+  },
+  "html_options_suspend_on_low_memory_tooltip_line5": {
+    "message": "megadott időnél korábban függesztődnek fel."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line6": {
+    "message": "A Chrome tab discarding funkciójáról bővebb információ:"
+  },
+  "html_options_suspend_on_low_memory_tooltip_discarding_link": {
+    "message": "https://developers.google.com/web/updates/2015/09/tab-discarding"
+  },
+  "html_popup_unsuspend_tab": {
+    "message": "Ezen lap visszaállítása"
+  },
+  "html_popup_suspend_tab": {
+    "message": "Ezen lap felfüggesztése most"
+  },
+  "html_popup_dont_suspend_now": {
+    "message": "Most ne függessze fel"
+  },
+  "html_popup_never_suspend_domain": {
+    "message": "Soha ne függessze fel ezt a domént"
+  },
+  "html_popup_never_suspend_page": {
+    "message": "Soha ne függessze fel ezt az URL-t"
+  },
+  "html_popup_suspend_other_tabs": {
+    "message": "Az összes többi lap felfüggesztése"
+  },
+  "html_popup_unsuspend_all_tabs": {
+    "message": "Az összes lap visszaállítása"
+  },
+  "html_popup_suspend_selected_tabs": {
+    "message": "Kijelölt lapok felfüggesztése"
+  },
+  "html_popup_unsuspend_selected_tabs": {
+    "message": "Kijelölt lapok visszaállítása"
+  },
+  "html_popup_settings": {
+    "message": "Beállítások"
+  },
+  "html_restoring_title": {
+    "message": "Ablak visszaállítása"
+  },
+  "html_restoring_heading": {
+    "message": "Lapok visszaállítása"
+  },
+  "html_restoring_detail": {
+    "message": "Kérem várjon, amíg visszaállítom ezt az ablakot..."
+  },
+  "html_recovery_title": {
+    "message": "Helyreállítás"
+  },
+  "html_recovery_ruh_roh": {
+    "message": "Jaj!"
+  },
+  "html_recovery_description_line1": {
+    "message": "Úgy tűnik, helyreáll egy bővítményösszeomlásból."
+  },
+  "html_recovery_description_line2": {
+    "message": "Felfüggesztett lapjai esetleg összeomlottak vagy eltűntek."
+  },
+  "html_recovery_restore_tabs_automatically": {
+    "message": "Lapok automatikus visszaállítása"
+  },
+  "html_recovery_go_to_session_manager": {
+    "message": "Ugrás a munkamenet-kezelőhöz"
+  },
+  "html_recovery_important_message": {
+    "message": "Jelenleg be van kapcsolva a képernyőrögzítés. Ha ez a bővítmény ismételten összeomlik, javasolt ezt a beállítást kikapcsolni."
+  },
+  "html_recovery_disable_screen_capturing": {
+    "message": "Képernyőrögzítés kikapcsolása"
+  },
+  "html_recovery_tabs_to_restore": {
+    "message": "Visszaállítandó lapok"
+  },
+  "html_shortcuts_title": {
+    "message": "Billentyűparancsok"
+  },
+  "html_shortcuts_keyboard_shortcuts": {
+    "message": "Billentyűparancsok"
+  },
+  "html_shortcuts_context_menu_note": {
+    "message": "Megjegyzés: Ezek a műveletek a jobb gombos helyi menün keresztül is elérhetők."
+  },
+  "html_shortcuts_remap_keys": {
+    "message": "Billentyűparancsok módosítása"
+  },
+  "html_sidebar_general_settings": {
+    "message": "Beállítások"
+  },
+  "html_sidebar_session_management": {
+    "message": "Munkamenet-kezelés"
+  },
+  "html_sidebar_shortcuts": {
+    "message": "Billentyűparancsok"
+  },
+  "html_sidebar_support": {
+    "message": "Névjegy"
+  },
+  "html_success_great_success": {
+    "message": "Nagy siker!"
+  },
+  "html_success_all_tabs_restored": {
+    "message": "Minden lapja visszaállt."
+  },
+  "html_success_goto_advanced_prefix": {
+    "message": "Speciális munkamenet-kezeléshez látogassa meg a"
+  },
+  "html_success_goto_advanced_suffix": {
+    "message": "oldalt"
+  },
+  "html_session_manager": {
+    "message": "munkamenet-kezelés"
+  },
+  "html_suspended_title": {
+    "message": "Felfüggesztett lap"
+  },
+  "html_suspended_tab_suspended": {
+    "message": "Lap felfüggesztve"
+  },
+  "html_suspended_tab_reload": {
+    "message": "Lap újratöltése"
+  },
+  "html_suspended_tab_whitelist_prefix": {
+    "message": "Soha ne függessze fel"
+  },
+  "html_suspended_tab_whitelist_suffix": {
+    "message": "..."
+  },
+  "html_suspended_click_to_reload": {
+    "message": "Frissítés vagy kattintás az újratöltéshez"
+  },
+  "html_suspended_toast_not_connected": {
+    "message": "Nincs internetkapcsolat"
+  },
+  "html_suspended_toast_reload_disabled": {
+    "message": "Az automatikus lapújratöltés ideiglenesen le van tiltva."
+  },
+  "html_suspended_donation_question": {
+    "message": "Boldoggá teszi Önt ez a bővítmény?\nMutassa ki támogatását adománnyal."
+  },
+  "html_permissions_title": {
+    "message": "Engedélyek"
+  },
+  "html_permissions_heading": {
+    "message": "Adjon hozzáférést a helyi fájl URL-ekhez"
+  },
+  "html_permissions_info": {
+    "message": "Ez a bővítmény jelenleg nem jogosult a \"file\" szóval kezdődő URL-ek felfüggesztésére.\nEnnek módosításához engedélyezze a \"Fájl URL-ekhez való hozzáférés engedélyezése\" lehetőséget a bővítménybeállítások oldalán."
+  },
+  "html_permissions_backup": {
+    "message": "Megjegyzés: ennek a beállításnak a módosítása az összes felfüggesztett lapot rövid időre eltünteti.\nÉrdemes lehet menteni a jelenlegi lapszession biztonsági másolatát."
+  },
+  "html_update_title": {
+    "message": "Frissítés"
+  },
+  "html_update_heading2": {
+    "message": "hamarosan még jobb lesz"
+  },
+  "html_update_info": {
+    "message": "A The Great Suspender új verziója készen áll a telepítésre.\nMegjegyzés: a frissítés alatt a felfüggesztett lapok rövid ideig eltűnnek."
+  },
+  "html_update_info_withbackup": {
+    "message": "Érdemes lehet menteni a jelenlegi lapszession biztonsági másolatát."
+  },
+  "html_update_info_nobackup_prefix": {
+    "message": "Erősen ajánlott a jelenlegi session másolatának exportálása innen: "
+  },
+  "html_update_info_nobackup_suffix": {
+    "message": " a frissítés folytatása előtt."
+  },
+  "html_updated_title": {
+    "message": "Frissítve"
+  },
+  "html_updating_heading": {
+    "message": "frissítés folyamatban"
+  },
+  "html_updating_message": {
+    "message": "Kérem várjon, amíg visszaállítom a felfüggesztett lapokat..."
+  },
+  "html_updated_great_suspender_updated": {
+    "message": "frissítve lett"
+  },
+  "html_updated_info_line1": {
+    "message": "A lapokról automatikus biztonsági mentés készült a frissítés előtt."
+  },
+  "html_updated_info_line2_prefix": {
+    "message": "Ha problémákat tapasztalt a frissítés során, az elveszett lapokat visszaállíthatja innen: "
+  },
+  "html_updated_info_line2_suffix": {
+    "message": " oldal."
+  },
+  "html_updated_detail_header_prefix": {
+    "message": "Mi újság a következőben: "
+  },
+  "html_updated_detail_header_suffix": {
+    "message": "?"
+  },
+  "html_updated_new_features_header": {
+    "message": "Új funkciók:"
+  },
+  "html_updated_bug_fixes_header": {
+    "message": "Hibajavítások:"
+  },
+  "html_updated_release_notes": {
+    "message": "Teljes kiadási megjegyzésekért látogassa meg a GitHubot: "
+  },
+  "html_updated_patch_message": {
+    "message": "Elnézést a zavarásért. Csak egy kis karbantartást kellett elvégezni."
+  },
+  "html_welcome_title": {
+    "message": "Üdvözöljük"
+  },
+  "html_welcome_text_line1": {
+    "message": "Köszönjük, hogy kipróbálja"
+  },
+  "html_welcome_text_line2": {
+    "message": "Zökkenőmentes számítógép-működést biztosítok a nem használt lapok felfüggesztésével."
+  },
+  "html_welcome_text_line3": {
+    "message": "Az alábbiakban finomhangolhatja a beállításokat."
+  },
+  "html_thanks_title": {
+    "message": "Köszönet"
+  },
+  "html_thanks_header": {
+    "message": "Köszönjük a támogatást!"
+  },
+  "html_thanks_sub_header": {
+    "message": "Legyen ma sok jó dolog az Ön útjában."
+  },
+  "js_popup_normal": {
+    "message": "Lap automatikusan fel lesz függesztve."
+  },
+  "js_popup_normal_pause": {
+    "message": "Most nem"
+  },
+  "js_popup_special": {
+    "message": "Lap nem függeszthető fel"
+  },
+  "js_popup_suspended": {
+    "message": "Lap felfüggesztve"
+  },
+  "js_popup_suspended_pause": {
+    "message": "Ne függessze fel"
+  },
+  "js_popup_whitelisted": {
+    "message": "Oldal engedélyezési listán van."
+  },
+  "js_popup_whitelisted_remove": {
+    "message": "Eltávolítás az engedélyezési listáról"
+  },
+  "js_popup_audible": {
+    "message": "Lap hangot játszik le."
+  },
+  "js_popup_form_input": {
+    "message": "Lap űrlapbevitelt fogad."
+  },
+  "js_popup_form_input_unpause": {
+    "message": "Folytatás"
+  },
+  "js_popup_pinned": {
+    "message": "Lap rögzítve van"
+  },
+  "js_popup_temp_whitelist": {
+    "message": "Lapfelfüggesztés szüneteltetve."
+  },
+  "js_popup_temp_whitelist_unpause": {
+    "message": "Folytatás"
+  },
+  "js_popup_never": {
+    "message": "Automatikus lapfelfüggesztés letiltva."
+  },
+  "js_popup_no_connectivity": {
+    "message": "Nincs hálózati kapcsolat"
+  },
+  "js_popup_charging": {
+    "message": "Töltőhöz csatlakoztatva"
+  },
+  "js_popup_blockedFile": {
+    "message": "Helyi fájlok nem függeszthetők fel."
+  },
+  "js_popup_blockedFile_enable": {
+    "message": "Engedélyezés"
+  },
+  "js_popup_unknown": {
+    "message": "Várakozás a lap betöltésére..."
+  },
+  "js_popup_initialising": {
+    "message": "Várakozás a bővítmény inicializálására..."
+  },
+  "js_popup_error": {
+    "message": "Automatikus felfüggesztés nem elérhető ennél a lapnál"
+  },
+  "js_history_delete": {
+    "message": "törlés"
+  },
+  "js_history_export": {
+    "message": "exportálás"
+  },
+  "js_history_reload": {
+    "message": "megnyitás és betöltés"
+  },
+  "js_history_resuspend": {
+    "message": "megnyitás és felfüggesztés"
+  },
+  "js_history_save": {
+    "message": "mentés"
+  },
+  "js_history_window": {
+    "message": "Ablak"
+  },
+  "js_history_tab": {
+    "message": "Lap"
+  },
+  "js_history_plural": {
+    "message": "ok"
+  },
+  "js_history_enter_name_for_session": {
+    "message": "Adjon nevet ennek a munkamenetnek"
+  },
+  "js_history_confirm_delete": {
+    "message": "Biztosan törli ezt a munkamenetet?"
+  },
+  "js_history_confirm_session_overwrite": {
+    "message": "Már létezik ilyen nevű mentett munkamenet. Felülírja a meglévőt?"
+  },
+  "js_history_import_fail": {
+    "message": "A fájl betöltése sikertelen. Győződjön meg, hogy a fájl egyszerű szöveges és soronként egy URL-t tartalmaz."
+  },
+  "js_suspended_remove_from_whitelist": {
+    "message": "Oldal eltávolítása az engedélyezési listáról"
+  },
+  "js_suspended_hotkey_to_reload": {
+    "message": "Billentyűparancsok beállítása"
+  },
+  "js_suspended_low_memory": {
+    "message": "Lap felfüggesztve az alacsony rendszermemória miatt"
+  },
+  "js_options_incognito_warning": {
+    "message": "Inkognito módban van. Egyes funkciók nem lesznek elérhetők."
+  },
+  "js_options_whitelist_no_matches": {
+    "message": "Egyetlen nyitott lap sem egyezik az aktuális engedélyezési listával."
+  },
+  "js_options_whitelist_matches_heading": {
+    "message": "Engedélyezési listán lévő nyitott lapok:"
+  },
+  "js_options_whitelist_matches_overflow_prefix": {
+    "message": "és még"
+  },
+  "js_options_whitelist_matches_overflow_suffix": {
+    "message": " további."
+  },
+  "js_permissions_button_export": {
+    "message": "Biztonsági mentés mentése"
+  },
+  "js_permissions_button_set": {
+    "message": "Bővítménybeállítások megnyitása"
+  },
+  "js_update_confirm": {
+    "message": "Még nem mentett biztonsági másolatot. Mégis frissíti a bővítményt?"
+  },
+  "js_update_button_export": {
+    "message": "Biztonsági mentés mentése"
+  },
+  "js_update_button_reload": {
+    "message": "Bővítmény frissítése most"
+  },
+  "js_shortcuts_not_set": {
+    "message": "nincs beállítva"
+  },
+  "js_session_save_point": {
+    "message": "Automatikus mentési pont v"
+  }
+}

@@ -1,0 +1,686 @@
+{
+  "ext_extension_name": {
+    "message": "The Great Suspender | Tab Suspender - Замразяване на раздели"
+  },
+  "ext_extension_description": {
+    "message": "Спирайте неактивни раздели на Chrome за пестене на RAM и увеличаване на скоростта. Най-добрият Tab Suspender — автоматично замразява неизползваните раздели и ги възстановява незабавно."
+  },
+  "ext_default_title": {
+    "message": "The Great Suspender"
+  },
+  "ext_cmd_toggle_tab_suspension_description": {
+    "message": "Спиране/Възстановяване на активния раздел"
+  },
+  "ext_cmd_toggle_tab_pause_description": {
+    "message": "Пауза/Продължаване на спирането на активния раздел"
+  },
+  "ext_cmd_suspend_selected_tabs_description": {
+    "message": "Спиране на избраните раздели"
+  },
+  "ext_cmd_unsuspend_selected_tabs_description": {
+    "message": "Възстановяване на избраните раздели"
+  },
+  "ext_cmd_soft_suspend_active_window_description": {
+    "message": "Спиране на всички останали раздели в активния прозорец"
+  },
+  "ext_cmd_force_suspend_active_window_description": {
+    "message": "Принудително спиране на всички останали раздели в активния прозорец"
+  },
+  "ext_cmd_unsuspend_active_window_description": {
+    "message": "Възстановяване на всички раздели в активния прозорец"
+  },
+  "ext_cmd_soft_suspend_all_windows_description": {
+    "message": "Спиране на всички раздели във всички прозорци"
+  },
+  "ext_cmd_force_suspend_all_windows_description": {
+    "message": "Принудително спиране на всички раздели във всички прозорци"
+  },
+  "ext_cmd_unsuspend_all_windows_description": {
+    "message": "Възстановяване на всички раздели във всички прозорци"
+  },
+  "js_context_open_link_in_suspended_tab": {
+    "message": "Отваряне на връзка в нов спрян раздел"
+  },
+  "js_context_toggle_suspend_state": {
+    "message": "Спиране/Възстановяване на този раздел"
+  },
+  "js_context_toggle_pause_suspension": {
+    "message": "Пауза/Продължаване на спирането на този раздел"
+  },
+  "js_context_never_suspend_domain": {
+    "message": "Никога не спирай този домейн"
+  },
+  "js_context_never_suspend_page": {
+    "message": "Никога не спирай този URL"
+  },
+  "js_context_suspend_selected_tabs": {
+    "message": "Спиране на избраните раздели"
+  },
+  "js_context_unsuspend_selected_tabs": {
+    "message": "Възстановяване на избраните раздели"
+  },
+  "js_context_soft_suspend_other_tabs_in_window": {
+    "message": "Спиране на всички останали раздели в този прозорец"
+  },
+  "js_context_force_suspend_other_tabs_in_window": {
+    "message": "Принудително спиране на всички останали раздели в този прозорец"
+  },
+  "js_context_unsuspend_all_tabs_in_window": {
+    "message": "Възстановяване на всички раздели в този прозорец"
+  },
+  "js_context_soft_suspend_all_tabs": {
+    "message": "Спиране на всички раздели във всички прозорци"
+  },
+  "js_context_force_suspend_all_tabs": {
+    "message": "Принудително спиране на всички раздели във всички прозорци"
+  },
+  "js_context_unsuspend_all_tabs": {
+    "message": "Възстановяване на всички раздели във всички прозорци"
+  },
+  "html_about_title": {
+    "message": "За разширението"
+  },
+  "html_history_title": {
+    "message": "Управление на сесии"
+  },
+  "html_history_current_session": {
+    "message": "Текуща сесия"
+  },
+  "html_history_recent_sessions": {
+    "message": "Скорошни сесии"
+  },
+  "html_history_saved_sessions": {
+    "message": "Запазени сесии"
+  },
+  "html_history_import_session": {
+    "message": "Импортиране на сесия"
+  },
+  "html_notice_title": {
+    "message": "Известие"
+  },
+  "html_notice_important_notice": {
+    "message": "Важно известие от The Great Suspender"
+  },
+  "html_options_title": {
+    "message": "Настройки"
+  },
+  "html_options_suspend_title": {
+    "message": "Автоматично спиране на раздели"
+  },
+  "html_options_suspended_title": {
+    "message": "Спрени раздели"
+  },
+  "html_options_other_title": {
+    "message": "Друго"
+  },
+  "html_options_suspend_automatically_after": {
+    "message": "Автоматично спиране на раздели след"
+  },
+  "html_options_suspend_never": {
+    "message": "Никога"
+  },
+  "html_options_suspend_seconds": {
+    "message": "секунди"
+  },
+  "html_options_suspend_minute": {
+    "message": "мин"
+  },
+  "html_options_suspend_minutes": {
+    "message": "мин"
+  },
+  "html_options_suspend_hour": {
+    "message": "час"
+  },
+  "html_options_suspend_hours": {
+    "message": "часа"
+  },
+  "html_options_suspend_day": {
+    "message": "ден"
+  },
+  "html_options_suspend_days": {
+    "message": "дни"
+  },
+  "html_options_suspend_week": {
+    "message": "седмица"
+  },
+  "html_options_suspend_weeks": {
+    "message": "седмици"
+  },
+  "html_options_suspend_no_pinned": {
+    "message": "Никога не спирай закачени раздели"
+  },
+  "html_options_suspend_no_forms": {
+    "message": "Никога не спирай раздели с незапазени формуляри"
+  },
+  "html_options_suspend_no_audio": {
+    "message": "Никога не спирай раздели, възпроизвеждащи звук"
+  },
+  "html_options_suspend_only_connected": {
+    "message": "Никога не спирай раздели при офлайн режим"
+  },
+  "html_options_suspend_only_on_battery": {
+    "message": "Никога не спирай раздели при свързване към захранване"
+  },
+  "html_options_suspend_no_active_tabs": {
+    "message": "Никога не спирай активния раздел в прозорец"
+  },
+  "html_options_suspend_automatically_unsuspend": {
+    "message": "Автоматично възстановяване на раздел при преглед"
+  },
+  "html_options_suspend_discard_after_suspend": {
+    "message": "Прилагане на вградената памет-спестяваща функция на Chrome при спиране"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1a": {
+    "message": "Допълнително намалява използването на памет чрез"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1b": {
+    "message": "вградената функция 'tab discarding' на Chrome. Може да спести до"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1c": {
+    "message": "500% памет при работа с много раздели."
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line2a": {
+    "message": "Може обаче да причини леко забавяне при избиране на"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line2b": {
+    "message": "спрян раздел."
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line3a": {
+    "message": "Повече информация за Chrome discarding:"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line3b": {
+    "message": "https://developers.google.com/web/updates/2015/09/tab-discarding"
+  },
+  "html_options_suspend_theme": {
+    "message": "Тема"
+  },
+  "html_options_suspend_theme_light": {
+    "message": "Светла"
+  },
+  "html_options_suspend_theme_dark": {
+    "message": "Тъмна"
+  },
+  "html_options_suspend_screen_capturing": {
+    "message": "Заснемане на екрана"
+  },
+  "html_options_suspend_screen_capturing_disabled": {
+    "message": "Изключено"
+  },
+  "html_options_suspend_screen_capturing_screen_only": {
+    "message": "Заснемане само на горната част на екрана"
+  },
+  "html_options_suspend_screen_capturing_entire_page": {
+    "message": "Заснемане на цялата страница"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line1a": {
+    "message": "В спрян раздел разширението може да показва преглед на изображение на"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line1b": {
+    "message": "как е изглеждал разделът преди спирането."
+  },
+  "html_options_suspend_screen_capturing_tooltip_line2a": {
+    "message": "Функцията за заснемане е експериментална и може да причини висока CPU употреба"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line2b": {
+    "message": "и леко увеличена употреба на памет."
+  },
+  "html_options_suspend_screen_capturing_tooltip_line3a": {
+    "message": "Ако забележите странно поведение като бавно спиране или неочаквани сривове на Chrome,"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line3b": {
+    "message": "опитайте да изключите тази функция."
+  },
+  "html_options_suspend_force_screen_capture": {
+    "message": "Активиране на режим за висококачествено заснемане"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line1": {
+    "message": "При изключване, заснемането има следните ограничения на производителността:"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line2": {
+    "message": "- Ниско качество на заснемане"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line4": {
+    "message": "- Не заснема екрана ако генерирането отнема повече от 1 минута"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line5": {
+    "message": "- Максимална височина на заснемане ограничена до 5000px"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line6": {
+    "message": "Активирането на висококачествено заснемане може значително да увеличи CPU натоварването"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line7": {
+    "message": "и употребата на памет."
+  },
+  "html_options_whitelist_title": {
+    "message": "Никога не спирай раздели с URL от следния списък:"
+  },
+  "html_options_whitelist_tooltip_line1": {
+    "message": "Добавете URL на всяка страница, която искате в белия списък, на нов ред."
+  },
+  "html_options_whitelist_tooltip_line2": {
+    "message": "За няколко сайта на един ред посочете част от URL:"
+  },
+  "html_options_whitelist_tooltip_line3": {
+    "message": "Можете също да посочите регулярни изрази, заграждайки текста с наклонени черти:"
+  },
+  "html_options_whitelist_test": {
+    "message": "Тест на белия списък"
+  },
+  "html_options_other_enable_context_menu": {
+    "message": "Добавяне на The Great Suspender в контекстното меню"
+  },
+  "html_options_other_enable_context_menu_tooltip_line1": {
+    "message": "Добавя контроли за разширението в контекстното меню при десен клик."
+  },
+  "html_options_other_enable_context_menu_tooltip_line2": {
+    "message": "Дава достъп до разширени действия за спиране, недостъпни"
+  },
+  "html_options_other_enable_context_menu_tooltip_line3": {
+    "message": "другаде в разширението."
+  },
+  "html_options_other_enable_sync": {
+    "message": "Синхронизиране на настройките с Chrome профила"
+  },
+  "html_options_other_enable_sync_tooltip_line1a": {
+    "message": "Настройките на разширението ще бъдат синхронизирани на всички Chrome браузъри,"
+  },
+  "html_options_other_enable_sync_tooltip_line1b": {
+    "message": "влезли с един и същи профил."
+  },
+  "html_options_other_enable_sync_tooltip_line2": {
+    "message": "Това синхронизира и настройките в режим инкогнито."
+  },
+  "html_options_other_enable_sync_warning": {
+    "message": "Включването ще замени настройките на всички останали браузъри, влезли с един и същи Chrome профил"
+  },
+  "html_options_suspend_on_low_memory": {
+    "message": "Незабавно спиране при много ниска системна памет"
+  },
+  "html_options_suspend_on_low_memory_tooltip_line1": {
+    "message": "Тази опция ще замени автоматичното изхвърляне на раздели от Chrome."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line2": {
+    "message": "При активиране ще принуди раздел да се спре вместо да бъде изхвърлен от Chrome."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line3": {
+    "message": "Chrome обикновено изхвърля раздели само при много ниска системна памет."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line4": {
+    "message": "Забележка: Може да причини спиране на раздели по-рано от зададеното"
+  },
+  "html_options_suspend_on_low_memory_tooltip_line5": {
+    "message": "в опциите за автоматично спиране."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line6": {
+    "message": "Повече информация за Chrome discarding:"
+  },
+  "html_options_suspend_on_low_memory_tooltip_discarding_link": {
+    "message": "https://developers.google.com/web/updates/2015/09/tab-discarding"
+  },
+  "html_popup_unsuspend_tab": {
+    "message": "Възстановяване на този раздел"
+  },
+  "html_popup_suspend_tab": {
+    "message": "Спиране на този раздел сега"
+  },
+  "html_popup_dont_suspend_now": {
+    "message": "Не спирай сега"
+  },
+  "html_popup_never_suspend_domain": {
+    "message": "Никога не спирай този домейн"
+  },
+  "html_popup_never_suspend_page": {
+    "message": "Никога не спирай този URL"
+  },
+  "html_popup_suspend_other_tabs": {
+    "message": "Спиране на всички останали раздели"
+  },
+  "html_popup_unsuspend_all_tabs": {
+    "message": "Възстановяване на всички раздели"
+  },
+  "html_popup_suspend_selected_tabs": {
+    "message": "Спиране на избраните раздели"
+  },
+  "html_popup_unsuspend_selected_tabs": {
+    "message": "Възстановяване на избраните раздели"
+  },
+  "html_popup_settings": {
+    "message": "Настройки"
+  },
+  "html_restoring_title": {
+    "message": "Възстановяване на прозорец"
+  },
+  "html_restoring_heading": {
+    "message": "Възстановяване на раздели"
+  },
+  "html_restoring_detail": {
+    "message": "Изчакайте, докато възстановявам прозореца..."
+  },
+  "html_recovery_title": {
+    "message": "Възстановяване"
+  },
+  "html_recovery_ruh_roh": {
+    "message": "Олеле!"
+  },
+  "html_recovery_description_line1": {
+    "message": "Изглежда се възстановявате след срив на разширението."
+  },
+  "html_recovery_description_line2": {
+    "message": "Спрените раздели може да са се сринали или изчезнали."
+  },
+  "html_recovery_restore_tabs_automatically": {
+    "message": "Автоматично възстановяване на раздели"
+  },
+  "html_recovery_go_to_session_manager": {
+    "message": "Към мениджъра на сесии"
+  },
+  "html_recovery_important_message": {
+    "message": "Заснемането на екрана е включено. Ако разширението непрекъснато се срива, препоръчваме да изключите тази опция."
+  },
+  "html_recovery_disable_screen_capturing": {
+    "message": "Изключване на заснемането на екрана"
+  },
+  "html_recovery_tabs_to_restore": {
+    "message": "Раздели за възстановяване"
+  },
+  "html_shortcuts_title": {
+    "message": "Клавишни комбинации"
+  },
+  "html_shortcuts_keyboard_shortcuts": {
+    "message": "Клавишни комбинации"
+  },
+  "html_shortcuts_context_menu_note": {
+    "message": "Забележка: Тези действия са достъпни и чрез контекстното меню."
+  },
+  "html_shortcuts_remap_keys": {
+    "message": "Промяна на клавишните комбинации"
+  },
+  "html_sidebar_general_settings": {
+    "message": "Настройки"
+  },
+  "html_sidebar_session_management": {
+    "message": "Управление на сесии"
+  },
+  "html_sidebar_shortcuts": {
+    "message": "Клавишни комбинации"
+  },
+  "html_sidebar_support": {
+    "message": "За разширението"
+  },
+  "html_success_great_success": {
+    "message": "Голям успех!"
+  },
+  "html_success_all_tabs_restored": {
+    "message": "Всички ваши раздели бяха възстановени."
+  },
+  "html_success_goto_advanced_prefix": {
+    "message": "За разширено управление на сесии посетете"
+  },
+  "html_success_goto_advanced_suffix": {
+    "message": "страницата"
+  },
+  "html_session_manager": {
+    "message": "управление на сесии"
+  },
+  "html_suspended_title": {
+    "message": "Спрян раздел"
+  },
+  "html_suspended_tab_suspended": {
+    "message": "Разделът е спрян"
+  },
+  "html_suspended_tab_reload": {
+    "message": "Презареждане на раздела"
+  },
+  "html_suspended_tab_whitelist_prefix": {
+    "message": "Никога не спирай"
+  },
+  "html_suspended_tab_whitelist_suffix": {
+    "message": "..."
+  },
+  "html_suspended_click_to_reload": {
+    "message": "Обновяване или щракнете за презареждане"
+  },
+  "html_suspended_toast_not_connected": {
+    "message": "Нямате връзка с интернет"
+  },
+  "html_suspended_toast_reload_disabled": {
+    "message": "Автоматичното презареждане на раздела е временно изключено."
+  },
+  "html_suspended_donation_question": {
+    "message": "Радва ли ви това разширение?\nПокажете подкрепата си с дарение."
+  },
+  "html_permissions_title": {
+    "message": "Разрешения"
+  },
+  "html_permissions_heading": {
+    "message": "Дайте ми достъп до локални файлови URL"
+  },
+  "html_permissions_info": {
+    "message": "Разширението в момента няма разрешение да спира URL, започващи с \"file\".\nЗа да промените това, активирайте \"Разреши достъп до файлови URL\" от настройките на разширението."
+  },
+  "html_permissions_backup": {
+    "message": "Забележка: промяната на тази опция ще доведе до временно изчезване на всички спрени раздели.\nМоже да е добър момент да запазите резервно копие на текущата сесия."
+  },
+  "html_update_title": {
+    "message": "Актуализация"
+  },
+  "html_update_heading2": {
+    "message": "предстои да стане още по-добро"
+  },
+  "html_update_info": {
+    "message": "Нова версия на The Great Suspender е готова за инсталиране.\nЗабележка: по време на актуализацията спрените раздели временно ще изчезнат."
+  },
+  "html_update_info_withbackup": {
+    "message": "Може да е добър момент да запазите резервно копие на текущата сесия."
+  },
+  "html_update_info_nobackup_prefix": {
+    "message": "Силно препоръчваме да експортирате копие на текущата сесия от "
+  },
+  "html_update_info_nobackup_suffix": {
+    "message": " преди да продължите с актуализацията."
+  },
+  "html_updated_title": {
+    "message": "Актуализирано"
+  },
+  "html_updating_heading": {
+    "message": "актуализира се"
+  },
+  "html_updating_message": {
+    "message": "Изчакайте, докато възстановявам спрените раздели..."
+  },
+  "html_updated_great_suspender_updated": {
+    "message": "беше актуализирано"
+  },
+  "html_updated_info_line1": {
+    "message": "Автоматично резервно копие на разделите ви беше направено преди актуализацията."
+  },
+  "html_updated_info_line2_prefix": {
+    "message": "Ако сте срещнали проблеми при актуализацията, можете да възстановите изгубените раздели от "
+  },
+  "html_updated_info_line2_suffix": {
+    "message": " страницата."
+  },
+  "html_updated_detail_header_prefix": {
+    "message": "Какво е новото в "
+  },
+  "html_updated_detail_header_suffix": {
+    "message": "?"
+  },
+  "html_updated_new_features_header": {
+    "message": "Нови функции:"
+  },
+  "html_updated_bug_fixes_header": {
+    "message": "Поправени грешки:"
+  },
+  "html_updated_release_notes": {
+    "message": "Посетете GitHub за пълните бележки на изданието: "
+  },
+  "html_updated_patch_message": {
+    "message": "Съжаляваме за безпокойството. Трябваше само да извършим малка поддръжка."
+  },
+  "html_welcome_title": {
+    "message": "Добре дошли"
+  },
+  "html_welcome_text_line1": {
+    "message": "Благодарим, че изпробвате"
+  },
+  "html_welcome_text_line2": {
+    "message": "Поддържам компютъра ви да работи гладко, като спирам разделите, които не използвате."
+  },
+  "html_welcome_text_line3": {
+    "message": "Можете да настроите параметрите по-долу."
+  },
+  "html_thanks_title": {
+    "message": "Благодарности"
+  },
+  "html_thanks_header": {
+    "message": "Благодарим за подкрепата!"
+  },
+  "html_thanks_sub_header": {
+    "message": "Нека добри неща ви сполетят днес."
+  },
+  "js_popup_normal": {
+    "message": "Разделът ще бъде спрян автоматично."
+  },
+  "js_popup_normal_pause": {
+    "message": "Не сега"
+  },
+  "js_popup_special": {
+    "message": "Разделът не може да бъде спрян"
+  },
+  "js_popup_suspended": {
+    "message": "Разделът е спрян"
+  },
+  "js_popup_suspended_pause": {
+    "message": "Не спирай"
+  },
+  "js_popup_whitelisted": {
+    "message": "Сайтът е в белия списък."
+  },
+  "js_popup_whitelisted_remove": {
+    "message": "Премахване от белия списък"
+  },
+  "js_popup_audible": {
+    "message": "Разделът възпроизвежда звук."
+  },
+  "js_popup_form_input": {
+    "message": "Разделът получава формуляр."
+  },
+  "js_popup_form_input_unpause": {
+    "message": "Продължи"
+  },
+  "js_popup_pinned": {
+    "message": "Разделът е закачен"
+  },
+  "js_popup_temp_whitelist": {
+    "message": "Спирането на раздела е на пауза."
+  },
+  "js_popup_temp_whitelist_unpause": {
+    "message": "Продължи"
+  },
+  "js_popup_never": {
+    "message": "Автоматичното спиране е изключено."
+  },
+  "js_popup_no_connectivity": {
+    "message": "Няма мрежова връзка"
+  },
+  "js_popup_charging": {
+    "message": "Свързано към захранване"
+  },
+  "js_popup_blockedFile": {
+    "message": "Локалните файлове не могат да бъдат спирани."
+  },
+  "js_popup_blockedFile_enable": {
+    "message": "Активирай"
+  },
+  "js_popup_unknown": {
+    "message": "Изчакване зареждането на раздела..."
+  },
+  "js_popup_initialising": {
+    "message": "Изчакване инициализацията на разширението..."
+  },
+  "js_popup_error": {
+    "message": "Автоматичното спиране е недостъпно за този раздел"
+  },
+  "js_history_delete": {
+    "message": "изтриване"
+  },
+  "js_history_export": {
+    "message": "експортиране"
+  },
+  "js_history_reload": {
+    "message": "отвори и зареди"
+  },
+  "js_history_resuspend": {
+    "message": "отвори и спри"
+  },
+  "js_history_save": {
+    "message": "запази"
+  },
+  "js_history_window": {
+    "message": "Прозорец"
+  },
+  "js_history_tab": {
+    "message": "Раздел"
+  },
+  "js_history_plural": {
+    "message": "и"
+  },
+  "js_history_enter_name_for_session": {
+    "message": "Въведете име за тази сесия"
+  },
+  "js_history_confirm_delete": {
+    "message": "Сигурни ли сте, че искате да изтриете тази сесия?"
+  },
+  "js_history_confirm_session_overwrite": {
+    "message": "Вече съществува запазена сесия с това име. Замяна на съществуващата?"
+  },
+  "js_history_import_fail": {
+    "message": "Неуспешно зареждане на файла. Убедете се, че файлът е обикновен текст с един URL на ред."
+  },
+  "js_suspended_remove_from_whitelist": {
+    "message": "Премахване на сайта от белия списък"
+  },
+  "js_suspended_hotkey_to_reload": {
+    "message": "Задаване на клавишни комбинации"
+  },
+  "js_suspended_low_memory": {
+    "message": "Разделът е спрян поради ниска системна памет"
+  },
+  "js_options_incognito_warning": {
+    "message": "Намирате се в режим инкогнито. Някои функции няма да бъдат налични."
+  },
+  "js_options_whitelist_no_matches": {
+    "message": "Няма отворени раздели, съответстващи на текущия бял списък."
+  },
+  "js_options_whitelist_matches_heading": {
+    "message": "Отворени раздели в белия списък:"
+  },
+  "js_options_whitelist_matches_overflow_prefix": {
+    "message": "и още"
+  },
+  "js_options_whitelist_matches_overflow_suffix": {
+    "message": "."
+  },
+  "js_permissions_button_export": {
+    "message": "Запазване на резервно копие"
+  },
+  "js_permissions_button_set": {
+    "message": "Отваряне на настройките на разширението"
+  },
+  "js_update_confirm": {
+    "message": "Все още не сте запазили резервно копие. Актуализирате ли разширението въпреки това?"
+  },
+  "js_update_button_export": {
+    "message": "Запазване на резервно копие"
+  },
+  "js_update_button_reload": {
+    "message": "Актуализиране на разширението сега"
+  },
+  "js_shortcuts_not_set": {
+    "message": "не е зададено"
+  },
+  "js_session_save_point": {
+    "message": "Автоматична точка на запазване за v"
+  }
+}

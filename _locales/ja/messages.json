@@ -1,0 +1,686 @@
+{
+  "ext_extension_name": {
+    "message": "The Great Suspender | Tab Suspender - タブ凍結 2026"
+  },
+  "ext_extension_description": {
+    "message": "未使用のChromeタブを自動凍結してRAMを節約。最高のTab Suspender — タブを自動的に一時停止し、ワンクリックで復元。"
+  },
+  "ext_default_title": {
+    "message": "The Great Suspender"
+  },
+  "ext_cmd_toggle_tab_suspension_description": {
+    "message": "アクティブタブを一時停止/再開"
+  },
+  "ext_cmd_toggle_tab_pause_description": {
+    "message": "アクティブタブの一時停止を中断/再開"
+  },
+  "ext_cmd_suspend_selected_tabs_description": {
+    "message": "選択したタブを一時停止"
+  },
+  "ext_cmd_unsuspend_selected_tabs_description": {
+    "message": "選択したタブを再開"
+  },
+  "ext_cmd_soft_suspend_active_window_description": {
+    "message": "アクティブウィンドウの他のタブをすべて一時停止"
+  },
+  "ext_cmd_force_suspend_active_window_description": {
+    "message": "アクティブウィンドウの他のタブをすべて強制一時停止"
+  },
+  "ext_cmd_unsuspend_active_window_description": {
+    "message": "アクティブウィンドウのすべてのタブを再開"
+  },
+  "ext_cmd_soft_suspend_all_windows_description": {
+    "message": "すべてのウィンドウのすべてのタブを一時停止"
+  },
+  "ext_cmd_force_suspend_all_windows_description": {
+    "message": "すべてのウィンドウのすべてのタブを強制一時停止"
+  },
+  "ext_cmd_unsuspend_all_windows_description": {
+    "message": "すべてのウィンドウのすべてのタブを再開"
+  },
+  "js_context_open_link_in_suspended_tab": {
+    "message": "新しい一時停止タブでリンクを開く"
+  },
+  "js_context_toggle_suspend_state": {
+    "message": "このタブを一時停止/再開"
+  },
+  "js_context_toggle_pause_suspension": {
+    "message": "このタブの一時停止を中断/再開"
+  },
+  "js_context_never_suspend_domain": {
+    "message": "このドメインを一時停止しない"
+  },
+  "js_context_never_suspend_page": {
+    "message": "このURLを一時停止しない"
+  },
+  "js_context_suspend_selected_tabs": {
+    "message": "選択したタブを一時停止"
+  },
+  "js_context_unsuspend_selected_tabs": {
+    "message": "選択したタブを再開"
+  },
+  "js_context_soft_suspend_other_tabs_in_window": {
+    "message": "このウィンドウの他のタブをすべて一時停止"
+  },
+  "js_context_force_suspend_other_tabs_in_window": {
+    "message": "このウィンドウの他のタブをすべて強制一時停止"
+  },
+  "js_context_unsuspend_all_tabs_in_window": {
+    "message": "このウィンドウのすべてのタブを再開"
+  },
+  "js_context_soft_suspend_all_tabs": {
+    "message": "すべてのウィンドウのすべてのタブを一時停止"
+  },
+  "js_context_force_suspend_all_tabs": {
+    "message": "すべてのウィンドウのすべてのタブを強制一時停止"
+  },
+  "js_context_unsuspend_all_tabs": {
+    "message": "すべてのウィンドウのすべてのタブを再開"
+  },
+  "html_about_title": {
+    "message": "情報"
+  },
+  "html_history_title": {
+    "message": "セッション管理"
+  },
+  "html_history_current_session": {
+    "message": "現在のセッション"
+  },
+  "html_history_recent_sessions": {
+    "message": "最近のセッション"
+  },
+  "html_history_saved_sessions": {
+    "message": "保存済みセッション"
+  },
+  "html_history_import_session": {
+    "message": "セッションをインポート"
+  },
+  "html_notice_title": {
+    "message": "お知らせ"
+  },
+  "html_notice_important_notice": {
+    "message": "The Great Suspenderからの重要なお知らせ"
+  },
+  "html_options_title": {
+    "message": "設定"
+  },
+  "html_options_suspend_title": {
+    "message": "タブの自動一時停止"
+  },
+  "html_options_suspended_title": {
+    "message": "一時停止中のタブ"
+  },
+  "html_options_other_title": {
+    "message": "その他"
+  },
+  "html_options_suspend_automatically_after": {
+    "message": "タブを自動的に一時停止する時間"
+  },
+  "html_options_suspend_never": {
+    "message": "しない"
+  },
+  "html_options_suspend_seconds": {
+    "message": "秒"
+  },
+  "html_options_suspend_minute": {
+    "message": "分"
+  },
+  "html_options_suspend_minutes": {
+    "message": "分"
+  },
+  "html_options_suspend_hour": {
+    "message": "時間"
+  },
+  "html_options_suspend_hours": {
+    "message": "時間"
+  },
+  "html_options_suspend_day": {
+    "message": "日"
+  },
+  "html_options_suspend_days": {
+    "message": "日"
+  },
+  "html_options_suspend_week": {
+    "message": "週"
+  },
+  "html_options_suspend_weeks": {
+    "message": "週"
+  },
+  "html_options_suspend_no_pinned": {
+    "message": "固定タブを一時停止しない"
+  },
+  "html_options_suspend_no_forms": {
+    "message": "未保存のフォーム入力があるタブを一時停止しない"
+  },
+  "html_options_suspend_no_audio": {
+    "message": "音声を再生中のタブを一時停止しない"
+  },
+  "html_options_suspend_only_connected": {
+    "message": "オフライン時はタブを一時停止しない"
+  },
+  "html_options_suspend_only_on_battery": {
+    "message": "電源接続時はタブを一時停止しない"
+  },
+  "html_options_suspend_no_active_tabs": {
+    "message": "各ウィンドウのアクティブタブを一時停止しない"
+  },
+  "html_options_suspend_automatically_unsuspend": {
+    "message": "表示されたときにタブを自動的に再開する"
+  },
+  "html_options_suspend_discard_after_suspend": {
+    "message": "一時停止時にChromeの組み込みメモリ節約機能を適用"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1a": {
+    "message": "Chromeの組み込み「タブ破棄」機能を使用して、一時停止タブのメモリ使用量をさらに削減します。"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1b": {
+    "message": "多数のタブを使用する場合、最大500%のメモリ節約が実現できます。"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1c": {
+    "message": "ただし、一時停止タブを選択したときにわずかなレンダリング遅延が発生することがあります。"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line2a": {
+    "message": "一時停止タブを選択すると、わずかなレンダリング遅延が"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line2b": {
+    "message": "発生する場合があります。"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line3a": {
+    "message": "Chromeのタブ破棄の詳細はこちら："
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line3b": {
+    "message": "https://developers.google.com/web/updates/2015/09/tab-discarding"
+  },
+  "html_options_suspend_theme": {
+    "message": "テーマ"
+  },
+  "html_options_suspend_theme_light": {
+    "message": "ライト"
+  },
+  "html_options_suspend_theme_dark": {
+    "message": "ダーク"
+  },
+  "html_options_suspend_screen_capturing": {
+    "message": "スクリーンキャプチャ"
+  },
+  "html_options_suspend_screen_capturing_disabled": {
+    "message": "無効"
+  },
+  "html_options_suspend_screen_capturing_screen_only": {
+    "message": "画面の上部のみキャプチャ"
+  },
+  "html_options_suspend_screen_capturing_entire_page": {
+    "message": "ページ全体をキャプチャ"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line1a": {
+    "message": "一時停止タブで、一時停止直前のタブのプレビュー画像を表示できます。"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line1b": {
+    "message": "一時停止される直前の状態が表示されます。"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line2a": {
+    "message": "スクリーンキャプチャは実験的な機能で、CPU使用率が大幅に増加する場合があります。"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line2b": {
+    "message": "メモリ使用量もわずかに増加します。"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line3a": {
+    "message": "タブの一時停止に時間がかかる、またはChromeが予期せずクラッシュするなどの異常が見られる場合は、"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line3b": {
+    "message": "この機能を無効にしてみてください。"
+  },
+  "html_options_suspend_force_screen_capture": {
+    "message": "高品質スクリーンキャプチャモードを有効にする"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line1": {
+    "message": "無効時、パフォーマンス向上のためスクリーンキャプチャに以下の制限があります："
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line2": {
+    "message": "- 低品質のスクリーンキャプチャ"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line4": {
+    "message": "- 画像生成に1分以上かかる場合はキャプチャしない"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line5": {
+    "message": "- スクリーンキャプチャの最大高さは5000pxに制限"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line6": {
+    "message": "高品質モードを有効にするとCPU負荷が大幅に増加する場合があります。"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line7": {
+    "message": "メモリ使用量も増加します。"
+  },
+  "html_options_whitelist_title": {
+    "message": "以下のリストのURLを含むタブは一時停止しない："
+  },
+  "html_options_whitelist_tooltip_line1": {
+    "message": "ホワイトリストに追加する各ページのURLを改行で入力してください。例："
+  },
+  "html_options_whitelist_tooltip_line2": {
+    "message": "1行で複数のサイトをホワイトリストに追加するには、URLの一部を指定します："
+  },
+  "html_options_whitelist_tooltip_line3": {
+    "message": "テキストをスラッシュで囲むことで正規表現を使用することもできます："
+  },
+  "html_options_whitelist_test": {
+    "message": "ホワイトリストをテスト"
+  },
+  "html_options_other_enable_context_menu": {
+    "message": "右クリックメニューにThe Great Suspenderを追加"
+  },
+  "html_options_other_enable_context_menu_tooltip_line1": {
+    "message": "ウェブページの右クリックメニューに拡張機能のコントロールを追加します。"
+  },
+  "html_options_other_enable_context_menu_tooltip_line2": {
+    "message": "拡張機能内では利用できない高度な一時停止操作に"
+  },
+  "html_options_other_enable_context_menu_tooltip_line3": {
+    "message": "アクセスできるようになります。"
+  },
+  "html_options_other_enable_sync": {
+    "message": "Chromeプロファイルと設定を同期"
+  },
+  "html_options_other_enable_sync_tooltip_line1a": {
+    "message": "同じプロファイルでログインしているすべてのChromeブラウザで"
+  },
+  "html_options_other_enable_sync_tooltip_line1b": {
+    "message": "拡張機能の設定が同期されます。"
+  },
+  "html_options_other_enable_sync_tooltip_line2": {
+    "message": "シークレットモードの設定も同期されます。"
+  },
+  "html_options_other_enable_sync_warning": {
+    "message": "これをオンにすると、同じChromeプロファイルでログインしている他のすべてのブラウザの設定が上書きされます"
+  },
+  "html_options_suspend_on_low_memory": {
+    "message": "システムメモリが非常に低くなったとき即座に一時停止"
+  },
+  "html_options_suspend_on_low_memory_tooltip_line1": {
+    "message": "このオプションはChromeの自動タブ破棄機能を上書きします。"
+  },
+  "html_options_suspend_on_low_memory_tooltip_line2": {
+    "message": "有効にすると、Chromeによる破棄の代わりにタブが一時停止されます。"
+  },
+  "html_options_suspend_on_low_memory_tooltip_line3": {
+    "message": "通常、ChromeはシステムメモリがWell低くなった場合のみタブを破棄します。"
+  },
+  "html_options_suspend_on_low_memory_tooltip_line4": {
+    "message": "注意：これにより、自動一時停止オプションで設定した時間より"
+  },
+  "html_options_suspend_on_low_memory_tooltip_line5": {
+    "message": "早くタブが一時停止される場合があります。"
+  },
+  "html_options_suspend_on_low_memory_tooltip_line6": {
+    "message": "Chromeの破棄の詳細はこちら："
+  },
+  "html_options_suspend_on_low_memory_tooltip_discarding_link": {
+    "message": "https://developers.google.com/web/updates/2015/09/tab-discarding"
+  },
+  "html_popup_unsuspend_tab": {
+    "message": "このタブを再開"
+  },
+  "html_popup_suspend_tab": {
+    "message": "このタブを今すぐ一時停止"
+  },
+  "html_popup_dont_suspend_now": {
+    "message": "今は一時停止しない"
+  },
+  "html_popup_never_suspend_domain": {
+    "message": "このドメインを一時停止しない"
+  },
+  "html_popup_never_suspend_page": {
+    "message": "このURLを一時停止しない"
+  },
+  "html_popup_suspend_other_tabs": {
+    "message": "他のすべてのタブを一時停止"
+  },
+  "html_popup_unsuspend_all_tabs": {
+    "message": "すべてのタブを再開"
+  },
+  "html_popup_suspend_selected_tabs": {
+    "message": "選択したタブを一時停止"
+  },
+  "html_popup_unsuspend_selected_tabs": {
+    "message": "選択したタブを再開"
+  },
+  "html_popup_settings": {
+    "message": "設定"
+  },
+  "html_restoring_title": {
+    "message": "ウィンドウを復元中"
+  },
+  "html_restoring_heading": {
+    "message": "タブを復元中"
+  },
+  "html_restoring_detail": {
+    "message": "このウィンドウを復元しています。しばらくお待ちください..."
+  },
+  "html_recovery_title": {
+    "message": "リカバリー"
+  },
+  "html_recovery_ruh_roh": {
+    "message": "おっと！"
+  },
+  "html_recovery_description_line1": {
+    "message": "拡張機能のクラッシュから回復しようとしているようです。"
+  },
+  "html_recovery_description_line2": {
+    "message": "一時停止中のタブがクラッシュまたは消失した可能性があります。"
+  },
+  "html_recovery_restore_tabs_automatically": {
+    "message": "タブを自動的に復元"
+  },
+  "html_recovery_go_to_session_manager": {
+    "message": "セッション管理へ移動"
+  },
+  "html_recovery_important_message": {
+    "message": "スクリーンキャプチャが有効になっています。この拡張機能が繰り返しクラッシュする場合は、このオプションを無効にすることをお勧めします。"
+  },
+  "html_recovery_disable_screen_capturing": {
+    "message": "スクリーンキャプチャをオフにする"
+  },
+  "html_recovery_tabs_to_restore": {
+    "message": "復元するタブ"
+  },
+  "html_shortcuts_title": {
+    "message": "キーボードショートカット"
+  },
+  "html_shortcuts_keyboard_shortcuts": {
+    "message": "キーボードショートカット"
+  },
+  "html_shortcuts_context_menu_note": {
+    "message": "注意：これらの操作は右クリックメニューからも利用できます。"
+  },
+  "html_shortcuts_remap_keys": {
+    "message": "ショートカットを変更"
+  },
+  "html_sidebar_general_settings": {
+    "message": "設定"
+  },
+  "html_sidebar_session_management": {
+    "message": "セッション管理"
+  },
+  "html_sidebar_shortcuts": {
+    "message": "キーボードショートカット"
+  },
+  "html_sidebar_support": {
+    "message": "情報"
+  },
+  "html_success_great_success": {
+    "message": "成功！"
+  },
+  "html_success_all_tabs_restored": {
+    "message": "すべてのタブが復元されました。"
+  },
+  "html_success_goto_advanced_prefix": {
+    "message": "高度なセッション管理については、"
+  },
+  "html_success_goto_advanced_suffix": {
+    "message": "ページをご覧ください"
+  },
+  "html_session_manager": {
+    "message": "セッション管理"
+  },
+  "html_suspended_title": {
+    "message": "一時停止中のタブ"
+  },
+  "html_suspended_tab_suspended": {
+    "message": "タブを一時停止"
+  },
+  "html_suspended_tab_reload": {
+    "message": "タブを再読み込み"
+  },
+  "html_suspended_tab_whitelist_prefix": {
+    "message": "一時停止しない"
+  },
+  "html_suspended_tab_whitelist_suffix": {
+    "message": "..."
+  },
+  "html_suspended_click_to_reload": {
+    "message": "更新またはクリックして再読み込み"
+  },
+  "html_suspended_toast_not_connected": {
+    "message": "インターネットに接続されていません"
+  },
+  "html_suspended_toast_reload_disabled": {
+    "message": "タブの自動再読み込みは一時的に無効になっています。"
+  },
+  "html_suspended_donation_question": {
+    "message": "この拡張機能は役に立っていますか？\n寄付でサポートしてください。"
+  },
+  "html_permissions_title": {
+    "message": "権限"
+  },
+  "html_permissions_heading": {
+    "message": "ローカルファイルURLへのアクセスを許可してください"
+  },
+  "html_permissions_info": {
+    "message": "この拡張機能は現在「file」で始まるURLを一時停止する権限がありません。\n変更するには、拡張機能の設定ページから「ファイルのURLへのアクセスを許可する」をオンにしてください。"
+  },
+  "html_permissions_backup": {
+    "message": "注意：このオプションを変更すると、一時停止中のタブが一時的に消えます。\n念のため、現在のタブセッションのバックアップを保存することをお勧めします。"
+  },
+  "html_update_title": {
+    "message": "アップデート"
+  },
+  "html_update_heading2": {
+    "message": "さらに良くなります"
+  },
+  "html_update_info": {
+    "message": "The Great Suspenderの新バージョンをインストールする準備ができました。\n注意：アップデート中、一時停止中のタブが一時的に消えます。"
+  },
+  "html_update_info_withbackup": {
+    "message": "念のため、現在のタブセッションのバックアップを保存することをお勧めします。"
+  },
+  "html_update_info_nobackup_prefix": {
+    "message": "アップデートを続行する前に、現在のセッションのコピーをエクスポートすることを強くお勧めします "
+  },
+  "html_update_info_nobackup_suffix": {
+    "message": "。"
+  },
+  "html_updated_title": {
+    "message": "アップデート完了"
+  },
+  "html_updating_heading": {
+    "message": "アップデート中"
+  },
+  "html_updating_message": {
+    "message": "一時停止中のタブを復元しています。しばらくお待ちください..."
+  },
+  "html_updated_great_suspender_updated": {
+    "message": "がアップデートされました"
+  },
+  "html_updated_info_line1": {
+    "message": "アップデート前にタブの自動バックアップが作成されました。"
+  },
+  "html_updated_info_line2_prefix": {
+    "message": "アップデート中に問題が発生した場合は、"
+  },
+  "html_updated_info_line2_suffix": {
+    "message": "ページから失われたタブを復元できます。"
+  },
+  "html_updated_detail_header_prefix": {
+    "message": "バージョン "
+  },
+  "html_updated_detail_header_suffix": {
+    "message": " の新機能"
+  },
+  "html_updated_new_features_header": {
+    "message": "新機能："
+  },
+  "html_updated_bug_fixes_header": {
+    "message": "バグ修正："
+  },
+  "html_updated_release_notes": {
+    "message": "完全なリリースノートはGitHubをご覧ください："
+  },
+  "html_updated_patch_message": {
+    "message": "ご不便をおかけして申し訳ありません。少しメンテナンスが必要でした。"
+  },
+  "html_welcome_title": {
+    "message": "ようこそ"
+  },
+  "html_welcome_text_line1": {
+    "message": "お試しいただきありがとうございます"
+  },
+  "html_welcome_text_line2": {
+    "message": "使用していないタブを一時停止することで、コンピューターをスムーズに動作させます。"
+  },
+  "html_welcome_text_line3": {
+    "message": "以下の設定で詳細を調整できます。"
+  },
+  "html_thanks_title": {
+    "message": "ありがとうございます"
+  },
+  "html_thanks_header": {
+    "message": "サポートありがとうございます！"
+  },
+  "html_thanks_sub_header": {
+    "message": "今日も素晴らしいことがありますように。"
+  },
+  "js_popup_normal": {
+    "message": "タブは自動的に一時停止されます。"
+  },
+  "js_popup_normal_pause": {
+    "message": "今はしない"
+  },
+  "js_popup_special": {
+    "message": "このタブは一時停止できません"
+  },
+  "js_popup_suspended": {
+    "message": "タブを一時停止"
+  },
+  "js_popup_suspended_pause": {
+    "message": "一時停止しない"
+  },
+  "js_popup_whitelisted": {
+    "message": "サイトはホワイトリストに登録されています。"
+  },
+  "js_popup_whitelisted_remove": {
+    "message": "ホワイトリストから削除"
+  },
+  "js_popup_audible": {
+    "message": "タブで音声が再生されています。"
+  },
+  "js_popup_form_input": {
+    "message": "タブでフォーム入力を受け付けています。"
+  },
+  "js_popup_form_input_unpause": {
+    "message": "再開"
+  },
+  "js_popup_pinned": {
+    "message": "タブが固定されています"
+  },
+  "js_popup_temp_whitelist": {
+    "message": "タブの一時停止を中断しました。"
+  },
+  "js_popup_temp_whitelist_unpause": {
+    "message": "再開"
+  },
+  "js_popup_never": {
+    "message": "タブの自動一時停止は無効です。"
+  },
+  "js_popup_no_connectivity": {
+    "message": "ネットワーク接続なし"
+  },
+  "js_popup_charging": {
+    "message": "電源に接続されています"
+  },
+  "js_popup_blockedFile": {
+    "message": "ローカルファイルは一時停止できません。"
+  },
+  "js_popup_blockedFile_enable": {
+    "message": "有効にする"
+  },
+  "js_popup_unknown": {
+    "message": "タブの読み込みを待っています..."
+  },
+  "js_popup_initialising": {
+    "message": "拡張機能の初期化を待っています..."
+  },
+  "js_popup_error": {
+    "message": "このタブでは自動一時停止は利用できません"
+  },
+  "js_history_delete": {
+    "message": "削除"
+  },
+  "js_history_export": {
+    "message": "エクスポート"
+  },
+  "js_history_reload": {
+    "message": "開いて読み込む"
+  },
+  "js_history_resuspend": {
+    "message": "開いて一時停止"
+  },
+  "js_history_save": {
+    "message": "保存"
+  },
+  "js_history_window": {
+    "message": "ウィンドウ"
+  },
+  "js_history_tab": {
+    "message": "タブ"
+  },
+  "js_history_plural": {
+    "message": ""
+  },
+  "js_history_enter_name_for_session": {
+    "message": "このセッションの名前を入力してください"
+  },
+  "js_history_confirm_delete": {
+    "message": "このセッションを削除してもよろしいですか？"
+  },
+  "js_history_confirm_session_overwrite": {
+    "message": "この名前の保存済みセッションがすでに存在します。既存のセッションを上書きしますか？"
+  },
+  "js_history_import_fail": {
+    "message": "ファイルの読み込みに失敗しました。プレーンテキストで1行に1つのURLが含まれていることを確認してください。"
+  },
+  "js_suspended_remove_from_whitelist": {
+    "message": "ホワイトリストからサイトを削除"
+  },
+  "js_suspended_hotkey_to_reload": {
+    "message": "キーボードショートカットを設定"
+  },
+  "js_suspended_low_memory": {
+    "message": "システムメモリ不足のためタブを一時停止しました"
+  },
+  "js_options_incognito_warning": {
+    "message": "シークレットモードです。一部の機能は利用できません。"
+  },
+  "js_options_whitelist_no_matches": {
+    "message": "現在のホワイトリストに一致する開いているタブはありません。"
+  },
+  "js_options_whitelist_matches_heading": {
+    "message": "ホワイトリストに登録された開いているタブ："
+  },
+  "js_options_whitelist_matches_overflow_prefix": {
+    "message": "他"
+  },
+  "js_options_whitelist_matches_overflow_suffix": {
+    "message": "件。"
+  },
+  "js_permissions_button_export": {
+    "message": "バックアップを保存"
+  },
+  "js_permissions_button_set": {
+    "message": "拡張機能の設定を開く"
+  },
+  "js_update_confirm": {
+    "message": "バックアップをまだ保存していません。それでも拡張機能をアップデートしますか？"
+  },
+  "js_update_button_export": {
+    "message": "バックアップを保存"
+  },
+  "js_update_button_reload": {
+    "message": "今すぐ拡張機能をアップデート"
+  },
+  "js_shortcuts_not_set": {
+    "message": "未設定"
+  },
+  "js_session_save_point": {
+    "message": "v の自動保存ポイント"
+  }
+}

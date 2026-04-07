@@ -1,0 +1,686 @@
+{
+  "ext_extension_name": {
+    "message": "The Great Suspender | Tab Suspender - แช่แข็งแท็บ"
+  },
+  "ext_extension_description": {
+    "message": "หยุดแท็บ Chrome ที่ไม่ได้ใช้เพื่อประหยัด RAM และเพิ่มความเร็ว Tab Suspender ที่ดีที่สุด — แช่แข็งแท็บที่ไม่ได้ใช้โดยอัตโนมัติและกู้คืนทันที"
+  },
+  "ext_default_title": {
+    "message": "The Great Suspender"
+  },
+  "ext_cmd_toggle_tab_suspension_description": {
+    "message": "หยุด/กู้คืนแท็บที่ใช้งานอยู่"
+  },
+  "ext_cmd_toggle_tab_pause_description": {
+    "message": "หยุดชั่วคราว/ดำเนินการต่อการหยุดแท็บที่ใช้งานอยู่"
+  },
+  "ext_cmd_suspend_selected_tabs_description": {
+    "message": "หยุดแท็บที่เลือก"
+  },
+  "ext_cmd_unsuspend_selected_tabs_description": {
+    "message": "กู้คืนแท็บที่เลือก"
+  },
+  "ext_cmd_soft_suspend_active_window_description": {
+    "message": "หยุดแท็บอื่นทั้งหมดในหน้าต่างที่ใช้งานอยู่"
+  },
+  "ext_cmd_force_suspend_active_window_description": {
+    "message": "บังคับหยุดแท็บอื่นทั้งหมดในหน้าต่างที่ใช้งานอยู่"
+  },
+  "ext_cmd_unsuspend_active_window_description": {
+    "message": "กู้คืนแท็บทั้งหมดในหน้าต่างที่ใช้งานอยู่"
+  },
+  "ext_cmd_soft_suspend_all_windows_description": {
+    "message": "หยุดแท็บทั้งหมดในทุกหน้าต่าง"
+  },
+  "ext_cmd_force_suspend_all_windows_description": {
+    "message": "บังคับหยุดแท็บทั้งหมดในทุกหน้าต่าง"
+  },
+  "ext_cmd_unsuspend_all_windows_description": {
+    "message": "กู้คืนแท็บทั้งหมดในทุกหน้าต่าง"
+  },
+  "js_context_open_link_in_suspended_tab": {
+    "message": "เปิดลิงก์ในแท็บที่หยุดใหม่"
+  },
+  "js_context_toggle_suspend_state": {
+    "message": "หยุด/กู้คืนแท็บนี้"
+  },
+  "js_context_toggle_pause_suspension": {
+    "message": "หยุดชั่วคราว/ดำเนินการต่อการหยุดแท็บนี้"
+  },
+  "js_context_never_suspend_domain": {
+    "message": "ไม่หยุดโดเมนนี้เลย"
+  },
+  "js_context_never_suspend_page": {
+    "message": "ไม่หยุด URL นี้เลย"
+  },
+  "js_context_suspend_selected_tabs": {
+    "message": "หยุดแท็บที่เลือก"
+  },
+  "js_context_unsuspend_selected_tabs": {
+    "message": "กู้คืนแท็บที่เลือก"
+  },
+  "js_context_soft_suspend_other_tabs_in_window": {
+    "message": "หยุดแท็บอื่นทั้งหมดในหน้าต่างนี้"
+  },
+  "js_context_force_suspend_other_tabs_in_window": {
+    "message": "บังคับหยุดแท็บอื่นทั้งหมดในหน้าต่างนี้"
+  },
+  "js_context_unsuspend_all_tabs_in_window": {
+    "message": "กู้คืนแท็บทั้งหมดในหน้าต่างนี้"
+  },
+  "js_context_soft_suspend_all_tabs": {
+    "message": "หยุดแท็บทั้งหมดในทุกหน้าต่าง"
+  },
+  "js_context_force_suspend_all_tabs": {
+    "message": "บังคับหยุดแท็บทั้งหมดในทุกหน้าต่าง"
+  },
+  "js_context_unsuspend_all_tabs": {
+    "message": "กู้คืนแท็บทั้งหมดในทุกหน้าต่าง"
+  },
+  "html_about_title": {
+    "message": "เกี่ยวกับ"
+  },
+  "html_history_title": {
+    "message": "การจัดการเซสชัน"
+  },
+  "html_history_current_session": {
+    "message": "เซสชันปัจจุบัน"
+  },
+  "html_history_recent_sessions": {
+    "message": "เซสชันล่าสุด"
+  },
+  "html_history_saved_sessions": {
+    "message": "เซสชันที่บันทึกไว้"
+  },
+  "html_history_import_session": {
+    "message": "นำเข้าเซสชัน"
+  },
+  "html_notice_title": {
+    "message": "ประกาศ"
+  },
+  "html_notice_important_notice": {
+    "message": "ประกาศสำคัญจาก The Great Suspender"
+  },
+  "html_options_title": {
+    "message": "การตั้งค่า"
+  },
+  "html_options_suspend_title": {
+    "message": "การหยุดแท็บอัตโนมัติ"
+  },
+  "html_options_suspended_title": {
+    "message": "แท็บที่หยุดแล้ว"
+  },
+  "html_options_other_title": {
+    "message": "อื่นๆ"
+  },
+  "html_options_suspend_automatically_after": {
+    "message": "หยุดแท็บอัตโนมัติหลังจาก"
+  },
+  "html_options_suspend_never": {
+    "message": "ไม่เคย"
+  },
+  "html_options_suspend_seconds": {
+    "message": "วินาที"
+  },
+  "html_options_suspend_minute": {
+    "message": "นาที"
+  },
+  "html_options_suspend_minutes": {
+    "message": "นาที"
+  },
+  "html_options_suspend_hour": {
+    "message": "ชั่วโมง"
+  },
+  "html_options_suspend_hours": {
+    "message": "ชั่วโมง"
+  },
+  "html_options_suspend_day": {
+    "message": "วัน"
+  },
+  "html_options_suspend_days": {
+    "message": "วัน"
+  },
+  "html_options_suspend_week": {
+    "message": "สัปดาห์"
+  },
+  "html_options_suspend_weeks": {
+    "message": "สัปดาห์"
+  },
+  "html_options_suspend_no_pinned": {
+    "message": "ไม่หยุดแท็บที่ปักหมุดเลย"
+  },
+  "html_options_suspend_no_forms": {
+    "message": "ไม่หยุดแท็บที่มีฟอร์มที่ยังไม่บันทึกเลย"
+  },
+  "html_options_suspend_no_audio": {
+    "message": "ไม่หยุดแท็บที่กำลังเล่นเสียงเลย"
+  },
+  "html_options_suspend_only_connected": {
+    "message": "ไม่หยุดแท็บเมื่อออฟไลน์"
+  },
+  "html_options_suspend_only_on_battery": {
+    "message": "ไม่หยุดแท็บเมื่อเสียบปลั๊กชาร์จ"
+  },
+  "html_options_suspend_no_active_tabs": {
+    "message": "ไม่หยุดแท็บที่ใช้งานอยู่ในแต่ละหน้าต่าง"
+  },
+  "html_options_suspend_automatically_unsuspend": {
+    "message": "กู้คืนแท็บอัตโนมัติเมื่อดู"
+  },
+  "html_options_suspend_discard_after_suspend": {
+    "message": "ใช้ฟีเจอร์ประหยัดหน่วยความจำของ Chrome เมื่อหยุด"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1a": {
+    "message": "ลดการใช้หน่วยความจำของแท็บที่หยุดเพิ่มเติมโดยใช้"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1b": {
+    "message": "ฟีเจอร์ 'tab discarding' ของ Chrome สามารถประหยัดได้ถึง"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1c": {
+    "message": "500% ของหน่วยความจำเมื่อทำงานกับแท็บจำนวนมาก"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line2a": {
+    "message": "อย่างไรก็ตาม อาจเกิดความล่าช้าเล็กน้อยในการแสดงผลเมื่อเลือก"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line2b": {
+    "message": "แท็บที่หยุดแล้ว"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line3a": {
+    "message": "ข้อมูลเพิ่มเติมเกี่ยวกับ Chrome discarding:"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line3b": {
+    "message": "https://developers.google.com/web/updates/2015/09/tab-discarding"
+  },
+  "html_options_suspend_theme": {
+    "message": "ธีม"
+  },
+  "html_options_suspend_theme_light": {
+    "message": "สว่าง"
+  },
+  "html_options_suspend_theme_dark": {
+    "message": "มืด"
+  },
+  "html_options_suspend_screen_capturing": {
+    "message": "การจับภาพหน้าจอ"
+  },
+  "html_options_suspend_screen_capturing_disabled": {
+    "message": "ปิดใช้งาน"
+  },
+  "html_options_suspend_screen_capturing_screen_only": {
+    "message": "จับภาพเฉพาะส่วนบนของหน้าจอ"
+  },
+  "html_options_suspend_screen_capturing_entire_page": {
+    "message": "จับภาพทั้งหน้า"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line1a": {
+    "message": "บนแท็บที่หยุด ส่วนขยายสามารถแสดงภาพตัวอย่างว่าแท็บ"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line1b": {
+    "message": "มีลักษณะอย่างไรก่อนถูกหยุด"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line2a": {
+    "message": "ฟีเจอร์การจับภาพหน้าจอเป็นแบบทดลองและอาจทำให้ CPU ทำงานหนัก"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line2b": {
+    "message": "รวมถึงเพิ่มการใช้หน่วยความจำเล็กน้อย"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line3a": {
+    "message": "หากพบพฤติกรรมผิดปกติ เช่น แท็บใช้เวลานานในการหยุด หรือ Chrome"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line3b": {
+    "message": "หยุดทำงานโดยไม่คาดคิด ลองปิดฟีเจอร์นี้"
+  },
+  "html_options_suspend_force_screen_capture": {
+    "message": "เปิดใช้งานโหมดจับภาพหน้าจอคุณภาพสูง"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line1": {
+    "message": "เมื่อปิดใช้งาน การจับภาพหน้าจอมีข้อจำกัดด้านประสิทธิภาพดังนี้:"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line2": {
+    "message": "- คุณภาพการจับภาพต่ำ"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line4": {
+    "message": "- ไม่จับภาพหน้าจอหากใช้เวลาสร้างภาพมากกว่า 1 นาที"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line5": {
+    "message": "- ความสูงสูงสุดของภาพจำกัดที่ 5000px"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line6": {
+    "message": "การเปิดใช้งานโหมดจับภาพคุณภาพสูงอาจเพิ่มโหลด CPU"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line7": {
+    "message": "และการใช้หน่วยความจำอย่างมาก"
+  },
+  "html_options_whitelist_title": {
+    "message": "ไม่หยุดแท็บที่มี URL จากรายการต่อไปนี้:"
+  },
+  "html_options_whitelist_tooltip_line1": {
+    "message": "เพิ่ม URL ของแต่ละหน้าที่ต้องการในรายการอนุญาตในบรรทัดใหม่"
+  },
+  "html_options_whitelist_tooltip_line2": {
+    "message": "หากต้องการเพิ่มหลายไซต์ในบรรทัดเดียว ระบุส่วนหนึ่งของ URL:"
+  },
+  "html_options_whitelist_tooltip_line3": {
+    "message": "คุณยังสามารถระบุนิพจน์ทั่วไปโดยล้อมข้อความด้วยเครื่องหมายทับ:"
+  },
+  "html_options_whitelist_test": {
+    "message": "ทดสอบรายการอนุญาต"
+  },
+  "html_options_other_enable_context_menu": {
+    "message": "เพิ่ม The Great Suspender ในเมนูคลิกขวา"
+  },
+  "html_options_other_enable_context_menu_tooltip_line1": {
+    "message": "เพิ่มตัวควบคุมของส่วนขยายนี้ในเมนูคลิกขวาของเว็บเพจ"
+  },
+  "html_options_other_enable_context_menu_tooltip_line2": {
+    "message": "ซึ่งจะให้คุณเข้าถึงการดำเนินการหยุดขั้นสูงที่ไม่มีอยู่"
+  },
+  "html_options_other_enable_context_menu_tooltip_line3": {
+    "message": "ในที่อื่นของส่วนขยาย"
+  },
+  "html_options_other_enable_sync": {
+    "message": "ซิงค์การตั้งค่ากับโปรไฟล์ Chrome"
+  },
+  "html_options_other_enable_sync_tooltip_line1a": {
+    "message": "การตั้งค่าส่วนขยายจะถูกซิงค์ในเบราว์เซอร์ Chrome ทั้งหมดที่"
+  },
+  "html_options_other_enable_sync_tooltip_line1b": {
+    "message": "เข้าสู่ระบบด้วยโปรไฟล์เดียวกัน"
+  },
+  "html_options_other_enable_sync_tooltip_line2": {
+    "message": "ซึ่งจะซิงค์การตั้งค่าในโหมดไม่ระบุตัวตนด้วย"
+  },
+  "html_options_other_enable_sync_warning": {
+    "message": "การเปิดใช้งานจะเขียนทับการตั้งค่าในเบราว์เซอร์อื่นทั้งหมดที่เข้าสู่ระบบด้วยโปรไฟล์ Chrome เดียวกัน"
+  },
+  "html_options_suspend_on_low_memory": {
+    "message": "หยุดทันทีเมื่อหน่วยความจำระบบต่ำมาก"
+  },
+  "html_options_suspend_on_low_memory_tooltip_line1": {
+    "message": "ตัวเลือกนี้จะแทนที่การทิ้งแท็บอัตโนมัติของ Chrome"
+  },
+  "html_options_suspend_on_low_memory_tooltip_line2": {
+    "message": "หากเปิดใช้งาน จะบังคับให้แท็บหยุดแทนที่จะถูกทิ้งโดย Chrome"
+  },
+  "html_options_suspend_on_low_memory_tooltip_line3": {
+    "message": "โดยปกติ Chrome จะทิ้งแท็บเฉพาะเมื่อหน่วยความจำระบบต่ำมาก"
+  },
+  "html_options_suspend_on_low_memory_tooltip_line4": {
+    "message": "หมายเหตุ: อาจทำให้แท็บหยุดเร็วกว่าเวลาที่คุณกำหนดไว้"
+  },
+  "html_options_suspend_on_low_memory_tooltip_line5": {
+    "message": "ในตัวเลือกการหยุดอัตโนมัติ"
+  },
+  "html_options_suspend_on_low_memory_tooltip_line6": {
+    "message": "ข้อมูลเพิ่มเติมเกี่ยวกับ Chrome discarding:"
+  },
+  "html_options_suspend_on_low_memory_tooltip_discarding_link": {
+    "message": "https://developers.google.com/web/updates/2015/09/tab-discarding"
+  },
+  "html_popup_unsuspend_tab": {
+    "message": "กู้คืนแท็บนี้"
+  },
+  "html_popup_suspend_tab": {
+    "message": "หยุดแท็บนี้ตอนนี้"
+  },
+  "html_popup_dont_suspend_now": {
+    "message": "ยังไม่หยุด"
+  },
+  "html_popup_never_suspend_domain": {
+    "message": "ไม่หยุดโดเมนนี้เลย"
+  },
+  "html_popup_never_suspend_page": {
+    "message": "ไม่หยุด URL นี้เลย"
+  },
+  "html_popup_suspend_other_tabs": {
+    "message": "หยุดแท็บอื่นทั้งหมด"
+  },
+  "html_popup_unsuspend_all_tabs": {
+    "message": "กู้คืนแท็บทั้งหมด"
+  },
+  "html_popup_suspend_selected_tabs": {
+    "message": "หยุดแท็บที่เลือก"
+  },
+  "html_popup_unsuspend_selected_tabs": {
+    "message": "กู้คืนแท็บที่เลือก"
+  },
+  "html_popup_settings": {
+    "message": "การตั้งค่า"
+  },
+  "html_restoring_title": {
+    "message": "กำลังกู้คืนหน้าต่าง"
+  },
+  "html_restoring_heading": {
+    "message": "กำลังกู้คืนแท็บ"
+  },
+  "html_restoring_detail": {
+    "message": "กรุณารอสักครู่ขณะกู้คืนหน้าต่างนี้..."
+  },
+  "html_recovery_title": {
+    "message": "การกู้คืน"
+  },
+  "html_recovery_ruh_roh": {
+    "message": "โอ้โห!"
+  },
+  "html_recovery_description_line1": {
+    "message": "ดูเหมือนคุณกำลังกู้คืนจากการขัดข้องของส่วนขยาย"
+  },
+  "html_recovery_description_line2": {
+    "message": "แท็บที่หยุดของคุณอาจขัดข้องหรือหายไป"
+  },
+  "html_recovery_restore_tabs_automatically": {
+    "message": "กู้คืนแท็บอัตโนมัติ"
+  },
+  "html_recovery_go_to_session_manager": {
+    "message": "ไปที่ตัวจัดการเซสชัน"
+  },
+  "html_recovery_important_message": {
+    "message": "คุณเปิดใช้การจับภาพหน้าจออยู่ หากส่วนขยายนี้ขัดข้องซ้ำๆ แนะนำให้ปิดตัวเลือกนี้"
+  },
+  "html_recovery_disable_screen_capturing": {
+    "message": "ปิดการจับภาพหน้าจอ"
+  },
+  "html_recovery_tabs_to_restore": {
+    "message": "แท็บที่ต้องกู้คืน"
+  },
+  "html_shortcuts_title": {
+    "message": "แป้นพิมพ์ลัด"
+  },
+  "html_shortcuts_keyboard_shortcuts": {
+    "message": "แป้นพิมพ์ลัด"
+  },
+  "html_shortcuts_context_menu_note": {
+    "message": "หมายเหตุ: การดำเนินการเหล่านี้สามารถเข้าถึงได้ผ่านเมนูคลิกขวาด้วย"
+  },
+  "html_shortcuts_remap_keys": {
+    "message": "เปลี่ยนแป้นพิมพ์ลัด"
+  },
+  "html_sidebar_general_settings": {
+    "message": "การตั้งค่า"
+  },
+  "html_sidebar_session_management": {
+    "message": "การจัดการเซสชัน"
+  },
+  "html_sidebar_shortcuts": {
+    "message": "แป้นพิมพ์ลัด"
+  },
+  "html_sidebar_support": {
+    "message": "เกี่ยวกับ"
+  },
+  "html_success_great_success": {
+    "message": "ประสบความสำเร็จ!"
+  },
+  "html_success_all_tabs_restored": {
+    "message": "แท็บทั้งหมดของคุณได้รับการกู้คืนแล้ว"
+  },
+  "html_success_goto_advanced_prefix": {
+    "message": "สำหรับการจัดการเซสชันขั้นสูง เยี่ยมชม"
+  },
+  "html_success_goto_advanced_suffix": {
+    "message": "หน้า"
+  },
+  "html_session_manager": {
+    "message": "การจัดการเซสชัน"
+  },
+  "html_suspended_title": {
+    "message": "แท็บที่หยุด"
+  },
+  "html_suspended_tab_suspended": {
+    "message": "แท็บถูกหยุดแล้ว"
+  },
+  "html_suspended_tab_reload": {
+    "message": "โหลดแท็บใหม่"
+  },
+  "html_suspended_tab_whitelist_prefix": {
+    "message": "ไม่หยุดเลย"
+  },
+  "html_suspended_tab_whitelist_suffix": {
+    "message": "..."
+  },
+  "html_suspended_click_to_reload": {
+    "message": "รีเฟรชหรือคลิกเพื่อโหลดใหม่"
+  },
+  "html_suspended_toast_not_connected": {
+    "message": "คุณไม่ได้เชื่อมต่ออินเทอร์เน็ต"
+  },
+  "html_suspended_toast_reload_disabled": {
+    "message": "การโหลดแท็บอัตโนมัติถูกปิดใช้งานชั่วคราว"
+  },
+  "html_suspended_donation_question": {
+    "message": "ส่วนขยายนี้ทำให้คุณมีความสุขไหม?\nแสดงการสนับสนุนด้วยการบริจาค"
+  },
+  "html_permissions_title": {
+    "message": "การอนุญาต"
+  },
+  "html_permissions_heading": {
+    "message": "ให้สิทธิ์การเข้าถึง URL ไฟล์ในเครื่อง"
+  },
+  "html_permissions_info": {
+    "message": "ส่วนขยายนี้ยังไม่ได้รับอนุญาตให้หยุด URL ที่ขึ้นต้นด้วยคำว่า \"file\"\nหากต้องการเปลี่ยนแปลง โปรดเปิด \"อนุญาตการเข้าถึง URL ไฟล์\" จากหน้าการตั้งค่าส่วนขยาย"
+  },
+  "html_permissions_backup": {
+    "message": "หมายเหตุ: การเปลี่ยนตัวเลือกนี้จะทำให้แท็บที่หยุดทั้งหมดหายไปชั่วคราว\nนี่อาจเป็นเวลาที่ดีในการบันทึกสำเนาสำรองของเซสชันแท็บปัจจุบัน"
+  },
+  "html_update_title": {
+    "message": "การอัปเดต"
+  },
+  "html_update_heading2": {
+    "message": "กำลังจะดีขึ้น"
+  },
+  "html_update_info": {
+    "message": "The Great Suspender เวอร์ชันใหม่พร้อมติดตั้ง\nหมายเหตุ: ระหว่างการอัปเดต แท็บที่หยุดจะหายไปชั่วคราว"
+  },
+  "html_update_info_withbackup": {
+    "message": "นี่อาจเป็นเวลาที่ดีในการบันทึกสำเนาสำรองของเซสชันปัจจุบัน"
+  },
+  "html_update_info_nobackup_prefix": {
+    "message": "แนะนำอย่างยิ่งให้ส่งออกสำเนาเซสชันปัจจุบันจาก "
+  },
+  "html_update_info_nobackup_suffix": {
+    "message": " ก่อนดำเนินการอัปเดต"
+  },
+  "html_updated_title": {
+    "message": "อัปเดตแล้ว"
+  },
+  "html_updating_heading": {
+    "message": "กำลังอัปเดต"
+  },
+  "html_updating_message": {
+    "message": "กรุณารอสักครู่ขณะกู้คืนแท็บที่หยุด..."
+  },
+  "html_updated_great_suspender_updated": {
+    "message": "ได้รับการอัปเดตแล้ว"
+  },
+  "html_updated_info_line1": {
+    "message": "สำเนาสำรองอัตโนมัติของแท็บคุณถูกสร้างก่อนการอัปเดต"
+  },
+  "html_updated_info_line2_prefix": {
+    "message": "หากพบปัญหาระหว่างการอัปเดต คุณสามารถกู้คืนแท็บที่หายจาก "
+  },
+  "html_updated_info_line2_suffix": {
+    "message": " หน้า"
+  },
+  "html_updated_detail_header_prefix": {
+    "message": "มีอะไรใหม่ใน "
+  },
+  "html_updated_detail_header_suffix": {
+    "message": "?"
+  },
+  "html_updated_new_features_header": {
+    "message": "ฟีเจอร์ใหม่:"
+  },
+  "html_updated_bug_fixes_header": {
+    "message": "การแก้ไขบัก:"
+  },
+  "html_updated_release_notes": {
+    "message": "เยี่ยมชม GitHub สำหรับบันทึกการเผยแพร่ฉบับเต็ม: "
+  },
+  "html_updated_patch_message": {
+    "message": "ขออภัยในความไม่สะดวก ฉันแค่ต้องทำการบำรุงรักษาเล็กน้อย"
+  },
+  "html_welcome_title": {
+    "message": "ยินดีต้อนรับ"
+  },
+  "html_welcome_text_line1": {
+    "message": "ขอบคุณที่ลอง"
+  },
+  "html_welcome_text_line2": {
+    "message": "ฉันช่วยให้คอมพิวเตอร์ทำงานได้อย่างราบรื่นโดยหยุดแท็บที่คุณไม่ได้ใช้"
+  },
+  "html_welcome_text_line3": {
+    "message": "คุณสามารถปรับแต่งการตั้งค่าด้านล่าง"
+  },
+  "html_thanks_title": {
+    "message": "ขอบคุณ"
+  },
+  "html_thanks_header": {
+    "message": "ขอบคุณสำหรับการสนับสนุน!"
+  },
+  "html_thanks_sub_header": {
+    "message": "ขอให้วันนี้มีแต่สิ่งดีๆ"
+  },
+  "js_popup_normal": {
+    "message": "แท็บจะถูกหยุดอัตโนมัติ"
+  },
+  "js_popup_normal_pause": {
+    "message": "ยังไม่ใช่ตอนนี้"
+  },
+  "js_popup_special": {
+    "message": "ไม่สามารถหยุดแท็บได้"
+  },
+  "js_popup_suspended": {
+    "message": "แท็บถูกหยุดแล้ว"
+  },
+  "js_popup_suspended_pause": {
+    "message": "ไม่หยุด"
+  },
+  "js_popup_whitelisted": {
+    "message": "ไซต์อยู่ในรายการอนุญาต"
+  },
+  "js_popup_whitelisted_remove": {
+    "message": "ลบออกจากรายการอนุญาต"
+  },
+  "js_popup_audible": {
+    "message": "แท็บกำลังเล่นเสียง"
+  },
+  "js_popup_form_input": {
+    "message": "แท็บกำลังรับข้อมูลฟอร์ม"
+  },
+  "js_popup_form_input_unpause": {
+    "message": "ดำเนินการต่อ"
+  },
+  "js_popup_pinned": {
+    "message": "แท็บถูกปักหมุด"
+  },
+  "js_popup_temp_whitelist": {
+    "message": "การหยุดแท็บถูกหยุดชั่วคราว"
+  },
+  "js_popup_temp_whitelist_unpause": {
+    "message": "ดำเนินการต่อ"
+  },
+  "js_popup_never": {
+    "message": "ปิดการหยุดแท็บอัตโนมัติแล้ว"
+  },
+  "js_popup_no_connectivity": {
+    "message": "ไม่มีการเชื่อมต่อเครือข่าย"
+  },
+  "js_popup_charging": {
+    "message": "เสียบปลั๊กชาร์จอยู่"
+  },
+  "js_popup_blockedFile": {
+    "message": "ไม่สามารถหยุดไฟล์ในเครื่องได้"
+  },
+  "js_popup_blockedFile_enable": {
+    "message": "เปิดใช้งาน"
+  },
+  "js_popup_unknown": {
+    "message": "กำลังรอให้แท็บโหลด..."
+  },
+  "js_popup_initialising": {
+    "message": "กำลังรอให้ส่วนขยายเริ่มต้น..."
+  },
+  "js_popup_error": {
+    "message": "ไม่สามารถหยุดอัตโนมัติสำหรับแท็บนี้ได้"
+  },
+  "js_history_delete": {
+    "message": "ลบ"
+  },
+  "js_history_export": {
+    "message": "ส่งออก"
+  },
+  "js_history_reload": {
+    "message": "เปิดและโหลด"
+  },
+  "js_history_resuspend": {
+    "message": "เปิดและหยุด"
+  },
+  "js_history_save": {
+    "message": "บันทึก"
+  },
+  "js_history_window": {
+    "message": "หน้าต่าง"
+  },
+  "js_history_tab": {
+    "message": "แท็บ"
+  },
+  "js_history_plural": {
+    "message": "s"
+  },
+  "js_history_enter_name_for_session": {
+    "message": "ใส่ชื่อสำหรับเซสชันนี้"
+  },
+  "js_history_confirm_delete": {
+    "message": "แน่ใจว่าต้องการลบเซสชันนี้?"
+  },
+  "js_history_confirm_session_overwrite": {
+    "message": "มีเซสชันที่บันทึกด้วยชื่อนี้อยู่แล้ว เขียนทับเซสชันที่มีอยู่?"
+  },
+  "js_history_import_fail": {
+    "message": "โหลดไฟล์ไม่สำเร็จ ตรวจสอบให้แน่ใจว่าไฟล์เป็นข้อความธรรมดาที่มี URL หนึ่งรายการต่อบรรทัด"
+  },
+  "js_suspended_remove_from_whitelist": {
+    "message": "ลบไซต์ออกจากรายการอนุญาต"
+  },
+  "js_suspended_hotkey_to_reload": {
+    "message": "ตั้งค่าแป้นพิมพ์ลัด"
+  },
+  "js_suspended_low_memory": {
+    "message": "แท็บถูกหยุดเนื่องจากหน่วยความจำระบบต่ำ"
+  },
+  "js_options_incognito_warning": {
+    "message": "คุณอยู่ในโหมดไม่ระบุตัวตน บางฟีเจอร์จะไม่พร้อมใช้งาน"
+  },
+  "js_options_whitelist_no_matches": {
+    "message": "ไม่มีแท็บที่เปิดอยู่ที่ตรงกับรายการอนุญาตปัจจุบัน"
+  },
+  "js_options_whitelist_matches_heading": {
+    "message": "แท็บที่เปิดอยู่ในรายการอนุญาต:"
+  },
+  "js_options_whitelist_matches_overflow_prefix": {
+    "message": "และอีก"
+  },
+  "js_options_whitelist_matches_overflow_suffix": {
+    "message": " รายการ"
+  },
+  "js_permissions_button_export": {
+    "message": "บันทึกสำเนาสำรอง"
+  },
+  "js_permissions_button_set": {
+    "message": "เปิดการตั้งค่าส่วนขยาย"
+  },
+  "js_update_confirm": {
+    "message": "คุณยังไม่ได้บันทึกสำเนาสำรอง อัปเดตส่วนขยายต่อไปหรือไม่?"
+  },
+  "js_update_button_export": {
+    "message": "บันทึกสำเนาสำรอง"
+  },
+  "js_update_button_reload": {
+    "message": "อัปเดตส่วนขยายตอนนี้"
+  },
+  "js_shortcuts_not_set": {
+    "message": "ยังไม่ได้ตั้งค่า"
+  },
+  "js_session_save_point": {
+    "message": "จุดบันทึกอัตโนมัติสำหรับ v"
+  }
+}

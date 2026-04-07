@@ -1,0 +1,686 @@
+{
+  "ext_extension_name": {
+    "message": "The Great Suspender | Tab Suspender - הקפאת לשוניות"
+  },
+  "ext_extension_description": {
+    "message": "השהה לשוניות Chrome לא פעילות לחיסכון ב-RAM ולהאצת המהירות. Tab Suspender הטוב ביותר — מקפיא אוטומטית לשוניות שאינן בשימוש ומשחזר אותן מיידית."
+  },
+  "ext_default_title": {
+    "message": "The Great Suspender"
+  },
+  "ext_cmd_toggle_tab_suspension_description": {
+    "message": "השהה/שחזר לשונית פעילה"
+  },
+  "ext_cmd_toggle_tab_pause_description": {
+    "message": "עצור/המשך השהיית לשונית פעילה"
+  },
+  "ext_cmd_suspend_selected_tabs_description": {
+    "message": "השהה לשוניות נבחרות"
+  },
+  "ext_cmd_unsuspend_selected_tabs_description": {
+    "message": "שחזר לשוניות נבחרות"
+  },
+  "ext_cmd_soft_suspend_active_window_description": {
+    "message": "השהה את כל הלשוניות האחרות בחלון הפעיל"
+  },
+  "ext_cmd_force_suspend_active_window_description": {
+    "message": "אלץ השהיית כל הלשוניות האחרות בחלון הפעיל"
+  },
+  "ext_cmd_unsuspend_active_window_description": {
+    "message": "שחזר את כל הלשוניות בחלון הפעיל"
+  },
+  "ext_cmd_soft_suspend_all_windows_description": {
+    "message": "השהה את כל הלשוניות בכל החלונות"
+  },
+  "ext_cmd_force_suspend_all_windows_description": {
+    "message": "אלץ השהיית כל הלשוניות בכל החלונות"
+  },
+  "ext_cmd_unsuspend_all_windows_description": {
+    "message": "שחזר את כל הלשוניות בכל החלונות"
+  },
+  "js_context_open_link_in_suspended_tab": {
+    "message": "פתח קישור בלשונית מושהית חדשה"
+  },
+  "js_context_toggle_suspend_state": {
+    "message": "השהה/שחזר לשונית זו"
+  },
+  "js_context_toggle_pause_suspension": {
+    "message": "עצור/המשך השהיית לשונית זו"
+  },
+  "js_context_never_suspend_domain": {
+    "message": "אל תשהה אף פעם את הדומיין הזה"
+  },
+  "js_context_never_suspend_page": {
+    "message": "אל תשהה אף פעם את ה-URL הזה"
+  },
+  "js_context_suspend_selected_tabs": {
+    "message": "השהה לשוניות נבחרות"
+  },
+  "js_context_unsuspend_selected_tabs": {
+    "message": "שחזר לשוניות נבחרות"
+  },
+  "js_context_soft_suspend_other_tabs_in_window": {
+    "message": "השהה את כל הלשוניות האחרות בחלון זה"
+  },
+  "js_context_force_suspend_other_tabs_in_window": {
+    "message": "אלץ השהיית כל הלשוניות האחרות בחלון זה"
+  },
+  "js_context_unsuspend_all_tabs_in_window": {
+    "message": "שחזר את כל הלשוניות בחלון זה"
+  },
+  "js_context_soft_suspend_all_tabs": {
+    "message": "השהה את כל הלשוניות בכל החלונות"
+  },
+  "js_context_force_suspend_all_tabs": {
+    "message": "אלץ השהיית כל הלשוניות בכל החלונות"
+  },
+  "js_context_unsuspend_all_tabs": {
+    "message": "שחזר את כל הלשוניות בכל החלונות"
+  },
+  "html_about_title": {
+    "message": "אודות"
+  },
+  "html_history_title": {
+    "message": "ניהול סשנים"
+  },
+  "html_history_current_session": {
+    "message": "סשן נוכחי"
+  },
+  "html_history_recent_sessions": {
+    "message": "סשנים אחרונים"
+  },
+  "html_history_saved_sessions": {
+    "message": "סשנים שמורים"
+  },
+  "html_history_import_session": {
+    "message": "ייבוא סשן"
+  },
+  "html_notice_title": {
+    "message": "הודעה"
+  },
+  "html_notice_important_notice": {
+    "message": "הודעה חשובה מ-The Great Suspender"
+  },
+  "html_options_title": {
+    "message": "הגדרות"
+  },
+  "html_options_suspend_title": {
+    "message": "השהיית לשוניות אוטומטית"
+  },
+  "html_options_suspended_title": {
+    "message": "לשוניות מושהות"
+  },
+  "html_options_other_title": {
+    "message": "אחר"
+  },
+  "html_options_suspend_automatically_after": {
+    "message": "השהה לשוניות אוטומטית לאחר"
+  },
+  "html_options_suspend_never": {
+    "message": "אף פעם"
+  },
+  "html_options_suspend_seconds": {
+    "message": "שניות"
+  },
+  "html_options_suspend_minute": {
+    "message": "דקה"
+  },
+  "html_options_suspend_minutes": {
+    "message": "דקות"
+  },
+  "html_options_suspend_hour": {
+    "message": "שעה"
+  },
+  "html_options_suspend_hours": {
+    "message": "שעות"
+  },
+  "html_options_suspend_day": {
+    "message": "יום"
+  },
+  "html_options_suspend_days": {
+    "message": "ימים"
+  },
+  "html_options_suspend_week": {
+    "message": "שבוע"
+  },
+  "html_options_suspend_weeks": {
+    "message": "שבועות"
+  },
+  "html_options_suspend_no_pinned": {
+    "message": "אל תשהה אף פעם לשוניות מוצמדות"
+  },
+  "html_options_suspend_no_forms": {
+    "message": "אל תשהה אף פעם לשוניות עם טפסים שלא נשמרו"
+  },
+  "html_options_suspend_no_audio": {
+    "message": "אל תשהה אף פעם לשוניות שמנגנות שמע"
+  },
+  "html_options_suspend_only_connected": {
+    "message": "אל תשהה אף פעם לשוניות כשאתה לא מחובר"
+  },
+  "html_options_suspend_only_on_battery": {
+    "message": "אל תשהה אף פעם לשוניות כשמחובר לחשמל"
+  },
+  "html_options_suspend_no_active_tabs": {
+    "message": "אל תשהה אף פעם לשונית פעילה בכל חלון"
+  },
+  "html_options_suspend_automatically_unsuspend": {
+    "message": "שחזר לשונית אוטומטית כשצופים בה"
+  },
+  "html_options_suspend_discard_after_suspend": {
+    "message": "השתמש בחיסכון בזיכרון המובנה של Chrome בעת השהייה"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1a": {
+    "message": "מפחית עוד יותר את השימוש בזיכרון של לשונית מושהית על ידי שימוש"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1b": {
+    "message": "בפונקציית 'tab discarding' המובנית של Chrome. יכול לחסוך עד"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1c": {
+    "message": "500% בזיכרון בעבודה עם הרבה לשוניות."
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line2a": {
+    "message": "עם זאת, עלול לגרום לעיכוב קטן בעיבוד בעת בחירת"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line2b": {
+    "message": "לשונית מושהית."
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line3a": {
+    "message": "למידע נוסף על Chrome discarding:"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line3b": {
+    "message": "https://developers.google.com/web/updates/2015/09/tab-discarding"
+  },
+  "html_options_suspend_theme": {
+    "message": "ערכת נושא"
+  },
+  "html_options_suspend_theme_light": {
+    "message": "בהיר"
+  },
+  "html_options_suspend_theme_dark": {
+    "message": "כהה"
+  },
+  "html_options_suspend_screen_capturing": {
+    "message": "צילום מסך"
+  },
+  "html_options_suspend_screen_capturing_disabled": {
+    "message": "מושבת"
+  },
+  "html_options_suspend_screen_capturing_screen_only": {
+    "message": "צלם רק את החלק העליון של המסך"
+  },
+  "html_options_suspend_screen_capturing_entire_page": {
+    "message": "צלם את כל הדף"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line1a": {
+    "message": "בלשונית מושהית, התוסף יכול להציג תצוגה מקדימה של הלשונית"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line1b": {
+    "message": "כפי שנראתה לפני ההשהייה."
+  },
+  "html_options_suspend_screen_capturing_tooltip_line2a": {
+    "message": "תכונת צילום המסך ניסיונית ועלולה לגרום לשימוש גבוה ב-CPU"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line2b": {
+    "message": "וגם לעלייה קלה בשימוש בזיכרון."
+  },
+  "html_options_suspend_screen_capturing_tooltip_line3a": {
+    "message": "אם אתה מבחין בהתנהגות מוזרה כמו לשוניות שלוקחות הרבה זמן להשתהות או Chrome"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line3b": {
+    "message": "קורס באופן בלתי צפוי, נסה לכבות תכונה זו."
+  },
+  "html_options_suspend_force_screen_capture": {
+    "message": "הפעל מצב צילום מסך באיכות גבוהה"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line1": {
+    "message": "כשמושבת, לצילומי המסך יש את המגבלות הביצועים הבאות:"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line2": {
+    "message": "- צילום מסך באיכות נמוכה"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line4": {
+    "message": "- לא יצלם מסך אם יקח יותר מ-1 דקה ליצור תמונה"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line5": {
+    "message": "- גובה מקסימלי של צילום מוגבל ל-5000px"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line6": {
+    "message": "הפעלת מצב צילום מסך באיכות גבוהה עלולה להגביר משמעותית את עומס ה-CPU"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line7": {
+    "message": "ואת השימוש בזיכרון."
+  },
+  "html_options_whitelist_title": {
+    "message": "אל תשהה אף פעם לשוניות עם URL מהרשימה הבאה:"
+  },
+  "html_options_whitelist_tooltip_line1": {
+    "message": "הוסף את ה-URL של כל דף שברצונך להוסיף לרשימה הלבנה בשורה חדשה."
+  },
+  "html_options_whitelist_tooltip_line2": {
+    "message": "כדי להוסיף כמה אתרים בשורה אחת, ציין חלק מה-URL:"
+  },
+  "html_options_whitelist_tooltip_line3": {
+    "message": "אפשר גם לציין ביטויים רגולריים על ידי הקפת הטקסט בלוכסנים:"
+  },
+  "html_options_whitelist_test": {
+    "message": "בדוק רשימה לבנה"
+  },
+  "html_options_other_enable_context_menu": {
+    "message": "הוסף את The Great Suspender לתפריט לחיצה ימנית"
+  },
+  "html_options_other_enable_context_menu_tooltip_line1": {
+    "message": "מוסיף פקדים לתוסף זה לתפריט לחיצה ימנית של דף אינטרנט."
+  },
+  "html_options_other_enable_context_menu_tooltip_line2": {
+    "message": "זה ייתן לך גישה לפעולות השהייה מתקדמות שאינן זמינות"
+  },
+  "html_options_other_enable_context_menu_tooltip_line3": {
+    "message": "במקומות אחרים בתוסף."
+  },
+  "html_options_other_enable_sync": {
+    "message": "סנכרן הגדרות עם פרופיל Chrome"
+  },
+  "html_options_other_enable_sync_tooltip_line1a": {
+    "message": "הגדרות התוסף יסונכרנו בכל דפדפני Chrome המחוברים"
+  },
+  "html_options_other_enable_sync_tooltip_line1b": {
+    "message": "עם אותו פרופיל."
+  },
+  "html_options_other_enable_sync_tooltip_line2": {
+    "message": "זה גם יסנכרן הגדרות במצב גלישה פרטית."
+  },
+  "html_options_other_enable_sync_warning": {
+    "message": "הפעלת זה תדרוס הגדרות בכל הדפדפנים האחרים המחוברים עם אותו פרופיל Chrome"
+  },
+  "html_options_suspend_on_low_memory": {
+    "message": "השהה מיידית כשהזיכרון נהיה נמוך מאוד"
+  },
+  "html_options_suspend_on_low_memory_tooltip_line1": {
+    "message": "אפשרות זו תעקוף את פונקציית ביטול הלשוניות האוטומטית של Chrome."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line2": {
+    "message": "אם מופעל, יאלץ לשונית להשתהות במקום להיות מבוטלת על ידי Chrome."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line3": {
+    "message": "בדרך כלל, Chrome מבטל לשוניות רק כשהזיכרון נהיה נמוך מאוד."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line4": {
+    "message": "שים לב: זה עלול לגרום ללשוניות להשתהות מוקדם יותר מהזמן שהגדרת"
+  },
+  "html_options_suspend_on_low_memory_tooltip_line5": {
+    "message": "באפשרויות ההשהייה האוטומטית."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line6": {
+    "message": "למידע נוסף על Chrome discarding:"
+  },
+  "html_options_suspend_on_low_memory_tooltip_discarding_link": {
+    "message": "https://developers.google.com/web/updates/2015/09/tab-discarding"
+  },
+  "html_popup_unsuspend_tab": {
+    "message": "שחזר לשונית זו"
+  },
+  "html_popup_suspend_tab": {
+    "message": "השהה לשונית זו עכשיו"
+  },
+  "html_popup_dont_suspend_now": {
+    "message": "לא עכשיו"
+  },
+  "html_popup_never_suspend_domain": {
+    "message": "אל תשהה אף פעם דומיין זה"
+  },
+  "html_popup_never_suspend_page": {
+    "message": "אל תשהה אף פעם URL זה"
+  },
+  "html_popup_suspend_other_tabs": {
+    "message": "השהה את כל הלשוניות האחרות"
+  },
+  "html_popup_unsuspend_all_tabs": {
+    "message": "שחזר את כל הלשוניות"
+  },
+  "html_popup_suspend_selected_tabs": {
+    "message": "השהה לשוניות נבחרות"
+  },
+  "html_popup_unsuspend_selected_tabs": {
+    "message": "שחזר לשוניות נבחרות"
+  },
+  "html_popup_settings": {
+    "message": "הגדרות"
+  },
+  "html_restoring_title": {
+    "message": "שחזור חלון"
+  },
+  "html_restoring_heading": {
+    "message": "שחזור לשוניות"
+  },
+  "html_restoring_detail": {
+    "message": "אנא המתן בזמן שחזור חלון זה..."
+  },
+  "html_recovery_title": {
+    "message": "שחזור"
+  },
+  "html_recovery_ruh_roh": {
+    "message": "אוי לא!"
+  },
+  "html_recovery_description_line1": {
+    "message": "נראה שאתה מתאושש מקריסת תוסף."
+  },
+  "html_recovery_description_line2": {
+    "message": "הלשוניות המושהות שלך עלולות לקרוס או להיעלם."
+  },
+  "html_recovery_restore_tabs_automatically": {
+    "message": "שחזר לשוניות אוטומטית"
+  },
+  "html_recovery_go_to_session_manager": {
+    "message": "עבור למנהל הסשנים"
+  },
+  "html_recovery_important_message": {
+    "message": "כרגע צילום המסך מופעל. אם התוסף קורס שוב ושוב, מומלץ לכבות אפשרות זו."
+  },
+  "html_recovery_disable_screen_capturing": {
+    "message": "כבה צילום מסך"
+  },
+  "html_recovery_tabs_to_restore": {
+    "message": "לשוניות לשחזור"
+  },
+  "html_shortcuts_title": {
+    "message": "קיצורי מקלדת"
+  },
+  "html_shortcuts_keyboard_shortcuts": {
+    "message": "קיצורי מקלדת"
+  },
+  "html_shortcuts_context_menu_note": {
+    "message": "שים לב: פעולות אלה זמינות גם דרך תפריט לחיצה ימנית."
+  },
+  "html_shortcuts_remap_keys": {
+    "message": "שנה קיצורים"
+  },
+  "html_sidebar_general_settings": {
+    "message": "הגדרות"
+  },
+  "html_sidebar_session_management": {
+    "message": "ניהול סשנים"
+  },
+  "html_sidebar_shortcuts": {
+    "message": "קיצורי מקלדת"
+  },
+  "html_sidebar_support": {
+    "message": "אודות"
+  },
+  "html_success_great_success": {
+    "message": "הצלחה גדולה!"
+  },
+  "html_success_all_tabs_restored": {
+    "message": "כל הלשוניות שלך שוחזרו."
+  },
+  "html_success_goto_advanced_prefix": {
+    "message": "לניהול סשנים מתקדם, בקר ב"
+  },
+  "html_success_goto_advanced_suffix": {
+    "message": "עמוד"
+  },
+  "html_session_manager": {
+    "message": "ניהול סשנים"
+  },
+  "html_suspended_title": {
+    "message": "לשונית מושהית"
+  },
+  "html_suspended_tab_suspended": {
+    "message": "לשונית מושהית"
+  },
+  "html_suspended_tab_reload": {
+    "message": "טען מחדש לשונית"
+  },
+  "html_suspended_tab_whitelist_prefix": {
+    "message": "אל תשהה אף פעם"
+  },
+  "html_suspended_tab_whitelist_suffix": {
+    "message": "..."
+  },
+  "html_suspended_click_to_reload": {
+    "message": "רענן או לחץ לטעינה מחדש"
+  },
+  "html_suspended_toast_not_connected": {
+    "message": "אינך מחובר לאינטרנט"
+  },
+  "html_suspended_toast_reload_disabled": {
+    "message": "טעינה אוטומטית של לשוניות מושבתת זמנית."
+  },
+  "html_suspended_donation_question": {
+    "message": "האם התוסף הזה משמח אותך?\nהראה את תמיכתך בתרומה."
+  },
+  "html_permissions_title": {
+    "message": "הרשאות"
+  },
+  "html_permissions_heading": {
+    "message": "אפשר לי גישה ל-URL של קבצים מקומיים"
+  },
+  "html_permissions_info": {
+    "message": "תוסף זה אינו מורשה כרגע להשהות URL המתחילים במילה \"file\".\nכדי לשנות זאת, הפעל \"אפשר גישה ל-URL של קבצים\" מדף הגדרות התוסף."
+  },
+  "html_permissions_backup": {
+    "message": "שים לב: שינוי אפשרות זו יגרום לכל הלשוניות המושהות להיעלם זמנית.\nאולי זה זמן טוב לשמור גיבוי של סשן הלשוניות הנוכחי."
+  },
+  "html_update_title": {
+    "message": "עדכון"
+  },
+  "html_update_heading2": {
+    "message": "עומד להפוך לטוב יותר"
+  },
+  "html_update_info": {
+    "message": "גרסה חדשה של The Great Suspender מוכנה להתקנה.\nשים לב: במהלך העדכון הלשוניות המושהות יעלמו זמנית."
+  },
+  "html_update_info_withbackup": {
+    "message": "אולי זה זמן טוב לשמור גיבוי של הסשן הנוכחי."
+  },
+  "html_update_info_nobackup_prefix": {
+    "message": "מומלץ מאוד לייצא עותק של הסשן הנוכחי מ "
+  },
+  "html_update_info_nobackup_suffix": {
+    "message": " לפני המשך העדכון."
+  },
+  "html_updated_title": {
+    "message": "עודכן"
+  },
+  "html_updating_heading": {
+    "message": "מתעדכן"
+  },
+  "html_updating_message": {
+    "message": "אנא המתן בזמן שחזור הלשוניות המושהות..."
+  },
+  "html_updated_great_suspender_updated": {
+    "message": "עודכן"
+  },
+  "html_updated_info_line1": {
+    "message": "גיבוי אוטומטי של הלשוניות שלך נוצר לפני העדכון."
+  },
+  "html_updated_info_line2_prefix": {
+    "message": "אם נתקלת בבעיות במהלך העדכון, תוכל לשחזר לשוניות שאבדו מ "
+  },
+  "html_updated_info_line2_suffix": {
+    "message": " עמוד."
+  },
+  "html_updated_detail_header_prefix": {
+    "message": "מה חדש ב "
+  },
+  "html_updated_detail_header_suffix": {
+    "message": "?"
+  },
+  "html_updated_new_features_header": {
+    "message": "תכונות חדשות:"
+  },
+  "html_updated_bug_fixes_header": {
+    "message": "תיקוני באגים:"
+  },
+  "html_updated_release_notes": {
+    "message": "בקר ב-GitHub לקבלת הערות מלאות על הגרסה: "
+  },
+  "html_updated_patch_message": {
+    "message": "מצטער על ההפרעה. רק הייתי צריך לבצע תחזוקה קטנה."
+  },
+  "html_welcome_title": {
+    "message": "ברוך הבא"
+  },
+  "html_welcome_text_line1": {
+    "message": "תודה שניסית"
+  },
+  "html_welcome_text_line2": {
+    "message": "אני מסייע למחשב שלך לפעול בצורה חלקה על ידי השהיית לשוניות שאינך משתמש בהן."
+  },
+  "html_welcome_text_line3": {
+    "message": "תוכל לכוון את ההגדרות להלן."
+  },
+  "html_thanks_title": {
+    "message": "תודות"
+  },
+  "html_thanks_header": {
+    "message": "תודה על התמיכה!"
+  },
+  "html_thanks_sub_header": {
+    "message": "שדברים טובים יגיעו אליך היום."
+  },
+  "js_popup_normal": {
+    "message": "לשונית תושהה אוטומטית."
+  },
+  "js_popup_normal_pause": {
+    "message": "לא עכשיו"
+  },
+  "js_popup_special": {
+    "message": "לשונית לא יכולה להיות מושהית"
+  },
+  "js_popup_suspended": {
+    "message": "לשונית מושהית"
+  },
+  "js_popup_suspended_pause": {
+    "message": "אל תשהה"
+  },
+  "js_popup_whitelisted": {
+    "message": "אתר ברשימה הלבנה."
+  },
+  "js_popup_whitelisted_remove": {
+    "message": "הסר מהרשימה הלבנה"
+  },
+  "js_popup_audible": {
+    "message": "לשונית מנגנת שמע."
+  },
+  "js_popup_form_input": {
+    "message": "לשונית מקבלת קלט טופס."
+  },
+  "js_popup_form_input_unpause": {
+    "message": "המשך"
+  },
+  "js_popup_pinned": {
+    "message": "לשונית מוצמדת"
+  },
+  "js_popup_temp_whitelist": {
+    "message": "השהיית לשונית בהפסקה."
+  },
+  "js_popup_temp_whitelist_unpause": {
+    "message": "המשך"
+  },
+  "js_popup_never": {
+    "message": "השהייה אוטומטית מושבתת."
+  },
+  "js_popup_no_connectivity": {
+    "message": "אין חיבור לרשת"
+  },
+  "js_popup_charging": {
+    "message": "מחובר למקור חשמל"
+  },
+  "js_popup_blockedFile": {
+    "message": "לא ניתן להשהות קבצים מקומיים."
+  },
+  "js_popup_blockedFile_enable": {
+    "message": "הפעל"
+  },
+  "js_popup_unknown": {
+    "message": "ממתין לטעינת לשונית..."
+  },
+  "js_popup_initialising": {
+    "message": "ממתין לאתחול התוסף..."
+  },
+  "js_popup_error": {
+    "message": "השהייה אוטומטית אינה זמינה ללשונית זו"
+  },
+  "js_history_delete": {
+    "message": "מחק"
+  },
+  "js_history_export": {
+    "message": "ייצא"
+  },
+  "js_history_reload": {
+    "message": "פתח וטען"
+  },
+  "js_history_resuspend": {
+    "message": "פתח והשהה"
+  },
+  "js_history_save": {
+    "message": "שמור"
+  },
+  "js_history_window": {
+    "message": "חלון"
+  },
+  "js_history_tab": {
+    "message": "לשונית"
+  },
+  "js_history_plural": {
+    "message": "ות"
+  },
+  "js_history_enter_name_for_session": {
+    "message": "הזן שם לסשן זה"
+  },
+  "js_history_confirm_delete": {
+    "message": "האם אתה בטוח שברצונך למחוק סשן זה?"
+  },
+  "js_history_confirm_session_overwrite": {
+    "message": "כבר קיים סשן שמור עם שם זה. לדרוס סשן קיים?"
+  },
+  "js_history_import_fail": {
+    "message": "טעינת הקובץ נכשלה. ודא שהקובץ הוא טקסט רגיל עם URL אחד לשורה."
+  },
+  "js_suspended_remove_from_whitelist": {
+    "message": "הסר אתר מהרשימה הלבנה"
+  },
+  "js_suspended_hotkey_to_reload": {
+    "message": "הגדר קיצורי מקלדת"
+  },
+  "js_suspended_low_memory": {
+    "message": "לשונית הושהתה עקב זיכרון מערכת נמוך"
+  },
+  "js_options_incognito_warning": {
+    "message": "אתה במצב גלישה פרטית. חלק מהתכונות לא יהיו זמינות."
+  },
+  "js_options_whitelist_no_matches": {
+    "message": "אין לשוניות פתוחות התואמות לרשימה הלבנה הנוכחית."
+  },
+  "js_options_whitelist_matches_heading": {
+    "message": "לשוניות פתוחות ברשימה הלבנה:"
+  },
+  "js_options_whitelist_matches_overflow_prefix": {
+    "message": "ועוד"
+  },
+  "js_options_whitelist_matches_overflow_suffix": {
+    "message": " נוספות."
+  },
+  "js_permissions_button_export": {
+    "message": "שמור גיבוי"
+  },
+  "js_permissions_button_set": {
+    "message": "פתח הגדרות תוסף"
+  },
+  "js_update_confirm": {
+    "message": "עדיין לא שמרת גיבוי. לעדכן בכל זאת?"
+  },
+  "js_update_button_export": {
+    "message": "שמור גיבוי"
+  },
+  "js_update_button_reload": {
+    "message": "עדכן תוסף עכשיו"
+  },
+  "js_shortcuts_not_set": {
+    "message": "לא מוגדר"
+  },
+  "js_session_save_point": {
+    "message": "נקודת שמירה אוטומטית עבור v"
+  }
+}

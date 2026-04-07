@@ -1,0 +1,686 @@
+{
+  "ext_extension_name": {
+    "message": "The Great Suspender | Tab Suspender - توقف زبانه‌ها"
+  },
+  "ext_extension_description": {
+    "message": "زبانه‌های غیرفعال Chrome را برای صرفه‌جویی در RAM و افزایش سرعت متوقف کنید. بهترین Tab Suspender — زبانه‌های استفاده‌نشده را به‌صورت خودکار فریز می‌کند و فوری بازیابی می‌کند."
+  },
+  "ext_default_title": {
+    "message": "The Great Suspender"
+  },
+  "ext_cmd_toggle_tab_suspension_description": {
+    "message": "توقف/بازیابی زبانه فعال"
+  },
+  "ext_cmd_toggle_tab_pause_description": {
+    "message": "مکث/ادامه توقف زبانه فعال"
+  },
+  "ext_cmd_suspend_selected_tabs_description": {
+    "message": "توقف زبانه‌های انتخاب‌شده"
+  },
+  "ext_cmd_unsuspend_selected_tabs_description": {
+    "message": "بازیابی زبانه‌های انتخاب‌شده"
+  },
+  "ext_cmd_soft_suspend_active_window_description": {
+    "message": "توقف همه زبانه‌های دیگر در پنجره فعال"
+  },
+  "ext_cmd_force_suspend_active_window_description": {
+    "message": "توقف اجباری همه زبانه‌های دیگر در پنجره فعال"
+  },
+  "ext_cmd_unsuspend_active_window_description": {
+    "message": "بازیابی همه زبانه‌ها در پنجره فعال"
+  },
+  "ext_cmd_soft_suspend_all_windows_description": {
+    "message": "توقف همه زبانه‌ها در همه پنجره‌ها"
+  },
+  "ext_cmd_force_suspend_all_windows_description": {
+    "message": "توقف اجباری همه زبانه‌ها در همه پنجره‌ها"
+  },
+  "ext_cmd_unsuspend_all_windows_description": {
+    "message": "بازیابی همه زبانه‌ها در همه پنجره‌ها"
+  },
+  "js_context_open_link_in_suspended_tab": {
+    "message": "باز کردن لینک در زبانه متوقف‌شده جدید"
+  },
+  "js_context_toggle_suspend_state": {
+    "message": "توقف/بازیابی این زبانه"
+  },
+  "js_context_toggle_pause_suspension": {
+    "message": "مکث/ادامه توقف این زبانه"
+  },
+  "js_context_never_suspend_domain": {
+    "message": "هرگز این دامنه را متوقف نکن"
+  },
+  "js_context_never_suspend_page": {
+    "message": "هرگز این URL را متوقف نکن"
+  },
+  "js_context_suspend_selected_tabs": {
+    "message": "توقف زبانه‌های انتخاب‌شده"
+  },
+  "js_context_unsuspend_selected_tabs": {
+    "message": "بازیابی زبانه‌های انتخاب‌شده"
+  },
+  "js_context_soft_suspend_other_tabs_in_window": {
+    "message": "توقف همه زبانه‌های دیگر در این پنجره"
+  },
+  "js_context_force_suspend_other_tabs_in_window": {
+    "message": "توقف اجباری همه زبانه‌های دیگر در این پنجره"
+  },
+  "js_context_unsuspend_all_tabs_in_window": {
+    "message": "بازیابی همه زبانه‌ها در این پنجره"
+  },
+  "js_context_soft_suspend_all_tabs": {
+    "message": "توقف همه زبانه‌ها در همه پنجره‌ها"
+  },
+  "js_context_force_suspend_all_tabs": {
+    "message": "توقف اجباری همه زبانه‌ها در همه پنجره‌ها"
+  },
+  "js_context_unsuspend_all_tabs": {
+    "message": "بازیابی همه زبانه‌ها در همه پنجره‌ها"
+  },
+  "html_about_title": {
+    "message": "درباره"
+  },
+  "html_history_title": {
+    "message": "مدیریت جلسه"
+  },
+  "html_history_current_session": {
+    "message": "جلسه فعلی"
+  },
+  "html_history_recent_sessions": {
+    "message": "جلسات اخیر"
+  },
+  "html_history_saved_sessions": {
+    "message": "جلسات ذخیره‌شده"
+  },
+  "html_history_import_session": {
+    "message": "وارد کردن جلسه"
+  },
+  "html_notice_title": {
+    "message": "اطلاعیه"
+  },
+  "html_notice_important_notice": {
+    "message": "اطلاعیه مهم از The Great Suspender"
+  },
+  "html_options_title": {
+    "message": "تنظیمات"
+  },
+  "html_options_suspend_title": {
+    "message": "توقف خودکار زبانه"
+  },
+  "html_options_suspended_title": {
+    "message": "زبانه‌های متوقف"
+  },
+  "html_options_other_title": {
+    "message": "سایر"
+  },
+  "html_options_suspend_automatically_after": {
+    "message": "توقف خودکار زبانه‌ها پس از"
+  },
+  "html_options_suspend_never": {
+    "message": "هرگز"
+  },
+  "html_options_suspend_seconds": {
+    "message": "ثانیه"
+  },
+  "html_options_suspend_minute": {
+    "message": "دقیقه"
+  },
+  "html_options_suspend_minutes": {
+    "message": "دقیقه"
+  },
+  "html_options_suspend_hour": {
+    "message": "ساعت"
+  },
+  "html_options_suspend_hours": {
+    "message": "ساعت"
+  },
+  "html_options_suspend_day": {
+    "message": "روز"
+  },
+  "html_options_suspend_days": {
+    "message": "روز"
+  },
+  "html_options_suspend_week": {
+    "message": "هفته"
+  },
+  "html_options_suspend_weeks": {
+    "message": "هفته"
+  },
+  "html_options_suspend_no_pinned": {
+    "message": "هرگز زبانه‌های پین‌شده را متوقف نکن"
+  },
+  "html_options_suspend_no_forms": {
+    "message": "هرگز زبانه‌های دارای فرم‌های ذخیره‌نشده را متوقف نکن"
+  },
+  "html_options_suspend_no_audio": {
+    "message": "هرگز زبانه‌های در حال پخش صدا را متوقف نکن"
+  },
+  "html_options_suspend_only_connected": {
+    "message": "هرگز زبانه‌ها را در حالت آفلاین متوقف نکن"
+  },
+  "html_options_suspend_only_on_battery": {
+    "message": "هرگز زبانه‌ها را هنگام اتصال به برق متوقف نکن"
+  },
+  "html_options_suspend_no_active_tabs": {
+    "message": "هرگز زبانه فعال هر پنجره را متوقف نکن"
+  },
+  "html_options_suspend_automatically_unsuspend": {
+    "message": "بازیابی خودکار زبانه هنگام مشاهده"
+  },
+  "html_options_suspend_discard_after_suspend": {
+    "message": "استفاده از صرفه‌جویی حافظه داخلی Chrome هنگام توقف"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1a": {
+    "message": "با استفاده از قابلیت 'tab discarding' داخلی Chrome،"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1b": {
+    "message": "مصرف حافظه زبانه متوقف را بیشتر کاهش می‌دهد. می‌تواند تا"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1c": {
+    "message": "۵۰۰٪ در حافظه صرفه‌جویی کند."
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line2a": {
+    "message": "اما ممکن است هنگام انتخاب زبانه متوقف‌شده"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line2b": {
+    "message": "تأخیر کمی در نمایش ایجاد کند."
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line3a": {
+    "message": "اطلاعات بیشتر درباره Chrome discarding:"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line3b": {
+    "message": "https://developers.google.com/web/updates/2015/09/tab-discarding"
+  },
+  "html_options_suspend_theme": {
+    "message": "پوسته"
+  },
+  "html_options_suspend_theme_light": {
+    "message": "روشن"
+  },
+  "html_options_suspend_theme_dark": {
+    "message": "تاریک"
+  },
+  "html_options_suspend_screen_capturing": {
+    "message": "گرفتن تصویر صفحه"
+  },
+  "html_options_suspend_screen_capturing_disabled": {
+    "message": "غیرفعال"
+  },
+  "html_options_suspend_screen_capturing_screen_only": {
+    "message": "فقط از قسمت بالای صفحه تصویر بگیر"
+  },
+  "html_options_suspend_screen_capturing_entire_page": {
+    "message": "از کل صفحه تصویر بگیر"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line1a": {
+    "message": "در زبانه متوقف، افزونه می‌تواند پیش‌نمایش تصویری از"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line1b": {
+    "message": "ظاهر زبانه قبل از توقف نشان دهد."
+  },
+  "html_options_suspend_screen_capturing_tooltip_line2a": {
+    "message": "قابلیت گرفتن تصویر آزمایشی است و ممکن است مصرف CPU را افزایش دهد"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line2b": {
+    "message": "و مصرف حافظه را کمی بالا ببرد."
+  },
+  "html_options_suspend_screen_capturing_tooltip_line3a": {
+    "message": "اگر رفتار غیرعادی مانند کند شدن توقف زبانه‌ها یا خرابی Chrome"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line3b": {
+    "message": "مشاهده کردید، این قابلیت را خاموش کنید."
+  },
+  "html_options_suspend_force_screen_capture": {
+    "message": "فعال کردن حالت گرفتن تصویر با کیفیت بالا"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line1": {
+    "message": "در حالت غیرفعال، گرفتن تصویر این محدودیت‌های عملکردی را دارد:"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line2": {
+    "message": "- کیفیت پایین تصویر"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line4": {
+    "message": "- اگر بیش از ۱ دقیقه طول بکشد تصویر نمی‌گیرد"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line5": {
+    "message": "- حداکثر ارتفاع تصویر به ۵۰۰۰ پیکسل محدود است"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line6": {
+    "message": "فعال کردن گرفتن تصویر با کیفیت بالا ممکن است مصرف CPU"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line7": {
+    "message": "و حافظه را به‌طور قابل‌توجهی افزایش دهد."
+  },
+  "html_options_whitelist_title": {
+    "message": "هرگز زبانه‌های با URL از لیست زیر را متوقف نکن:"
+  },
+  "html_options_whitelist_tooltip_line1": {
+    "message": "URL هر صفحه‌ای که می‌خواهید در لیست سفید قرار دهید را در خط جدید اضافه کنید."
+  },
+  "html_options_whitelist_tooltip_line2": {
+    "message": "برای چند سایت در یک خط، بخشی از URL را وارد کنید:"
+  },
+  "html_options_whitelist_tooltip_line3": {
+    "message": "می‌توانید با محصور کردن متن در علامت اسلش، عبارات منظم نیز تعریف کنید:"
+  },
+  "html_options_whitelist_test": {
+    "message": "آزمایش لیست سفید"
+  },
+  "html_options_other_enable_context_menu": {
+    "message": "افزودن The Great Suspender به منوی راست‌کلیک"
+  },
+  "html_options_other_enable_context_menu_tooltip_line1": {
+    "message": "کنترل‌های این افزونه را به منوی راست‌کلیک صفحه وب اضافه می‌کند."
+  },
+  "html_options_other_enable_context_menu_tooltip_line2": {
+    "message": "این دسترسی به عملیات توقف پیشرفته را که در جای دیگری"
+  },
+  "html_options_other_enable_context_menu_tooltip_line3": {
+    "message": "در افزونه نیستند فراهم می‌کند."
+  },
+  "html_options_other_enable_sync": {
+    "message": "همگام‌سازی تنظیمات با پروفایل Chrome"
+  },
+  "html_options_other_enable_sync_tooltip_line1a": {
+    "message": "تنظیمات افزونه در تمام مرورگرهای Chrome که با"
+  },
+  "html_options_other_enable_sync_tooltip_line1b": {
+    "message": "همان پروفایل وارد شده‌اند همگام می‌شود."
+  },
+  "html_options_other_enable_sync_tooltip_line2": {
+    "message": "تنظیمات حالت ناشناس هم همگام می‌شود."
+  },
+  "html_options_other_enable_sync_warning": {
+    "message": "فعال کردن این گزینه تنظیمات تمام مرورگرهای دیگر با همان پروفایل Chrome را بازنویسی می‌کند"
+  },
+  "html_options_suspend_on_low_memory": {
+    "message": "توقف فوری هنگام بسیار پایین بودن حافظه سیستم"
+  },
+  "html_options_suspend_on_low_memory_tooltip_line1": {
+    "message": "این گزینه قابلیت حذف خودکار زبانه‌های Chrome را جایگزین می‌کند."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line2": {
+    "message": "در صورت فعال بودن، زبانه را به جای حذف توسط Chrome متوقف می‌کند."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line3": {
+    "message": "Chrome معمولاً فقط هنگامی زبانه‌ها را حذف می‌کند که حافظه سیستم بسیار پایین باشد."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line4": {
+    "message": "توجه: ممکن است زبانه‌ها زودتر از زمان تعیین‌شده"
+  },
+  "html_options_suspend_on_low_memory_tooltip_line5": {
+    "message": "در گزینه‌های توقف خودکار متوقف شوند."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line6": {
+    "message": "اطلاعات بیشتر درباره Chrome discarding:"
+  },
+  "html_options_suspend_on_low_memory_tooltip_discarding_link": {
+    "message": "https://developers.google.com/web/updates/2015/09/tab-discarding"
+  },
+  "html_popup_unsuspend_tab": {
+    "message": "بازیابی این زبانه"
+  },
+  "html_popup_suspend_tab": {
+    "message": "توقف این زبانه اکنون"
+  },
+  "html_popup_dont_suspend_now": {
+    "message": "الان نه"
+  },
+  "html_popup_never_suspend_domain": {
+    "message": "هرگز این دامنه را متوقف نکن"
+  },
+  "html_popup_never_suspend_page": {
+    "message": "هرگز این URL را متوقف نکن"
+  },
+  "html_popup_suspend_other_tabs": {
+    "message": "توقف همه زبانه‌های دیگر"
+  },
+  "html_popup_unsuspend_all_tabs": {
+    "message": "بازیابی همه زبانه‌ها"
+  },
+  "html_popup_suspend_selected_tabs": {
+    "message": "توقف زبانه‌های انتخاب‌شده"
+  },
+  "html_popup_unsuspend_selected_tabs": {
+    "message": "بازیابی زبانه‌های انتخاب‌شده"
+  },
+  "html_popup_settings": {
+    "message": "تنظیمات"
+  },
+  "html_restoring_title": {
+    "message": "بازیابی پنجره"
+  },
+  "html_restoring_heading": {
+    "message": "در حال بازیابی زبانه‌ها"
+  },
+  "html_restoring_detail": {
+    "message": "لطفاً صبر کنید تا این پنجره بازیابی شود..."
+  },
+  "html_recovery_title": {
+    "message": "بازیابی"
+  },
+  "html_recovery_ruh_roh": {
+    "message": "اوه نه!"
+  },
+  "html_recovery_description_line1": {
+    "message": "به نظر می‌رسد در حال بازیابی از خرابی افزونه هستید."
+  },
+  "html_recovery_description_line2": {
+    "message": "زبانه‌های متوقف شما ممکن است خراب شده یا ناپدید شده باشند."
+  },
+  "html_recovery_restore_tabs_automatically": {
+    "message": "بازیابی خودکار زبانه‌ها"
+  },
+  "html_recovery_go_to_session_manager": {
+    "message": "رفتن به مدیر جلسه"
+  },
+  "html_recovery_important_message": {
+    "message": "گرفتن تصویر صفحه فعال است. اگر افزونه مکرراً خراب می‌شود، توصیه می‌شود این گزینه را غیرفعال کنید."
+  },
+  "html_recovery_disable_screen_capturing": {
+    "message": "خاموش کردن گرفتن تصویر صفحه"
+  },
+  "html_recovery_tabs_to_restore": {
+    "message": "زبانه‌هایی که باید بازیابی شوند"
+  },
+  "html_shortcuts_title": {
+    "message": "میانبرهای صفحه‌کلید"
+  },
+  "html_shortcuts_keyboard_shortcuts": {
+    "message": "میانبرهای صفحه‌کلید"
+  },
+  "html_shortcuts_context_menu_note": {
+    "message": "توجه: این عملیات از طریق منوی راست‌کلیک هم در دسترس هستند."
+  },
+  "html_shortcuts_remap_keys": {
+    "message": "تغییر میانبرها"
+  },
+  "html_sidebar_general_settings": {
+    "message": "تنظیمات"
+  },
+  "html_sidebar_session_management": {
+    "message": "مدیریت جلسه"
+  },
+  "html_sidebar_shortcuts": {
+    "message": "میانبرهای صفحه‌کلید"
+  },
+  "html_sidebar_support": {
+    "message": "درباره"
+  },
+  "html_success_great_success": {
+    "message": "موفقیت بزرگ!"
+  },
+  "html_success_all_tabs_restored": {
+    "message": "همه زبانه‌های شما بازیابی شدند."
+  },
+  "html_success_goto_advanced_prefix": {
+    "message": "برای مدیریت جلسه پیشرفته، به"
+  },
+  "html_success_goto_advanced_suffix": {
+    "message": "صفحه مراجعه کنید"
+  },
+  "html_session_manager": {
+    "message": "مدیریت جلسه"
+  },
+  "html_suspended_title": {
+    "message": "زبانه متوقف"
+  },
+  "html_suspended_tab_suspended": {
+    "message": "زبانه متوقف شد"
+  },
+  "html_suspended_tab_reload": {
+    "message": "بارگذاری مجدد زبانه"
+  },
+  "html_suspended_tab_whitelist_prefix": {
+    "message": "هرگز متوقف نکن"
+  },
+  "html_suspended_tab_whitelist_suffix": {
+    "message": "..."
+  },
+  "html_suspended_click_to_reload": {
+    "message": "رفرش یا کلیک برای بارگذاری مجدد"
+  },
+  "html_suspended_toast_not_connected": {
+    "message": "به اینترنت متصل نیستید"
+  },
+  "html_suspended_toast_reload_disabled": {
+    "message": "بارگذاری مجدد خودکار زبانه موقتاً غیرفعال است."
+  },
+  "html_suspended_donation_question": {
+    "message": "آیا این افزونه شما را خوشحال می‌کند؟\nحمایت خود را با کمک مالی نشان دهید."
+  },
+  "html_permissions_title": {
+    "message": "مجوزها"
+  },
+  "html_permissions_heading": {
+    "message": "به من دسترسی به URL فایل‌های محلی بدهید"
+  },
+  "html_permissions_info": {
+    "message": "این افزونه در حال حاضر مجاز به توقف URL هایی که با کلمه \"file\" شروع می‌شوند نیست.\nبرای تغییر، \"اجازه دسترسی به URL فایل\" را از صفحه تنظیمات افزونه فعال کنید."
+  },
+  "html_permissions_backup": {
+    "message": "توجه: تغییر این گزینه باعث می‌شود همه زبانه‌های متوقف موقتاً ناپدید شوند.\nشاید الان زمان خوبی برای ذخیره پشتیبان از جلسه فعلی باشد."
+  },
+  "html_update_title": {
+    "message": "به‌روزرسانی"
+  },
+  "html_update_heading2": {
+    "message": "قرار است بهتر شود"
+  },
+  "html_update_info": {
+    "message": "نسخه جدیدی از The Great Suspender آماده نصب است.\nتوجه: در طول به‌روزرسانی، زبانه‌های متوقف موقتاً ناپدید می‌شوند."
+  },
+  "html_update_info_withbackup": {
+    "message": "شاید الان زمان خوبی برای ذخیره پشتیبان از جلسه فعلی باشد."
+  },
+  "html_update_info_nobackup_prefix": {
+    "message": "اکیداً توصیه می‌شود قبل از ادامه به‌روزرسانی، نسخه‌ای از جلسه فعلی از "
+  },
+  "html_update_info_nobackup_suffix": {
+    "message": " صادر کنید."
+  },
+  "html_updated_title": {
+    "message": "به‌روزرسانی شد"
+  },
+  "html_updating_heading": {
+    "message": "در حال به‌روزرسانی"
+  },
+  "html_updating_message": {
+    "message": "لطفاً صبر کنید تا زبانه‌های متوقف بازیابی شوند..."
+  },
+  "html_updated_great_suspender_updated": {
+    "message": "به‌روزرسانی شد"
+  },
+  "html_updated_info_line1": {
+    "message": "قبل از به‌روزرسانی، پشتیبان خودکار از زبانه‌ها گرفته شد."
+  },
+  "html_updated_info_line2_prefix": {
+    "message": "اگر در طول به‌روزرسانی مشکلی داشتید، می‌توانید زبانه‌های گمشده را از "
+  },
+  "html_updated_info_line2_suffix": {
+    "message": " بازیابی کنید."
+  },
+  "html_updated_detail_header_prefix": {
+    "message": "چه چیزی در "
+  },
+  "html_updated_detail_header_suffix": {
+    "message": " جدید است؟"
+  },
+  "html_updated_new_features_header": {
+    "message": "ویژگی‌های جدید:"
+  },
+  "html_updated_bug_fixes_header": {
+    "message": "رفع اشکال:"
+  },
+  "html_updated_release_notes": {
+    "message": "برای یادداشت‌های کامل انتشار به GitHub مراجعه کنید: "
+  },
+  "html_updated_patch_message": {
+    "message": "عذرخواهی برای مزاحمت. فقط نیاز به انجام کمی نگهداری داشتم."
+  },
+  "html_welcome_title": {
+    "message": "خوش آمدید"
+  },
+  "html_welcome_text_line1": {
+    "message": "ممنون که امتحان می‌کنید"
+  },
+  "html_welcome_text_line2": {
+    "message": "با متوقف کردن زبانه‌هایی که استفاده نمی‌کنید، کامپیوتر شما را روان نگه می‌دارم."
+  },
+  "html_welcome_text_line3": {
+    "message": "می‌توانید تنظیمات را در زیر تنظیم دقیق کنید."
+  },
+  "html_thanks_title": {
+    "message": "سپاسگزاری"
+  },
+  "html_thanks_header": {
+    "message": "ممنون از حمایت شما!"
+  },
+  "html_thanks_sub_header": {
+    "message": "امیدوارم امروز اتفاقات خوبی برایتان بیفتد."
+  },
+  "js_popup_normal": {
+    "message": "زبانه به‌صورت خودکار متوقف می‌شود."
+  },
+  "js_popup_normal_pause": {
+    "message": "الان نه"
+  },
+  "js_popup_special": {
+    "message": "زبانه قابل توقف نیست"
+  },
+  "js_popup_suspended": {
+    "message": "زبانه متوقف شد"
+  },
+  "js_popup_suspended_pause": {
+    "message": "متوقف نکن"
+  },
+  "js_popup_whitelisted": {
+    "message": "سایت در لیست سفید است."
+  },
+  "js_popup_whitelisted_remove": {
+    "message": "حذف از لیست سفید"
+  },
+  "js_popup_audible": {
+    "message": "زبانه صدا پخش می‌کند."
+  },
+  "js_popup_form_input": {
+    "message": "زبانه در حال دریافت ورودی فرم است."
+  },
+  "js_popup_form_input_unpause": {
+    "message": "ادامه"
+  },
+  "js_popup_pinned": {
+    "message": "زبانه پین شده است"
+  },
+  "js_popup_temp_whitelist": {
+    "message": "توقف زبانه در حالت مکث."
+  },
+  "js_popup_temp_whitelist_unpause": {
+    "message": "ادامه"
+  },
+  "js_popup_never": {
+    "message": "توقف خودکار زبانه غیرفعال است."
+  },
+  "js_popup_no_connectivity": {
+    "message": "اتصال شبکه وجود ندارد"
+  },
+  "js_popup_charging": {
+    "message": "به منبع برق متصل است"
+  },
+  "js_popup_blockedFile": {
+    "message": "فایل‌های محلی قابل توقف نیستند."
+  },
+  "js_popup_blockedFile_enable": {
+    "message": "فعال کردن"
+  },
+  "js_popup_unknown": {
+    "message": "منتظر بارگذاری زبانه..."
+  },
+  "js_popup_initialising": {
+    "message": "منتظر راه‌اندازی افزونه..."
+  },
+  "js_popup_error": {
+    "message": "توقف خودکار برای این زبانه در دسترس نیست"
+  },
+  "js_history_delete": {
+    "message": "حذف"
+  },
+  "js_history_export": {
+    "message": "صادر کردن"
+  },
+  "js_history_reload": {
+    "message": "باز و بارگذاری"
+  },
+  "js_history_resuspend": {
+    "message": "باز و توقف"
+  },
+  "js_history_save": {
+    "message": "ذخیره"
+  },
+  "js_history_window": {
+    "message": "پنجره"
+  },
+  "js_history_tab": {
+    "message": "زبانه"
+  },
+  "js_history_plural": {
+    "message": "‌ها"
+  },
+  "js_history_enter_name_for_session": {
+    "message": "نامی برای این جلسه وارد کنید"
+  },
+  "js_history_confirm_delete": {
+    "message": "آیا مطمئن هستید که می‌خواهید این جلسه را حذف کنید؟"
+  },
+  "js_history_confirm_session_overwrite": {
+    "message": "جلسه ذخیره‌شده‌ای با این نام وجود دارد. جلسه موجود را بازنویسی کنید؟"
+  },
+  "js_history_import_fail": {
+    "message": "بارگذاری فایل ناموفق بود. مطمئن شوید فایل متن ساده است با یک URL در هر خط."
+  },
+  "js_suspended_remove_from_whitelist": {
+    "message": "حذف سایت از لیست سفید"
+  },
+  "js_suspended_hotkey_to_reload": {
+    "message": "تنظیم میانبرهای صفحه‌کلید"
+  },
+  "js_suspended_low_memory": {
+    "message": "زبانه به دلیل حافظه کم سیستم متوقف شد"
+  },
+  "js_options_incognito_warning": {
+    "message": "در حالت ناشناس هستید. برخی ویژگی‌ها در دسترس نخواهند بود."
+  },
+  "js_options_whitelist_no_matches": {
+    "message": "هیچ زبانه باز شده‌ای با لیست سفید فعلی مطابقت ندارد."
+  },
+  "js_options_whitelist_matches_heading": {
+    "message": "زبانه‌های باز در لیست سفید:"
+  },
+  "js_options_whitelist_matches_overflow_prefix": {
+    "message": "و"
+  },
+  "js_options_whitelist_matches_overflow_suffix": {
+    "message": " بیشتر."
+  },
+  "js_permissions_button_export": {
+    "message": "ذخیره پشتیبان"
+  },
+  "js_permissions_button_set": {
+    "message": "باز کردن تنظیمات افزونه"
+  },
+  "js_update_confirm": {
+    "message": "هنوز پشتیبانی ذخیره نکرده‌اید. در هر صورت افزونه را به‌روزرسانی کنید؟"
+  },
+  "js_update_button_export": {
+    "message": "ذخیره پشتیبان"
+  },
+  "js_update_button_reload": {
+    "message": "به‌روزرسانی افزونه اکنون"
+  },
+  "js_shortcuts_not_set": {
+    "message": "تنظیم نشده"
+  },
+  "js_session_save_point": {
+    "message": "نقطه ذخیره خودکار برای v"
+  }
+}

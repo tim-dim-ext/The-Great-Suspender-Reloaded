@@ -1,0 +1,686 @@
+{
+  "ext_extension_name": {
+    "message": "The Great Suspender | Tab Suspender - Zamrzni kartice"
+  },
+  "ext_extension_description": {
+    "message": "Obustavi neaktivne Chrome kartice za štednju RAM-a i povećanje brzine. Najbolji Tab Suspender — automatski zamrzava nekorištene kartice i odmah ih obnavlja."
+  },
+  "ext_default_title": {
+    "message": "The Great Suspender"
+  },
+  "ext_cmd_toggle_tab_suspension_description": {
+    "message": "Obustavi/Obnovi aktivnu karticu"
+  },
+  "ext_cmd_toggle_tab_pause_description": {
+    "message": "Pauziraj/Nastavi obustavljanje aktivne kartice"
+  },
+  "ext_cmd_suspend_selected_tabs_description": {
+    "message": "Obustavi odabrane kartice"
+  },
+  "ext_cmd_unsuspend_selected_tabs_description": {
+    "message": "Obnovi odabrane kartice"
+  },
+  "ext_cmd_soft_suspend_active_window_description": {
+    "message": "Obustavi sve ostale kartice u aktivnom prozoru"
+  },
+  "ext_cmd_force_suspend_active_window_description": {
+    "message": "Prisilno obustavi sve ostale kartice u aktivnom prozoru"
+  },
+  "ext_cmd_unsuspend_active_window_description": {
+    "message": "Obnovi sve kartice u aktivnom prozoru"
+  },
+  "ext_cmd_soft_suspend_all_windows_description": {
+    "message": "Obustavi sve kartice u svim prozorima"
+  },
+  "ext_cmd_force_suspend_all_windows_description": {
+    "message": "Prisilno obustavi sve kartice u svim prozorima"
+  },
+  "ext_cmd_unsuspend_all_windows_description": {
+    "message": "Obnovi sve kartice u svim prozorima"
+  },
+  "js_context_open_link_in_suspended_tab": {
+    "message": "Otvori vezu u novoj obustavnoj kartici"
+  },
+  "js_context_toggle_suspend_state": {
+    "message": "Obustavi/Obnovi ovu karticu"
+  },
+  "js_context_toggle_pause_suspension": {
+    "message": "Pauziraj/Nastavi obustavljanje ove kartice"
+  },
+  "js_context_never_suspend_domain": {
+    "message": "Nikad ne obustavljaj ovu domenu"
+  },
+  "js_context_never_suspend_page": {
+    "message": "Nikad ne obustavljaj ovaj URL"
+  },
+  "js_context_suspend_selected_tabs": {
+    "message": "Obustavi odabrane kartice"
+  },
+  "js_context_unsuspend_selected_tabs": {
+    "message": "Obnovi odabrane kartice"
+  },
+  "js_context_soft_suspend_other_tabs_in_window": {
+    "message": "Obustavi sve ostale kartice u ovom prozoru"
+  },
+  "js_context_force_suspend_other_tabs_in_window": {
+    "message": "Prisilno obustavi sve ostale kartice u ovom prozoru"
+  },
+  "js_context_unsuspend_all_tabs_in_window": {
+    "message": "Obnovi sve kartice u ovom prozoru"
+  },
+  "js_context_soft_suspend_all_tabs": {
+    "message": "Obustavi sve kartice u svim prozorima"
+  },
+  "js_context_force_suspend_all_tabs": {
+    "message": "Prisilno obustavi sve kartice u svim prozorima"
+  },
+  "js_context_unsuspend_all_tabs": {
+    "message": "Obnovi sve kartice u svim prozorima"
+  },
+  "html_about_title": {
+    "message": "O proširenju"
+  },
+  "html_history_title": {
+    "message": "Upravljanje sesijama"
+  },
+  "html_history_current_session": {
+    "message": "Trenutna sesija"
+  },
+  "html_history_recent_sessions": {
+    "message": "Nedavne sesije"
+  },
+  "html_history_saved_sessions": {
+    "message": "Spremljene sesije"
+  },
+  "html_history_import_session": {
+    "message": "Uvezi sesiju"
+  },
+  "html_notice_title": {
+    "message": "Obavijest"
+  },
+  "html_notice_important_notice": {
+    "message": "Važna obavijest od The Great Suspender"
+  },
+  "html_options_title": {
+    "message": "Postavke"
+  },
+  "html_options_suspend_title": {
+    "message": "Automatsko obustavljanje kartica"
+  },
+  "html_options_suspended_title": {
+    "message": "Obustavljene kartice"
+  },
+  "html_options_other_title": {
+    "message": "Ostalo"
+  },
+  "html_options_suspend_automatically_after": {
+    "message": "Automatski obustavi kartice nakon"
+  },
+  "html_options_suspend_never": {
+    "message": "Nikad"
+  },
+  "html_options_suspend_seconds": {
+    "message": "sekundi"
+  },
+  "html_options_suspend_minute": {
+    "message": "min"
+  },
+  "html_options_suspend_minutes": {
+    "message": "min"
+  },
+  "html_options_suspend_hour": {
+    "message": "sat"
+  },
+  "html_options_suspend_hours": {
+    "message": "sati"
+  },
+  "html_options_suspend_day": {
+    "message": "dan"
+  },
+  "html_options_suspend_days": {
+    "message": "dana"
+  },
+  "html_options_suspend_week": {
+    "message": "tjedan"
+  },
+  "html_options_suspend_weeks": {
+    "message": "tjedana"
+  },
+  "html_options_suspend_no_pinned": {
+    "message": "Nikad ne obustavljaj prikvačene kartice"
+  },
+  "html_options_suspend_no_forms": {
+    "message": "Nikad ne obustavljaj kartice s nespremljenim obrascima"
+  },
+  "html_options_suspend_no_audio": {
+    "message": "Nikad ne obustavljaj kartice koje reproduciraju zvuk"
+  },
+  "html_options_suspend_only_connected": {
+    "message": "Nikad ne obustavljaj kartice kada si izvan mreže"
+  },
+  "html_options_suspend_only_on_battery": {
+    "message": "Nikad ne obustavljaj kartice kada je spojen na napajanje"
+  },
+  "html_options_suspend_no_active_tabs": {
+    "message": "Nikad ne obustavljaj aktivnu karticu u svakom prozoru"
+  },
+  "html_options_suspend_automatically_unsuspend": {
+    "message": "Automatski obnovi karticu kada se prikaže"
+  },
+  "html_options_suspend_discard_after_suspend": {
+    "message": "Primijeni Chromeovu ugrađenu štednju memorije pri obustavljivanju"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1a": {
+    "message": "Dodatno smanjuje korištenje memorije obustavljene kartice korištenjem"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1b": {
+    "message": "Chromeove ugrađene funkcije 'tab discarding'. Može uštedjeti do"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1c": {
+    "message": "500% memorije pri radu s mnogo kartica."
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line2a": {
+    "message": "Međutim, može uzrokovati malo kašnjenje pri odabiru"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line2b": {
+    "message": "obustavljene kartice."
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line3a": {
+    "message": "Više informacija o Chrome discarding:"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line3b": {
+    "message": "https://developers.google.com/web/updates/2015/09/tab-discarding"
+  },
+  "html_options_suspend_theme": {
+    "message": "Tema"
+  },
+  "html_options_suspend_theme_light": {
+    "message": "Svijetla"
+  },
+  "html_options_suspend_theme_dark": {
+    "message": "Tamna"
+  },
+  "html_options_suspend_screen_capturing": {
+    "message": "Snimanje zaslona"
+  },
+  "html_options_suspend_screen_capturing_disabled": {
+    "message": "Onemogućeno"
+  },
+  "html_options_suspend_screen_capturing_screen_only": {
+    "message": "Snimi samo vrh zaslona"
+  },
+  "html_options_suspend_screen_capturing_entire_page": {
+    "message": "Snimi cijelu stranicu"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line1a": {
+    "message": "Na obustavnoj kartici proširenje može prikazati pregled kako je kartica"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line1b": {
+    "message": "izgledala neposredno prije obustavljivanja."
+  },
+  "html_options_suspend_screen_capturing_tooltip_line2a": {
+    "message": "Značajka snimanja zaslona je eksperimentalna i može uzrokovati visoko opterećenje CPU-a"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line2b": {
+    "message": "i malo povećano korištenje memorije."
+  },
+  "html_options_suspend_screen_capturing_tooltip_line3a": {
+    "message": "Ako primijetite čudno ponašanje kao što su kartice koje se dugo obustavljivaju ili"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line3b": {
+    "message": "neočekivani pad Chromea, pokušajte isključiti ovu značajku."
+  },
+  "html_options_suspend_force_screen_capture": {
+    "message": "Omogući visokokvalitetni način snimanja zaslona"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line1": {
+    "message": "Kada je onemogućeno, snimci zaslona imaju sljedeća ograničenja performansi:"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line2": {
+    "message": "- Niska kvaliteta snimaka"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line4": {
+    "message": "- Neće snimiti zaslon ako traje više od 1 minute za generiranje slike"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line5": {
+    "message": "- Maksimalna visina snimka ograničena na 5000px"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line6": {
+    "message": "Omogućavanje visokokvalitetnog snimanja može značajno povećati opterećenje CPU-a"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line7": {
+    "message": "i korištenje memorije."
+  },
+  "html_options_whitelist_title": {
+    "message": "Nikad ne obustavljaj kartice s URL-ovima s ovog popisa:"
+  },
+  "html_options_whitelist_tooltip_line1": {
+    "message": "Dodaj URL svake stranice koju želiš na popis dopuštenih u novi redak."
+  },
+  "html_options_whitelist_tooltip_line2": {
+    "message": "Za više stranica u jednom retku navedi dio URL-a:"
+  },
+  "html_options_whitelist_tooltip_line3": {
+    "message": "Možeš navesti i regularne izraze zatvaranjem teksta u kose crte:"
+  },
+  "html_options_whitelist_test": {
+    "message": "Testiraj popis dopuštenih"
+  },
+  "html_options_other_enable_context_menu": {
+    "message": "Dodaj The Great Suspender u kontekstni izbornik desnog klika"
+  },
+  "html_options_other_enable_context_menu_tooltip_line1": {
+    "message": "Dodaje kontrole ovog proširenja u kontekstni izbornik web-stranice."
+  },
+  "html_options_other_enable_context_menu_tooltip_line2": {
+    "message": "To će ti dati pristup naprednim radnjama obustavljivanja koje nisu dostupne"
+  },
+  "html_options_other_enable_context_menu_tooltip_line3": {
+    "message": "drugdje u proširenju."
+  },
+  "html_options_other_enable_sync": {
+    "message": "Sinkroniziraj postavke s Chrome profilom"
+  },
+  "html_options_other_enable_sync_tooltip_line1a": {
+    "message": "Postavke proširenja bit će sinkronizirane na svim Chrome preglednicima koji su"
+  },
+  "html_options_other_enable_sync_tooltip_line1b": {
+    "message": "prijavljeni s istim profilom."
+  },
+  "html_options_other_enable_sync_tooltip_line2": {
+    "message": "Ovo će sinkronizirati i postavke u inkognito načinu."
+  },
+  "html_options_other_enable_sync_warning": {
+    "message": "Uključivanjem ovoga prepisat će se postavke na svim ostalim preglednicima prijavljenim s istim Chrome profilom"
+  },
+  "html_options_suspend_on_low_memory": {
+    "message": "Odmah obustavi kada sistemska memorija postane jako niska"
+  },
+  "html_options_suspend_on_low_memory_tooltip_line1": {
+    "message": "Ova opcija će zamijeniti Chromeovu automatsku funkciju odbacivanja kartica."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line2": {
+    "message": "Ako je omogućena, prisiljat će karticu da se obustavi umjesto da Chrome odbaci."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line3": {
+    "message": "Chrome obično odbacuje kartice tek kada memorija postane jako niska."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line4": {
+    "message": "Napomena: Ovo može uzrokovati da se kartice obustavljivaju ranije od postavljenog"
+  },
+  "html_options_suspend_on_low_memory_tooltip_line5": {
+    "message": "vremena u opcijama automatskog obustavljivanja."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line6": {
+    "message": "Više informacija o Chrome discarding:"
+  },
+  "html_options_suspend_on_low_memory_tooltip_discarding_link": {
+    "message": "https://developers.google.com/web/updates/2015/09/tab-discarding"
+  },
+  "html_popup_unsuspend_tab": {
+    "message": "Obnovi ovu karticu"
+  },
+  "html_popup_suspend_tab": {
+    "message": "Obustavi ovu karticu sada"
+  },
+  "html_popup_dont_suspend_now": {
+    "message": "Ne obustavljaj sada"
+  },
+  "html_popup_never_suspend_domain": {
+    "message": "Nikad ne obustavljaj ovu domenu"
+  },
+  "html_popup_never_suspend_page": {
+    "message": "Nikad ne obustavljaj ovaj URL"
+  },
+  "html_popup_suspend_other_tabs": {
+    "message": "Obustavi sve ostale kartice"
+  },
+  "html_popup_unsuspend_all_tabs": {
+    "message": "Obnovi sve kartice"
+  },
+  "html_popup_suspend_selected_tabs": {
+    "message": "Obustavi odabrane kartice"
+  },
+  "html_popup_unsuspend_selected_tabs": {
+    "message": "Obnovi odabrane kartice"
+  },
+  "html_popup_settings": {
+    "message": "Postavke"
+  },
+  "html_restoring_title": {
+    "message": "Obnavljanje prozora"
+  },
+  "html_restoring_heading": {
+    "message": "Obnavljanje kartica"
+  },
+  "html_restoring_detail": {
+    "message": "Molimo pričekajte dok obnavljam ovaj prozor..."
+  },
+  "html_recovery_title": {
+    "message": "Oporavak"
+  },
+  "html_recovery_ruh_roh": {
+    "message": "Uh oh!"
+  },
+  "html_recovery_description_line1": {
+    "message": "Čini se da se oporavljate od pada proširenja."
+  },
+  "html_recovery_description_line2": {
+    "message": "Vaše obustavljene kartice možda su se srušile ili nestale."
+  },
+  "html_recovery_restore_tabs_automatically": {
+    "message": "Automatski obnovi kartice"
+  },
+  "html_recovery_go_to_session_manager": {
+    "message": "Idi na upravitelja sesija"
+  },
+  "html_recovery_important_message": {
+    "message": "Trenutno imate uključeno snimanje zaslona. Ako proširenje stalno pada, preporuča se onemogućiti ovu opciju."
+  },
+  "html_recovery_disable_screen_capturing": {
+    "message": "Isključi snimanje zaslona"
+  },
+  "html_recovery_tabs_to_restore": {
+    "message": "Kartice za obnavljanje"
+  },
+  "html_shortcuts_title": {
+    "message": "Tipkovni prečaci"
+  },
+  "html_shortcuts_keyboard_shortcuts": {
+    "message": "Tipkovni prečaci"
+  },
+  "html_shortcuts_context_menu_note": {
+    "message": "Napomena: Te radnje dostupne su i putem kontekstnog izbornika desnog klika."
+  },
+  "html_shortcuts_remap_keys": {
+    "message": "Promijeni prečace"
+  },
+  "html_sidebar_general_settings": {
+    "message": "Postavke"
+  },
+  "html_sidebar_session_management": {
+    "message": "Upravljanje sesijama"
+  },
+  "html_sidebar_shortcuts": {
+    "message": "Tipkovni prečaci"
+  },
+  "html_sidebar_support": {
+    "message": "O proširenju"
+  },
+  "html_success_great_success": {
+    "message": "Veliki uspjeh!"
+  },
+  "html_success_all_tabs_restored": {
+    "message": "Sve vaše kartice su obnovljene."
+  },
+  "html_success_goto_advanced_prefix": {
+    "message": "Za napredno upravljanje sesijama posjetite"
+  },
+  "html_success_goto_advanced_suffix": {
+    "message": "stranicu"
+  },
+  "html_session_manager": {
+    "message": "upravljanje sesijama"
+  },
+  "html_suspended_title": {
+    "message": "Obustavljena kartica"
+  },
+  "html_suspended_tab_suspended": {
+    "message": "Kartica obustavljena"
+  },
+  "html_suspended_tab_reload": {
+    "message": "Ponovo učitaj karticu"
+  },
+  "html_suspended_tab_whitelist_prefix": {
+    "message": "Nikad ne obustavljaj"
+  },
+  "html_suspended_tab_whitelist_suffix": {
+    "message": "..."
+  },
+  "html_suspended_click_to_reload": {
+    "message": "Osvježi ili klikni za ponovnim učitavanjem"
+  },
+  "html_suspended_toast_not_connected": {
+    "message": "Nisi povezan s internetom"
+  },
+  "html_suspended_toast_reload_disabled": {
+    "message": "Automatsko učitavanje kartica privremeno je onemogućeno."
+  },
+  "html_suspended_donation_question": {
+    "message": "Čini li te ovo proširenje sretnim?\nPokaži svoju podršku donacijom."
+  },
+  "html_permissions_title": {
+    "message": "Dozvole"
+  },
+  "html_permissions_heading": {
+    "message": "Daj mi pristup lokalnim URL-ovima datoteka"
+  },
+  "html_permissions_info": {
+    "message": "Ovo proširenje trenutno nema dopuštenje obustavljivati URL-ove koji počinju riječju \"file\".\nZa promjenu toga, omogući \"Dozvoli pristup URL-ovima datoteka\" na stranici postavki proširenja."
+  },
+  "html_permissions_backup": {
+    "message": "Napomena: promjena ove opcije uzrokovat će privremeno nestajanje svih obustavijenih kartica.\nMožda je pravo vrijeme za spremanje sigurnosne kopije trenutne sesije."
+  },
+  "html_update_title": {
+    "message": "Ažuriranje"
+  },
+  "html_update_heading2": {
+    "message": "uskoro postaje još bolje"
+  },
+  "html_update_info": {
+    "message": "Nova verzija The Great Suspender-a je spremna za instalaciju.\nNapomena: tijekom ažuriranja obustavljene kartice će privremeno nestati."
+  },
+  "html_update_info_withbackup": {
+    "message": "Možda je pravo vrijeme za spremanje sigurnosne kopije."
+  },
+  "html_update_info_nobackup_prefix": {
+    "message": "Preporuča se izvoz kopije trenutne sesije iz "
+  },
+  "html_update_info_nobackup_suffix": {
+    "message": " prije nastavka ažuriranja."
+  },
+  "html_updated_title": {
+    "message": "Ažurirano"
+  },
+  "html_updating_heading": {
+    "message": "ažurira se"
+  },
+  "html_updating_message": {
+    "message": "Molimo pričekajte dok obnavljam obustavljene kartice..."
+  },
+  "html_updated_great_suspender_updated": {
+    "message": "je ažuriran"
+  },
+  "html_updated_info_line1": {
+    "message": "Automatska sigurnosna kopija vaših kartica je napravljena prije ažuriranja."
+  },
+  "html_updated_info_line2_prefix": {
+    "message": "Ako ste naišli na probleme tijekom ažuriranja, možete obnoviti izgubljene kartice s "
+  },
+  "html_updated_info_line2_suffix": {
+    "message": " stranice."
+  },
+  "html_updated_detail_header_prefix": {
+    "message": "Što je novo u "
+  },
+  "html_updated_detail_header_suffix": {
+    "message": "?"
+  },
+  "html_updated_new_features_header": {
+    "message": "Nove značajke:"
+  },
+  "html_updated_bug_fixes_header": {
+    "message": "Ispravci grešaka:"
+  },
+  "html_updated_release_notes": {
+    "message": "Posjetite GitHub za potpune napomene uz izdanje: "
+  },
+  "html_updated_patch_message": {
+    "message": "Ispričavamo se zbog smetnji. Trebao sam samo izvršiti malo održavanja."
+  },
+  "html_welcome_title": {
+    "message": "Dobrodošli"
+  },
+  "html_welcome_text_line1": {
+    "message": "Hvala što isprobavate"
+  },
+  "html_welcome_text_line2": {
+    "message": "Osiguravam glatki rad vašeg računala obustavljivanjem kartica koje ne koristite."
+  },
+  "html_welcome_text_line3": {
+    "message": "Možete prilagoditi postavke u nastavku."
+  },
+  "html_thanks_title": {
+    "message": "Zahvale"
+  },
+  "html_thanks_header": {
+    "message": "Hvala na podršci!"
+  },
+  "html_thanks_sub_header": {
+    "message": "Neka vam danas krenu dobre stvari."
+  },
+  "js_popup_normal": {
+    "message": "Kartica će se automatski obustaviti."
+  },
+  "js_popup_normal_pause": {
+    "message": "Ne sada"
+  },
+  "js_popup_special": {
+    "message": "Kartica se ne može obustaviti"
+  },
+  "js_popup_suspended": {
+    "message": "Kartica obustavljena"
+  },
+  "js_popup_suspended_pause": {
+    "message": "Ne obustavljaj"
+  },
+  "js_popup_whitelisted": {
+    "message": "Stranica je na popisu dopuštenih."
+  },
+  "js_popup_whitelisted_remove": {
+    "message": "Ukloni s popisa dopuštenih"
+  },
+  "js_popup_audible": {
+    "message": "Kartica reproducira zvuk."
+  },
+  "js_popup_form_input": {
+    "message": "Kartica prima unos obrasca."
+  },
+  "js_popup_form_input_unpause": {
+    "message": "Nastavi"
+  },
+  "js_popup_pinned": {
+    "message": "Kartica je prikvačena"
+  },
+  "js_popup_temp_whitelist": {
+    "message": "Obustavljivanje kartice je pauzirano."
+  },
+  "js_popup_temp_whitelist_unpause": {
+    "message": "Nastavi"
+  },
+  "js_popup_never": {
+    "message": "Automatsko obustavljivanje je onemogućeno."
+  },
+  "js_popup_no_connectivity": {
+    "message": "Nema mrežne veze"
+  },
+  "js_popup_charging": {
+    "message": "Spojen na izvor napajanja"
+  },
+  "js_popup_blockedFile": {
+    "message": "Lokalne datoteke se ne mogu obustaviti."
+  },
+  "js_popup_blockedFile_enable": {
+    "message": "Omogući"
+  },
+  "js_popup_unknown": {
+    "message": "Čekanje na učitavanje kartice..."
+  },
+  "js_popup_initialising": {
+    "message": "Čekanje na inicijalizaciju proširenja..."
+  },
+  "js_popup_error": {
+    "message": "Automatsko obustavljivanje nije dostupno za ovu karticu"
+  },
+  "js_history_delete": {
+    "message": "izbriši"
+  },
+  "js_history_export": {
+    "message": "izvezi"
+  },
+  "js_history_reload": {
+    "message": "otvori i učitaj"
+  },
+  "js_history_resuspend": {
+    "message": "otvori i obustavi"
+  },
+  "js_history_save": {
+    "message": "spremi"
+  },
+  "js_history_window": {
+    "message": "Prozor"
+  },
+  "js_history_tab": {
+    "message": "Kartica"
+  },
+  "js_history_plural": {
+    "message": "e"
+  },
+  "js_history_enter_name_for_session": {
+    "message": "Unesi naziv za ovu sesiju"
+  },
+  "js_history_confirm_delete": {
+    "message": "Jesi li siguran da želiš izbrisati ovu sesiju?"
+  },
+  "js_history_confirm_session_overwrite": {
+    "message": "Već postoji spremljena sesija s ovim nazivom. Prepisati postojeću sesiju?"
+  },
+  "js_history_import_fail": {
+    "message": "Učitavanje datoteke nije uspjelo. Provjeri da je datoteka čisti tekst s jednim URL-om po retku."
+  },
+  "js_suspended_remove_from_whitelist": {
+    "message": "Ukloni stranicu s popisa dopuštenih"
+  },
+  "js_suspended_hotkey_to_reload": {
+    "message": "Postavi tipkovne prečace"
+  },
+  "js_suspended_low_memory": {
+    "message": "Kartica obustavljena zbog niske sistemske memorije"
+  },
+  "js_options_incognito_warning": {
+    "message": "U inkognito načinu si. Neke značajke neće biti dostupne."
+  },
+  "js_options_whitelist_no_matches": {
+    "message": "Nema otvorenih kartica koje odgovaraju trenutnom popisu dopuštenih."
+  },
+  "js_options_whitelist_matches_heading": {
+    "message": "Otvorene kartice na popisu dopuštenih:"
+  },
+  "js_options_whitelist_matches_overflow_prefix": {
+    "message": "i još"
+  },
+  "js_options_whitelist_matches_overflow_suffix": {
+    "message": "."
+  },
+  "js_permissions_button_export": {
+    "message": "Spremi sigurnosnu kopiju"
+  },
+  "js_permissions_button_set": {
+    "message": "Otvori postavke proširenja"
+  },
+  "js_update_confirm": {
+    "message": "Još nisi spremio sigurnosnu kopiju. Svejedno ažurirati proširenje?"
+  },
+  "js_update_button_export": {
+    "message": "Spremi sigurnosnu kopiju"
+  },
+  "js_update_button_reload": {
+    "message": "Ažuriraj proširenje sada"
+  },
+  "js_shortcuts_not_set": {
+    "message": "nije postavljeno"
+  },
+  "js_session_save_point": {
+    "message": "Automatska točka spremanja za v"
+  }
+}

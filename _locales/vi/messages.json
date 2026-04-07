@@ -1,0 +1,686 @@
+{
+  "ext_extension_name": {
+    "message": "The Great Suspender | Tab Suspender - Đóng băng tab"
+  },
+  "ext_extension_description": {
+    "message": "Tạm dừng các tab Chrome không hoạt động để tiết kiệm RAM và tăng tốc độ. Tab Suspender tốt nhất — tự động đóng băng các tab không dùng và khôi phục ngay lập tức."
+  },
+  "ext_default_title": {
+    "message": "The Great Suspender"
+  },
+  "ext_cmd_toggle_tab_suspension_description": {
+    "message": "Tạm dừng/Khôi phục tab đang hoạt động"
+  },
+  "ext_cmd_toggle_tab_pause_description": {
+    "message": "Dừng/Tiếp tục tạm dừng tab đang hoạt động"
+  },
+  "ext_cmd_suspend_selected_tabs_description": {
+    "message": "Tạm dừng các tab đã chọn"
+  },
+  "ext_cmd_unsuspend_selected_tabs_description": {
+    "message": "Khôi phục các tab đã chọn"
+  },
+  "ext_cmd_soft_suspend_active_window_description": {
+    "message": "Tạm dừng tất cả các tab khác trong cửa sổ đang hoạt động"
+  },
+  "ext_cmd_force_suspend_active_window_description": {
+    "message": "Buộc tạm dừng tất cả các tab khác trong cửa sổ đang hoạt động"
+  },
+  "ext_cmd_unsuspend_active_window_description": {
+    "message": "Khôi phục tất cả các tab trong cửa sổ đang hoạt động"
+  },
+  "ext_cmd_soft_suspend_all_windows_description": {
+    "message": "Tạm dừng tất cả các tab trong tất cả cửa sổ"
+  },
+  "ext_cmd_force_suspend_all_windows_description": {
+    "message": "Buộc tạm dừng tất cả các tab trong tất cả cửa sổ"
+  },
+  "ext_cmd_unsuspend_all_windows_description": {
+    "message": "Khôi phục tất cả các tab trong tất cả cửa sổ"
+  },
+  "js_context_open_link_in_suspended_tab": {
+    "message": "Mở liên kết trong tab tạm dừng mới"
+  },
+  "js_context_toggle_suspend_state": {
+    "message": "Tạm dừng/Khôi phục tab này"
+  },
+  "js_context_toggle_pause_suspension": {
+    "message": "Dừng/Tiếp tục tạm dừng tab này"
+  },
+  "js_context_never_suspend_domain": {
+    "message": "Không bao giờ tạm dừng tên miền này"
+  },
+  "js_context_never_suspend_page": {
+    "message": "Không bao giờ tạm dừng URL này"
+  },
+  "js_context_suspend_selected_tabs": {
+    "message": "Tạm dừng các tab đã chọn"
+  },
+  "js_context_unsuspend_selected_tabs": {
+    "message": "Khôi phục các tab đã chọn"
+  },
+  "js_context_soft_suspend_other_tabs_in_window": {
+    "message": "Tạm dừng tất cả các tab khác trong cửa sổ này"
+  },
+  "js_context_force_suspend_other_tabs_in_window": {
+    "message": "Buộc tạm dừng tất cả các tab khác trong cửa sổ này"
+  },
+  "js_context_unsuspend_all_tabs_in_window": {
+    "message": "Khôi phục tất cả các tab trong cửa sổ này"
+  },
+  "js_context_soft_suspend_all_tabs": {
+    "message": "Tạm dừng tất cả các tab trong tất cả cửa sổ"
+  },
+  "js_context_force_suspend_all_tabs": {
+    "message": "Buộc tạm dừng tất cả các tab trong tất cả cửa sổ"
+  },
+  "js_context_unsuspend_all_tabs": {
+    "message": "Khôi phục tất cả các tab trong tất cả cửa sổ"
+  },
+  "html_about_title": {
+    "message": "Giới thiệu"
+  },
+  "html_history_title": {
+    "message": "Quản lý phiên"
+  },
+  "html_history_current_session": {
+    "message": "Phiên hiện tại"
+  },
+  "html_history_recent_sessions": {
+    "message": "Phiên gần đây"
+  },
+  "html_history_saved_sessions": {
+    "message": "Phiên đã lưu"
+  },
+  "html_history_import_session": {
+    "message": "Nhập phiên"
+  },
+  "html_notice_title": {
+    "message": "Thông báo"
+  },
+  "html_notice_important_notice": {
+    "message": "Thông báo quan trọng từ The Great Suspender"
+  },
+  "html_options_title": {
+    "message": "Cài đặt"
+  },
+  "html_options_suspend_title": {
+    "message": "Tự động tạm dừng tab"
+  },
+  "html_options_suspended_title": {
+    "message": "Các tab tạm dừng"
+  },
+  "html_options_other_title": {
+    "message": "Khác"
+  },
+  "html_options_suspend_automatically_after": {
+    "message": "Tự động tạm dừng tab sau"
+  },
+  "html_options_suspend_never": {
+    "message": "Không bao giờ"
+  },
+  "html_options_suspend_seconds": {
+    "message": "giây"
+  },
+  "html_options_suspend_minute": {
+    "message": "phút"
+  },
+  "html_options_suspend_minutes": {
+    "message": "phút"
+  },
+  "html_options_suspend_hour": {
+    "message": "giờ"
+  },
+  "html_options_suspend_hours": {
+    "message": "giờ"
+  },
+  "html_options_suspend_day": {
+    "message": "ngày"
+  },
+  "html_options_suspend_days": {
+    "message": "ngày"
+  },
+  "html_options_suspend_week": {
+    "message": "tuần"
+  },
+  "html_options_suspend_weeks": {
+    "message": "tuần"
+  },
+  "html_options_suspend_no_pinned": {
+    "message": "Không bao giờ tạm dừng các tab được ghim"
+  },
+  "html_options_suspend_no_forms": {
+    "message": "Không bao giờ tạm dừng các tab có biểu mẫu chưa lưu"
+  },
+  "html_options_suspend_no_audio": {
+    "message": "Không bao giờ tạm dừng các tab đang phát âm thanh"
+  },
+  "html_options_suspend_only_connected": {
+    "message": "Không bao giờ tạm dừng tab khi ngoại tuyến"
+  },
+  "html_options_suspend_only_on_battery": {
+    "message": "Không bao giờ tạm dừng tab khi đang cắm sạc"
+  },
+  "html_options_suspend_no_active_tabs": {
+    "message": "Không bao giờ tạm dừng tab đang hoạt động trong mỗi cửa sổ"
+  },
+  "html_options_suspend_automatically_unsuspend": {
+    "message": "Tự động khôi phục tab khi xem"
+  },
+  "html_options_suspend_discard_after_suspend": {
+    "message": "Áp dụng tính năng tiết kiệm bộ nhớ tích hợp của Chrome khi tạm dừng"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1a": {
+    "message": "Giảm thêm mức sử dụng bộ nhớ của tab tạm dừng bằng cách sử dụng"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1b": {
+    "message": "tính năng 'tab discarding' tích hợp của Chrome. Có thể tiết kiệm tới"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1c": {
+    "message": "500% bộ nhớ khi làm việc với nhiều tab."
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line2a": {
+    "message": "Tuy nhiên, có thể gây ra độ trễ hiển thị nhỏ khi chọn"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line2b": {
+    "message": "một tab đã tạm dừng."
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line3a": {
+    "message": "Thêm thông tin về Chrome discarding:"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line3b": {
+    "message": "https://developers.google.com/web/updates/2015/09/tab-discarding"
+  },
+  "html_options_suspend_theme": {
+    "message": "Giao diện"
+  },
+  "html_options_suspend_theme_light": {
+    "message": "Sáng"
+  },
+  "html_options_suspend_theme_dark": {
+    "message": "Tối"
+  },
+  "html_options_suspend_screen_capturing": {
+    "message": "Chụp màn hình"
+  },
+  "html_options_suspend_screen_capturing_disabled": {
+    "message": "Tắt"
+  },
+  "html_options_suspend_screen_capturing_screen_only": {
+    "message": "Chỉ chụp phần trên màn hình"
+  },
+  "html_options_suspend_screen_capturing_entire_page": {
+    "message": "Chụp toàn bộ trang"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line1a": {
+    "message": "Trên tab tạm dừng, tiện ích mở rộng có thể hiển thị xem trước ảnh về cách tab"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line1b": {
+    "message": "trông như thế nào ngay trước khi bị tạm dừng."
+  },
+  "html_options_suspend_screen_capturing_tooltip_line2a": {
+    "message": "Tính năng chụp màn hình là thử nghiệm và có thể gây ra mức sử dụng CPU cao"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line2b": {
+    "message": "cũng như tăng nhẹ mức sử dụng bộ nhớ."
+  },
+  "html_options_suspend_screen_capturing_tooltip_line3a": {
+    "message": "Nếu bạn thấy hành vi lạ như tab mất nhiều thời gian để tạm dừng hoặc Chrome"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line3b": {
+    "message": "đột ngột bị lỗi, hãy thử tắt tính năng này."
+  },
+  "html_options_suspend_force_screen_capture": {
+    "message": "Bật chế độ chụp màn hình chất lượng cao"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line1": {
+    "message": "Khi tắt, ảnh chụp màn hình có những hạn chế hiệu suất sau:"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line2": {
+    "message": "- Chất lượng chụp thấp"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line4": {
+    "message": "- Không chụp màn hình nếu việc tạo ảnh mất hơn 1 phút"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line5": {
+    "message": "- Chiều cao tối đa của ảnh chụp giới hạn ở 5000px"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line6": {
+    "message": "Bật chế độ chụp màn hình chất lượng cao có thể tăng đáng kể tải CPU"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line7": {
+    "message": "và mức sử dụng bộ nhớ."
+  },
+  "html_options_whitelist_title": {
+    "message": "Không bao giờ tạm dừng tab có URL trong danh sách sau:"
+  },
+  "html_options_whitelist_tooltip_line1": {
+    "message": "Thêm URL của từng trang bạn muốn đưa vào danh sách trắng trên một dòng mới."
+  },
+  "html_options_whitelist_tooltip_line2": {
+    "message": "Để thêm nhiều trang trên một dòng, bạn có thể chỉ định một phần URL:"
+  },
+  "html_options_whitelist_tooltip_line3": {
+    "message": "Bạn cũng có thể chỉ định biểu thức chính quy bằng cách bao văn bản trong dấu gạch chéo:"
+  },
+  "html_options_whitelist_test": {
+    "message": "Kiểm tra danh sách trắng"
+  },
+  "html_options_other_enable_context_menu": {
+    "message": "Thêm The Great Suspender vào menu chuột phải"
+  },
+  "html_options_other_enable_context_menu_tooltip_line1": {
+    "message": "Thêm điều khiển cho tiện ích này vào menu chuột phải của trang web."
+  },
+  "html_options_other_enable_context_menu_tooltip_line2": {
+    "message": "Điều này sẽ cung cấp cho bạn quyền truy cập vào các hành động tạm dừng nâng cao không có"
+  },
+  "html_options_other_enable_context_menu_tooltip_line3": {
+    "message": "ở nơi khác trong tiện ích."
+  },
+  "html_options_other_enable_sync": {
+    "message": "Đồng bộ cài đặt với hồ sơ Chrome"
+  },
+  "html_options_other_enable_sync_tooltip_line1a": {
+    "message": "Cài đặt tiện ích sẽ được đồng bộ hóa trên tất cả trình duyệt Chrome đăng nhập"
+  },
+  "html_options_other_enable_sync_tooltip_line1b": {
+    "message": "với cùng một hồ sơ."
+  },
+  "html_options_other_enable_sync_tooltip_line2": {
+    "message": "Điều này cũng sẽ đồng bộ cài đặt trong chế độ ẩn danh."
+  },
+  "html_options_other_enable_sync_warning": {
+    "message": "Bật tính năng này sẽ ghi đè cài đặt trên tất cả trình duyệt khác đăng nhập cùng hồ sơ Chrome"
+  },
+  "html_options_suspend_on_low_memory": {
+    "message": "Tạm dừng ngay lập tức khi bộ nhớ hệ thống rất thấp"
+  },
+  "html_options_suspend_on_low_memory_tooltip_line1": {
+    "message": "Tùy chọn này sẽ ghi đè chức năng tự động loại bỏ tab của Chrome."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line2": {
+    "message": "Nếu được bật, nó sẽ buộc tab phải tạm dừng thay vì bị Chrome loại bỏ."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line3": {
+    "message": "Thông thường, Chrome chỉ loại bỏ tab khi bộ nhớ hệ thống rất thấp."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line4": {
+    "message": "Lưu ý: Điều này có thể khiến tab bị tạm dừng sớm hơn thời gian bạn đã"
+  },
+  "html_options_suspend_on_low_memory_tooltip_line5": {
+    "message": "chỉ định trong tùy chọn tự động tạm dừng."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line6": {
+    "message": "Thêm thông tin về Chrome discarding:"
+  },
+  "html_options_suspend_on_low_memory_tooltip_discarding_link": {
+    "message": "https://developers.google.com/web/updates/2015/09/tab-discarding"
+  },
+  "html_popup_unsuspend_tab": {
+    "message": "Khôi phục tab này"
+  },
+  "html_popup_suspend_tab": {
+    "message": "Tạm dừng tab này ngay"
+  },
+  "html_popup_dont_suspend_now": {
+    "message": "Không tạm dừng lúc này"
+  },
+  "html_popup_never_suspend_domain": {
+    "message": "Không bao giờ tạm dừng tên miền này"
+  },
+  "html_popup_never_suspend_page": {
+    "message": "Không bao giờ tạm dừng URL này"
+  },
+  "html_popup_suspend_other_tabs": {
+    "message": "Tạm dừng tất cả các tab khác"
+  },
+  "html_popup_unsuspend_all_tabs": {
+    "message": "Khôi phục tất cả các tab"
+  },
+  "html_popup_suspend_selected_tabs": {
+    "message": "Tạm dừng các tab đã chọn"
+  },
+  "html_popup_unsuspend_selected_tabs": {
+    "message": "Khôi phục các tab đã chọn"
+  },
+  "html_popup_settings": {
+    "message": "Cài đặt"
+  },
+  "html_restoring_title": {
+    "message": "Đang khôi phục cửa sổ"
+  },
+  "html_restoring_heading": {
+    "message": "Đang khôi phục tab"
+  },
+  "html_restoring_detail": {
+    "message": "Vui lòng đợi trong khi tôi khôi phục cửa sổ này..."
+  },
+  "html_recovery_title": {
+    "message": "Phục hồi"
+  },
+  "html_recovery_ruh_roh": {
+    "message": "Ôi không!"
+  },
+  "html_recovery_description_line1": {
+    "message": "Có vẻ như bạn đang phục hồi sau sự cố tiện ích mở rộng."
+  },
+  "html_recovery_description_line2": {
+    "message": "Các tab tạm dừng của bạn có thể đã bị lỗi hoặc biến mất."
+  },
+  "html_recovery_restore_tabs_automatically": {
+    "message": "Khôi phục tab tự động"
+  },
+  "html_recovery_go_to_session_manager": {
+    "message": "Đến trình quản lý phiên"
+  },
+  "html_recovery_important_message": {
+    "message": "Bạn đang bật tính năng chụp màn hình. Nếu tiện ích này liên tục bị lỗi, bạn nên tắt tùy chọn này."
+  },
+  "html_recovery_disable_screen_capturing": {
+    "message": "Tắt chụp màn hình"
+  },
+  "html_recovery_tabs_to_restore": {
+    "message": "Các tab cần khôi phục"
+  },
+  "html_shortcuts_title": {
+    "message": "Phím tắt"
+  },
+  "html_shortcuts_keyboard_shortcuts": {
+    "message": "Phím tắt"
+  },
+  "html_shortcuts_context_menu_note": {
+    "message": "Lưu ý: Các hành động này cũng có thể truy cập qua menu chuột phải."
+  },
+  "html_shortcuts_remap_keys": {
+    "message": "Thay đổi phím tắt"
+  },
+  "html_sidebar_general_settings": {
+    "message": "Cài đặt"
+  },
+  "html_sidebar_session_management": {
+    "message": "Quản lý phiên"
+  },
+  "html_sidebar_shortcuts": {
+    "message": "Phím tắt"
+  },
+  "html_sidebar_support": {
+    "message": "Giới thiệu"
+  },
+  "html_success_great_success": {
+    "message": "Thành công lớn!"
+  },
+  "html_success_all_tabs_restored": {
+    "message": "Tất cả các tab của bạn đã được khôi phục."
+  },
+  "html_success_goto_advanced_prefix": {
+    "message": "Để quản lý phiên nâng cao, hãy truy cập"
+  },
+  "html_success_goto_advanced_suffix": {
+    "message": "trang"
+  },
+  "html_session_manager": {
+    "message": "quản lý phiên"
+  },
+  "html_suspended_title": {
+    "message": "Tab tạm dừng"
+  },
+  "html_suspended_tab_suspended": {
+    "message": "Tab đã tạm dừng"
+  },
+  "html_suspended_tab_reload": {
+    "message": "Tải lại tab"
+  },
+  "html_suspended_tab_whitelist_prefix": {
+    "message": "Không bao giờ tạm dừng"
+  },
+  "html_suspended_tab_whitelist_suffix": {
+    "message": "..."
+  },
+  "html_suspended_click_to_reload": {
+    "message": "Làm mới hoặc nhấp để tải lại"
+  },
+  "html_suspended_toast_not_connected": {
+    "message": "Bạn không kết nối internet"
+  },
+  "html_suspended_toast_reload_disabled": {
+    "message": "Tự động tải lại tab tạm thời bị tắt."
+  },
+  "html_suspended_donation_question": {
+    "message": "Tiện ích này có làm bạn vui không?\nHãy thể hiện sự ủng hộ bằng cách quyên góp."
+  },
+  "html_permissions_title": {
+    "message": "Quyền"
+  },
+  "html_permissions_heading": {
+    "message": "Cho tôi quyền truy cập vào URL tệp cục bộ"
+  },
+  "html_permissions_info": {
+    "message": "Tiện ích này hiện không được phép tạm dừng URL bắt đầu bằng từ \"file\".\nĐể thay đổi điều này, hãy bật \"Cho phép truy cập URL tệp\" từ trang cài đặt tiện ích."
+  },
+  "html_permissions_backup": {
+    "message": "Lưu ý: thay đổi tùy chọn này sẽ khiến tất cả tab tạm dừng biến mất tạm thời.\nĐây có thể là lúc tốt để lưu bản sao lưu của phiên tab hiện tại."
+  },
+  "html_update_title": {
+    "message": "Cập nhật"
+  },
+  "html_update_heading2": {
+    "message": "sắp trở nên tốt hơn"
+  },
+  "html_update_info": {
+    "message": "Phiên bản mới của The Great Suspender đã sẵn sàng để cài đặt.\nLưu ý: trong quá trình cập nhật, các tab tạm dừng sẽ biến mất tạm thời."
+  },
+  "html_update_info_withbackup": {
+    "message": "Đây có thể là lúc tốt để lưu bản sao lưu của phiên hiện tại."
+  },
+  "html_update_info_nobackup_prefix": {
+    "message": "Rất khuyến nghị xuất bản sao phiên hiện tại từ "
+  },
+  "html_update_info_nobackup_suffix": {
+    "message": " trước khi tiếp tục cập nhật."
+  },
+  "html_updated_title": {
+    "message": "Đã cập nhật"
+  },
+  "html_updating_heading": {
+    "message": "đang cập nhật"
+  },
+  "html_updating_message": {
+    "message": "Vui lòng đợi trong khi tôi khôi phục các tab tạm dừng..."
+  },
+  "html_updated_great_suspender_updated": {
+    "message": "đã được cập nhật"
+  },
+  "html_updated_info_line1": {
+    "message": "Bản sao lưu tự động các tab của bạn đã được tạo trước khi cập nhật."
+  },
+  "html_updated_info_line2_prefix": {
+    "message": "Nếu bạn gặp sự cố trong quá trình cập nhật, bạn có thể khôi phục tab bị mất từ "
+  },
+  "html_updated_info_line2_suffix": {
+    "message": " trang."
+  },
+  "html_updated_detail_header_prefix": {
+    "message": "Có gì mới trong "
+  },
+  "html_updated_detail_header_suffix": {
+    "message": "?"
+  },
+  "html_updated_new_features_header": {
+    "message": "Tính năng mới:"
+  },
+  "html_updated_bug_fixes_header": {
+    "message": "Sửa lỗi:"
+  },
+  "html_updated_release_notes": {
+    "message": "Truy cập GitHub để xem ghi chú phát hành đầy đủ: "
+  },
+  "html_updated_patch_message": {
+    "message": "Xin lỗi vì sự gián đoạn. Tôi chỉ cần thực hiện một chút bảo trì."
+  },
+  "html_welcome_title": {
+    "message": "Chào mừng"
+  },
+  "html_welcome_text_line1": {
+    "message": "Cảm ơn bạn đã thử"
+  },
+  "html_welcome_text_line2": {
+    "message": "Tôi giúp máy tính của bạn chạy mượt mà bằng cách tạm dừng các tab bạn không sử dụng."
+  },
+  "html_welcome_text_line3": {
+    "message": "Bạn có thể tinh chỉnh cài đặt bên dưới."
+  },
+  "html_thanks_title": {
+    "message": "Cảm ơn"
+  },
+  "html_thanks_header": {
+    "message": "Cảm ơn vì sự hỗ trợ!"
+  },
+  "html_thanks_sub_header": {
+    "message": "Chúc bạn có những điều tốt đẹp hôm nay."
+  },
+  "js_popup_normal": {
+    "message": "Tab sẽ tự động tạm dừng."
+  },
+  "js_popup_normal_pause": {
+    "message": "Không phải bây giờ"
+  },
+  "js_popup_special": {
+    "message": "Tab không thể tạm dừng"
+  },
+  "js_popup_suspended": {
+    "message": "Tab đã tạm dừng"
+  },
+  "js_popup_suspended_pause": {
+    "message": "Không tạm dừng"
+  },
+  "js_popup_whitelisted": {
+    "message": "Trang web trong danh sách trắng."
+  },
+  "js_popup_whitelisted_remove": {
+    "message": "Xóa khỏi danh sách trắng"
+  },
+  "js_popup_audible": {
+    "message": "Tab đang phát âm thanh."
+  },
+  "js_popup_form_input": {
+    "message": "Tab đang nhận dữ liệu biểu mẫu."
+  },
+  "js_popup_form_input_unpause": {
+    "message": "Tiếp tục"
+  },
+  "js_popup_pinned": {
+    "message": "Tab đã được ghim"
+  },
+  "js_popup_temp_whitelist": {
+    "message": "Tạm dừng tab đã dừng."
+  },
+  "js_popup_temp_whitelist_unpause": {
+    "message": "Tiếp tục"
+  },
+  "js_popup_never": {
+    "message": "Tự động tạm dừng tab đã tắt."
+  },
+  "js_popup_no_connectivity": {
+    "message": "Không có kết nối mạng"
+  },
+  "js_popup_charging": {
+    "message": "Đang cắm sạc"
+  },
+  "js_popup_blockedFile": {
+    "message": "Không thể tạm dừng tệp cục bộ."
+  },
+  "js_popup_blockedFile_enable": {
+    "message": "Bật"
+  },
+  "js_popup_unknown": {
+    "message": "Đang chờ tab tải..."
+  },
+  "js_popup_initialising": {
+    "message": "Đang chờ tiện ích khởi động..."
+  },
+  "js_popup_error": {
+    "message": "Tự động tạm dừng không khả dụng cho tab này"
+  },
+  "js_history_delete": {
+    "message": "xóa"
+  },
+  "js_history_export": {
+    "message": "xuất"
+  },
+  "js_history_reload": {
+    "message": "mở và tải"
+  },
+  "js_history_resuspend": {
+    "message": "mở và tạm dừng"
+  },
+  "js_history_save": {
+    "message": "lưu"
+  },
+  "js_history_window": {
+    "message": "Cửa sổ"
+  },
+  "js_history_tab": {
+    "message": "Tab"
+  },
+  "js_history_plural": {
+    "message": "s"
+  },
+  "js_history_enter_name_for_session": {
+    "message": "Nhập tên cho phiên này"
+  },
+  "js_history_confirm_delete": {
+    "message": "Bạn có chắc muốn xóa phiên này không?"
+  },
+  "js_history_confirm_session_overwrite": {
+    "message": "Đã có phiên lưu với tên này. Ghi đè phiên hiện có?"
+  },
+  "js_history_import_fail": {
+    "message": "Không thể tải tệp. Đảm bảo tệp là văn bản thuần túy với một URL trên mỗi dòng."
+  },
+  "js_suspended_remove_from_whitelist": {
+    "message": "Xóa trang web khỏi danh sách trắng"
+  },
+  "js_suspended_hotkey_to_reload": {
+    "message": "Đặt phím tắt"
+  },
+  "js_suspended_low_memory": {
+    "message": "Tab tạm dừng do bộ nhớ hệ thống thấp"
+  },
+  "js_options_incognito_warning": {
+    "message": "Bạn đang ở chế độ ẩn danh. Một số tính năng sẽ không khả dụng."
+  },
+  "js_options_whitelist_no_matches": {
+    "message": "Không có tab mở nào khớp với danh sách trắng hiện tại."
+  },
+  "js_options_whitelist_matches_heading": {
+    "message": "Các tab mở trong danh sách trắng:"
+  },
+  "js_options_whitelist_matches_overflow_prefix": {
+    "message": "và"
+  },
+  "js_options_whitelist_matches_overflow_suffix": {
+    "message": " thêm."
+  },
+  "js_permissions_button_export": {
+    "message": "Lưu bản sao lưu"
+  },
+  "js_permissions_button_set": {
+    "message": "Mở cài đặt tiện ích"
+  },
+  "js_update_confirm": {
+    "message": "Bạn chưa lưu bản sao lưu. Vẫn cập nhật tiện ích?"
+  },
+  "js_update_button_export": {
+    "message": "Lưu bản sao lưu"
+  },
+  "js_update_button_reload": {
+    "message": "Cập nhật tiện ích ngay"
+  },
+  "js_shortcuts_not_set": {
+    "message": "chưa đặt"
+  },
+  "js_session_save_point": {
+    "message": "Điểm lưu tự động cho v"
+  }
+}

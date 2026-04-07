@@ -1,0 +1,686 @@
+{
+  "ext_extension_name": {
+    "message": "The Great Suspender | Tab Suspender - Замрзавање картица"
+  },
+  "ext_extension_description": {
+    "message": "Суспендујте неактивне Chrome картице ради штедње RAM-а и повећања брзине. Најбољи Tab Suspender — аутоматски замрзава неискоришћене картице и одмах их враћа."
+  },
+  "ext_default_title": {
+    "message": "The Great Suspender"
+  },
+  "ext_cmd_toggle_tab_suspension_description": {
+    "message": "Суспендуј/Врати активну картицу"
+  },
+  "ext_cmd_toggle_tab_pause_description": {
+    "message": "Паузирај/Настави суспензију активне картице"
+  },
+  "ext_cmd_suspend_selected_tabs_description": {
+    "message": "Суспендуј изабране картице"
+  },
+  "ext_cmd_unsuspend_selected_tabs_description": {
+    "message": "Врати изабране картице"
+  },
+  "ext_cmd_soft_suspend_active_window_description": {
+    "message": "Суспендуј све остале картице у активном прозору"
+  },
+  "ext_cmd_force_suspend_active_window_description": {
+    "message": "Принудно суспендуј све остале картице у активном прозору"
+  },
+  "ext_cmd_unsuspend_active_window_description": {
+    "message": "Врати све картице у активном прозору"
+  },
+  "ext_cmd_soft_suspend_all_windows_description": {
+    "message": "Суспендуј све картице у свим прозорима"
+  },
+  "ext_cmd_force_suspend_all_windows_description": {
+    "message": "Принудно суспендуј све картице у свим прозорима"
+  },
+  "ext_cmd_unsuspend_all_windows_description": {
+    "message": "Врати све картице у свим прозорима"
+  },
+  "js_context_open_link_in_suspended_tab": {
+    "message": "Отвори везу у новој суспендованој картици"
+  },
+  "js_context_toggle_suspend_state": {
+    "message": "Суспендуј/Врати ову картицу"
+  },
+  "js_context_toggle_pause_suspension": {
+    "message": "Паузирај/Настави суспензију ове картице"
+  },
+  "js_context_never_suspend_domain": {
+    "message": "Никада не суспендуј овај домен"
+  },
+  "js_context_never_suspend_page": {
+    "message": "Никада не суспендуј овај URL"
+  },
+  "js_context_suspend_selected_tabs": {
+    "message": "Суспендуј изабране картице"
+  },
+  "js_context_unsuspend_selected_tabs": {
+    "message": "Врати изабране картице"
+  },
+  "js_context_soft_suspend_other_tabs_in_window": {
+    "message": "Суспендуј све остале картице у овом прозору"
+  },
+  "js_context_force_suspend_other_tabs_in_window": {
+    "message": "Принудно суспендуј све остале картице у овом прозору"
+  },
+  "js_context_unsuspend_all_tabs_in_window": {
+    "message": "Врати све картице у овом прозору"
+  },
+  "js_context_soft_suspend_all_tabs": {
+    "message": "Суспендуј све картице у свим прозорима"
+  },
+  "js_context_force_suspend_all_tabs": {
+    "message": "Принудно суспендуј све картице у свим прозорима"
+  },
+  "js_context_unsuspend_all_tabs": {
+    "message": "Врати све картице у свим прозорима"
+  },
+  "html_about_title": {
+    "message": "О додатку"
+  },
+  "html_history_title": {
+    "message": "Управљање сесијама"
+  },
+  "html_history_current_session": {
+    "message": "Тренутна сесија"
+  },
+  "html_history_recent_sessions": {
+    "message": "Недавне сесије"
+  },
+  "html_history_saved_sessions": {
+    "message": "Сачуване сесије"
+  },
+  "html_history_import_session": {
+    "message": "Увези сесију"
+  },
+  "html_notice_title": {
+    "message": "Обавештење"
+  },
+  "html_notice_important_notice": {
+    "message": "Важно обавештење од The Great Suspender"
+  },
+  "html_options_title": {
+    "message": "Подешавања"
+  },
+  "html_options_suspend_title": {
+    "message": "Аутоматска суспензија картица"
+  },
+  "html_options_suspended_title": {
+    "message": "Суспендоване картице"
+  },
+  "html_options_other_title": {
+    "message": "Остало"
+  },
+  "html_options_suspend_automatically_after": {
+    "message": "Аутоматски суспендуј картице после"
+  },
+  "html_options_suspend_never": {
+    "message": "Никад"
+  },
+  "html_options_suspend_seconds": {
+    "message": "секунди"
+  },
+  "html_options_suspend_minute": {
+    "message": "мин"
+  },
+  "html_options_suspend_minutes": {
+    "message": "мин"
+  },
+  "html_options_suspend_hour": {
+    "message": "час"
+  },
+  "html_options_suspend_hours": {
+    "message": "часова"
+  },
+  "html_options_suspend_day": {
+    "message": "дан"
+  },
+  "html_options_suspend_days": {
+    "message": "дана"
+  },
+  "html_options_suspend_week": {
+    "message": "недеља"
+  },
+  "html_options_suspend_weeks": {
+    "message": "недеља"
+  },
+  "html_options_suspend_no_pinned": {
+    "message": "Никада не суспендуј прикачене картице"
+  },
+  "html_options_suspend_no_forms": {
+    "message": "Никада не суспендуј картице са несачуваним формама"
+  },
+  "html_options_suspend_no_audio": {
+    "message": "Никада не суспендуј картице које репродукују звук"
+  },
+  "html_options_suspend_only_connected": {
+    "message": "Никада не суспендуј картице кад си офлајн"
+  },
+  "html_options_suspend_only_on_battery": {
+    "message": "Никада не суспендуј картице кад је прикључен на напајање"
+  },
+  "html_options_suspend_no_active_tabs": {
+    "message": "Никада не суспендуј активну картицу у сваком прозору"
+  },
+  "html_options_suspend_automatically_unsuspend": {
+    "message": "Аутоматски врати картицу кад се прегледа"
+  },
+  "html_options_suspend_discard_after_suspend": {
+    "message": "Примени уграђену функцију штедње меморије Chrome-а при суспензији"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1a": {
+    "message": "Додатно смањује коришћење меморије суспендоване картице коришћењем"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1b": {
+    "message": "уграђене Chrome функције 'tab discarding'. Може уштедети до"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1c": {
+    "message": "500% меморије при раду са пуно картица."
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line2a": {
+    "message": "Ипак, може изазвати мало кашњење при избору"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line2b": {
+    "message": "суспендоване картице."
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line3a": {
+    "message": "Више информација о Chrome discarding:"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line3b": {
+    "message": "https://developers.google.com/web/updates/2015/09/tab-discarding"
+  },
+  "html_options_suspend_theme": {
+    "message": "Тема"
+  },
+  "html_options_suspend_theme_light": {
+    "message": "Светла"
+  },
+  "html_options_suspend_theme_dark": {
+    "message": "Тамна"
+  },
+  "html_options_suspend_screen_capturing": {
+    "message": "Снимање екрана"
+  },
+  "html_options_suspend_screen_capturing_disabled": {
+    "message": "Онемогућено"
+  },
+  "html_options_suspend_screen_capturing_screen_only": {
+    "message": "Сними само врх екрана"
+  },
+  "html_options_suspend_screen_capturing_entire_page": {
+    "message": "Сними цео страницу"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line1a": {
+    "message": "На суспендованој картици додатак може приказати преглед"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line1b": {
+    "message": "изгледа картице непосредно пре суспензије."
+  },
+  "html_options_suspend_screen_capturing_tooltip_line2a": {
+    "message": "Функција снимања екрана је експериментална и може изазвати високо оптерећење CPU-а"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line2b": {
+    "message": "и мало повећано коришћење меморије."
+  },
+  "html_options_suspend_screen_capturing_tooltip_line3a": {
+    "message": "Ако приметите чудно понашање, покушајте да искључите ову функцију."
+  },
+  "html_options_suspend_screen_capturing_tooltip_line3b": {
+    "message": "На пример спор процес суспензије или неочекивано рушење Chrome-а."
+  },
+  "html_options_suspend_force_screen_capture": {
+    "message": "Омогући висококвалитетни режим снимања екрана"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line1": {
+    "message": "Кад је онемогућено, снимци екрана имају следећа ограничења перформанси:"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line2": {
+    "message": "- Нисококвалитетно снимање"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line4": {
+    "message": "- Неће снимити ако генерисање слике траје више од 1 минута"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line5": {
+    "message": "- Максимална висина снимка ограничена на 5000px"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line6": {
+    "message": "Омогућавање висококвалитетног снимања може значајно повећати оптерећење CPU-а"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line7": {
+    "message": "и коришћење меморије."
+  },
+  "html_options_whitelist_title": {
+    "message": "Никада не суспендуј картице са URL-овима са следеће листе:"
+  },
+  "html_options_whitelist_tooltip_line1": {
+    "message": "Додај URL сваке странице коју желиш на белу листу у нови ред."
+  },
+  "html_options_whitelist_tooltip_line2": {
+    "message": "За više страница у једном реду наведи деo URL-а:"
+  },
+  "html_options_whitelist_tooltip_line3": {
+    "message": "Такође можеш навести регуларне изразе затварањем текста у косе црте:"
+  },
+  "html_options_whitelist_test": {
+    "message": "Тестирај белу листу"
+  },
+  "html_options_other_enable_context_menu": {
+    "message": "Додај The Great Suspender у контекстни мени десним кликом"
+  },
+  "html_options_other_enable_context_menu_tooltip_line1": {
+    "message": "Додаје контроле овог додатка у контекстни мени веб-странице."
+  },
+  "html_options_other_enable_context_menu_tooltip_line2": {
+    "message": "Ово даје приступ напредним акцијама суспензије које нису доступне"
+  },
+  "html_options_other_enable_context_menu_tooltip_line3": {
+    "message": "другде у додатку."
+  },
+  "html_options_other_enable_sync": {
+    "message": "Синхронизуј подешавања са Chrome профилом"
+  },
+  "html_options_other_enable_sync_tooltip_line1a": {
+    "message": "Подешавања додатка биће синхронизована на свим Chrome прегледачима"
+  },
+  "html_options_other_enable_sync_tooltip_line1b": {
+    "message": "пријављеним са истим профилом."
+  },
+  "html_options_other_enable_sync_tooltip_line2": {
+    "message": "Ово ће такође синхронизовати подешавања у инкогнито режиму."
+  },
+  "html_options_other_enable_sync_warning": {
+    "message": "Укључивање ће преписати подешавања на свим осталим прегледачима пријављеним са истим Chrome профилом"
+  },
+  "html_options_suspend_on_low_memory": {
+    "message": "Одмах суспендуј кад системска меморија постане веома ниска"
+  },
+  "html_options_suspend_on_low_memory_tooltip_line1": {
+    "message": "Ова опција замениће аутоматско одбацивање картица Chrome-а."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line2": {
+    "message": "Ако је омогућено, натераће картицу да се суспендује уместо да је Chrome одбаци."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line3": {
+    "message": "Chrome обично одбацује картице само кад меморија постане веома ниска."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line4": {
+    "message": "Напомена: Ово може изазвати суспензију картица раније него што сте подесили"
+  },
+  "html_options_suspend_on_low_memory_tooltip_line5": {
+    "message": "у опцијама аутоматске суспензије."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line6": {
+    "message": "Више информација о Chrome discarding:"
+  },
+  "html_options_suspend_on_low_memory_tooltip_discarding_link": {
+    "message": "https://developers.google.com/web/updates/2015/09/tab-discarding"
+  },
+  "html_popup_unsuspend_tab": {
+    "message": "Врати ову картицу"
+  },
+  "html_popup_suspend_tab": {
+    "message": "Суспендуј ову картицу сада"
+  },
+  "html_popup_dont_suspend_now": {
+    "message": "Не сада"
+  },
+  "html_popup_never_suspend_domain": {
+    "message": "Никада не суспендуј овај домен"
+  },
+  "html_popup_never_suspend_page": {
+    "message": "Никада не суспендуј овај URL"
+  },
+  "html_popup_suspend_other_tabs": {
+    "message": "Суспендуј све остале картице"
+  },
+  "html_popup_unsuspend_all_tabs": {
+    "message": "Врати све картице"
+  },
+  "html_popup_suspend_selected_tabs": {
+    "message": "Суспендуј изабране картице"
+  },
+  "html_popup_unsuspend_selected_tabs": {
+    "message": "Врати изабране картице"
+  },
+  "html_popup_settings": {
+    "message": "Подешавања"
+  },
+  "html_restoring_title": {
+    "message": "Враћање прозора"
+  },
+  "html_restoring_heading": {
+    "message": "Враћање картица"
+  },
+  "html_restoring_detail": {
+    "message": "Сачекај, враћам овај прозор..."
+  },
+  "html_recovery_title": {
+    "message": "Опоравак"
+  },
+  "html_recovery_ruh_roh": {
+    "message": "Ух ох!"
+  },
+  "html_recovery_description_line1": {
+    "message": "Изгледа да се опорављаш од пада додатка."
+  },
+  "html_recovery_description_line2": {
+    "message": "Твоје суспендоване картице можда су пале или нестале."
+  },
+  "html_recovery_restore_tabs_automatically": {
+    "message": "Аутоматски врати картице"
+  },
+  "html_recovery_go_to_session_manager": {
+    "message": "Иди на менаџер сесија"
+  },
+  "html_recovery_important_message": {
+    "message": "Тренутно имаш укључено снимање екрана. Ако додатак стално пада, препоручује се да онемогућиш ову опцију."
+  },
+  "html_recovery_disable_screen_capturing": {
+    "message": "Искључи снимање екрана"
+  },
+  "html_recovery_tabs_to_restore": {
+    "message": "Картице за враћање"
+  },
+  "html_shortcuts_title": {
+    "message": "Пречице на тастатури"
+  },
+  "html_shortcuts_keyboard_shortcuts": {
+    "message": "Пречице на тастатури"
+  },
+  "html_shortcuts_context_menu_note": {
+    "message": "Напомена: Ове акције доступне су и преко контекстног менија десним кликом."
+  },
+  "html_shortcuts_remap_keys": {
+    "message": "Промени пречице"
+  },
+  "html_sidebar_general_settings": {
+    "message": "Подешавања"
+  },
+  "html_sidebar_session_management": {
+    "message": "Управљање сесијама"
+  },
+  "html_sidebar_shortcuts": {
+    "message": "Пречице на тастатури"
+  },
+  "html_sidebar_support": {
+    "message": "О додатку"
+  },
+  "html_success_great_success": {
+    "message": "Велики успех!"
+  },
+  "html_success_all_tabs_restored": {
+    "message": "Све твоје картице су враћене."
+  },
+  "html_success_goto_advanced_prefix": {
+    "message": "За напредно управљање сесијама посети"
+  },
+  "html_success_goto_advanced_suffix": {
+    "message": "страницу"
+  },
+  "html_session_manager": {
+    "message": "управљање сесијама"
+  },
+  "html_suspended_title": {
+    "message": "Суспендована картица"
+  },
+  "html_suspended_tab_suspended": {
+    "message": "Картица суспендована"
+  },
+  "html_suspended_tab_reload": {
+    "message": "Поново учитај картицу"
+  },
+  "html_suspended_tab_whitelist_prefix": {
+    "message": "Никада не суспендуј"
+  },
+  "html_suspended_tab_whitelist_suffix": {
+    "message": "..."
+  },
+  "html_suspended_click_to_reload": {
+    "message": "Освежи или кликни за поновно учитавање"
+  },
+  "html_suspended_toast_not_connected": {
+    "message": "Нисте повезани на интернет"
+  },
+  "html_suspended_toast_reload_disabled": {
+    "message": "Аутоматско учитавање картица је привремено онемогућено."
+  },
+  "html_suspended_donation_question": {
+    "message": "Чини ли те овај додатак срећним?\nПокажи своју подршку донацијом."
+  },
+  "html_permissions_title": {
+    "message": "Дозволе"
+  },
+  "html_permissions_heading": {
+    "message": "Дај ми приступ локалним URL-овима датотека"
+  },
+  "html_permissions_info": {
+    "message": "Овом додатку тренутно није дозвољено суспендовање URL-ова који почињу речју \"file\".\nДа бисте то изменили, омогућите \"Дозволи приступ URL-овима датотека\" на страници подешавања додатка."
+  },
+  "html_permissions_backup": {
+    "message": "Напомена: промена ове опције узрокује привремено нестајање суспендованих картица.\nМожда је прави тренутак да сачуваш резервну копију тренутне сесије."
+  },
+  "html_update_title": {
+    "message": "Ажурирање"
+  },
+  "html_update_heading2": {
+    "message": "ускоро постаје још бољи"
+  },
+  "html_update_info": {
+    "message": "Нова верзија The Great Suspender-а је спремна за инсталацију.\nНапомена: током ажурирања суспендоване картице ће привремено нестати."
+  },
+  "html_update_info_withbackup": {
+    "message": "Можда је прави тренутак да сачуваш резервну копију."
+  },
+  "html_update_info_nobackup_prefix": {
+    "message": "Снажно се препоручује да извезеш копију тренутне сесије са "
+  },
+  "html_update_info_nobackup_suffix": {
+    "message": " пре него наставиш са ажурирањем."
+  },
+  "html_updated_title": {
+    "message": "Ажурирано"
+  },
+  "html_updating_heading": {
+    "message": "ажурира се"
+  },
+  "html_updating_message": {
+    "message": "Сачекај, враћам суспендоване картице..."
+  },
+  "html_updated_great_suspender_updated": {
+    "message": "је ажуриран"
+  },
+  "html_updated_info_line1": {
+    "message": "Аутоматска резервна копија картица је направљена пре ажурирања."
+  },
+  "html_updated_info_line2_prefix": {
+    "message": "Ако сте наишли на проблеме, изгубљене картице можете вратити са "
+  },
+  "html_updated_info_line2_suffix": {
+    "message": " странице."
+  },
+  "html_updated_detail_header_prefix": {
+    "message": "Шта је ново у "
+  },
+  "html_updated_detail_header_suffix": {
+    "message": "?"
+  },
+  "html_updated_new_features_header": {
+    "message": "Нове функције:"
+  },
+  "html_updated_bug_fixes_header": {
+    "message": "Исправке грешака:"
+  },
+  "html_updated_release_notes": {
+    "message": "Посетите GitHub за потпуне напомене уз издање: "
+  },
+  "html_updated_patch_message": {
+    "message": "Извините за сметњу. Требало је само обавити мало одржавања."
+  },
+  "html_welcome_title": {
+    "message": "Добродошли"
+  },
+  "html_welcome_text_line1": {
+    "message": "Хвала на испробавању"
+  },
+  "html_welcome_text_line2": {
+    "message": "Обезбеђујем несметан рад рачунара суспендовањем картица које не користиш."
+  },
+  "html_welcome_text_line3": {
+    "message": "Можеш подесити параметре испод."
+  },
+  "html_thanks_title": {
+    "message": "Захвалност"
+  },
+  "html_thanks_header": {
+    "message": "Хвала на подршци!"
+  },
+  "html_thanks_sub_header": {
+    "message": "Нека вас данас прате добре ствари."
+  },
+  "js_popup_normal": {
+    "message": "Картица ће бити аутоматски суспендована."
+  },
+  "js_popup_normal_pause": {
+    "message": "Не сада"
+  },
+  "js_popup_special": {
+    "message": "Картица не може бити суспендована"
+  },
+  "js_popup_suspended": {
+    "message": "Картица суспендована"
+  },
+  "js_popup_suspended_pause": {
+    "message": "Не суспендуј"
+  },
+  "js_popup_whitelisted": {
+    "message": "Сајт је на белој листи."
+  },
+  "js_popup_whitelisted_remove": {
+    "message": "Уклони са беле листе"
+  },
+  "js_popup_audible": {
+    "message": "Картица репродукује звук."
+  },
+  "js_popup_form_input": {
+    "message": "Картица прима унос из форме."
+  },
+  "js_popup_form_input_unpause": {
+    "message": "Настави"
+  },
+  "js_popup_pinned": {
+    "message": "Картица је прикачена"
+  },
+  "js_popup_temp_whitelist": {
+    "message": "Суспензија картице је паузирана."
+  },
+  "js_popup_temp_whitelist_unpause": {
+    "message": "Настави"
+  },
+  "js_popup_never": {
+    "message": "Аутоматска суспензија онемогућена."
+  },
+  "js_popup_no_connectivity": {
+    "message": "Нема мрежне везе"
+  },
+  "js_popup_charging": {
+    "message": "Прикључен на напајање"
+  },
+  "js_popup_blockedFile": {
+    "message": "Локалне датотеке не могу бити суспендоване."
+  },
+  "js_popup_blockedFile_enable": {
+    "message": "Омогући"
+  },
+  "js_popup_unknown": {
+    "message": "Чекам учитавање картице..."
+  },
+  "js_popup_initialising": {
+    "message": "Чекам иницијализацију додатка..."
+  },
+  "js_popup_error": {
+    "message": "Аутоматска суспензија није доступна за ову картицу"
+  },
+  "js_history_delete": {
+    "message": "обриши"
+  },
+  "js_history_export": {
+    "message": "извези"
+  },
+  "js_history_reload": {
+    "message": "отвори и учитај"
+  },
+  "js_history_resuspend": {
+    "message": "отвори и суспендуј"
+  },
+  "js_history_save": {
+    "message": "сачувај"
+  },
+  "js_history_window": {
+    "message": "Прозор"
+  },
+  "js_history_tab": {
+    "message": "Картица"
+  },
+  "js_history_plural": {
+    "message": "е"
+  },
+  "js_history_enter_name_for_session": {
+    "message": "Унеси назив за ову сесију"
+  },
+  "js_history_confirm_delete": {
+    "message": "Да ли си сигуран да желиш обрисати ову сесију?"
+  },
+  "js_history_confirm_session_overwrite": {
+    "message": "Сесија са овим именом већ постоји. Преписати постојећу сесију?"
+  },
+  "js_history_import_fail": {
+    "message": "Учитавање датотеке није успело. Проверите да ли је датотека обичан текст са једним URL-ом по реду."
+  },
+  "js_suspended_remove_from_whitelist": {
+    "message": "Уклони сајт са беле листе"
+  },
+  "js_suspended_hotkey_to_reload": {
+    "message": "Постави пречице на тастатури"
+  },
+  "js_suspended_low_memory": {
+    "message": "Картица суспендована услед ниске системске меморије"
+  },
+  "js_options_incognito_warning": {
+    "message": "У инкогнито режиму си. Неке функције неће бити доступне."
+  },
+  "js_options_whitelist_no_matches": {
+    "message": "Нема отворених картица које одговарају тренутној белој листи."
+  },
+  "js_options_whitelist_matches_heading": {
+    "message": "Отворене картице на белој листи:"
+  },
+  "js_options_whitelist_matches_overflow_prefix": {
+    "message": "и још"
+  },
+  "js_options_whitelist_matches_overflow_suffix": {
+    "message": "."
+  },
+  "js_permissions_button_export": {
+    "message": "Сачувај резервну копију"
+  },
+  "js_permissions_button_set": {
+    "message": "Отвори подешавања додатка"
+  },
+  "js_update_confirm": {
+    "message": "Нисте сачували резервну копију. Свеједно ажурирати додатак?"
+  },
+  "js_update_button_export": {
+    "message": "Сачувај резервну копију"
+  },
+  "js_update_button_reload": {
+    "message": "Ажурирај додатак сада"
+  },
+  "js_shortcuts_not_set": {
+    "message": "није постављено"
+  },
+  "js_session_save_point": {
+    "message": "Аутоматска тачка чувања за v"
+  }
+}
