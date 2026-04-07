@@ -1,0 +1,686 @@
+{
+  "ext_extension_name": {
+    "message": "Tab Suspender - The Great Suspender Reloaded 2026"
+  },
+  "ext_extension_description": {
+    "message": "RAM ለመቆጠብ እና ፍጥነትን ለመጨመር የማይሰሩ የChrome ታቦችን (tabs) ያቁሙ። ምርጥ የታብ ማቆሚያ — የማይሰሩ ታቦችን በራሱ ያቆማል እና ወዲያውኑ መልሶ ይከፍታል።"
+  },
+  "ext_default_title": {
+    "message": "The Great Suspender"
+  },
+  "ext_cmd_toggle_tab_suspension_description": {
+    "message": "የሚሰራውን ታብ አቁም/መልስ"
+  },
+  "ext_cmd_toggle_tab_pause_description": {
+    "message": "የታብ ማቆሚያን ለጊዜው አቁም/ቀጥል"
+  },
+  "ext_cmd_suspend_selected_tabs_description": {
+    "message": "የተመረጡ ታቦችን አቁም"
+  },
+  "ext_cmd_unsuspend_selected_tabs_description": {
+    "message": "የተመረጡ ታቦችን መልስ"
+  },
+  "ext_cmd_soft_suspend_active_window_description": {
+    "message": "በዚህ መስኮት ውስጥ ያሉ ሌሎች ታቦችን አቁም"
+  },
+  "ext_cmd_force_suspend_active_window_description": {
+    "message": "በዚህ መስኮት ውስጥ ያሉ ሌሎች ታቦችን አስገዳጅ በሆነ መንገድ አቁም"
+  },
+  "ext_cmd_unsuspend_active_window_description": {
+    "message": "በዚህ መስኮት ውስጥ ያሉ ሁሉንም ታቦች መልስ"
+  },
+  "ext_cmd_soft_suspend_all_windows_description": {
+    "message": "በሁሉም መስኮቶች ውስጥ ያሉ ሁሉንም ታቦች አቁም"
+  },
+  "ext_cmd_force_suspend_all_windows_description": {
+    "message": "በሁሉም መስኮቶች ውስጥ ያሉ ሁሉንም ታቦች አስገዳጅ በሆነ መንገድ አቁም"
+  },
+  "ext_cmd_unsuspend_all_windows_description": {
+    "message": "በሁሉም መስኮቶች ውስጥ ያሉ ሁሉንም ታቦች መልስ"
+  },
+  "js_context_open_link_in_suspended_tab": {
+    "message": "ሊንኩን በአዲስ የቆመ ታብ ውስጥ ክፈት"
+  },
+  "js_context_toggle_suspend_state": {
+    "message": "ይህንን ታብ አቁም/መልስ"
+  },
+  "js_context_toggle_pause_suspension": {
+    "message": "የታብ ማቆሚያን ለጊዜው አቁም/ቀጥል"
+  },
+  "js_context_never_suspend_domain": {
+    "message": "ይህንን ዌብሳይት በፍጹም አታቁም"
+  },
+  "js_context_never_suspend_page": {
+    "message": "ይህንን ሊንክ በፍጹም አታቁም"
+  },
+  "js_context_suspend_selected_tabs": {
+    "message": "የተመረጡ ታቦችን አቁም"
+  },
+  "js_context_unsuspend_selected_tabs": {
+    "message": "የተመረጡ ታቦችን መልስ"
+  },
+  "js_context_soft_suspend_other_tabs_in_window": {
+    "message": "በዚህ መስኮት ውስጥ ያሉ ሌሎች ታቦችን አቁም"
+  },
+  "js_context_force_suspend_other_tabs_in_window": {
+    "message": "በዚህ መስኮት ውስጥ ያሉ ሌሎች ታቦችን አስገዳጅ በሆነ መንገድ አቁም"
+  },
+  "js_context_unsuspend_all_tabs_in_window": {
+    "message": "በዚህ መስኮት ውስጥ ያሉ ሁሉንም ታቦች መልስ"
+  },
+  "js_context_soft_suspend_all_tabs": {
+    "message": "በሁሉም መስኮቶች ውስጥ ያሉ ሁሉንም ታቦች አቁም"
+  },
+  "js_context_force_suspend_all_tabs": {
+    "message": "በሁሉም መስኮቶች ውስጥ ያሉ ሁሉንም ታቦች አስገዳጅ በሆነ መንገድ አቁም"
+  },
+  "js_context_unsuspend_all_tabs": {
+    "message": "በሁሉም መስኮቶች ውስጥ ያሉ ሁሉንም ታቦች መልስ"
+  },
+  "html_about_title": {
+    "message": "ስለ"
+  },
+  "html_history_title": {
+    "message": "የቆዩ ስራዎች"
+  },
+  "html_history_current_session": {
+    "message": "የአሁኑ ስራ"
+  },
+  "html_history_recent_sessions": {
+    "message": "የቅርብ ጊዜ ስራዎች"
+  },
+  "html_history_saved_sessions": {
+    "message": "የተቀመጡ ስራዎች"
+  },
+  "html_history_import_session": {
+    "message": "ስራዎችን አስገባ"
+  },
+  "html_notice_title": {
+    "message": "ማሳሰቢያ"
+  },
+  "html_notice_important_notice": {
+    "message": "ጠቃሚ ማሳሰቢያ ከ The Great Suspender"
+  },
+  "html_options_title": {
+    "message": "ቅንብሮች"
+  },
+  "html_options_suspend_title": {
+    "message": "የታብ ማቆሚያ በራሱ"
+  },
+  "html_options_suspended_title": {
+    "message": "የቆሙ ታቦች"
+  },
+  "html_options_other_title": {
+    "message": "ሌሎች"
+  },
+  "html_options_suspend_automatically_after": {
+    "message": "ታቦችን በራሱ አቁም ከዚህ በኋላ"
+  },
+  "html_options_suspend_never": {
+    "message": "በፍጹም"
+  },
+  "html_options_suspend_seconds": {
+    "message": "ሰከንድ"
+  },
+  "html_options_suspend_minute": {
+    "message": "ደቂቃ"
+  },
+  "html_options_suspend_minutes": {
+    "message": "ደቂቃዎች"
+  },
+  "html_options_suspend_hour": {
+    "message": "ሰዓት"
+  },
+  "html_options_suspend_hours": {
+    "message": "ሰዓታት"
+  },
+  "html_options_suspend_day": {
+    "message": "ቀን"
+  },
+  "html_options_suspend_days": {
+    "message": "ቀናት"
+  },
+  "html_options_suspend_week": {
+    "message": "ሳምንት"
+  },
+  "html_options_suspend_weeks": {
+    "message": "ሳምንታት"
+  },
+  "html_options_suspend_no_pinned": {
+    "message": "የተሰኩ ታቦችን አታቁም"
+  },
+  "html_options_suspend_no_forms": {
+    "message": "ያልተቀመጡ መረጃዎች ያሉባቸውን ታቦች አታቁም"
+  },
+  "html_options_suspend_no_audio": {
+    "message": "ድምጽ የሚወጣባቸውን ታቦች አታቁም"
+  },
+  "html_options_suspend_only_connected": {
+    "message": "ኢንተርኔት በማይኖርበት ጊዜ ታቦችን አታቁም"
+  },
+  "html_options_suspend_only_on_battery": {
+    "message": "ቻርጅ ሲደረግ ታቦችን አታቁም"
+  },
+  "html_options_suspend_no_active_tabs": {
+    "message": "በመስኮት ውስጥ የሚሰራውን ታብ አታቁም"
+  },
+  "html_options_suspend_automatically_unsuspend": {
+    "message": "ታቡን ስትከፍተው በራሱ መልሰህ ክፈት"
+  },
+  "html_options_suspend_discard_after_suspend": {
+    "message": "የChrome ማህደረ ትውስታ (RAM) ቆጣቢን ተጠቀም"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1a": {
+    "message": "የቆሙ ታቦችን ማህደረ ትውስታ አጠቃቀም ይቀንሳል"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1b": {
+    "message": ""
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1c": {
+    "message": ""
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line2a": {
+    "message": ""
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line2b": {
+    "message": ""
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line3a": {
+    "message": ""
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line3b": {
+    "message": "https://developers.google.com/web/updates/2015/09/tab-discarding"
+  },
+  "html_options_suspend_theme": {
+    "message": "ቀለም (Theme)"
+  },
+  "html_options_suspend_theme_light": {
+    "message": "ነጭ"
+  },
+  "html_options_suspend_theme_dark": {
+    "message": "ጥቁር"
+  },
+  "html_options_suspend_screen_capturing": {
+    "message": "ምስል ማንሳት (Screen capturing)"
+  },
+  "html_options_suspend_screen_capturing_disabled": {
+    "message": "ጠፍቷል"
+  },
+  "html_options_suspend_screen_capturing_screen_only": {
+    "message": "የላይኛውን ምስል ብቻ አንሳ"
+  },
+  "html_options_suspend_screen_capturing_entire_page": {
+    "message": "ሁሉንም ገፅ አንሳ"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line1a": {
+    "message": ""
+  },
+  "html_options_suspend_screen_capturing_tooltip_line1b": {
+    "message": ""
+  },
+  "html_options_suspend_screen_capturing_tooltip_line2a": {
+    "message": "ይህ ቅንብር ብዙ ሲፒዩ (CPU) ሊጠቀም ይችላል።"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line2b": {
+    "message": ""
+  },
+  "html_options_suspend_screen_capturing_tooltip_line3a": {
+    "message": ""
+  },
+  "html_options_suspend_screen_capturing_tooltip_line3b": {
+    "message": ""
+  },
+  "html_options_suspend_force_screen_capture": {
+    "message": "ጥራት ያለው ምስል ማንሻን አብራ"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line1": {
+    "message": ""
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line2": {
+    "message": ""
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line4": {
+    "message": ""
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line5": {
+    "message": ""
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line6": {
+    "message": ""
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line7": {
+    "message": ""
+  },
+  "html_options_whitelist_title": {
+    "message": "እነዚህን ታቦች በፍጹም አታቁም፦"
+  },
+  "html_options_whitelist_tooltip_line1": {
+    "message": "በየተራ መስመር ላይ አስገባ። ለምሳሌ፦"
+  },
+  "html_options_whitelist_tooltip_line2": {
+    "message": ""
+  },
+  "html_options_whitelist_tooltip_line3": {
+    "message": ""
+  },
+  "html_options_whitelist_test": {
+    "message": "መቆሚያዎችን ሞክር"
+  },
+  "html_options_other_enable_context_menu": {
+    "message": "The Great Suspender ን በቀኝ ተጭኖ በሚመጣው ምርጫ ላይ ጨምር"
+  },
+  "html_options_other_enable_context_menu_tooltip_line1": {
+    "message": ""
+  },
+  "html_options_other_enable_context_menu_tooltip_line2": {
+    "message": ""
+  },
+  "html_options_other_enable_context_menu_tooltip_line3": {
+    "message": ""
+  },
+  "html_options_other_enable_sync": {
+    "message": "ቅንብሮችን ከChrome አካውንትህ ጋር አገናኝ"
+  },
+  "html_options_other_enable_sync_tooltip_line1a": {
+    "message": ""
+  },
+  "html_options_other_enable_sync_tooltip_line1b": {
+    "message": ""
+  },
+  "html_options_other_enable_sync_tooltip_line2": {
+    "message": ""
+  },
+  "html_options_other_enable_sync_warning": {
+    "message": ""
+  },
+  "html_options_suspend_on_low_memory": {
+    "message": "RAM ሲያልቅ ታቦችን ወዲያውኑ አቁም"
+  },
+  "html_options_suspend_on_low_memory_tooltip_line1": {
+    "message": ""
+  },
+  "html_options_suspend_on_low_memory_tooltip_line2": {
+    "message": ""
+  },
+  "html_options_suspend_on_low_memory_tooltip_line3": {
+    "message": ""
+  },
+  "html_options_suspend_on_low_memory_tooltip_line4": {
+    "message": ""
+  },
+  "html_options_suspend_on_low_memory_tooltip_line5": {
+    "message": ""
+  },
+  "html_options_suspend_on_low_memory_tooltip_line6": {
+    "message": ""
+  },
+  "html_options_suspend_on_low_memory_tooltip_discarding_link": {
+    "message": "https://developers.google.com/web/updates/2015/09/tab-discarding"
+  },
+  "html_popup_unsuspend_tab": {
+    "message": "ይህንን ታብ መልስ"
+  },
+  "html_popup_suspend_tab": {
+    "message": "አሁንኑ አቁም"
+  },
+  "html_popup_dont_suspend_now": {
+    "message": "ለአሁኑ አታቁም"
+  },
+  "html_popup_never_suspend_domain": {
+    "message": "ይህንን ዌብሳይት በፍጹም አታቁም"
+  },
+  "html_popup_never_suspend_page": {
+    "message": "ይህንን ሊንክ በፍጹም አታቁም"
+  },
+  "html_popup_suspend_other_tabs": {
+    "message": "ሌሎችን ሁሉ አቁም"
+  },
+  "html_popup_unsuspend_all_tabs": {
+    "message": "ሁሉንም መልስ"
+  },
+  "html_popup_suspend_selected_tabs": {
+    "message": "የተመረጡትን አቁም"
+  },
+  "html_popup_unsuspend_selected_tabs": {
+    "message": "የተመረጡትን መልስ"
+  },
+  "html_popup_settings": {
+    "message": "ቅንብሮች"
+  },
+  "html_restoring_title": {
+    "message": "መስኮቱን በመመለስ ላይ"
+  },
+  "html_restoring_heading": {
+    "message": "ታቦችን በመመለስ ላይ"
+  },
+  "html_restoring_detail": {
+    "message": "እባክህ ጠብቅ..."
+  },
+  "html_recovery_title": {
+    "message": "መልሶ ማግኛ"
+  },
+  "html_recovery_ruh_roh": {
+    "message": "ስህተት ተፈጥሯል!"
+  },
+  "html_recovery_description_line1": {
+    "message": ""
+  },
+  "html_recovery_description_line2": {
+    "message": ""
+  },
+  "html_recovery_restore_tabs_automatically": {
+    "message": "በራስህ መልስ"
+  },
+  "html_recovery_go_to_session_manager": {
+    "message": "ወደ ስራ ውጤቶች ሂድ"
+  },
+  "html_recovery_important_message": {
+    "message": ""
+  },
+  "html_recovery_disable_screen_capturing": {
+    "message": "ምስል ማንሻውን አጥፋ"
+  },
+  "html_recovery_tabs_to_restore": {
+    "message": "የሚመለሱ ታቦች"
+  },
+  "html_shortcuts_title": {
+    "message": "አቋራጮች"
+  },
+  "html_shortcuts_keyboard_shortcuts": {
+    "message": "አቋራጮች"
+  },
+  "html_shortcuts_context_menu_note": {
+    "message": ""
+  },
+  "html_shortcuts_remap_keys": {
+    "message": "አቋራጮችን ቀይር"
+  },
+  "html_sidebar_general_settings": {
+    "message": "ቅንብሮች"
+  },
+  "html_sidebar_session_management": {
+    "message": "የቆዩ ስራዎች"
+  },
+  "html_sidebar_shortcuts": {
+    "message": "አቋራጮች"
+  },
+  "html_sidebar_support": {
+    "message": "ስለ"
+  },
+  "html_success_great_success": {
+    "message": "ተሳክቷል!"
+  },
+  "html_success_all_tabs_restored": {
+    "message": "ሁሉም ታቦች ተመልሰዋል።"
+  },
+  "html_success_goto_advanced_prefix": {
+    "message": ""
+  },
+  "html_success_goto_advanced_suffix": {
+    "message": "ገፅ"
+  },
+  "html_session_manager": {
+    "message": "የቆዩ ስራዎች"
+  },
+  "html_suspended_title": {
+    "message": "የቆመ ታብ"
+  },
+  "html_suspended_tab_suspended": {
+    "message": "ታብ ቆሟል"
+  },
+  "html_suspended_tab_reload": {
+    "message": "ታቡን እንደገና ክፈት"
+  },
+  "html_suspended_tab_whitelist_prefix": {
+    "message": "በፍጹም አታቁም"
+  },
+  "html_suspended_tab_whitelist_suffix": {
+    "message": "..."
+  },
+  "html_suspended_click_to_reload": {
+    "message": "እንደገና ለመክፈት ተጫን"
+  },
+  "html_suspended_toast_not_connected": {
+    "message": "ኢንተርኔት የለም"
+  },
+  "html_suspended_toast_reload_disabled": {
+    "message": ""
+  },
+  "html_suspended_donation_question": {
+    "message": ""
+  },
+  "html_permissions_title": {
+    "message": "ፈቃዶች"
+  },
+  "html_permissions_heading": {
+    "message": ""
+  },
+  "html_permissions_info": {
+    "message": ""
+  },
+  "html_permissions_backup": {
+    "message": ""
+  },
+  "html_update_title": {
+    "message": "አዲስ ማሻሻያ"
+  },
+  "html_update_heading2": {
+    "message": ""
+  },
+  "html_update_info": {
+    "message": "አዲስ የ The Great Suspender ማሻሻያ ተገኝቷል።"
+  },
+  "html_update_info_withbackup": {
+    "message": ""
+  },
+  "html_update_info_nobackup_prefix": {
+    "message": ""
+  },
+  "html_update_info_nobackup_suffix": {
+    "message": ""
+  },
+  "html_updated_title": {
+    "message": "ተሻሽሏል"
+  },
+  "html_updating_heading": {
+    "message": "በማዘመን ላይ"
+  },
+  "html_updating_message": {
+    "message": "እባክህ ታቦችህ እስኪመለሱ ድረስ ጠብቅ..."
+  },
+  "html_updated_great_suspender_updated": {
+    "message": "ታድሷል"
+  },
+  "html_updated_info_line1": {
+    "message": ""
+  },
+  "html_updated_info_line2_prefix": {
+    "message": ""
+  },
+  "html_updated_info_line2_suffix": {
+    "message": ""
+  },
+  "html_updated_detail_header_prefix": {
+    "message": ""
+  },
+  "html_updated_detail_header_suffix": {
+    "message": ""
+  },
+  "html_updated_new_features_header": {
+    "message": "አዳዲስ ነገሮች፦"
+  },
+  "html_updated_bug_fixes_header": {
+    "message": "የተስተካከሉ ስህተቶች፦"
+  },
+  "html_updated_release_notes": {
+    "message": ""
+  },
+  "html_updated_patch_message": {
+    "message": "ስለተፈጠረው ችግር ይቅርታ እንጠይቃለን።"
+  },
+  "html_welcome_title": {
+    "message": "እንኳን ደህና መጡ"
+  },
+  "html_welcome_text_line1": {
+    "message": "ስለምትጠቀሙ እናመሰግናለን"
+  },
+  "html_welcome_text_line2": {
+    "message": ""
+  },
+  "html_welcome_text_line3": {
+    "message": ""
+  },
+  "html_thanks_title": {
+    "message": "ምስጋና"
+  },
+  "html_thanks_header": {
+    "message": "ለድጋፍዎ እናመሰግናለን!"
+  },
+  "html_thanks_sub_header": {
+    "message": ""
+  },
+  "js_popup_normal": {
+    "message": "ታቡ በራሱ ይቆማል።"
+  },
+  "js_popup_normal_pause": {
+    "message": "አሁን አይደለም"
+  },
+  "js_popup_special": {
+    "message": "ታቡ ሊቆም አይችልም"
+  },
+  "js_popup_suspended": {
+    "message": "ታብ ቆሟል"
+  },
+  "js_popup_suspended_pause": {
+    "message": "አታቁም"
+  },
+  "js_popup_whitelisted": {
+    "message": "ታቡ ተፈቅዶለታል።"
+  },
+  "js_popup_whitelisted_remove": {
+    "message": "ከፈቃድ ዝርዝር አውጣ"
+  },
+  "js_popup_audible": {
+    "message": "ታቡ ድምጽ እያወጣ ነው።"
+  },
+  "js_popup_form_input": {
+    "message": ""
+  },
+  "js_popup_form_input_unpause": {
+    "message": ""
+  },
+  "js_popup_pinned": {
+    "message": "ታቡ ተስክቷል"
+  },
+  "js_popup_temp_whitelist": {
+    "message": "የታብ ማቆሚያ ለጊዜው ቆሟል።"
+  },
+  "js_popup_temp_whitelist_unpause": {
+    "message": ""
+  },
+  "js_popup_never": {
+    "message": "የታብ ማቆሚያ ጠፍቷል።"
+  },
+  "js_popup_no_connectivity": {
+    "message": "ኢንተርኔት የለም"
+  },
+  "js_popup_charging": {
+    "message": "ቻርጅ እየተደረገ ነው"
+  },
+  "js_popup_blockedFile": {
+    "message": "የውስጥ ፋይሎች ሊቆሙ አይችሉም።"
+  },
+  "js_popup_blockedFile_enable": {
+    "message": "አብራ"
+  },
+  "js_popup_unknown": {
+    "message": "ታቡ እስኪከፈት በመጠበቅ ላይ..."
+  },
+  "js_popup_initialising": {
+    "message": ""
+  },
+  "js_popup_error": {
+    "message": ""
+  },
+  "js_history_delete": {
+    "message": "አጥፋ"
+  },
+  "js_history_export": {
+    "message": "አውጣ"
+  },
+  "js_history_reload": {
+    "message": "ክፈት"
+  },
+  "js_history_resuspend": {
+    "message": "ክፈትና አቁም"
+  },
+  "js_history_save": {
+    "message": "አስቀምጥ"
+  },
+  "js_history_window": {
+    "message": "መስኮት"
+  },
+  "js_history_tab": {
+    "message": "ታብ"
+  },
+  "js_history_plural": {
+    "message": ""
+  },
+  "js_history_enter_name_for_session": {
+    "message": "ለዚህ ስራ ስም አስገባ"
+  },
+  "js_history_confirm_delete": {
+    "message": "ይህንን ለማጥፋት እርግጠኛ ነህ?"
+  },
+  "js_history_confirm_session_overwrite": {
+    "message": ""
+  },
+  "js_history_import_fail": {
+    "message": "ፋይሉን ማስገባት አልተቻለም።"
+  },
+  "js_suspended_remove_from_whitelist": {
+    "message": ""
+  },
+  "js_suspended_hotkey_to_reload": {
+    "message": "አቋራጮችን አስተካክል"
+  },
+  "js_suspended_low_memory": {
+    "message": "RAM ስለሌለ ታቡ እንዲቆም ተደርጓል"
+  },
+  "js_options_incognito_warning": {
+    "message": ""
+  },
+  "js_options_whitelist_no_matches": {
+    "message": ""
+  },
+  "js_options_whitelist_matches_heading": {
+    "message": ""
+  },
+  "js_options_whitelist_matches_overflow_prefix": {
+    "message": ""
+  },
+  "js_options_whitelist_matches_overflow_suffix": {
+    "message": ""
+  },
+  "js_permissions_button_export": {
+    "message": "አስቀምጥ"
+  },
+  "js_permissions_button_set": {
+    "message": "ቅንብሮች"
+  },
+  "js_update_confirm": {
+    "message": ""
+  },
+  "js_update_button_export": {
+    "message": "አስቀምጥ"
+  },
+  "js_update_button_reload": {
+    "message": "አሁን አድስ"
+  },
+  "js_shortcuts_not_set": {
+    "message": "አልተስተካከለም"
+  },
+  "js_session_save_point": {
+    "message": ""
+  }
+}

@@ -1,0 +1,686 @@
+{
+  "ext_extension_name": {
+    "message": "Tab Suspender - The Great Suspender Reloaded 2026"
+  },
+  "ext_extension_description": {
+    "message": "Simamisha kadi (tabs) za Chrome ambazo hazitumiki ili kuokoa RAM na kuongeza kasi. Tab Suspender bora zaidi — hufungia kadi zisizotumika na kuzirudisha papo hapo."
+  },
+  "ext_default_title": {
+    "message": "The Great Suspender"
+  },
+  "ext_cmd_toggle_tab_suspension_description": {
+    "message": "Simamisha/Washa kadi hai"
+  },
+  "ext_cmd_toggle_tab_pause_description": {
+    "message": "Sitisha/Endelea kusimamisha kadi hai"
+  },
+  "ext_cmd_suspend_selected_tabs_description": {
+    "message": "Simamisha kadi zilizochaguliwa"
+  },
+  "ext_cmd_unsuspend_selected_tabs_description": {
+    "message": "Washa kadi zilizochaguliwa"
+  },
+  "ext_cmd_soft_suspend_active_window_description": {
+    "message": "Simamisha kadi nyingine zote katika dirisha hai"
+  },
+  "ext_cmd_force_suspend_active_window_description": {
+    "message": "Lazimisha kusimamisha kadi nyingine zote katika dirisha hai"
+  },
+  "ext_cmd_unsuspend_active_window_description": {
+    "message": "Washa kadi zote katika dirisha hai"
+  },
+  "ext_cmd_soft_suspend_all_windows_description": {
+    "message": "Simamisha kadi zote katika madirisha yote"
+  },
+  "ext_cmd_force_suspend_all_windows_description": {
+    "message": "Lazimisha kusimamisha kadi zote katika madirisha yote"
+  },
+  "ext_cmd_unsuspend_all_windows_description": {
+    "message": "Washa kadi zote katika madirisha yote"
+  },
+  "js_context_open_link_in_suspended_tab": {
+    "message": "Fungua kiungo katika kadi mpya iliyosimama"
+  },
+  "js_context_toggle_suspend_state": {
+    "message": "Simamisha/Washa kadi hii"
+  },
+  "js_context_toggle_pause_suspension": {
+    "message": "Sitisha/Endelea kusimamisha kadi hii"
+  },
+  "js_context_never_suspend_domain": {
+    "message": "Usisimamishe kamwe tovuti hii"
+  },
+  "js_context_never_suspend_page": {
+    "message": "Usisimamishe kamwe URL hii"
+  },
+  "js_context_suspend_selected_tabs": {
+    "message": "Simamisha kadi zilizochaguliwa"
+  },
+  "js_context_unsuspend_selected_tabs": {
+    "message": "Washa kadi zilizochaguliwa"
+  },
+  "js_context_soft_suspend_other_tabs_in_window": {
+    "message": "Simamisha kadi nyingine zote katika dirisha hili"
+  },
+  "js_context_force_suspend_other_tabs_in_window": {
+    "message": "Lazimisha kusimamisha kadi nyingine zote katika dirisha hili"
+  },
+  "js_context_unsuspend_all_tabs_in_window": {
+    "message": "Washa kadi zote katika dirisha hili"
+  },
+  "js_context_soft_suspend_all_tabs": {
+    "message": "Simamisha kadi zote katika madirisha yote"
+  },
+  "js_context_force_suspend_all_tabs": {
+    "message": "Lazimisha kusimamisha kadi zote katika madirisha yote"
+  },
+  "js_context_unsuspend_all_tabs": {
+    "message": "Washa kadi zote katika madirisha yote"
+  },
+  "html_about_title": {
+    "message": "Kuhusu"
+  },
+  "html_history_title": {
+    "message": "Usimamizi wa vikao"
+  },
+  "html_history_current_session": {
+    "message": "Kikao cha sasa"
+  },
+  "html_history_recent_sessions": {
+    "message": "Vikao vya hivi karibuni"
+  },
+  "html_history_saved_sessions": {
+    "message": "Vikao vilivyookolewa"
+  },
+  "html_history_import_session": {
+    "message": "Ingiza kikao"
+  },
+  "html_notice_title": {
+    "message": "Taarifa"
+  },
+  "html_notice_important_notice": {
+    "message": "Taarifa muhimu kutoka kwa The Great Suspender"
+  },
+  "html_options_title": {
+    "message": "Mipangilio"
+  },
+  "html_options_suspend_title": {
+    "message": "Usimamishaji wa kadi wa kiotomatiki"
+  },
+  "html_options_suspended_title": {
+    "message": "Kadi zilizosimama"
+  },
+  "html_options_other_title": {
+    "message": "Nyingine"
+  },
+  "html_options_suspend_automatically_after": {
+    "message": "Simamisha kadi kiotomatiki baada ya"
+  },
+  "html_options_suspend_never": {
+    "message": "Kamwe"
+  },
+  "html_options_suspend_seconds": {
+    "message": "sekunde"
+  },
+  "html_options_suspend_minute": {
+    "message": "dakika"
+  },
+  "html_options_suspend_minutes": {
+    "message": "dakika"
+  },
+  "html_options_suspend_hour": {
+    "message": "saa"
+  },
+  "html_options_suspend_hours": {
+    "message": "masaa"
+  },
+  "html_options_suspend_day": {
+    "message": "siku"
+  },
+  "html_options_suspend_days": {
+    "message": "siku"
+  },
+  "html_options_suspend_week": {
+    "message": "wiki"
+  },
+  "html_options_suspend_weeks": {
+    "message": "wiki"
+  },
+  "html_options_suspend_no_pinned": {
+    "message": "Usisimamishe kamwe kadi zilizopiniwa"
+  },
+  "html_options_suspend_no_forms": {
+    "message": "Usisimamishe kamwe kadi zenye fomu ambazo hazijahifadhiwa"
+  },
+  "html_options_suspend_no_audio": {
+    "message": "Usisimamishe kamwe kadi zinazoimarisha sauti"
+  },
+  "html_options_suspend_only_connected": {
+    "message": "Usisimamishe kamwe kadi ukiwa nje ya mtandao"
+  },
+  "html_options_suspend_only_on_battery": {
+    "message": "Usisimamishe kamwe kadi ukiwa umeunganishwa na umeme"
+  },
+  "html_options_suspend_no_active_tabs": {
+    "message": "Usisimamishe kamwe kadi hai katika kila dirisha"
+  },
+  "html_options_suspend_automatically_unsuspend": {
+    "message": "Washa kadi kiotomatiki inapotazamwa"
+  },
+  "html_options_suspend_discard_after_suspend": {
+    "message": "Tumia upunguzaji wa kumbukumbu wa Chrome wakati wa kusimamisha"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1a": {
+    "message": "Hupunguza matumizi ya kumbukumbu ya kadi iliyosimama kwa kutumia"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1b": {
+    "message": "kazi ya 'tab discarding' ya Chrome."
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1c": {
+    "message": ""
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line2a": {
+    "message": "Hata hivyo, itasababisha kuchelewa kidogo wakati wa kuchagua kadi."
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line2b": {
+    "message": ""
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line3a": {
+    "message": "Kwa maelezo zaidi kuhusu discarding ya Chrome angalia:"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line3b": {
+    "message": "https://developers.google.com/web/updates/2015/09/tab-discarding"
+  },
+  "html_options_suspend_theme": {
+    "message": "Mandhari"
+  },
+  "html_options_suspend_theme_light": {
+    "message": "Nuru"
+  },
+  "html_options_suspend_theme_dark": {
+    "message": "Giza"
+  },
+  "html_options_suspend_screen_capturing": {
+    "message": "Upigaji picha wa skrini"
+  },
+  "html_options_suspend_screen_capturing_disabled": {
+    "message": "Imelemazwa"
+  },
+  "html_options_suspend_screen_capturing_screen_only": {
+    "message": "Piga picha sehemu ya juu ya skrini pekee"
+  },
+  "html_options_suspend_screen_capturing_entire_page": {
+    "message": "Piga picha ukurasa mzima"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line1a": {
+    "message": ""
+  },
+  "html_options_suspend_screen_capturing_tooltip_line1b": {
+    "message": ""
+  },
+  "html_options_suspend_screen_capturing_tooltip_line2a": {
+    "message": ""
+  },
+  "html_options_suspend_screen_capturing_tooltip_line2b": {
+    "message": ""
+  },
+  "html_options_suspend_screen_capturing_tooltip_line3a": {
+    "message": ""
+  },
+  "html_options_suspend_screen_capturing_tooltip_line3b": {
+    "message": ""
+  },
+  "html_options_suspend_force_screen_capture": {
+    "message": "Washa hali ya upigaji picha wa skrini wa hali ya juu"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line1": {
+    "message": ""
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line2": {
+    "message": ""
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line4": {
+    "message": ""
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line5": {
+    "message": ""
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line6": {
+    "message": ""
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line7": {
+    "message": ""
+  },
+  "html_options_whitelist_title": {
+    "message": "Usisimamishe kamwe kadi zenye URL kutoka kwenye orodha hii:"
+  },
+  "html_options_whitelist_tooltip_line1": {
+    "message": "Ongeza kila URL kwenye mstari mpya. Kwa mfano:"
+  },
+  "html_options_whitelist_tooltip_line2": {
+    "message": ""
+  },
+  "html_options_whitelist_tooltip_line3": {
+    "message": ""
+  },
+  "html_options_whitelist_test": {
+    "message": "Jaribu orodha nyeupe"
+  },
+  "html_options_other_enable_context_menu": {
+    "message": "Ongeza The Great Suspender kwenye menyu ya kubofya kulia"
+  },
+  "html_options_other_enable_context_menu_tooltip_line1": {
+    "message": ""
+  },
+  "html_options_other_enable_context_menu_tooltip_line2": {
+    "message": ""
+  },
+  "html_options_other_enable_context_menu_tooltip_line3": {
+    "message": ""
+  },
+  "html_options_other_enable_sync": {
+    "message": "Sawazisha mipangilio na wasifu wako wa Chrome"
+  },
+  "html_options_other_enable_sync_tooltip_line1a": {
+    "message": ""
+  },
+  "html_options_other_enable_sync_tooltip_line1b": {
+    "message": ""
+  },
+  "html_options_other_enable_sync_tooltip_line2": {
+    "message": ""
+  },
+  "html_options_other_enable_sync_warning": {
+    "message": ""
+  },
+  "html_options_suspend_on_low_memory": {
+    "message": "Simamisha papo hapo kumbukumbu inapoadimika"
+  },
+  "html_options_suspend_on_low_memory_tooltip_line1": {
+    "message": ""
+  },
+  "html_options_suspend_on_low_memory_tooltip_line2": {
+    "message": ""
+  },
+  "html_options_suspend_on_low_memory_tooltip_line3": {
+    "message": ""
+  },
+  "html_options_suspend_on_low_memory_tooltip_line4": {
+    "message": ""
+  },
+  "html_options_suspend_on_low_memory_tooltip_line5": {
+    "message": ""
+  },
+  "html_options_suspend_on_low_memory_tooltip_line6": {
+    "message": ""
+  },
+  "html_options_suspend_on_low_memory_tooltip_discarding_link": {
+    "message": "https://developers.google.com/web/updates/2015/09/tab-discarding"
+  },
+  "html_popup_unsuspend_tab": {
+    "message": "Washa kadi hii"
+  },
+  "html_popup_suspend_tab": {
+    "message": "Simamisha kadi hii sasa"
+  },
+  "html_popup_dont_suspend_now": {
+    "message": "Usisimamishe kwa sasa"
+  },
+  "html_popup_never_suspend_domain": {
+    "message": "Usisimamishe kamwe tovuti hii"
+  },
+  "html_popup_never_suspend_page": {
+    "message": "Usisimamishe kamwe URL hii"
+  },
+  "html_popup_suspend_other_tabs": {
+    "message": "Simamisha kadi nyingine zote"
+  },
+  "html_popup_unsuspend_all_tabs": {
+    "message": "Washa kadi zote"
+  },
+  "html_popup_suspend_selected_tabs": {
+    "message": "Simamisha kadi zilizochaguliwa"
+  },
+  "html_popup_unsuspend_selected_tabs": {
+    "message": "Washa kadi zilizochaguliwa"
+  },
+  "html_popup_settings": {
+    "message": "Mipangilio"
+  },
+  "html_restoring_title": {
+    "message": "Inarudisha dirisha"
+  },
+  "html_restoring_heading": {
+    "message": "Inarudisha kadi"
+  },
+  "html_restoring_detail": {
+    "message": "Tafadhali subiri nikirudisha dirisha hili..."
+  },
+  "html_recovery_title": {
+    "message": "Urejeshaji"
+  },
+  "html_recovery_ruh_roh": {
+    "message": "Oi!"
+  },
+  "html_recovery_description_line1": {
+    "message": "Inaonekana unarejesha baada ya hitilafu ya nyongeza."
+  },
+  "html_recovery_description_line2": {
+    "message": "Kadi zako zilizosimama huenda zimehitilafika au kupotea."
+  },
+  "html_recovery_restore_tabs_automatically": {
+    "message": "Rudisha kadi kiotomatiki"
+  },
+  "html_recovery_go_to_session_manager": {
+    "message": "Nenda kwa usimamizi wa vikao"
+  },
+  "html_recovery_important_message": {
+    "message": ""
+  },
+  "html_recovery_disable_screen_capturing": {
+    "message": "Zima upigaji picha wa skrini"
+  },
+  "html_recovery_tabs_to_restore": {
+    "message": "Kadi za kurudisha"
+  },
+  "html_shortcuts_title": {
+    "message": "Njia za mkato za kীবෝಡಿ"
+  },
+  "html_shortcuts_keyboard_shortcuts": {
+    "message": "Njia za mkato za kibodi"
+  },
+  "html_shortcuts_context_menu_note": {
+    "message": ""
+  },
+  "html_shortcuts_remap_keys": {
+    "message": "Badilisha njia za mkato"
+  },
+  "html_sidebar_general_settings": {
+    "message": "Mipangilio"
+  },
+  "html_sidebar_session_management": {
+    "message": "Usimamizi wa vikao"
+  },
+  "html_sidebar_shortcuts": {
+    "message": "Njia za mkato za kibodi"
+  },
+  "html_sidebar_support": {
+    "message": "Kuhusu"
+  },
+  "html_success_great_success": {
+    "message": "Mafanikio makubwa!"
+  },
+  "html_success_all_tabs_restored": {
+    "message": "Kadi zako zote zimerudishwa."
+  },
+  "html_success_goto_advanced_prefix": {
+    "message": ""
+  },
+  "html_success_goto_advanced_suffix": {
+    "message": "ukurasa"
+  },
+  "html_session_manager": {
+    "message": "usimamizi wa vikao"
+  },
+  "html_suspended_title": {
+    "message": "Kadi iliyosimama"
+  },
+  "html_suspended_tab_suspended": {
+    "message": "Kadi imesimama"
+  },
+  "html_suspended_tab_reload": {
+    "message": "Pakia upya kadi"
+  },
+  "html_suspended_tab_whitelist_prefix": {
+    "message": "Usisimamishe kamwe"
+  },
+  "html_suspended_tab_whitelist_suffix": {
+    "message": "..."
+  },
+  "html_suspended_click_to_reload": {
+    "message": "Pakia upya au bofya ili kupakia"
+  },
+  "html_suspended_toast_not_connected": {
+    "message": "Huunganishwa na mtandao"
+  },
+  "html_suspended_toast_reload_disabled": {
+    "message": ""
+  },
+  "html_suspended_donation_question": {
+    "message": "Je, nyongeza hii inakufanya uwe na furaha?\nOnyesha usaidizi wako kwa kutoa mchango."
+  },
+  "html_permissions_title": {
+    "message": "Ruhusa"
+  },
+  "html_permissions_heading": {
+    "message": "Tafadhali niruhusu kufikia URL za faili za ndani"
+  },
+  "html_permissions_info": {
+    "message": "Nyongeza hii kwa sasa hairuhusiwi kusimamisha URL zinazoanza na neno \"file\"."
+  },
+  "html_permissions_backup": {
+    "message": ""
+  },
+  "html_update_title": {
+    "message": "Sasisho"
+  },
+  "html_update_heading2": {
+    "message": ""
+  },
+  "html_update_info": {
+    "message": "Toleo jipya la The Great Suspender liko tayari kusakinishwa."
+  },
+  "html_update_info_withbackup": {
+    "message": ""
+  },
+  "html_update_info_nobackup_prefix": {
+    "message": ""
+  },
+  "html_update_info_nobackup_suffix": {
+    "message": ""
+  },
+  "html_updated_title": {
+    "message": "Imesasishwa"
+  },
+  "html_updating_heading": {
+    "message": "inasasisha"
+  },
+  "html_updating_message": {
+    "message": "Tafadhali subiri nikirudisha kadi zako zilizosimama..."
+  },
+  "html_updated_great_suspender_updated": {
+    "message": "imesasishwa"
+  },
+  "html_updated_info_line1": {
+    "message": ""
+  },
+  "html_updated_info_line2_prefix": {
+    "message": ""
+  },
+  "html_updated_info_line2_suffix": {
+    "message": ""
+  },
+  "html_updated_detail_header_prefix": {
+    "message": ""
+  },
+  "html_updated_detail_header_suffix": {
+    "message": ""
+  },
+  "html_updated_new_features_header": {
+    "message": "Sifa mpya:"
+  },
+  "html_updated_bug_fixes_header": {
+    "message": "Marekebisho ya hitilafu:"
+  },
+  "html_updated_release_notes": {
+    "message": ""
+  },
+  "html_updated_patch_message": {
+    "message": ""
+  },
+  "html_welcome_title": {
+    "message": "Karibu"
+  },
+  "html_welcome_text_line1": {
+    "message": "Asante kwa kujaribu"
+  },
+  "html_welcome_text_line2": {
+    "message": "Nafanya kompyuta yako iende vizuri kwa kusimamisha kadi usizozitumia."
+  },
+  "html_welcome_text_line3": {
+    "message": ""
+  },
+  "html_thanks_title": {
+    "message": "Asante"
+  },
+  "html_thanks_header": {
+    "message": "Asante kwa usaidizi!"
+  },
+  "html_thanks_sub_header": {
+    "message": ""
+  },
+  "js_popup_normal": {
+    "message": "Kadi itasimama kiotomatiki."
+  },
+  "js_popup_normal_pause": {
+    "message": "Si sasa"
+  },
+  "js_popup_special": {
+    "message": "Kadi haiwezi kusimamishwa"
+  },
+  "js_popup_suspended": {
+    "message": "Kadi imesimama"
+  },
+  "js_popup_suspended_pause": {
+    "message": "Usisimamishe"
+  },
+  "js_popup_whitelisted": {
+    "message": "Tovuti imeorodheshwa kwenye orodha nyeupe."
+  },
+  "js_popup_whitelisted_remove": {
+    "message": "Ondoa kwenye orodha nyeupe"
+  },
+  "js_popup_audible": {
+    "message": "Kadi inaimarisha sauti."
+  },
+  "js_popup_form_input": {
+    "message": ""
+  },
+  "js_popup_form_input_unpause": {
+    "message": "Endelea"
+  },
+  "js_popup_pinned": {
+    "message": "Kadi imepiniwa"
+  },
+  "js_popup_temp_whitelist": {
+    "message": "Usimamishaji wa kadi umesitishwa."
+  },
+  "js_popup_temp_whitelist_unpause": {
+    "message": "Endelea"
+  },
+  "js_popup_never": {
+    "message": "Usimamishaji wa kadi wa kiotomatiki ulemelemazwa."
+  },
+  "js_popup_no_connectivity": {
+    "message": "Hakuna muunganisho wa mtandao"
+  },
+  "js_popup_charging": {
+    "message": "Umeunganishwa na umeme"
+  },
+  "js_popup_blockedFile": {
+    "message": "Faili za ndani haziwezi kusimamishwa."
+  },
+  "js_popup_blockedFile_enable": {
+    "message": "Washa"
+  },
+  "js_popup_unknown": {
+    "message": "Subiri kadi ipakie..."
+  },
+  "js_popup_initialising": {
+    "message": ""
+  },
+  "js_popup_error": {
+    "message": ""
+  },
+  "js_history_delete": {
+    "message": "futa"
+  },
+  "js_history_export": {
+    "message": "safirisha"
+  },
+  "js_history_reload": {
+    "message": "fungua na pakia"
+  },
+  "js_history_resuspend": {
+    "message": "fungua na simamisha"
+  },
+  "js_history_save": {
+    "message": "hifadhi"
+  },
+  "js_history_window": {
+    "message": "Dirisha"
+  },
+  "js_history_tab": {
+    "message": "Kadi"
+  },
+  "js_history_plural": {
+    "message": "s"
+  },
+  "js_history_enter_name_for_session": {
+    "message": "Ingiza jina la kikao hiki"
+  },
+  "js_history_confirm_delete": {
+    "message": "Je, una uhakika unataka kufuta kikao hiki?"
+  },
+  "js_history_confirm_session_overwrite": {
+    "message": ""
+  },
+  "js_history_import_fail": {
+    "message": "Imeshindwa kupakia faili."
+  },
+  "js_suspended_remove_from_whitelist": {
+    "message": "Ondoa tovuti kwenye orodha nyeupe"
+  },
+  "js_suspended_hotkey_to_reload": {
+    "message": "Weka njia za mkato za kibodi"
+  },
+  "js_suspended_low_memory": {
+    "message": "Kadi imesimamishwa kwa sababu kumbukumbu inakosekana"
+  },
+  "js_options_incognito_warning": {
+    "message": "Uko katika hali ya kutotambulika."
+  },
+  "js_options_whitelist_no_matches": {
+    "message": ""
+  },
+  "js_options_whitelist_matches_heading": {
+    "message": ""
+  },
+  "js_options_whitelist_matches_overflow_prefix": {
+    "message": "na"
+  },
+  "js_options_whitelist_matches_overflow_suffix": {
+    "message": "zaidi."
+  },
+  "js_permissions_button_export": {
+    "message": "Hifadhi nakala"
+  },
+  "js_permissions_button_set": {
+    "message": "Fungua mipangilio ya nyongeza"
+  },
+  "js_update_confirm": {
+    "message": ""
+  },
+  "js_update_button_export": {
+    "message": "Hifadhi nakala"
+  },
+  "js_update_button_reload": {
+    "message": "Sasisha sasa"
+  },
+  "js_shortcuts_not_set": {
+    "message": "haijawekwa"
+  },
+  "js_session_save_point": {
+    "message": ""
+  }
+}

@@ -1,0 +1,686 @@
+{
+  "ext_extension_name": {
+    "message": "Tab Suspender - The Great Suspender Reloaded 2026"
+  },
+  "ext_extension_description": {
+    "message": "RAM বাঁচাতে এবং গতি বাড়াতে নিষ্ক্রিয় ক্রোম ট্যাবগুলি স্থগিত (Suspend) করুন। সেরা ট্যাব সাসপেন্ডার — অব্যবহৃত ট্যাবগুলি অটো-ফ্রিজ করে এবং তাৎক্ষণিকভাবে পুনরুদ্ধার করে।"
+  },
+  "ext_default_title": {
+    "message": "The Great Suspender"
+  },
+  "ext_cmd_toggle_tab_suspension_description": {
+    "message": "সক্রিয় ট্যাব স্থগিত/পুনরায় চালু করুন"
+  },
+  "ext_cmd_toggle_tab_pause_description": {
+    "message": "সক্রিয় ট্যাবের স্থগিতকরণ বিরতি/পুনরায় শুরু করুন"
+  },
+  "ext_cmd_suspend_selected_tabs_description": {
+    "message": "নির্বাচিত ট্যাব স্থগিত করুন"
+  },
+  "ext_cmd_unsuspend_selected_tabs_description": {
+    "message": "নির্বাচিত ট্যাব পুনরায় চালু করুন"
+  },
+  "ext_cmd_soft_suspend_active_window_description": {
+    "message": "সক্রিয় উইন্ডোর অন্য সব ট্যাব স্থগিত করুন"
+  },
+  "ext_cmd_force_suspend_active_window_description": {
+    "message": "সক্রিয় উইন্ডোর অন্য সব ট্যাব বাধ্যতামূলকভাবে স্থগিত করুন"
+  },
+  "ext_cmd_unsuspend_active_window_description": {
+    "message": "সক্রিয় উইন্ডোর সব ট্যাব পুনরায় চালু করুন"
+  },
+  "ext_cmd_soft_suspend_all_windows_description": {
+    "message": "সব উইন্ডোর সব ট্যাব স্থগিত করুন"
+  },
+  "ext_cmd_force_suspend_all_windows_description": {
+    "message": "সব উইন্ডোর সব ট্যাব বাধ্যতামূলকভাবে স্থগিত করুন"
+  },
+  "ext_cmd_unsuspend_all_windows_description": {
+    "message": "সব উইন্ডোর সব ট্যাব পুনরায় চালু করুন"
+  },
+  "js_context_open_link_in_suspended_tab": {
+    "message": "নতুন স্থগিত ট্যাবে লিঙ্ক খুলুন"
+  },
+  "js_context_toggle_suspend_state": {
+    "message": "এই ট্যাব স্থগিত/পুনরায় চালু করুন"
+  },
+  "js_context_toggle_pause_suspension": {
+    "message": "এই ট্যাবের স্থগিতকরণ বিরতি/পুনরায় শুরু করুন"
+  },
+  "js_context_never_suspend_domain": {
+    "message": "এই ডোমেইন কখনই স্থগিত করবেন না"
+  },
+  "js_context_never_suspend_page": {
+    "message": "এই ইউআরএল কখনই স্থগিত করবেন না"
+  },
+  "js_context_suspend_selected_tabs": {
+    "message": "নির্বাচিত ট্যাব স্থগিত করুন"
+  },
+  "js_context_unsuspend_selected_tabs": {
+    "message": "নির্বাচিত ট্যাব পুনরায় চালু করুন"
+  },
+  "js_context_soft_suspend_other_tabs_in_window": {
+    "message": "এই উইন্ডোর অন্য সব ট্যাব স্থগিত করুন"
+  },
+  "js_context_force_suspend_other_tabs_in_window": {
+    "message": "এই উইন্ডোর অন্য সব ট্যাব বাধ্যতামূলকভাবে স্থগিত করুন"
+  },
+  "js_context_unsuspend_all_tabs_in_window": {
+    "message": "এই উইন্ডোর সব ট্যাব পুনরায় চালু করুন"
+  },
+  "js_context_soft_suspend_all_tabs": {
+    "message": "সব উইন্ডোর সব ট্যাব স্থগিত করুন"
+  },
+  "js_context_force_suspend_all_tabs": {
+    "message": "সব উইন্ডোর সব ট্যাব বাধ্যতামূলকভাবে স্থগিত করুন"
+  },
+  "js_context_unsuspend_all_tabs": {
+    "message": "সব উইন্ডোর সব ট্যাব পুনরায় চালু করুন"
+  },
+  "html_about_title": {
+    "message": "সম্পর্কে"
+  },
+  "html_history_title": {
+    "message": "সেশন ম্যানেজমেন্ট"
+  },
+  "html_history_current_session": {
+    "message": "বর্তমান সেশন"
+  },
+  "html_history_recent_sessions": {
+    "message": "সাম্প্রতিক সেশন"
+  },
+  "html_history_saved_sessions": {
+    "message": "সংরক্ষিত সেশন"
+  },
+  "html_history_import_session": {
+    "message": "সেশন ইম্পোর্ট করুন"
+  },
+  "html_notice_title": {
+    "message": "বিজ্ঞপ্তি"
+  },
+  "html_notice_important_notice": {
+    "message": "The Great Suspender থেকে গুরুত্বপূর্ণ বিজ্ঞপ্তি"
+  },
+  "html_options_title": {
+    "message": "সেটিংস"
+  },
+  "html_options_suspend_title": {
+    "message": "স্বয়ংক্রিয় ট্যাব স্থগিতকরণ"
+  },
+  "html_options_suspended_title": {
+    "message": "স্থগিত ট্যাব"
+  },
+  "html_options_other_title": {
+    "message": "অন্যান্য"
+  },
+  "html_options_suspend_automatically_after": {
+    "message": "ট্যাবগুলি স্বয়ংক্রিয়ভাবে স্থগিত করুন এর পরে"
+  },
+  "html_options_suspend_never": {
+    "message": "কখনই নয়"
+  },
+  "html_options_suspend_seconds": {
+    "message": "সেকেন্ড"
+  },
+  "html_options_suspend_minute": {
+    "message": "মিনিট"
+  },
+  "html_options_suspend_minutes": {
+    "message": "মিনিটগুলি"
+  },
+  "html_options_suspend_hour": {
+    "message": "ঘণ্টা"
+  },
+  "html_options_suspend_hours": {
+    "message": "ঘণ্টাগুলি"
+  },
+  "html_options_suspend_day": {
+    "message": "দিন"
+  },
+  "html_options_suspend_days": {
+    "message": "দিনগুলি"
+  },
+  "html_options_suspend_week": {
+    "message": "সপ্তাহ"
+  },
+  "html_options_suspend_weeks": {
+    "message": "সপ্তাহগুলি"
+  },
+  "html_options_suspend_no_pinned": {
+    "message": "পিন করা ট্যাব কখনই স্থগিত করবেন না"
+  },
+  "html_options_suspend_no_forms": {
+    "message": "সংরক্ষণ না করা ফর্ম ইনপুট থাকা ট্যাব কখনই স্থগিত করবেন না"
+  },
+  "html_options_suspend_no_audio": {
+    "message": "অডিও চলছে এমন ট্যাব কখনই স্থগিত করবেন না"
+  },
+  "html_options_suspend_only_connected": {
+    "message": "অফলাইনে থাকলে ট্যাব কখনই স্থগিত করবেন না"
+  },
+  "html_options_suspend_only_on_battery": {
+    "message": "পাওয়ার সোর্সের সাথে সংযুক্ত থাকলে ট্যাব কখনই স্থগিত করবেন না"
+  },
+  "html_options_suspend_no_active_tabs": {
+    "message": "প্রতিটি উইন্ডোর সক্রিয় ট্যাব কখনই স্থগিত করবেন না"
+  },
+  "html_options_suspend_automatically_unsuspend": {
+    "message": "দেখার সময় ট্যাবটি স্বয়ংক্রিয়ভাবে পুনরায় চালু করুন"
+  },
+  "html_options_suspend_discard_after_suspend": {
+    "message": "স্থগিত করার সময় Chrome-এর বিল্ট-ইন মেমরি-সেভিং প্রয়োগ করুন"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1a": {
+    "message": "স্থগিত ট্যাবের মেমরি ব্যবহার আরও কমাতে ব্যবহার করুন"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1b": {
+    "message": "Chrome-এর বিল্ট-ইন 'ট্যাব ডিসকার্ডিং' কার্যকারিতা। এটি ট্যাব সংখ্যা বেশি হলে"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1c": {
+    "message": "৫০০% পর্যন্ত মেমরি সাশ্রয় করতে পারে।"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line2a": {
+    "message": "তবে, স্থগিত ট্যাব নির্বাচন করার সময় সামান্য রেন্ডারিং বিলম্ব হতে পারে।"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line2b": {
+    "message": ""
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line3a": {
+    "message": "Chrome ডিসকার্ডিং সম্পর্কে আরও তথ্যের জন্য দেখুন:"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line3b": {
+    "message": "https://developers.google.com/web/updates/2015/09/tab-discarding"
+  },
+  "html_options_suspend_theme": {
+    "message": "থিম"
+  },
+  "html_options_suspend_theme_light": {
+    "message": "হালকা (Light)"
+  },
+  "html_options_suspend_theme_dark": {
+    "message": "গাঢ় (Dark)"
+  },
+  "html_options_suspend_screen_capturing": {
+    "message": "স্ক্রিন ক্যাপচারিং"
+  },
+  "html_options_suspend_screen_capturing_disabled": {
+    "message": "নিষ্ক্রিয়"
+  },
+  "html_options_suspend_screen_capturing_screen_only": {
+    "message": "শুধুমাত্র স্ক্রিনের উপরের অংশ ক্যাপচার করুন"
+  },
+  "html_options_suspend_screen_capturing_entire_page": {
+    "message": "পুরো পেজ ক্যাপচার করুন"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line1a": {
+    "message": "স্থগিত ট্যাবে, এক্সটেনশনটি দেখাবে ট্যাবটি স্থগিত করার ঠিক আগের ছবি প্রিভিউ।"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line1b": {
+    "message": ""
+  },
+  "html_options_suspend_screen_capturing_tooltip_line2a": {
+    "message": "স্ক্রিন ক্যাপচারিং ফিচারটি পরীক্ষামূলক এবং এটি উল্লেখযোগ্য CPU ব্যবহার করতে পারে।"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line2b": {
+    "message": ""
+  },
+  "html_options_suspend_screen_capturing_tooltip_line3a": {
+    "message": "যদি কোনো অদ্ভুত আচরণ লক্ষ্য করেন, ফিচারটি বন্ধ করে দেখুন।"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line3b": {
+    "message": ""
+  },
+  "html_options_suspend_force_screen_capture": {
+    "message": "উচ্চ মানের স্ক্রিন ক্যাপচার মোড সক্ষম করুন"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line1": {
+    "message": "নিষ্ক্রিয় থাকলে পারফর্ম্যান্স বাড়াতে স্ক্রিন ক্যাপচারের কিছু সীমাবদ্ধতা থাকবে:"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line2": {
+    "message": "- নিম্ন মানের স্ক্রিন ক্যাপচার"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line4": {
+    "message": "- ছবি তৈরি করতে ১ মিনিটের বেশি সময় লাগলে ক্যাপচার হবে না"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line5": {
+    "message": "- সর্বোচ্চ উচ্চতা ৫০০০px এর মধ্যে সীমাবদ্ধ"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line6": {
+    "message": "এটি সক্ষম করলে CPU এবং মেমরি ব্যবহার উল্লেখযোগ্যভাবে বাড়তে পারে।"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line7": {
+    "message": ""
+  },
+  "html_options_whitelist_title": {
+    "message": "নিম্নলিখিত তালিকা থেকে ইউআরএল থাকা ট্যাব কখনই স্থগিত করবেন না:"
+  },
+  "html_options_whitelist_tooltip_line1": {
+    "message": "প্রতি লাইনে একটি করে ইউআরএল যোগ করুন। উদাহরণ:"
+  },
+  "html_options_whitelist_tooltip_line2": {
+    "message": "এক লাইনে একাধিক সাইট হোয়াইটলিস্ট করতে ইউআরএল এর অংশ নির্দিষ্ট করুন:"
+  },
+  "html_options_whitelist_tooltip_line3": {
+    "message": "আপনি স্ল্যাশ চিহ্ন ব্যবহার করে রেগুলার এক্সপ্রেশনও ব্যবহার করতে পারেন:"
+  },
+  "html_options_whitelist_test": {
+    "message": "টেস্ট হোয়াইটলিস্ট"
+  },
+  "html_options_other_enable_context_menu": {
+    "message": "রাইট-ক্লিক কন্টেক্সট মেনুতে The Great Suspender যোগ করুন"
+  },
+  "html_options_other_enable_context_menu_tooltip_line1": {
+    "message": "ওয়েব পেজের রাইট-ক্লিক মেনুতে এই এক্সটেনশনের কন্ট্রোল যোগ করুন।"
+  },
+  "html_options_other_enable_context_menu_tooltip_line2": {
+    "message": ""
+  },
+  "html_options_other_enable_context_menu_tooltip_line3": {
+    "message": ""
+  },
+  "html_options_other_enable_sync": {
+    "message": "আপনার Chrome প্রোফাইলের সাথে সেটিংস সিঙ্ক করুন"
+  },
+  "html_options_other_enable_sync_tooltip_line1a": {
+    "message": "এক্সটেনশন সেটিংস একই প্রোফাইলে সাইন ইন করা সব ক্রোম ব্রাউজারে সিঙ্ক হবে।"
+  },
+  "html_options_other_enable_sync_tooltip_line1b": {
+    "message": ""
+  },
+  "html_options_other_enable_sync_tooltip_line2": {
+    "message": "এটি ইনকগনিটো মোডেও সেটিংস সিঙ্ক করবে।"
+  },
+  "html_options_other_enable_sync_warning": {
+    "message": "এটি চালু করলে একই Chrome প্রোফাইলে সাইন ইন করা অন্য সব ব্রাউজারের সেটিংস ওভাররাইট হবে"
+  },
+  "html_options_suspend_on_low_memory": {
+    "message": "সিস্টেম মেমরি খুব কম হলে তাৎক্ষণিকভাবে স্থগিত করুন"
+  },
+  "html_options_suspend_on_low_memory_tooltip_line1": {
+    "message": "এই অপশনটি Chrome-এর স্বয়ংক্রিয় ট্যাব ডিসকার্ডিং কার্যকারিতাকে ওভাররাইড করবে।"
+  },
+  "html_options_suspend_on_low_memory_tooltip_line2": {
+    "message": ""
+  },
+  "html_options_suspend_on_low_memory_tooltip_line3": {
+    "message": "সাধারণত মেমরি খুব কম হলেই Chrome ট্যাব ডিসকার্ড করে।"
+  },
+  "html_options_suspend_on_low_memory_tooltip_line4": {
+    "message": ""
+  },
+  "html_options_suspend_on_low_memory_tooltip_line5": {
+    "message": ""
+  },
+  "html_options_suspend_on_low_memory_tooltip_line6": {
+    "message": "Chrome ডিসকার্ডিং সম্পর্কে আরও তথ্যের জন্য দেখুন:"
+  },
+  "html_options_suspend_on_low_memory_tooltip_discarding_link": {
+    "message": "https://developers.google.com/web/updates/2015/09/tab-discarding"
+  },
+  "html_popup_unsuspend_tab": {
+    "message": "এই ট্যাব পুনরায় চালু করুন"
+  },
+  "html_popup_suspend_tab": {
+    "message": "এখনই এই ট্যাব স্থগিত করুন"
+  },
+  "html_popup_dont_suspend_now": {
+    "message": "আপাতত স্থগিত করবেন না"
+  },
+  "html_popup_never_suspend_domain": {
+    "message": "এই ডোমেইন কখনই স্থগিত করবেন না"
+  },
+  "html_popup_never_suspend_page": {
+    "message": "এই ইউআরএল কখনই স্থগিত করবেন না"
+  },
+  "html_popup_suspend_other_tabs": {
+    "message": "অন্য সব ট্যাব স্থগিত করুন"
+  },
+  "html_popup_unsuspend_all_tabs": {
+    "message": "সব ট্যাব পুনরায় চালু করুন"
+  },
+  "html_popup_suspend_selected_tabs": {
+    "message": "নির্বাচিত ট্যাব স্থগিত করুন"
+  },
+  "html_popup_unsuspend_selected_tabs": {
+    "message": "নির্বাচিত ট্যাব পুনরায় চালু করুন"
+  },
+  "html_popup_settings": {
+    "message": "সেটিংস"
+  },
+  "html_restoring_title": {
+    "message": "উইন্ডো পুনরুদ্ধার করা হচ্ছে"
+  },
+  "html_restoring_heading": {
+    "message": "ট্যাবগুলি পুনরুদ্ধার করা হচ্ছে"
+  },
+  "html_restoring_detail": {
+    "message": "দয়া করে অপেক্ষা করুন এই উইন্ডোটি পুনরুদ্ধার করা হচ্ছে..."
+  },
+  "html_recovery_title": {
+    "message": "রিকভারি"
+  },
+  "html_recovery_ruh_roh": {
+    "message": "ওহ না!"
+  },
+  "html_recovery_description_line1": {
+    "message": "মনে হচ্ছে আপনি একটি এক্সটেনশন ক্র্যাশ থেকে রিকভারি করছেন।"
+  },
+  "html_recovery_description_line2": {
+    "message": "আপনার স্থগিত ট্যাবগুলি ক্র্যাশ হতে পারে বা হারিয়ে যেতে পারে।"
+  },
+  "html_recovery_restore_tabs_automatically": {
+    "message": "স্বয়ংক্রিয়ভাবে ট্যাব পুনরুদ্ধার করুন"
+  },
+  "html_recovery_go_to_session_manager": {
+    "message": "সেশন ম্যানেজারে যান"
+  },
+  "html_recovery_important_message": {
+    "message": "আপনার স্ক্রিন ক্যাপচারিং চালু আছে। যদি এক্সটেনশনটি বারবার ক্র্যাশ করে এটি বন্ধ করার পরামর্শ দেওয়া হচ্ছে।"
+  },
+  "html_recovery_disable_screen_capturing": {
+    "message": "স্ক্রিন ক্যাপচারিং বন্ধ করুন"
+  },
+  "html_recovery_tabs_to_restore": {
+    "message": "পুনরুদ্ধারযোগ্য ট্যাব"
+  },
+  "html_shortcuts_title": {
+    "message": "কীবোর্ড শর্টকাট"
+  },
+  "html_shortcuts_keyboard_shortcuts": {
+    "message": "কীবোর্ড শর্টকাট"
+  },
+  "html_shortcuts_context_menu_note": {
+    "message": "দ্রষ্টব্য: এই কাজগুলি রাইট-ক্লিক মেনু থেকেও করা সম্ভব।"
+  },
+  "html_shortcuts_remap_keys": {
+    "message": "শর্টকাট পরিবর্তন করুন"
+  },
+  "html_sidebar_general_settings": {
+    "message": "সেটিংস"
+  },
+  "html_sidebar_session_management": {
+    "message": "সেশন ম্যানেজমেন্ট"
+  },
+  "html_sidebar_shortcuts": {
+    "message": "কীবোর্ড শর্টকাট"
+  },
+  "html_sidebar_support": {
+    "message": "সম্পর্কে"
+  },
+  "html_success_great_success": {
+    "message": "সাফল্য!"
+  },
+  "html_success_all_tabs_restored": {
+    "message": "আপনার সব ট্যাব পুনরুদ্ধার করা হয়েছে।"
+  },
+  "html_success_goto_advanced_prefix": {
+    "message": "উন্নত সেশন ম্যানেজমেন্টের জন্য ভিজিট করুন"
+  },
+  "html_success_goto_advanced_suffix": {
+    "message": "পেজ"
+  },
+  "html_session_manager": {
+    "message": "সেশন ম্যানেজমেন্ট"
+  },
+  "html_suspended_title": {
+    "message": "স্থগিত ট্যাব"
+  },
+  "html_suspended_tab_suspended": {
+    "message": "ট্যাব স্থগিত করা হয়েছে"
+  },
+  "html_suspended_tab_reload": {
+    "message": "ট্যাব রিলোড করুন"
+  },
+  "html_suspended_tab_whitelist_prefix": {
+    "message": "কখনই স্থগিত করবেন না"
+  },
+  "html_suspended_tab_whitelist_suffix": {
+    "message": "..."
+  },
+  "html_suspended_click_to_reload": {
+    "message": "রিফ্রেশ করুন বা রিলোড করতে ক্লিক করুন"
+  },
+  "html_suspended_toast_not_connected": {
+    "message": "আপনি ইন্টারনেটের সাথে যুক্ত নন"
+  },
+  "html_suspended_toast_reload_disabled": {
+    "message": "স্বয়ংক্রিয় ট্যাব রিলোডিং সাময়িকভাবে নিষ্ক্রিয়।"
+  },
+  "html_suspended_donation_question": {
+    "message": "এই এক্সটেনশনটি কি আপনার ভালো লেগেছে?\nডোনেট করে সহায়তা করুন।"
+  },
+  "html_permissions_title": {
+    "message": "অনুমতিসমূহ"
+  },
+  "html_permissions_heading": {
+    "message": "অনুগ্রহ করে লোকাল ফাইল ইউআরএল অ্যাক্সেস দিন"
+  },
+  "html_permissions_info": {
+    "message": "এই এক্সটেনশনটি বর্তমানে \"file\" দিয়ে শুরু হওয়া ইউআরএল স্থগিত করার অনুমতি পায় নি।"
+  },
+  "html_permissions_backup": {
+    "message": "সতর্কতা: এই অপশনটি পরিবর্তনের ফলে স্থগিত ট্যাবগুলি সাময়িকভাবে অদৃশ্য হতে পারে।"
+  },
+  "html_update_title": {
+    "message": "আপডেট"
+  },
+  "html_update_heading2": {
+    "message": "আরও উন্নত হতে চলেছে"
+  },
+  "html_update_info": {
+    "message": "The Great Suspender-এর একটি নতুন ভার্সন ইনস্টল করার জন্য প্রস্তুত।"
+  },
+  "html_update_info_withbackup": {
+    "message": "নিরাপত্তার জন্য আপনার বর্তমান সেশন ব্যাকআপ রাখতে পারেন।"
+  },
+  "html_update_info_nobackup_prefix": {
+    "message": ""
+  },
+  "html_update_info_nobackup_suffix": {
+    "message": ""
+  },
+  "html_updated_title": {
+    "message": "আপডেট করা হয়েছে"
+  },
+  "html_updating_heading": {
+    "message": "আপডেট হচ্ছে"
+  },
+  "html_updating_message": {
+    "message": "দয়া করে অপেক্ষা করুন ট্যাবগুলি পুনরুদ্ধার করা হচ্ছে..."
+  },
+  "html_updated_great_suspender_updated": {
+    "message": "আপডেট করা হয়েছে"
+  },
+  "html_updated_info_line1": {
+    "message": "আপডেটের আগে একটি স্বয়ংক্রিয় ব্যাকআপ নেওয়া হয়েছে।"
+  },
+  "html_updated_info_line2_prefix": {
+    "message": "কোনো সমস্যা হলে হারানো ট্যাবগুলো পেতে পারেন"
+  },
+  "html_updated_info_line2_suffix": {
+    "message": "পেজে।"
+  },
+  "html_updated_detail_header_prefix": {
+    "message": "নতুন কী আছে "
+  },
+  "html_updated_detail_header_suffix": {
+    "message": "-এ?"
+  },
+  "html_updated_new_features_header": {
+    "message": "নতুন ফিচার:"
+  },
+  "html_updated_bug_fixes_header": {
+    "message": "বাগ ফিক্স:"
+  },
+  "html_updated_release_notes": {
+    "message": "পুরো নোটের জন্য GitHub ভিজিট করুন: "
+  },
+  "html_updated_patch_message": {
+    "message": "সামান্য রক্ষণাবেজের কাজের জন্য দুঃখিত।"
+  },
+  "html_welcome_title": {
+    "message": "স্বাগতম"
+  },
+  "html_welcome_text_line1": {
+    "message": "ব্যবহারের জন্য ধন্যবাদ"
+  },
+  "html_welcome_text_line2": {
+    "message": "অব্যবহৃত ট্যাবগুলো স্থগিত করে আমি আপনার কম্পিউটারকে সচল রাখি।"
+  },
+  "html_welcome_text_line3": {
+    "message": "আপনি নিচের সেটিংস পরিবর্তন করতে পারেন।"
+  },
+  "html_thanks_title": {
+    "message": "ধন্যবাদ"
+  },
+  "html_thanks_header": {
+    "message": "সহায়তার জন্য ধন্যবাদ!"
+  },
+  "html_thanks_sub_header": {
+    "message": ""
+  },
+  "js_popup_normal": {
+    "message": "ট্যাব স্বয়ংক্রিয়ভাবে স্থগিত হবে।"
+  },
+  "js_popup_normal_pause": {
+    "message": "এখন নয়"
+  },
+  "js_popup_special": {
+    "message": "ট্যাব স্থগিত করা যাবে না"
+  },
+  "js_popup_suspended": {
+    "message": "ট্যাব স্থগিত"
+  },
+  "js_popup_suspended_pause": {
+    "message": "স্থগিত করবেন না"
+  },
+  "js_popup_whitelisted": {
+    "message": "সাইট হোয়াইটলিস্ট করা হয়েছে।"
+  },
+  "js_popup_whitelisted_remove": {
+    "message": "হোয়াইটলিস্ট থেকে সরান"
+  },
+  "js_popup_audible": {
+    "message": "ট্যাবে অডিও চলছে।"
+  },
+  "js_popup_form_input": {
+    "message": "ট্যাবে ফর্ম ইনপুট দেওয়া হচ্ছে।"
+  },
+  "js_popup_form_input_unpause": {
+    "message": "বিরতি সরান"
+  },
+  "js_popup_pinned": {
+    "message": "ট্যাব পিন করা হয়েছে"
+  },
+  "js_popup_temp_whitelist": {
+    "message": "ট্যাব স্থগিতকরণ বিরতি দেওয়া হয়েছে।"
+  },
+  "js_popup_temp_whitelist_unpause": {
+    "message": "বিরতি সরান"
+  },
+  "js_popup_never": {
+    "message": "স্বয়ংক্রিয় ট্যাব স্থগিতকরণ নিষ্ক্রিয়।"
+  },
+  "js_popup_no_connectivity": {
+    "message": "কোনো নেটওয়ার্ক সংযোগ নেই"
+  },
+  "js_popup_charging": {
+    "message": "পাওয়ার সোর্সের সাথে যুক্ত"
+  },
+  "js_popup_blockedFile": {
+    "message": "লোকাল ফাইল স্থগিত করা যায় না।"
+  },
+  "js_popup_blockedFile_enable": {
+    "message": "সক্ষম করুন"
+  },
+  "js_popup_unknown": {
+    "message": "ট্যাব লোড হওয়ার জন্য অপেক্ষা করা হচ্ছে..."
+  },
+  "js_popup_initialising": {
+    "message": "এক্সটেনশন চালু হওয়ার জন্য অপেক্ষা করা হচ্ছে..."
+  },
+  "js_popup_error": {
+    "message": "এই ট্যাবের জন্য অটো-সাসপেন্ড অনুপলব্ধ"
+  },
+  "js_history_delete": {
+    "message": "মুছুন"
+  },
+  "js_history_export": {
+    "message": "এক্সপোর্ট"
+  },
+  "js_history_reload": {
+    "message": "খুলুন এবং লোড করুন"
+  },
+  "js_history_resuspend": {
+    "message": "খুলুন এবং স্থগিত করুন"
+  },
+  "js_history_save": {
+    "message": "সংরক্ষণ"
+  },
+  "js_history_window": {
+    "message": "উইন্ডো"
+  },
+  "js_history_tab": {
+    "message": "ট্যাব"
+  },
+  "js_history_plural": {
+    "message": ""
+  },
+  "js_history_enter_name_for_session": {
+    "message": "এই সেশনের জন্য একটি নাম দিন"
+  },
+  "js_history_confirm_delete": {
+    "message": "আপনি কি নিশ্চিতভাবে এই সেশনটি মুছতে চান?"
+  },
+  "js_history_confirm_session_overwrite": {
+    "message": "এই নামে ইতিমধ্যে একটি সেশন আছে। আগেরটি কি মুছে ফেলবেন?"
+  },
+  "js_history_import_fail": {
+    "message": "ফাইল আপলোড ব্যর্থ হয়েছে।"
+  },
+  "js_suspended_remove_from_whitelist": {
+    "message": "হোয়াইটলিস্ট থেকে সাইট সরান"
+  },
+  "js_suspended_hotkey_to_reload": {
+    "message": "কীবোর্ড শর্টকাট সেট করুন"
+  },
+  "js_suspended_low_memory": {
+    "message": "মেমরি কম থাকার কারণে ট্যাবটি স্থগিত করা হয়েছে"
+  },
+  "js_options_incognito_warning": {
+    "message": "আপনি ইনকগনিটো মোডে আছেন।"
+  },
+  "js_options_whitelist_no_matches": {
+    "message": "হোয়াইটলিস্টের সাথে মিলছে এমন কোনো খোলা ট্যাব নেই।"
+  },
+  "js_options_whitelist_matches_heading": {
+    "message": "হোয়াইটলিস্ট করা খোলা ট্যাব:"
+  },
+  "js_options_whitelist_matches_overflow_prefix": {
+    "message": "এবং"
+  },
+  "js_options_whitelist_matches_overflow_suffix": {
+    "message": "অধিক।"
+  },
+  "js_permissions_button_export": {
+    "message": "ব্যাকআপ সংরক্ষণ করুন"
+  },
+  "js_permissions_button_set": {
+    "message": "এক্সটেনশন সেটিংস খুলুন"
+  },
+  "js_update_confirm": {
+    "message": "আপনি কি আপডেট করতে চান?"
+  },
+  "js_update_button_export": {
+    "message": "ব্যাকআপ সংরক্ষণ করুন"
+  },
+  "js_update_button_reload": {
+    "message": "এখনই এক্সটেনশন আপডেট করুন"
+  },
+  "js_shortcuts_not_set": {
+    "message": "সেট নেই"
+  },
+  "js_session_save_point": {
+    "message": "স্বয়ংক্রিয় সেভ পয়েন্ট ভার্সন "
+  }
+}

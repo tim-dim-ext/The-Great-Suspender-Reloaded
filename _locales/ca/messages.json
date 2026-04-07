@@ -1,0 +1,686 @@
+{
+  "ext_extension_name": {
+    "message": "Tab Suspender - The Great Suspender Reloaded 2026"
+  },
+  "ext_extension_description": {
+    "message": "Suspèn les pestanyes inactives de Chrome per estalviar RAM i augmentar la velocitat. El millor Tab Suspender: congela automàticament les pestanyes no utilitzades i les restaura a l'instat."
+  },
+  "ext_default_title": {
+    "message": "The Great Suspender"
+  },
+  "ext_cmd_toggle_tab_suspension_description": {
+    "message": "Suspendre/Activar la pestanya activa"
+  },
+  "ext_cmd_toggle_tab_pause_description": {
+    "message": "Pausar/Reprendre la suspensió de la pestanya activa"
+  },
+  "ext_cmd_suspend_selected_tabs_description": {
+    "message": "Suspendre les pestanyes seleccionades"
+  },
+  "ext_cmd_unsuspend_selected_tabs_description": {
+    "message": "Activar les pestanyes seleccionades"
+  },
+  "ext_cmd_soft_suspend_active_window_description": {
+    "message": "Suspendre totes les altres pestanyes de la finestra activa"
+  },
+  "ext_cmd_force_suspend_active_window_description": {
+    "message": "Forçar la suspensió de totes les altres pestanyes de la finestra activa"
+  },
+  "ext_cmd_unsuspend_active_window_description": {
+    "message": "Activar totes les pestanyes de la finestra activa"
+  },
+  "ext_cmd_soft_suspend_all_windows_description": {
+    "message": "Suspendre totes les pestanyes de totes les finestres"
+  },
+  "ext_cmd_force_suspend_all_windows_description": {
+    "message": "Forçar la suspensió de totes les pestanyes de totes les finestres"
+  },
+  "ext_cmd_unsuspend_all_windows_description": {
+    "message": "Activar totes les pestanyes de totes les finestres"
+  },
+  "js_context_open_link_in_suspended_tab": {
+    "message": "Obrir l'enllaç en una nova pestanya suspesa"
+  },
+  "js_context_toggle_suspend_state": {
+    "message": "Suspendre/Activar aquesta pestanya"
+  },
+  "js_context_toggle_pause_suspension": {
+    "message": "Pausar/Reprendre la suspensió d'aquesta pestanya"
+  },
+  "js_context_never_suspend_domain": {
+    "message": "No suspendre mai aquest domini"
+  },
+  "js_context_never_suspend_page": {
+    "message": "No suspendre mai aquesta URL"
+  },
+  "js_context_suspend_selected_tabs": {
+    "message": "Suspendre les pestanyes seleccionades"
+  },
+  "js_context_unsuspend_selected_tabs": {
+    "message": "Activar les pestanyes seleccionades"
+  },
+  "js_context_soft_suspend_other_tabs_in_window": {
+    "message": "Suspendre totes les altres pestanyes d'aquesta finestra"
+  },
+  "js_context_force_suspend_other_tabs_in_window": {
+    "message": "Forçar la suspensió de totes les altres pestanyes d'aquesta finestra"
+  },
+  "js_context_unsuspend_all_tabs_in_window": {
+    "message": "Activar totes les pestanyes d'aquesta finestra"
+  },
+  "js_context_soft_suspend_all_tabs": {
+    "message": "Suspendre totes les pestanyes de totes les finestres"
+  },
+  "js_context_force_suspend_all_tabs": {
+    "message": "Forçar la suspensió de totes les pestanyes de totes les finestres"
+  },
+  "js_context_unsuspend_all_tabs": {
+    "message": "Activar totes les pestanyes de totes les finestres"
+  },
+  "html_about_title": {
+    "message": "Quant a"
+  },
+  "html_history_title": {
+    "message": "Gestió de sessions"
+  },
+  "html_history_current_session": {
+    "message": "Sessió actual"
+  },
+  "html_history_recent_sessions": {
+    "message": "Sessions recents"
+  },
+  "html_history_saved_sessions": {
+    "message": "Sessions desades"
+  },
+  "html_history_import_session": {
+    "message": "Importar sessió"
+  },
+  "html_notice_title": {
+    "message": "Avís"
+  },
+  "html_notice_important_notice": {
+    "message": "Avís important de The Great Suspender"
+  },
+  "html_options_title": {
+    "message": "Configuració"
+  },
+  "html_options_suspend_title": {
+    "message": "Suspensió automàtica de pestanyes"
+  },
+  "html_options_suspended_title": {
+    "message": "Pestanyes suspeses"
+  },
+  "html_options_other_title": {
+    "message": "Altres"
+  },
+  "html_options_suspend_automatically_after": {
+    "message": "Suspendre automàticament les pestanyes després de"
+  },
+  "html_options_suspend_never": {
+    "message": "Mai"
+  },
+  "html_options_suspend_seconds": {
+    "message": "segons"
+  },
+  "html_options_suspend_minute": {
+    "message": "minut"
+  },
+  "html_options_suspend_minutes": {
+    "message": "minuts"
+  },
+  "html_options_suspend_hour": {
+    "message": "hora"
+  },
+  "html_options_suspend_hours": {
+    "message": "hores"
+  },
+  "html_options_suspend_day": {
+    "message": "dia"
+  },
+  "html_options_suspend_days": {
+    "message": "dies"
+  },
+  "html_options_suspend_week": {
+    "message": "setmana"
+  },
+  "html_options_suspend_weeks": {
+    "message": "setmanes"
+  },
+  "html_options_suspend_no_pinned": {
+    "message": "No suspendre mai les pestanyes fixades"
+  },
+  "html_options_suspend_no_forms": {
+    "message": "No suspendre mai les pestanyes que contenen entrades de formulari no desades"
+  },
+  "html_options_suspend_no_audio": {
+    "message": "No suspendre mai les pestanyes que reprodueixen àudio"
+  },
+  "html_options_suspend_only_connected": {
+    "message": "No suspendre mai les pestanyes quan estiguis fora de línia"
+  },
+  "html_options_suspend_only_on_battery": {
+    "message": "No suspendre mai les pestanyes quan estiguis connectat a una font d'alimentació"
+  },
+  "html_options_suspend_no_active_tabs": {
+    "message": "No suspendre mai la pestanya activa a cada finestra"
+  },
+  "html_options_suspend_automatically_unsuspend": {
+    "message": "Activar automàticament la pestanya quan es visualitzi"
+  },
+  "html_options_suspend_discard_after_suspend": {
+    "message": "Aplicar l'estalvi de memòria integrat de Chrome quan se suspèn"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1a": {
+    "message": "Redueix encara més l'ús de memòria d'una pestanya suspesa mitjançant la"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1b": {
+    "message": "funcionalitat de 'descartat de pestanyes' de Chrome. Això pot donar lloc a"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1c": {
+    "message": "un estalvi de memòria de fins al 500% quan s'utilitzen moltes pestanyes."
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line2a": {
+    "message": "Malgrat això, també causarà un lleuger retard de renderització en seleccionar"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line2b": {
+    "message": "una pestanya suspesa."
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line3a": {
+    "message": "Per a més informació sobre el descart de Chrome, consulta:"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line3b": {
+    "message": "https://developers.google.com/web/updates/2015/09/tab-discarding"
+  },
+  "html_options_suspend_theme": {
+    "message": "Tema"
+  },
+  "html_options_suspend_theme_light": {
+    "message": "Clar"
+  },
+  "html_options_suspend_theme_dark": {
+    "message": "Fosc"
+  },
+  "html_options_suspend_screen_capturing": {
+    "message": "Captura de pantalla"
+  },
+  "html_options_suspend_screen_capturing_disabled": {
+    "message": "Desactivat"
+  },
+  "html_options_suspend_screen_capturing_screen_only": {
+    "message": "Captura només la part superior de la pantalla"
+  },
+  "html_options_suspend_screen_capturing_entire_page": {
+    "message": "Captura tota la pàgina"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line1a": {
+    "message": "En una pestanya suspesa, l'extensió pot mostrar una previsualització de com era la"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line1b": {
+    "message": "pestanya just abans de ser suspesa."
+  },
+  "html_options_suspend_screen_capturing_tooltip_line2a": {
+    "message": "Aquesta funció és experimental i pot causar un ús significatiu de la CPU,"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line2b": {
+    "message": "així com un lleuger augment de l'ús de la memòria."
+  },
+  "html_options_suspend_screen_capturing_tooltip_line3a": {
+    "message": "Si notes un comportament estrany, prova de desactivar aquesta funció."
+  },
+  "html_options_suspend_screen_capturing_tooltip_line3b": {
+    "message": ""
+  },
+  "html_options_suspend_force_screen_capture": {
+    "message": "Activar el mode de captura de pantalla d'alta qualitat"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line1": {
+    "message": "Si està desactivat, les captures tenen limitacions per millorar el rendiment:"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line2": {
+    "message": "- Captura de pantalla de baixa qualitat"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line4": {
+    "message": "- No capturarà la pantalla si triga més d'1 minut a generar la imatge"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line5": {
+    "message": "- Altura màxima de la captura limitada a 5000 px"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line6": {
+    "message": "Activar aquest mode pot augmentar significativament la càrrega de la CPU i l'ús de memòria."
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line7": {
+    "message": ""
+  },
+  "html_options_whitelist_title": {
+    "message": "No suspendre mai les pestanyes amb URL d'aquesta llista:"
+  },
+  "html_options_whitelist_tooltip_line1": {
+    "message": "Afegeix l'URL de cada pàgina que vulguis incloure en la llista blanca en una línia nova. Per exemple:"
+  },
+  "html_options_whitelist_tooltip_line2": {
+    "message": "Per incloure diversos llocs en una línia pots especificar part de la URL:"
+  },
+  "html_options_whitelist_tooltip_line3": {
+    "message": "També pots especificar expressions regulars posant el text entre barres inclinades:"
+  },
+  "html_options_whitelist_test": {
+    "message": "Provar llista blanca"
+  },
+  "html_options_other_enable_context_menu": {
+    "message": "Afegir The Great Suspender al menú contextual del clic dret"
+  },
+  "html_options_other_enable_context_menu_tooltip_line1": {
+    "message": "Afegeix controls per a aquesta extensió al menú del clic dret d'una pàgina web."
+  },
+  "html_options_other_enable_context_menu_tooltip_line2": {
+    "message": ""
+  },
+  "html_options_other_enable_context_menu_tooltip_line3": {
+    "message": ""
+  },
+  "html_options_other_enable_sync": {
+    "message": "Sincronitzar la configuració amb el teu perfil de Chrome"
+  },
+  "html_options_other_enable_sync_tooltip_line1a": {
+    "message": "La configuració de l'extensió es sincronitzarà en tots els navegadors Chrome on hagis iniciat sessió."
+  },
+  "html_options_other_enable_sync_tooltip_line1b": {
+    "message": ""
+  },
+  "html_options_other_enable_sync_tooltip_line2": {
+    "message": "Això també sincronitzarà la configuració en el mode d'incògnit."
+  },
+  "html_options_other_enable_sync_warning": {
+    "message": "Activar això sobreescriurà la configuració en tots els altres navegadors amb el mateix perfil de Chrome."
+  },
+  "html_options_suspend_on_low_memory": {
+    "message": "Suspendre instantàniament quan la memòria del sistema sigui molt baixa"
+  },
+  "html_options_suspend_on_low_memory_tooltip_line1": {
+    "message": "Aquesta opció anul·larà la funcionalitat de descart de pestanyes automàtica de Chrome."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line2": {
+    "message": ""
+  },
+  "html_options_suspend_on_low_memory_tooltip_line3": {
+    "message": "Normalment, Chrome només descarta pestanyes quan la memòria del sistema és molt baixa."
+  },
+  "html_options_suspend_on_low_memory_tooltip_line4": {
+    "message": ""
+  },
+  "html_options_suspend_on_low_memory_tooltip_line5": {
+    "message": ""
+  },
+  "html_options_suspend_on_low_memory_tooltip_line6": {
+    "message": "Per a més informació sobre el descart de Chrome, consulta:"
+  },
+  "html_options_suspend_on_low_memory_tooltip_discarding_link": {
+    "message": "https://developers.google.com/web/updates/2015/09/tab-discarding"
+  },
+  "html_popup_unsuspend_tab": {
+    "message": "Activar aquesta pestanya"
+  },
+  "html_popup_suspend_tab": {
+    "message": "Suspendre aquesta pestanya ara"
+  },
+  "html_popup_dont_suspend_now": {
+    "message": "No suspendre de moment"
+  },
+  "html_popup_never_suspend_domain": {
+    "message": "No suspendre mai aquest domini"
+  },
+  "html_popup_never_suspend_page": {
+    "message": "No suspendre mai aquesta URL"
+  },
+  "html_popup_suspend_other_tabs": {
+    "message": "Suspendre totes les altres pestanyes"
+  },
+  "html_popup_unsuspend_all_tabs": {
+    "message": "Activar totes les pestanyes"
+  },
+  "html_popup_suspend_selected_tabs": {
+    "message": "Suspendre les pestanyes seleccionades"
+  },
+  "html_popup_unsuspend_selected_tabs": {
+    "message": "Activar les pestanyes seleccionades"
+  },
+  "html_popup_settings": {
+    "message": "Configuració"
+  },
+  "html_restoring_title": {
+    "message": "Restaurant la finestra"
+  },
+  "html_restoring_heading": {
+    "message": "Restaurant les pestanyes"
+  },
+  "html_restoring_detail": {
+    "message": "Espereu mentre restauro aquesta finestra..."
+  },
+  "html_recovery_title": {
+    "message": "Recuperació"
+  },
+  "html_recovery_ruh_roh": {
+    "message": "Ui, ui, ui!"
+  },
+  "html_recovery_description_line1": {
+    "message": "Sembla que t'estàs recuperant d'un error de l'extensió."
+  },
+  "html_recovery_description_line2": {
+    "message": "És possible que les teves pestanyes suspeses hagin fallat o desaparegut."
+  },
+  "html_recovery_restore_tabs_automatically": {
+    "message": "Restaurar les pestanyes automàticament"
+  },
+  "html_recovery_go_to_session_manager": {
+    "message": "Anar al gestor de sessions"
+  },
+  "html_recovery_important_message": {
+    "message": "Actualment tens activada la captura de pantalla. Si aquesta extensió falla repetidament, es recomana desactivar aquesta opció."
+  },
+  "html_recovery_disable_screen_capturing": {
+    "message": "Desactivar la captura de pantalla"
+  },
+  "html_recovery_tabs_to_restore": {
+    "message": "Pestanyes per restaurar"
+  },
+  "html_shortcuts_title": {
+    "message": "Dreceres de teclat"
+  },
+  "html_shortcuts_keyboard_shortcuts": {
+    "message": "Dreceres de teclat"
+  },
+  "html_shortcuts_context_menu_note": {
+    "message": "Nota: Aquestes accions també estan disponibles al menú contextual del clic dret."
+  },
+  "html_shortcuts_remap_keys": {
+    "message": "Canviar dreceres"
+  },
+  "html_sidebar_general_settings": {
+    "message": "Configuració"
+  },
+  "html_sidebar_session_management": {
+    "message": "Gestió de sessions"
+  },
+  "html_sidebar_shortcuts": {
+    "message": "Dreceres de teclat"
+  },
+  "html_sidebar_support": {
+    "message": "Quant a"
+  },
+  "html_success_great_success": {
+    "message": "Tot un èxit!"
+  },
+  "html_success_all_tabs_restored": {
+    "message": "S'han restaurat totes les teves pestanyes."
+  },
+  "html_success_goto_advanced_prefix": {
+    "message": "Per a una gestió avançada de sessions, visita la"
+  },
+  "html_success_goto_advanced_suffix": {
+    "message": "pàgina"
+  },
+  "html_session_manager": {
+    "message": "gestió de sessions"
+  },
+  "html_suspended_title": {
+    "message": "Pestanya suspesa"
+  },
+  "html_suspended_tab_suspended": {
+    "message": "Pestanya suspesa"
+  },
+  "html_suspended_tab_reload": {
+    "message": "Recarregar pestanya"
+  },
+  "html_suspended_tab_whitelist_prefix": {
+    "message": "No suspendre mai"
+  },
+  "html_suspended_tab_whitelist_suffix": {
+    "message": "..."
+  },
+  "html_suspended_click_to_reload": {
+    "message": "Actualitza o fes clic per recarregar"
+  },
+  "html_suspended_toast_not_connected": {
+    "message": "No estàs connectat a Internet"
+  },
+  "html_suspended_toast_reload_disabled": {
+    "message": "La recàrrega automàtica de pestanyes està desactivada temporalment."
+  },
+  "html_suspended_donation_question": {
+    "message": "T'agrada aquesta extensió?\nMostra el teu suport fent una donació."
+  },
+  "html_permissions_title": {
+    "message": "Permisos"
+  },
+  "html_permissions_heading": {
+    "message": "Si us plau, doneu-me accés a les URL de fitxers locals"
+  },
+  "html_permissions_info": {
+    "message": "Aquesta extensió actualment no té permís per suspendre les URL que comencen per la paraula \"file\"."
+  },
+  "html_permissions_backup": {
+    "message": "Nota: canviar aquesta opció farà que les pestanyes suspeses desapareguin breument."
+  },
+  "html_update_title": {
+    "message": "Actualització"
+  },
+  "html_update_heading2": {
+    "message": "està a punt de ser encara millor"
+  },
+  "html_update_info": {
+    "message": "Una nova versió de The Great Suspender està a punt per ser instal·lada."
+  },
+  "html_update_info_withbackup": {
+    "message": "Per si de cas, ara podria ser un bon moment per desar una còpia de seguretat de la sessió actual."
+  },
+  "html_update_info_nobackup_prefix": {
+    "message": ""
+  },
+  "html_update_info_nobackup_suffix": {
+    "message": ""
+  },
+  "html_updated_title": {
+    "message": "Actualitzat"
+  },
+  "html_updating_heading": {
+    "message": "s'està actualitzant"
+  },
+  "html_updating_message": {
+    "message": "Si us plau, espereu mentre restauro les vostres pestanyes suspeses..."
+  },
+  "html_updated_great_suspender_updated": {
+    "message": "s'ha actualitzat"
+  },
+  "html_updated_info_line1": {
+    "message": "S'ha fet una còpia de seguretat automàtica de les vostres pestanyes abans de l'actualització."
+  },
+  "html_updated_info_line2_prefix": {
+    "message": "Si heu tingut algun problema, podeu recuperar les pestanyes des de la"
+  },
+  "html_updated_info_line2_suffix": {
+    "message": "pàgina."
+  },
+  "html_updated_detail_header_prefix": {
+    "message": "Què hi ha de nou a "
+  },
+  "html_updated_detail_header_suffix": {
+    "message": "?"
+  },
+  "html_updated_new_features_header": {
+    "message": "Noves funcions:"
+  },
+  "html_updated_bug_fixes_header": {
+    "message": "Correcció d'errors:"
+  },
+  "html_updated_release_notes": {
+    "message": "Visiteu GitHub per a les notes de la versió completes: "
+  },
+  "html_updated_patch_message": {
+    "message": "Perdonat per les molèsties. Només he hagut de fer un petit manteniment."
+  },
+  "html_welcome_title": {
+    "message": "Benvingut"
+  },
+  "html_welcome_text_line1": {
+    "message": "Gràcies per provar"
+  },
+  "html_welcome_text_line2": {
+    "message": "Faig que el teu ordinador funcioni sense problemes suspenent les pestanyes que no fas servir."
+  },
+  "html_welcome_text_line3": {
+    "message": "Pots ajustar la configuració a continuació."
+  },
+  "html_thanks_title": {
+    "message": "Gràcies"
+  },
+  "html_thanks_header": {
+    "message": "Gràcies pel vostre suport!"
+  },
+  "html_thanks_sub_header": {
+    "message": ""
+  },
+  "js_popup_normal": {
+    "message": "La pestanya se suspendrà automàticament."
+  },
+  "js_popup_normal_pause": {
+    "message": "Ara no"
+  },
+  "js_popup_special": {
+    "message": "La pestanya no se pot suspendre"
+  },
+  "js_popup_suspended": {
+    "message": "Pestanya suspesa"
+  },
+  "js_popup_suspended_pause": {
+    "message": "No suspendre"
+  },
+  "js_popup_whitelisted": {
+    "message": "Lloc a la llista blanca."
+  },
+  "js_popup_whitelisted_remove": {
+    "message": "Treure de la llista blanca"
+  },
+  "js_popup_audible": {
+    "message": "La pestanya està reproduint àudio."
+  },
+  "js_popup_form_input": {
+    "message": "La pestanya està rebent informació d'un formulari."
+  },
+  "js_popup_form_input_unpause": {
+    "message": "Reprendre"
+  },
+  "js_popup_pinned": {
+    "message": "La pestanya s'ha fixat"
+  },
+  "js_popup_temp_whitelist": {
+    "message": "Suspensió de pestanyes pausada."
+  },
+  "js_popup_temp_whitelist_unpause": {
+    "message": "Reprendre"
+  },
+  "js_popup_never": {
+    "message": "Suspensió automàtica de pestanyes desactivada."
+  },
+  "js_popup_no_connectivity": {
+    "message": "Sense connexió de xarxa"
+  },
+  "js_popup_charging": {
+    "message": "Connectat a una font d'alimentació"
+  },
+  "js_popup_blockedFile": {
+    "message": "Els fitxers locals no se poden suspendre."
+  },
+  "js_popup_blockedFile_enable": {
+    "message": "Activar"
+  },
+  "js_popup_unknown": {
+    "message": "Esperant que la pestanya es carregui..."
+  },
+  "js_popup_initialising": {
+    "message": "Esperant que l'extensió s'inicialitzi..."
+  },
+  "js_popup_error": {
+    "message": "Suspensió automàtica no disponible per a aquesta pestanya"
+  },
+  "js_history_delete": {
+    "message": "eliminar"
+  },
+  "js_history_export": {
+    "message": "exportar"
+  },
+  "js_history_reload": {
+    "message": "obrir i carregar"
+  },
+  "js_history_resuspend": {
+    "message": "obrir i suspendre"
+  },
+  "js_history_save": {
+    "message": "desar"
+  },
+  "js_history_window": {
+    "message": "Finestra"
+  },
+  "js_history_tab": {
+    "message": "Pestanya"
+  },
+  "js_history_plural": {
+    "message": "s"
+  },
+  "js_history_enter_name_for_session": {
+    "message": "Introduïu un nom per a aquesta sessió"
+  },
+  "js_history_confirm_delete": {
+    "message": "Segur que voleu eliminar aquesta sessió?"
+  },
+  "js_history_confirm_session_overwrite": {
+    "message": "Ja existeix una sessió desada amb aquest nom. Voleu sobreescriure-la?"
+  },
+  "js_history_import_fail": {
+    "message": "Error en carregar el fitxer."
+  },
+  "js_suspended_remove_from_whitelist": {
+    "message": "Treure lloc de la llista blanca"
+  },
+  "js_suspended_hotkey_to_reload": {
+    "message": "Configurar dreceres de teclat"
+  },
+  "js_suspended_low_memory": {
+    "message": "Pestanya suspesa per memòria baixa del sistema"
+  },
+  "js_options_incognito_warning": {
+    "message": "Esteu en mode d'incògnit."
+  },
+  "js_options_whitelist_no_matches": {
+    "message": "No hi ha pestanyes obertes que coincideixin amb la llista blanca actual."
+  },
+  "js_options_whitelist_matches_heading": {
+    "message": "Pestanyes obertes a la llista blanca:"
+  },
+  "js_options_whitelist_matches_overflow_prefix": {
+    "message": "i"
+  },
+  "js_options_whitelist_matches_overflow_suffix": {
+    "message": "més."
+  },
+  "js_permissions_button_export": {
+    "message": "Desar còpia de seguretat"
+  },
+  "js_permissions_button_set": {
+    "message": "Obrir la configuració de l'extensió"
+  },
+  "js_update_confirm": {
+    "message": "Encara no has desat una còpia de seguretat. Voleu actualitzar l'extensió de totes maneres?"
+  },
+  "js_update_button_export": {
+    "message": "Desar còpia de seguretat"
+  },
+  "js_update_button_reload": {
+    "message": "Actualitzar l'extensió ara"
+  },
+  "js_shortcuts_not_set": {
+    "message": "no configurat"
+  },
+  "js_session_save_point": {
+    "message": "Punt de desat automàtic per a v"
+  }
+}

@@ -1,0 +1,686 @@
+{
+  "ext_extension_name": {
+    "message": "Tab Suspender - The Great Suspender Reloaded 2026"
+  },
+  "ext_extension_description": {
+    "message": "RAM ಉಳಿಸಲು ಮತ್ತು ವೇಗವನ್ನು ಹೆಚ್ಚಿಸಲು ನಿಷ್ಕ್ರಿಯ ಕ್ರೋಮ್ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಅಮಾನತುಗೊಳಿಸಿ (Suspend). ಅತ್ಯುತ್ತಮ ಟ್ಯಾಬ್ ಸಸ್ಪೆಂಡರ್ — ಬಳಸದ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಫ್ರೀಜ್ ಮಾಡುತ್ತದೆ ಮತ್ತು ತಕ್ಷಣವೇ ಮರುಸ್ಥಾಪಿಸುತ್ತದೆ."
+  },
+  "ext_default_title": {
+    "message": "The Great Suspender"
+  },
+  "ext_cmd_toggle_tab_suspension_description": {
+    "message": "ಸಕ್ರಿಯ ಟ್ಯಾಬ್ ಅಮಾನತುಗೊಳಿಸಿ/ಮರುಸ್ಥಾಪಿಸಿ"
+  },
+  "ext_cmd_toggle_tab_pause_description": {
+    "message": "ಸಕ್ರಿಯ ಟ್ಯಾಬ್ ಅಮಾನತುಗೊಳಿಸುವಿಕೆಯನ್ನು ವಿರಾಮಗೊಳಿಸಿ/ಮುಂದುವರಿಸಿ"
+  },
+  "ext_cmd_suspend_selected_tabs_description": {
+    "message": "ಆಯ್ದ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಅಮಾನತುಗೊಳಿಸಿ"
+  },
+  "ext_cmd_unsuspend_selected_tabs_description": {
+    "message": "ಆಯ್ದ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಮರುಸ್ಥಾಪಿಸಿ"
+  },
+  "ext_cmd_soft_suspend_active_window_description": {
+    "message": "ಸಕ್ರಿಯ ವಿಂಡೋದಲ್ಲಿನ ಇತರ ಎಲ್ಲಾ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಅಮಾನತುಗೊಳಿಸಿ"
+  },
+  "ext_cmd_force_suspend_active_window_description": {
+    "message": "ಸಕ್ರಿಯ ವಿಂಡೋದಲ್ಲಿನ ಇತರ ಎಲ್ಲಾ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಬಲವಂತವಾಗಿ ಅಮಾನತುಗೊಳಿಸಿ"
+  },
+  "ext_cmd_unsuspend_active_window_description": {
+    "message": "ಸಕ್ರಿಯ ವಿಂಡೋದಲ್ಲಿನ ಎಲ್ಲಾ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಮರುಸ್ಥಾಪಿಸಿ"
+  },
+  "ext_cmd_soft_suspend_all_windows_description": {
+    "message": "ಎಲ್ಲಾ ವಿಂಡೋಗಳಲ್ಲಿನ ಎಲ್ಲಾ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಅಮಾನತುಗೊಳಿಸಿ"
+  },
+  "ext_cmd_force_suspend_all_windows_description": {
+    "message": "ಎಲ್ಲಾ ವಿಂಡೋಗಳಲ್ಲಿನ ಎಲ್ಲಾ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಬಲವಂತವಾಗಿ ಅಮಾನತುಗೊಳಿಸಿ"
+  },
+  "ext_cmd_unsuspend_all_windows_description": {
+    "message": "ಎಲ್ಲಾ ವಿಂಡೋಗಳಲ್ಲಿನ ಎಲ್ಲಾ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಮರುಸ್ಥಾಪಿಸಿ"
+  },
+  "js_context_open_link_in_suspended_tab": {
+    "message": "ಹೊಸ ಅಮಾನತುಗೊಳಿಸಿದ ಟ್ಯಾಬ್‌ನಲ್ಲಿ ಲಿಂಕ್ ತೆರೆಯಿರಿ"
+  },
+  "js_context_toggle_suspend_state": {
+    "message": "ಈ ಟ್ಯಾಬ್ ಅಮಾನತುಗೊಳಿಸಿ/ಮರುಸ್ಥಾಪಿಸಿ"
+  },
+  "js_context_toggle_pause_suspension": {
+    "message": "ಈ ಟ್ಯಾಬ್ ಅಮಾನತುಗೊಳಿಸುವಿಕೆಯನ್ನು ವಿರಾಮಗೊಳಿಸಿ/ಮುಂದುವರಿಸಿ"
+  },
+  "js_context_never_suspend_domain": {
+    "message": "ಈ ಡೊಮೇನ್ ಅನ್ನು ಎಂದಿಗೂ ಅಮಾನತುಗೊಳಿಸಬೇಡಿ"
+  },
+  "js_context_never_suspend_page": {
+    "message": "ಈ URL ಅನ್ನು ಎಂದಿಗೂ ಅಮಾನತುಗೊಳಿಸಬೇಡಿ"
+  },
+  "js_context_suspend_selected_tabs": {
+    "message": "ಆಯ್ದ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಅಮಾನತುಗೊಳಿಸಿ"
+  },
+  "js_context_unsuspend_selected_tabs": {
+    "message": "ಆಯ್ದ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಮರುಸ್ಥಾಪಿಸಿ"
+  },
+  "js_context_soft_suspend_other_tabs_in_window": {
+    "message": "ಈ ವಿಂಡೋದಲ್ಲಿನ ಇತರ ಎಲ್ಲಾ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಅಮಾನತುಗೊಳಿಸಿ"
+  },
+  "js_context_force_suspend_other_tabs_in_window": {
+    "message": "ಈ ವಿಂಡೋದಲ್ಲಿನ ಇತರ ಎಲ್ಲಾ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಬಲವಂತವಾಗಿ ಅಮಾನತುಗೊಳಿಸಿ"
+  },
+  "js_context_unsuspend_all_tabs_in_window": {
+    "message": "ಈ ವಿಂಡೋದಲ್ಲಿನ ಎಲ್ಲಾ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಮರುಸ್ಥಾಪಿಸಿ"
+  },
+  "js_context_soft_suspend_all_tabs": {
+    "message": "ಎಲ್ಲಾ ವಿಂಡೋಗಳಲ್ಲಿನ ಎಲ್ಲಾ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಅಮಾನತುಗೊಳಿಸಿ"
+  },
+  "js_context_force_suspend_all_tabs": {
+    "message": "ಎಲ್ಲಾ ವಿಂಡೋಗಳಲ್ಲಿನ ಎಲ್ಲಾ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಬಲವಂತವಾಗಿ ಅಮಾನತುಗೊಳಿಸಿ"
+  },
+  "js_context_unsuspend_all_tabs": {
+    "message": "ಎಲ್ಲಾ ವಿಂಡೋಗಳಲ್ಲಿನ ಎಲ್ಲಾ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಮರುಸ್ಥಾಪಿಸಿ"
+  },
+  "html_about_title": {
+    "message": "ಬಗ್ಗೆ"
+  },
+  "html_history_title": {
+    "message": "ಸೆಶನ್ ನಿರ್ವಹಣೆ"
+  },
+  "html_history_current_session": {
+    "message": "ಪ್ರಸ್ತುತ ಸೆಶನ್"
+  },
+  "html_history_recent_sessions": {
+    "message": "ಇತ್ತೀಚಿನ ಸೆಶನ್‌ಗಳು"
+  },
+  "html_history_saved_sessions": {
+    "message": "ಉಳಿಸಿದ ಸೆಶನ್‌ಗಳು"
+  },
+  "html_history_import_session": {
+    "message": "ಸೆಶನ್ ಆಮದು ಮಾಡಿ"
+  },
+  "html_notice_title": {
+    "message": "ಸೂಚನೆ"
+  },
+  "html_notice_important_notice": {
+    "message": "The Great Suspender ನಿಂದ ಪ್ರಮುಖ ಸೂಚನೆ"
+  },
+  "html_options_title": {
+    "message": "ಸೆಟ್ಟಿಂಗ್‌ಗಳು"
+  },
+  "html_options_suspend_title": {
+    "message": "ಸ್ವಯಂಚಾಲಿತ ಟ್ಯಾಬ್ ಅಮಾನತು"
+  },
+  "html_options_suspended_title": {
+    "message": "ಅಮಾನತುಗೊಳಿಸಿದ ಟ್ಯಾಬ್‌ಗಳು"
+  },
+  "html_options_other_title": {
+    "message": "ಇತರ"
+  },
+  "html_options_suspend_automatically_after": {
+    "message": "ಇಷ್ಟು ಸಮಯದ ನಂತರ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಅಮಾನತುಗೊಳಿಸಿ"
+  },
+  "html_options_suspend_never": {
+    "message": "ಎಂದಿಗೂ ಬೇಡ"
+  },
+  "html_options_suspend_seconds": {
+    "message": "ಸೆಕೆಂಡುಗಳು"
+  },
+  "html_options_suspend_minute": {
+    "message": "ನಿಮಿಷ"
+  },
+  "html_options_suspend_minutes": {
+    "message": "ನಿಮಿಷಗಳು"
+  },
+  "html_options_suspend_hour": {
+    "message": "ಗಂಟೆ"
+  },
+  "html_options_suspend_hours": {
+    "message": "ಗಂಟೆಗಳು"
+  },
+  "html_options_suspend_day": {
+    "message": "ದಿನ"
+  },
+  "html_options_suspend_days": {
+    "message": "ದಿನಗಳು"
+  },
+  "html_options_suspend_week": {
+    "message": "ವಾರ"
+  },
+  "html_options_suspend_weeks": {
+    "message": "ವಾರಗಳು"
+  },
+  "html_options_suspend_no_pinned": {
+    "message": "ಪಿನ್ ಮಾಡಿದ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಎಂದಿಗೂ ಅಮಾನತುಗೊಳಿಸಬೇಡಿ"
+  },
+  "html_options_suspend_no_forms": {
+    "message": "ಉಳಿಸದ ಫಾರ್ಮ್ ಇನ್‌ಪುಟ್‌ಗಳನ್ನು ಹೊಂದಿರುವ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಎಂದಿಗೂ ಅಮಾನತುಗೊಳಿಸಬೇಡಿ"
+  },
+  "html_options_suspend_no_audio": {
+    "message": "ಆಡಿಯೊ ಪ್ಲೇ ಮಾಡುತ್ತಿರುವ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಎಂದಿಗೂ ಅಮಾನತುಗೊಳಿಸಬೇಡಿ"
+  },
+  "html_options_suspend_only_connected": {
+    "message": "ಆಫ್‌ಲೈನ್‌ನಲ್ಲಿರುವಾಗ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಎಂದಿಗೂ ಅಮಾನತುಗೊಳಿಸಬೇಡಿ"
+  },
+  "html_options_suspend_only_on_battery": {
+    "message": "ಪವರ್ ಸೋರ್ಸ್‌ಗೆ ಸಂಪರ್ಕಗೊಂಡಿರುವಾಗ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಎಂದಿಗೂ ಅಮಾನತುಗೊಳಿಸಬೇಡಿ"
+  },
+  "html_options_suspend_no_active_tabs": {
+    "message": "ಪ್ರತಿ ವಿಂಡೋದಲ್ಲಿನ ಸಕ್ರಿಯ ಟ್ಯಾಬ್ ಅನ್ನು ಎಂದಿಗೂ ಅಮಾನತುಗೊಳಿಸಬೇಡಿ"
+  },
+  "html_options_suspend_automatically_unsuspend": {
+    "message": "ಟ್ಯಾಬ್ ಅನ್ನು ನೋಡಿದಾಗ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಮರುಸ್ಥಾಪಿಸಿ"
+  },
+  "html_options_suspend_discard_after_suspend": {
+    "message": "ಅಮಾನತುಗೊಳಿಸುವಾಗ Chrome ನ ಅಂತರ್ನಿರ್ಮಿತ ಮೆಮೊರಿ ಉಳಿತಾಯವನ್ನು ಅನ್ವಯಿಸಿ"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1a": {
+    "message": "ಅಮಾನತುಗೊಂಡ ಟ್ಯಾಬ್‌ನ ಮೆಮೊರಿ ಬಳಕೆಯನ್ನು ಇನ್ನಷ್ಟು ಕಡಿಮೆ ಮಾಡುತ್ತದೆ"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1b": {
+    "message": ""
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line1c": {
+    "message": ""
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line2a": {
+    "message": "ಆದರೆ, ಟ್ಯಾಬ್ ಅನ್ನು ಆಯ್ಕೆ ಮಾಡುವಾಗ ಸ್ವಲ್ಪ ವಿಳಂಬವಾಗಬಹುದು."
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line2b": {
+    "message": ""
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line3a": {
+    "message": "ಹೆಚ್ಚಿನ ಮಾಹಿತಿಗಾಗಿ ನೋಡಿ:"
+  },
+  "html_options_suspend_discard_after_suspend_tooltip_line3b": {
+    "message": "https://developers.google.com/web/updates/2015/09/tab-discarding"
+  },
+  "html_options_suspend_theme": {
+    "message": "ಥೀಮ್"
+  },
+  "html_options_suspend_theme_light": {
+    "message": "ಲೈಟ್"
+  },
+  "html_options_suspend_theme_dark": {
+    "message": "ಡಾರ್ಕ್"
+  },
+  "html_options_suspend_screen_capturing": {
+    "message": "ಸ್ಕ್ರೀನ್ ಕ್ಯಾಪ್ಚರಿಂಗ್"
+  },
+  "html_options_suspend_screen_capturing_disabled": {
+    "message": "ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ"
+  },
+  "html_options_suspend_screen_capturing_screen_only": {
+    "message": "ಸ್ಕ್ರೀನ್‌ನ ಮೇಲ್ಭಾಗವನ್ನು ಮಾತ್ರ ಕ್ಯಾಪ್ಚರ್ ಮಾಡಿ"
+  },
+  "html_options_suspend_screen_capturing_entire_page": {
+    "message": "ಇಡೀ ಪುಟವನ್ನು ಕ್ಯಾಪ್ಚರ್ ಮಾಡಿ"
+  },
+  "html_options_suspend_screen_capturing_tooltip_line1a": {
+    "message": ""
+  },
+  "html_options_suspend_screen_capturing_tooltip_line1b": {
+    "message": ""
+  },
+  "html_options_suspend_screen_capturing_tooltip_line2a": {
+    "message": ""
+  },
+  "html_options_suspend_screen_capturing_tooltip_line2b": {
+    "message": ""
+  },
+  "html_options_suspend_screen_capturing_tooltip_line3a": {
+    "message": ""
+  },
+  "html_options_suspend_screen_capturing_tooltip_line3b": {
+    "message": ""
+  },
+  "html_options_suspend_force_screen_capture": {
+    "message": "ಉತ್ತಮ ಗುಣಮಟ್ಟದ ಸ್ಕ್ರೀನ್ ಕ್ಯಾಪ್ಚರ್ ಮೋಡ್ ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ"
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line1": {
+    "message": ""
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line2": {
+    "message": ""
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line4": {
+    "message": ""
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line5": {
+    "message": ""
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line6": {
+    "message": ""
+  },
+  "html_options_suspend_force_screen_capture_tooltip_line7": {
+    "message": ""
+  },
+  "html_options_whitelist_title": {
+    "message": "ಈ ಕೆಳಗಿನ ಪಟ್ಟಿಯಲ್ಲಿರುವ URL ಗಳ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಎಂದಿಗೂ ಅಮಾನತುಗೊಳಿಸಬೇಡಿ:"
+  },
+  "html_options_whitelist_tooltip_line1": {
+    "message": "ಪ್ರತಿ ಸಾಲಿನಲ್ಲಿ ಒಂದು URL ಸೇರಿಸಿ. ಉದಾಹರಣೆಗೆ:"
+  },
+  "html_options_whitelist_tooltip_line2": {
+    "message": ""
+  },
+  "html_options_whitelist_tooltip_line3": {
+    "message": ""
+  },
+  "html_options_whitelist_test": {
+    "message": "ವೈಟ್‌ಲಿಸ್ಟ್ ಪರೀಕ್ಷಿಸಿ"
+  },
+  "html_options_other_enable_context_menu": {
+    "message": "ರೈಟ್-ಕ್ಲಿಕ್ ಮೆನುಗೆ The Great Suspender ಸೇರಿಸಿ"
+  },
+  "html_options_other_enable_context_menu_tooltip_line1": {
+    "message": ""
+  },
+  "html_options_other_enable_context_menu_tooltip_line2": {
+    "message": ""
+  },
+  "html_options_other_enable_context_menu_tooltip_line3": {
+    "message": ""
+  },
+  "html_options_other_enable_sync": {
+    "message": "ನಿಮ್ಮ Chrome ಪ್ರೊಫೈಲ್‌ನೊಂದಿಗೆ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಸಿಂಕ್ ಮಾಡಿ"
+  },
+  "html_options_other_enable_sync_tooltip_line1a": {
+    "message": ""
+  },
+  "html_options_other_enable_sync_tooltip_line1b": {
+    "message": ""
+  },
+  "html_options_other_enable_sync_tooltip_line2": {
+    "message": ""
+  },
+  "html_options_other_enable_sync_warning": {
+    "message": ""
+  },
+  "html_options_suspend_on_low_memory": {
+    "message": "ಮೆಮೊರಿ ತುಂಬಾ ಕಡಿಮೆಯಾದಾಗ ತಕ್ಷಣವೇ ಅಮಾನತುಗೊಳಿಸಿ"
+  },
+  "html_options_suspend_on_low_memory_tooltip_line1": {
+    "message": ""
+  },
+  "html_options_suspend_on_low_memory_tooltip_line2": {
+    "message": ""
+  },
+  "html_options_suspend_on_low_memory_tooltip_line3": {
+    "message": ""
+  },
+  "html_options_suspend_on_low_memory_tooltip_line4": {
+    "message": ""
+  },
+  "html_options_suspend_on_low_memory_tooltip_line5": {
+    "message": ""
+  },
+  "html_options_suspend_on_low_memory_tooltip_line6": {
+    "message": ""
+  },
+  "html_options_suspend_on_low_memory_tooltip_discarding_link": {
+    "message": "https://developers.google.com/web/updates/2015/09/tab-discarding"
+  },
+  "html_popup_unsuspend_tab": {
+    "message": "ಈ ಟ್ಯಾಬ್ ಮರುಸ್ಥಾಪಿಸಿ"
+  },
+  "html_popup_suspend_tab": {
+    "message": "ಈಗಲೇ ಈ ಟ್ಯಾಬ್ ಅಮಾನತುಗೊಳಿಸಿ"
+  },
+  "html_popup_dont_suspend_now": {
+    "message": "ಸದ್ಯಕ್ಕೆ ಅಮಾನತುಗೊಳಿಸಬೇಡಿ"
+  },
+  "html_popup_never_suspend_domain": {
+    "message": "ಈ ಡೊಮೇನ್ ಅನ್ನು ಎಂದಿಗೂ ಅಮಾನತುಗೊಳಿಸಬೇಡಿ"
+  },
+  "html_popup_never_suspend_page": {
+    "message": "ಈ URL ಅನ್ನು ಎಂದಿಗೂ ಅಮಾನತುಗೊಳಿಸಬೇಡಿ"
+  },
+  "html_popup_suspend_other_tabs": {
+    "message": "ಇತರ ಎಲ್ಲಾ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಅಮಾನತುಗೊಳಿಸಿ"
+  },
+  "html_popup_unsuspend_all_tabs": {
+    "message": "ಎಲ್ಲಾ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಮರುಸ್ಥಾಪಿಸಿ"
+  },
+  "html_popup_suspend_selected_tabs": {
+    "message": "ಆಯ್ದ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಅಮಾನತುಗೊಳಿಸಿ"
+  },
+  "html_popup_unsuspend_selected_tabs": {
+    "message": "ಆಯ್ದ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಮರುಸ್ಥಾಪಿಸಿ"
+  },
+  "html_popup_settings": {
+    "message": "ಸೆಟ್ಟಿಂಗ್‌ಗಳು"
+  },
+  "html_restoring_title": {
+    "message": "ವಿಂಡೋ ಮರುಸ್ಥಾಪಿಸಲಾಗುತ್ತಿದೆ"
+  },
+  "html_restoring_heading": {
+    "message": "ಟ್ಯಾಬ್‌ಗಳನ್ನು ಮರುಸ್ಥಾಪಿಸಲಾಗುತ್ತಿದೆ"
+  },
+  "html_restoring_detail": {
+    "message": "ದಯವಿಟ್ಟು ನಿರೀಕ್ಷಿಸಿ ವಿಂಡೋ ಮರುಸ್ಥಾಪಿಸಲಾಗುತ್ತಿದೆ..."
+  },
+  "html_recovery_title": {
+    "message": "ರಿಕವರಿ"
+  },
+  "html_recovery_ruh_roh": {
+    "message": "ಅಯ್ಯೋ!"
+  },
+  "html_recovery_description_line1": {
+    "message": "ನೀವು ಎಕ್ಸ್‌ಟೆನ್ಶನ್ ಕ್ರ್ಯಾಶ್‌ನಿಂದ ಚೇತರಿಸಿಕೊಳ್ಳುತ್ತಿರುವಂತೆ ತೋರುತ್ತಿದೆ."
+  },
+  "html_recovery_description_line2": {
+    "message": ""
+  },
+  "html_recovery_restore_tabs_automatically": {
+    "message": "ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಮರುಸ್ಥಾಪಿಸಿ"
+  },
+  "html_recovery_go_to_session_manager": {
+    "message": "ಸೆಶನ್ ಮ್ಯಾನೇಜರ್‌ಗೆ ಹೋಗಿ"
+  },
+  "html_recovery_important_message": {
+    "message": ""
+  },
+  "html_recovery_disable_screen_capturing": {
+    "message": "ಸ್ಕ್ರೀನ್ ಕ್ಯಾಪ್ಚರಿಂಗ್ ಆಫ್ ಮಾಡಿ"
+  },
+  "html_recovery_tabs_to_restore": {
+    "message": "ಮರುಸ್ಥಾಪಿಸಬೇಕಾದ ಟ್ಯಾಬ್‌ಗಳು"
+  },
+  "html_shortcuts_title": {
+    "message": "ಕೀಬೋರ್ಡ್ ಶಾರ್ಟ್‌ಕಟ್‌ಗಳು"
+  },
+  "html_shortcuts_keyboard_shortcuts": {
+    "message": "ಕೀಬೋರ್ಡ್ ಶಾರ್ಟ್‌ಕಟ್‌ಗಳು"
+  },
+  "html_shortcuts_context_menu_note": {
+    "message": ""
+  },
+  "html_shortcuts_remap_keys": {
+    "message": "ಶಾರ್ಟ್‌ಕಟ್‌ಗಳನ್ನು ಬದಲಾಯಿಸಿ"
+  },
+  "html_sidebar_general_settings": {
+    "message": "ಸೆಟ್ಟಿಂಗ್‌ಗಳು"
+  },
+  "html_sidebar_session_management": {
+    "message": "ಸೆಶನ್ ನಿರ್ವಹಣೆ"
+  },
+  "html_sidebar_shortcuts": {
+    "message": "ಕೀಬೋರ್ಡ್ ಶಾರ್ಟ್‌ಕಟ್‌ಗಳು"
+  },
+  "html_sidebar_support": {
+    "message": "ಬಗ್ಗೆ"
+  },
+  "html_success_great_success": {
+    "message": "ಯಶಸ್ವಿಯಾಗಿದೆ!"
+  },
+  "html_success_all_tabs_restored": {
+    "message": "ನಿಮ್ಮ ಎಲ್ಲಾ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಮರುಸ್ಥಾಪಿಸಲಾಗಿದೆ."
+  },
+  "html_success_goto_advanced_prefix": {
+    "message": ""
+  },
+  "html_success_goto_advanced_suffix": {
+    "message": "ಪುಟ"
+  },
+  "html_session_manager": {
+    "message": "ಸೆಶನ್ ನಿರ್ವಹಣೆ"
+  },
+  "html_suspended_title": {
+    "message": "ಅಮಾನತುಗೊಳಿಸಿದ ಟ್ಯಾಬ್"
+  },
+  "html_suspended_tab_suspended": {
+    "message": "ಟ್ಯಾಬ್ ಅಮಾನತುಗೊಳಿಸಲಾಗಿದೆ"
+  },
+  "html_suspended_tab_reload": {
+    "message": "ಟ್ಯಾಬ್ ಮರುಲೋಡ್ ಮಾಡಿ"
+  },
+  "html_suspended_tab_whitelist_prefix": {
+    "message": "ಎಂದಿಗೂ ಅಮಾನತುಗೊಳಿಸಬೇಡಿ"
+  },
+  "html_suspended_tab_whitelist_suffix": {
+    "message": "..."
+  },
+  "html_suspended_click_to_reload": {
+    "message": "ಮರುಲೋಡ್ ಮಾಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ"
+  },
+  "html_suspended_toast_not_connected": {
+    "message": "ನೀವು ಇಂಟರ್ನೆಟ್‌ಗೆ ಸಂಪರ್ಕ ಹೊಂದಿಲ್ಲ"
+  },
+  "html_suspended_toast_reload_disabled": {
+    "message": ""
+  },
+  "html_suspended_donation_question": {
+    "message": "ದೇಣಿಗೆ ನೀಡುವ ಮೂಲಕ ನಿಮ್ಮ ಬೆಂಬಲವನ್ನು ತೋರಿಸಿ."
+  },
+  "html_permissions_title": {
+    "message": "ಅನುಮತಿಗಳು"
+  },
+  "html_permissions_heading": {
+    "message": ""
+  },
+  "html_permissions_info": {
+    "message": ""
+  },
+  "html_permissions_backup": {
+    "message": ""
+  },
+  "html_update_title": {
+    "message": "ಅಪ್‌ಡೇಟ್"
+  },
+  "html_update_heading2": {
+    "message": ""
+  },
+  "html_update_info": {
+    "message": "The Great Suspender ನ ಹೊಸ ಆವೃತ್ತಿ ಸಿದ್ಧವಾಗಿದೆ."
+  },
+  "html_update_info_withbackup": {
+    "message": ""
+  },
+  "html_update_info_nobackup_prefix": {
+    "message": ""
+  },
+  "html_update_info_nobackup_suffix": {
+    "message": ""
+  },
+  "html_updated_title": {
+    "message": "ಅಪ್‌ಡೇಟ್ ಮಾಡಲಾಗಿದೆ"
+  },
+  "html_updating_heading": {
+    "message": "ಅಪ್‌ಡೇಟ್ ಆಗುತ್ತಿದೆ"
+  },
+  "html_updating_message": {
+    "message": "ದಯವಿಟ್ಟು ನಿರೀಕ್ಷಿಸಿ ಟ್ಯಾಬ್‌ಗಳನ್ನು ಮರುಸ್ಥಾಪಿಸಲಾಗುತ್ತಿದೆ..."
+  },
+  "html_updated_great_suspender_updated": {
+    "message": "ಅಪ್‌ಡೇಟ್ ಮಾಡಲಾಗಿದೆ"
+  },
+  "html_updated_info_line1": {
+    "message": ""
+  },
+  "html_updated_info_line2_prefix": {
+    "message": ""
+  },
+  "html_updated_info_line2_suffix": {
+    "message": ""
+  },
+  "html_updated_detail_header_prefix": {
+    "message": ""
+  },
+  "html_updated_detail_header_suffix": {
+    "message": ""
+  },
+  "html_updated_new_features_header": {
+    "message": "ಹೊಸ ವೈಶಿಷ್ಟ್ಯಗಳು:"
+  },
+  "html_updated_bug_fixes_header": {
+    "message": "ಬಗ್ ಫಿಕ್ಸ್:"
+  },
+  "html_updated_release_notes": {
+    "message": ""
+  },
+  "html_updated_patch_message": {
+    "message": ""
+  },
+  "html_welcome_title": {
+    "message": "ಸ್ವಾಗತ"
+  },
+  "html_welcome_text_line1": {
+    "message": "ಬಳಸಿದ್ದಕ್ಕಾಗಿ ಧನ್ಯವಾದಗಳು"
+  },
+  "html_welcome_text_line2": {
+    "message": ""
+  },
+  "html_welcome_text_line3": {
+    "message": ""
+  },
+  "html_thanks_title": {
+    "message": "ಧನ್ಯವಾದಗಳು"
+  },
+  "html_thanks_header": {
+    "message": "ಬೆಂಬಲಕ್ಕಾಗಿ ಧನ್ಯವಾದಗಳು!"
+  },
+  "html_thanks_sub_header": {
+    "message": ""
+  },
+  "js_popup_normal": {
+    "message": "ಟ್ಯಾಬ್ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಅಮಾನತುಗೊಳ್ಳುತ್ತದೆ."
+  },
+  "js_popup_normal_pause": {
+    "message": "ಈಗ ಬೇಡ"
+  },
+  "js_popup_special": {
+    "message": "ಟ್ಯಾಬ್ ಅಮಾನತುಗೊಳಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ"
+  },
+  "js_popup_suspended": {
+    "message": "ಟ್ಯಾಬ್ ಅಮಾನತುಗೊಳಿಸಲಾಗಿದೆ"
+  },
+  "js_popup_suspended_pause": {
+    "message": "ಅಮಾನತುಗೊಳಿಸಬೇಡಿ"
+  },
+  "js_popup_whitelisted": {
+    "message": "ಸೈಟ್ ವೈಟ್‌ಲಿಸ್ಟ್ ಮಾಡಲಾಗಿದೆ."
+  },
+  "js_popup_whitelisted_remove": {
+    "message": "ವೈಟ್‌ಲಿಸ್ಟ್‌ನಿಂದ ತೆಗೆದುಹಾಕಿ"
+  },
+  "js_popup_audible": {
+    "message": "ಟ್ಯಾಬ್‌ನಲ್ಲಿ ಆಡಿಯೊ ಪ್ಲೇ ಆಗುತ್ತಿದೆ."
+  },
+  "js_popup_form_input": {
+    "message": ""
+  },
+  "js_popup_form_input_unpause": {
+    "message": "ವಿರಾಮ ರದ್ದುಗೊಳಿಸಿ"
+  },
+  "js_popup_pinned": {
+    "message": "ಟ್ಯಾಬ್ ಪಿನ್ ಮಾಡಲಾಗಿದೆ"
+  },
+  "js_popup_temp_whitelist": {
+    "message": "ಟ್ಯಾಬ್ ಅಮಾನತು ವಿರಾಮಗೊಳಿಸಲಾಗಿದೆ."
+  },
+  "js_popup_temp_whitelist_unpause": {
+    "message": "ವಿರಾಮ ರದ್ದುಗೊಳಿಸಿ"
+  },
+  "js_popup_never": {
+    "message": "ಸ್ವಯಂಚಾಲಿತ ಟ್ಯಾಬ್ ಅಮಾನತು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ."
+  },
+  "js_popup_no_connectivity": {
+    "message": "ನೆಟ್‌ವರ್ಕ್ ಸಂಪರ್ಕವಿಲ್ಲ"
+  },
+  "js_popup_charging": {
+    "message": "ಪವರ್ ಸೋರ್ಸ್‌ಗೆ ಸಂಪರ್ಕಗೊಂಡಿದೆ"
+  },
+  "js_popup_blockedFile": {
+    "message": "ಸ್ಥಳೀಯ ಫೈಲ್‌ಗಳನ್ನು ಅಮಾನತುಗೊಳಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ."
+  },
+  "js_popup_blockedFile_enable": {
+    "message": "ಸಕ್ರಿಯಗೊಳಿಸಿ"
+  },
+  "js_popup_unknown": {
+    "message": "ಟ್ಯಾಬ್ ಲೋಡ್ ಆಗಲು ಕಾಯಲಾಗುತ್ತಿದೆ..."
+  },
+  "js_popup_initialising": {
+    "message": ""
+  },
+  "js_popup_error": {
+    "message": ""
+  },
+  "js_history_delete": {
+    "message": "ಅಳಿಸು"
+  },
+  "js_history_export": {
+    "message": "ರಫ್ತು ಮಾಡಿ"
+  },
+  "js_history_reload": {
+    "message": "ತೆರೆಯಿರಿ ಮತ್ತು ಲೋಡ್ ಮಾಡಿ"
+  },
+  "js_history_resuspend": {
+    "message": "ತೆರೆಯಿರಿ ಮತ್ತು ಅಮಾನತುಗೊಳಿಸಿ"
+  },
+  "js_history_save": {
+    "message": "ಉಳಿಸಿ"
+  },
+  "js_history_window": {
+    "message": "ವಿಂಡೋ"
+  },
+  "js_history_tab": {
+    "message": "ಟ್ಯಾಬ್"
+  },
+  "js_history_plural": {
+    "message": ""
+  },
+  "js_history_enter_name_for_session": {
+    "message": "ಈ ಸೆಶನ್ ಗೆ ಹೆಸರನ್ನು ನಮೂದಿಸಿ"
+  },
+  "js_history_confirm_delete": {
+    "message": "ಈ ಸೆಶನ್ ಅಳಿಸಲು ನಿಮಗೆ ಖಚಿತವೇ?"
+  },
+  "js_history_confirm_session_overwrite": {
+    "message": ""
+  },
+  "js_history_import_fail": {
+    "message": "ಫೈಲ್ ಲೋಡ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ."
+  },
+  "js_suspended_remove_from_whitelist": {
+    "message": "ವೈಟ್‌ಲಿಸ್ಟ್‌ನಿಂದ ಸೈಟ್ ತೆಗೆದುಹಾಕಿ"
+  },
+  "js_suspended_hotkey_to_reload": {
+    "message": "ಕೀಬೋರ್ಡ್ ಶಾರ್ಟ್‌ಕಟ್‌ಗಳನ್ನು ಹೊಂದಿಸಿ"
+  },
+  "js_suspended_low_memory": {
+    "message": "ಮೆಮೊರಿ ಕಡಿಮೆಯಾದ ಕಾರಣ ಟ್ಯಾಬ್ ಅಮಾನತುಗೊಳಿಸಲಾಗಿದೆ"
+  },
+  "js_options_incognito_warning": {
+    "message": "ನೀವು ಇನ್ಕಾಗ್ನಿಟೋ ಮೋಡ್‌ನಲ್ಲಿದ್ದೀರಿ."
+  },
+  "js_options_whitelist_no_matches": {
+    "message": ""
+  },
+  "js_options_whitelist_matches_heading": {
+    "message": ""
+  },
+  "js_options_whitelist_matches_overflow_prefix": {
+    "message": "ಮತ್ತು"
+  },
+  "js_options_whitelist_matches_overflow_suffix": {
+    "message": "ಹೆಚ್ಚು."
+  },
+  "js_permissions_button_export": {
+    "message": "ಬ್ಯಾಕಪ್ ಉಳಿಸಿ"
+  },
+  "js_permissions_button_set": {
+    "message": "ಎಕ್ಸ್‌ಟೆನ್ಶನ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ತೆರೆಯಿರಿ"
+  },
+  "js_update_confirm": {
+    "message": ""
+  },
+  "js_update_button_export": {
+    "message": "ಬ್ಯಾಕಪ್ ಉಳಿಸಿ"
+  },
+  "js_update_button_reload": {
+    "message": "ಈಗಲೇ ಅಪ್‌ಡೇಟ್ ಮಾಡಿ"
+  },
+  "js_shortcuts_not_set": {
+    "message": "ಹೊಂದಿಸಲಾಗಿಲ್ಲ"
+  },
+  "js_session_save_point": {
+    "message": ""
+  }
+}
