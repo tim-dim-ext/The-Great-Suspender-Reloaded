@@ -14,6 +14,7 @@ import {tgs} from "../tgs.js"
 var debugInfo = false;
 var debugError = true;
 var _customMessages = null;
+var _currentLocale = null;
 
 export var gsUtils = {
   STATUS_NORMAL: "normal",
@@ -398,11 +399,14 @@ export var gsUtils = {
       const response = await fetch(url);
       if (response.ok) {
         _customMessages = await response.json();
+        _currentLocale = locale.replace(/_/g, '-');
       } else {
         _customMessages = null;
+        _currentLocale = null;
       }
     } catch (e) {
       _customMessages = null;
+      _currentLocale = null;
     }
   },
 
@@ -834,54 +838,13 @@ export var gsUtils = {
   },
 
   getHumanDate: function (date) {
-    var monthNames = [
-        "Jan",
-        "Feb",
-        "Mar",
-        "Apr",
-        "May",
-        "Jun",
-        "Jul",
-        "Aug",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dec",
-      ],
-      d = new Date(date),
-      currentDate = d.getDate(),
-      currentMonth = d.getMonth(),
-      currentYear = d.getFullYear(),
-      currentHours = d.getHours(),
-      currentMinutes = d.getMinutes();
-
-    // var suffix;
-    // if (currentDate === 1 || currentDate === 21 || currentDate === 31) {
-    //     suffix = 'st';
-    // } else if (currentDate === 2 || currentDate === 22) {
-    //     suffix = 'nd';
-    // } else if (currentDate === 3 || currentDate === 23) {
-    //     suffix = 'rd';
-    // } else {
-    //     suffix = 'th';
-    // }
-
-    var ampm = currentHours >= 12 ? "pm" : "am";
-    var hoursString = currentHours % 12 || 12;
-    var minutesString = ("0" + currentMinutes).slice(-2);
-
-    return (
-      currentDate +
-      " " +
-      monthNames[currentMonth] +
-      " " +
-      currentYear +
-      " " +
-      hoursString +
-      ":" +
-      minutesString +
-      ampm
-    );
+    return new Intl.DateTimeFormat(_currentLocale || undefined, {
+      day: 'numeric',
+      month: 'short',
+      year: 'numeric',
+      hour: 'numeric',
+      minute: '2-digit',
+    }).format(new Date(date));
   },
 
   debounce: function (func, wait) {

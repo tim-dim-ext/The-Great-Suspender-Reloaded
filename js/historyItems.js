@@ -41,13 +41,13 @@ export var historyItems = (function(global) {
       '&nbsp;&nbsp;<small>(' +
       winCnt +
       pluralise(
-        ' ' + chrome.i18n.getMessage('js_history_window').toLowerCase(),
+        ' ' + gsUtils.getMessage('js_history_window').toLowerCase(),
         winCnt
       ) +
       ', ' +
       tabCnt +
       pluralise(
-        ' ' + chrome.i18n.getMessage('js_history_tab').toLowerCase(),
+        ' ' + gsUtils.getMessage('js_history_tab').toLowerCase(),
         tabCnt
       ) +
       ')</small>';
@@ -71,7 +71,7 @@ export var historyItems = (function(global) {
         class: 'groupLink saveLink',
         href: '#',
       },
-      chrome.i18n.getMessage('js_history_save')
+      gsUtils.getMessage('js_history_save')
     );
 
     sessionDelete = createEl(
@@ -80,7 +80,7 @@ export var historyItems = (function(global) {
         class: 'groupLink deleteLink',
         href: '#',
       },
-      chrome.i18n.getMessage('js_history_delete')
+      gsUtils.getMessage('js_history_delete')
     );
 
     windowResuspend = createEl(
@@ -89,7 +89,7 @@ export var historyItems = (function(global) {
         class: 'groupLink resuspendLink',
         href: '#',
       },
-      chrome.i18n.getMessage('js_history_resuspend')
+      gsUtils.getMessage('js_history_resuspend')
     );
 
     windowReload = createEl(
@@ -98,7 +98,7 @@ export var historyItems = (function(global) {
         class: 'groupLink reloadLink',
         href: '#',
       },
-      chrome.i18n.getMessage('js_history_reload')
+      gsUtils.getMessage('js_history_reload')
     );
 
     sessionExport = createEl(
@@ -107,7 +107,7 @@ export var historyItems = (function(global) {
         class: 'groupLink exportLink',
         href: '#',
       },
-      chrome.i18n.getMessage('js_history_export')
+      gsUtils.getMessage('js_history_export')
     );
 
     sessionContainer = createEl('div', {
@@ -141,7 +141,7 @@ export var historyItems = (function(global) {
       class: 'windowContainer',
     });
 
-    var windowString = chrome.i18n.getMessage('js_history_window');
+    var windowString = gsUtils.getMessage('js_history_window');
     windowContainer = createEl(
       'span',
       {},
@@ -154,7 +154,7 @@ export var historyItems = (function(global) {
         class: 'groupLink resuspendLink ',
         href: '#',
       },
-      chrome.i18n.getMessage('js_history_resuspend')
+      gsUtils.getMessage('js_history_resuspend')
     );
 
     groupUnsuspendNew = createEl(
@@ -163,7 +163,7 @@ export var historyItems = (function(global) {
         class: 'groupLink reloadLink',
         href: '#',
       },
-      chrome.i18n.getMessage('js_history_reload')
+      gsUtils.getMessage('js_history_reload')
     );
 
     groupHeading.appendChild(windowContainer);
@@ -245,7 +245,7 @@ export var historyItems = (function(global) {
 
   function pluralise(text, count) {
     return (
-      text + (count > 1 ? chrome.i18n.getMessage('js_history_plural') : '')
+      text + (count > 1 ? gsUtils.getMessage('js_history_plural') : '')
     );
   }
 

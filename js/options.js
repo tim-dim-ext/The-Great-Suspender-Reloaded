@@ -259,18 +259,18 @@ import {gsUtils} from "./helpers/gsUtils.js";
         )
         .map(url => (url.length > 55 ? url.substr(0, 52) + '...' : url));
       if (tabUrls.length === 0) {
-        alert(chrome.i18n.getMessage('js_options_whitelist_no_matches'));
+        alert(gsUtils.getMessage('js_options_whitelist_no_matches'));
         return;
       }
       const firstUrls = tabUrls.splice(0, 22);
-      let alertString = `${chrome.i18n.getMessage(
+      let alertString = `${gsUtils.getMessage(
         'js_options_whitelist_matches_heading'
       )}\n${firstUrls.join('\n')}`;
 
       if (tabUrls.length > 0) {
-        alertString += `\n${chrome.i18n.getMessage(
+        alertString += `\n${gsUtils.getMessage(
           'js_options_whitelist_matches_overflow_prefix'
-        )} ${tabUrls.length} ${chrome.i18n.getMessage(
+        )} ${tabUrls.length} ${gsUtils.getMessage(
           'js_options_whitelist_matches_overflow_suffix'
         )}`;
       }
@@ -285,7 +285,7 @@ import {gsUtils} from "./helpers/gsUtils.js";
           el.style.display = 'none';
         }
       );
-      window.alert(chrome.i18n.getMessage('js_options_incognito_warning'));
+      window.alert(gsUtils.getMessage('js_options_incognito_warning'));
     }
   });
 

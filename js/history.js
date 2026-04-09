@@ -34,7 +34,7 @@ import {gsSession} from "./helpers/gsSession.js";
 
   function deleteSession(sessionId) {
     var result = window.confirm(
-      chrome.i18n.getMessage('js_history_confirm_delete')
+      gsUtils.getMessage('js_history_confirm_delete')
     );
     if (result) {
       gsIndexedDb.removeSessionFromHistory(sessionId).then(function() {

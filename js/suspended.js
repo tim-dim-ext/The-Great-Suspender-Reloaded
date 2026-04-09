@@ -214,9 +214,16 @@ chrome.runtime && chrome.runtime.onMessage && chrome.runtime.onMessage.addListen
           sendResponse();
         return false;
       } else if (request.action === 'localiseHtml') {
-        gsUtils.localiseHtml(document);
-        sendResponse();
-        return false;
+        gsStorage.getOption(gsStorage.LANGUAGE).then(lang => {
+          const loadPromise = (lang && lang !== 'auto')
+            ? gsUtils.loadCustomMessages(lang)
+            : Promise.resolve();
+          loadPromise.then(() => {
+            gsUtils.localiseHtml(document);
+            sendResponse();
+          });
+        });
+        return true;
       } else if (request.action === 'setUnloadTabHandler') {
         // beforeunload event will get fired if: the tab is refreshed, the url is changed, or the tab is closed.
         // when this happens the STATE_UNLOADED_URL gets set with the suspended tab url
@@ -260,7 +267,7 @@ chrome.runtime && chrome.runtime.onMessage && chrome.runtime.onMessage.addListen
           hotkeyEl.innerHTML =
             '<span class="hotkeyCommand">(' + request.command + ")</span>";
         } else {
-          const reloadString = chrome.i18n.getMessage(
+          const reloadString = gsUtils.getMessage(
             "js_suspended_hotkey_to_reload"
           );
           hotkeyEl.innerHTML = `<a id="setKeyboardShortcut" href="#">${reloadString}</a>`;

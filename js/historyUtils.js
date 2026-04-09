@@ -16,7 +16,7 @@ export var historyUtils = (function(global) {
       r.onload = function(e) {
         var contents = e.target.result;
         if (f.type !== 'text/plain') {
-          alert(chrome.i18n.getMessage('js_history_import_fail'));
+          alert(gsUtils.getMessage('js_history_import_fail'));
         } else {
           handleImport(f.name, contents).then(function() {
             window.location.reload();
@@ -25,13 +25,13 @@ export var historyUtils = (function(global) {
       };
       r.readAsText(f);
     } else {
-      alert(chrome.i18n.getMessage('js_history_import_fail'));
+      alert(gsUtils.getMessage('js_history_import_fail'));
     }
   }
 
   async function handleImport(sessionName, textContents) {
     sessionName = window.prompt(
-      chrome.i18n.getMessage('js_history_enter_name_for_session'),
+      gsUtils.getMessage('js_history_enter_name_for_session'),
       sessionName
     );
     if (sessionName) {
@@ -143,7 +143,7 @@ export var historyUtils = (function(global) {
       });
       if (nameExists) {
         var overwrite = window.confirm(
-          chrome.i18n.getMessage('js_history_confirm_session_overwrite')
+          gsUtils.getMessage('js_history_confirm_session_overwrite')
         );
         if (!overwrite) {
           callback(false);
@@ -157,7 +157,7 @@ export var historyUtils = (function(global) {
   function saveSession(sessionId) {
     gsIndexedDb.fetchSessionBySessionId(sessionId).then(function(session) {
       var sessionName = window.prompt(
-        chrome.i18n.getMessage('js_history_enter_name_for_session')
+        gsUtils.getMessage('js_history_enter_name_for_session')
       );
       if (sessionName) {
         historyUtils.validateNewSessionName(sessionName, function(shouldSave) {
