@@ -293,6 +293,12 @@
   "html_options_other_enable_sync_warning": {
     "message": "Укључивање ће преписати подешавања на свим осталим прегледачима пријављеним са истим Chrome профилом"
   },
+  "html_options_other_language": {
+    "message": "Језик интерфејса"
+  },
+  "html_options_other_language_system": {
+    "message": "Језик система"
+  },
   "html_options_suspend_on_low_memory": {
     "message": "Одмах суспендуј кад системска меморија постане веома ниска"
   },

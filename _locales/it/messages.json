@@ -293,6 +293,12 @@
   "html_options_other_enable_sync_warning": {
     "message": "Attivare questa opzione sovrascriverà le impostazioni su tutti gli altri browser connessi allo stesso profilo Chrome"
   },
+  "html_options_other_language": {
+    "message": "Lingua dell'interfaccia"
+  },
+  "html_options_other_language_system": {
+    "message": "Lingua del sistema"
+  },
   "html_options_suspend_on_low_memory": {
     "message": "Sospendi immediatamente quando la memoria di sistema è molto bassa"
   },

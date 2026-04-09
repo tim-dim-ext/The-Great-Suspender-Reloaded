@@ -293,6 +293,12 @@
   "html_options_other_enable_sync_warning": {
     "message": ""
   },
+  "html_options_other_language": {
+    "message": "የበይነፊት ቋንቋ"
+  },
+  "html_options_other_language_system": {
+    "message": "የስርዓት ቋንቋ"
+  },
   "html_options_suspend_on_low_memory": {
     "message": "RAM ሲያልቅ ታቦችን ወዲያውኑ አቁም"
   },

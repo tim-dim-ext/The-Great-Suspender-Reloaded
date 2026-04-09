@@ -293,6 +293,12 @@
   "html_options_other_enable_sync_warning": {
     "message": "سيؤدي تشغيل هذا الخيار إلى الكتابة فوق الإعدادات في جميع المتصفحات الأخرى المسجّل دخولها بنفس ملف تعريف Chrome"
   },
+  "html_options_other_language": {
+    "message": "لغة الواجهة"
+  },
+  "html_options_other_language_system": {
+    "message": "لغة النظام"
+  },
   "html_options_suspend_on_low_memory": {
     "message": "التعليق الفوري عند انخفاض ذاكرة النظام بشدة"
   },

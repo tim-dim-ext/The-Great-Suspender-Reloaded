@@ -293,6 +293,12 @@
   "html_options_other_enable_sync_warning": {
     "message": "Diese Option wird die Einstellungen für alle Browser mit dem gleichen Chrome Profil überschreiben"
   },
+  "html_options_other_language": {
+    "message": "Oberflächensprache"
+  },
+  "html_options_other_language_system": {
+    "message": "Systemsprache"
+  },
   "html_options_suspend_on_low_memory": {
     "message": "Bei geringer Speicherverfügbarkeit sofort aussetzen"
   },

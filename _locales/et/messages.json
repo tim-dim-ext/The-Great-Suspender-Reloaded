@@ -293,6 +293,12 @@
   "html_options_other_enable_sync_warning": {
     "message": "Sisselülitamine kirjutab üle seaded kõigis teistes brauserites mis on sisse logitud sama Chrome'i profiiliga"
   },
+  "html_options_other_language": {
+    "message": "Liidese keel"
+  },
+  "html_options_other_language_system": {
+    "message": "Süsteemi keel"
+  },
   "html_options_suspend_on_low_memory": {
     "message": "Peata kohe kui süsteemimälu muutub väga madalaks"
   },

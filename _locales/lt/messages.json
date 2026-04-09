@@ -293,6 +293,12 @@
   "html_options_other_enable_sync_warning": {
     "message": "Įjungus tai bus perrašyti nustatymai visose kitose naršyklėse prisijungusiose su tuo pačiu Chrome profiliu"
   },
+  "html_options_other_language": {
+    "message": "Sąsajos kalba"
+  },
+  "html_options_other_language_system": {
+    "message": "Sistemos kalba"
+  },
   "html_options_suspend_on_low_memory": {
     "message": "Iš karto sustabdyti kai sistemos atmintis tampa labai maža"
   },

@@ -293,6 +293,12 @@
   "html_options_other_enable_sync_warning": {
     "message": "Bekapcsolásával felülírja a beállításokat az összes többi, ugyanazon Chrome profillal bejelentkezve lévő böngészőn"
   },
+  "html_options_other_language": {
+    "message": "Felület nyelve"
+  },
+  "html_options_other_language_system": {
+    "message": "Rendszer nyelve"
+  },
   "html_options_suspend_on_low_memory": {
     "message": "Azonnali felfüggesztés, ha a rendszermemória nagyon alacsonyra csökken"
   },

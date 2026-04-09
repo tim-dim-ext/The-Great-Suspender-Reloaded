@@ -293,6 +293,12 @@
   "html_options_other_enable_sync_warning": {
     "message": "이것을 켜면 동일한 Chrome 프로필로 로그인된 다른 모든 브라우저의 설정을 덮어씁니다"
   },
+  "html_options_other_language": {
+    "message": "인터페이스 언어"
+  },
+  "html_options_other_language_system": {
+    "message": "시스템 언어"
+  },
   "html_options_suspend_on_low_memory": {
     "message": "시스템 메모리가 매우 낮아지면 즉시 일시정지"
   },

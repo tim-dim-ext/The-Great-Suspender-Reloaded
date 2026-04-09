@@ -293,6 +293,12 @@
   "html_options_other_enable_sync_warning": {
     "message": "Mengaktifkan ini akan menimpa pengaturan di semua browser lain yang masuk dengan profil Chrome yang sama"
   },
+  "html_options_other_language": {
+    "message": "Bahasa antarmuka"
+  },
+  "html_options_other_language_system": {
+    "message": "Bahasa sistem"
+  },
   "html_options_suspend_on_low_memory": {
     "message": "Tangguhkan segera saat memori sistem sangat rendah"
   },

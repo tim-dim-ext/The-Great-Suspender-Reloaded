@@ -293,6 +293,12 @@
   "html_options_other_enable_sync_warning": {
     "message": "فعال کردن این گزینه تنظیمات تمام مرورگرهای دیگر با همان پروفایل Chrome را بازنویسی می‌کند"
   },
+  "html_options_other_language": {
+    "message": "زبان رابط کاربری"
+  },
+  "html_options_other_language_system": {
+    "message": "زبان سیستم"
+  },
   "html_options_suspend_on_low_memory": {
     "message": "توقف فوری هنگام بسیار پایین بودن حافظه سیستم"
   },

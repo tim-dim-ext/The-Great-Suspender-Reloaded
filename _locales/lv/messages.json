@@ -293,6 +293,12 @@
   "html_options_other_enable_sync_warning": {
     "message": "Ieslēdzot šo tiks pārrakstīti iestatījumi visos pārējos pārlūkos, kas pieteikušies ar to pašu Chrome profilu"
   },
+  "html_options_other_language": {
+    "message": "Saskarnes valoda"
+  },
+  "html_options_other_language_system": {
+    "message": "Sistēmas valoda"
+  },
   "html_options_suspend_on_low_memory": {
     "message": "Nekavējoties apturēt kad sistēmas atmiņa kļūst ļoti maza"
   },

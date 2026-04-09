@@ -22,8 +22,39 @@ import {gsUtils} from "./helpers/gsUtils.js";
     syncSettings: gsStorage.SYNC_SETTINGS,
     timeToSuspend: gsStorage.SUSPEND_TIME,
     theme: gsStorage.THEME,
+    language: gsStorage.LANGUAGE,
     whitelist: gsStorage.WHITELIST,
   };
+
+  const AVAILABLE_LOCALES = [
+    'auto', 'am', 'ar', 'bg', 'bn', 'ca', 'cs', 'da', 'de', 'el',
+    'en', 'en_AU', 'en_GB', 'en_US', 'es', 'es_419', 'et', 'fa', 'fi', 'fil',
+    'fr', 'gu', 'he', 'hi', 'hr', 'hu', 'id', 'it', 'ja', 'kn', 'ko',
+    'lt', 'lv', 'ml', 'mr', 'ms', 'nl', 'no', 'pl', 'pt_BR', 'pt_PT',
+    'ro', 'ru', 'sk', 'sl', 'sr', 'sv', 'sw', 'ta', 'te', 'th', 'tr',
+    'uk', 'vi', 'zh_CN', 'zh_TW'
+  ];
+
+  function populateLanguageSelect() {
+    const select = document.getElementById('language');
+    if (!select) return;
+    AVAILABLE_LOCALES.forEach(locale => {
+      const option = document.createElement('option');
+      option.value = locale;
+      if (locale === 'auto') {
+        option.textContent = gsUtils.getMessage('html_options_other_language_system') || 'System language';
+      } else {
+        try {
+          const bcp47 = locale.replace(/_/g, '-');
+          const displayNames = new Intl.DisplayNames([bcp47], { type: 'language' });
+          option.textContent = displayNames.of(bcp47) || locale;
+        } catch (e) {
+          option.textContent = locale;
+        }
+      }
+      select.appendChild(option);
+    });
+  }
 
   function selectComboBox(element, key) {
     var i, child;
@@ -158,6 +189,10 @@ import {gsUtils} from "./helpers/gsUtils.js";
 
       var [oldValue, newValue] = await saveChange(element);
       if (oldValue !== newValue) {
+        if (pref === gsStorage.LANGUAGE) {
+          location.reload();
+          return;
+        }
         var prefKey = elementPrefMap[element.id];
         gsUtils.performPostSaveUpdates(
           [prefKey],
@@ -187,6 +222,7 @@ import {gsUtils} from "./helpers/gsUtils.js";
   }
 
   gsUtils.documentReadyAndLocalisedAsPromsied(document).then(async function() {
+    populateLanguageSelect();
     await initSettings();
 
     var optionEls = document.getElementsByClassName('option'),

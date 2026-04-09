@@ -293,6 +293,12 @@
   "html_options_other_enable_sync_warning": {
     "message": "Aktivering af dette overskriver indstillinger på alle andre browsere logget ind med samme Chrome-profil"
   },
+  "html_options_other_language": {
+    "message": "Grænsefladesprog"
+  },
+  "html_options_other_language_system": {
+    "message": "Systemsprog"
+  },
   "html_options_suspend_on_low_memory": {
     "message": "Suspendér øjeblikkeligt når systemhukommelsen bliver meget lav"
   },

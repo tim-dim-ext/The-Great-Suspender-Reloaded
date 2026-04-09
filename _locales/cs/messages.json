@@ -293,6 +293,12 @@
   "html_options_other_enable_sync_warning": {
     "message": "Zapnutí přepíše nastavení ve všech ostatních prohlížečích přihlášených se stejným profilem Chrome"
   },
+  "html_options_other_language": {
+    "message": "Jazyk rozhraní"
+  },
+  "html_options_other_language_system": {
+    "message": "Jazyk systému"
+  },
   "html_options_suspend_on_low_memory": {
     "message": "Okamžitě pozastavit při velmi nízké paměti systému"
   },

@@ -293,6 +293,12 @@
   "html_options_other_enable_sync_warning": {
     "message": "打開此項將覆蓋 Chrome 使用者設定並同步所有已登入的系統"
   },
+  "html_options_other_language": {
+    "message": "介面語言"
+  },
+  "html_options_other_language_system": {
+    "message": "系統語言"
+  },
   "html_options_suspend_on_low_memory": {
     "message": "當系統記憶體非常少時凍結分頁"
   },

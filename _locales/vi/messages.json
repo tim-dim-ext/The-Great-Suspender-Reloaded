@@ -293,6 +293,12 @@
   "html_options_other_enable_sync_warning": {
     "message": "Bật tính năng này sẽ ghi đè cài đặt trên tất cả trình duyệt khác đăng nhập cùng hồ sơ Chrome"
   },
+  "html_options_other_language": {
+    "message": "Ngôn ngữ giao diện"
+  },
+  "html_options_other_language_system": {
+    "message": "Ngôn ngữ hệ thống"
+  },
   "html_options_suspend_on_low_memory": {
     "message": "Tạm dừng ngay lập tức khi bộ nhớ hệ thống rất thấp"
   },

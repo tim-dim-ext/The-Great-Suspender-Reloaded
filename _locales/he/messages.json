@@ -293,6 +293,12 @@
   "html_options_other_enable_sync_warning": {
     "message": "הפעלת זה תדרוס הגדרות בכל הדפדפנים האחרים המחוברים עם אותו פרופיל Chrome"
   },
+  "html_options_other_language": {
+    "message": "שפת הממשק"
+  },
+  "html_options_other_language_system": {
+    "message": "שפת המערכת"
+  },
   "html_options_suspend_on_low_memory": {
     "message": "השהה מיידית כשהזיכרון נהיה נמוך מאוד"
   },

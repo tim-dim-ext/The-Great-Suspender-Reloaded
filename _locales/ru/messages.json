@@ -293,6 +293,12 @@
   "html_options_other_enable_sync_warning": {
     "message": "Включение этой опции приведет к перезаписыванию настроек расширения для Вашего профиля между всеми браузерами Chrome"
   },
+  "html_options_other_language": {
+    "message": "Язык интерфейса"
+  },
+  "html_options_other_language_system": {
+    "message": "Системный язык"
+  },
   "html_options_suspend_on_low_memory": {
     "message": "Приостанавливать вкладки при нехватке системной памяти"
   },

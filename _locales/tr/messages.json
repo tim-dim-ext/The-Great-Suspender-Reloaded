@@ -293,6 +293,12 @@
   "html_options_other_enable_sync_warning": {
     "message": "Bunu açmak, aynı Chrome profiliyle oturum açmış diğer tüm tarayıcılardaki ayarların üzerine yazacaktır"
   },
+  "html_options_other_language": {
+    "message": "Arayüz dili"
+  },
+  "html_options_other_language_system": {
+    "message": "Sistem dili"
+  },
   "html_options_suspend_on_low_memory": {
     "message": "Sistem belleği çok azaldığında anında askıya al"
   },

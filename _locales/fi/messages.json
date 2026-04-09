@@ -293,6 +293,12 @@
   "html_options_other_enable_sync_warning": {
     "message": "Tämän ottaminen käyttöön ylikirjoittaa asetukset kaikissa muissa saman Chrome-profiilin selaimissa"
   },
+  "html_options_other_language": {
+    "message": "Käyttöliittymän kieli"
+  },
+  "html_options_other_language_system": {
+    "message": "Järjestelmän kieli"
+  },
   "html_options_suspend_on_low_memory": {
     "message": "Keskeytä välittömästi kun järjestelmämuisti on hyvin vähissä"
   },

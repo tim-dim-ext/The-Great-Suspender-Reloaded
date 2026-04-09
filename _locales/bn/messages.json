@@ -293,6 +293,12 @@
   "html_options_other_enable_sync_warning": {
     "message": "এটি চালু করলে একই Chrome প্রোফাইলে সাইন ইন করা অন্য সব ব্রাউজারের সেটিংস ওভাররাইট হবে"
   },
+  "html_options_other_language": {
+    "message": "ইন্টারফেস ভাষা"
+  },
+  "html_options_other_language_system": {
+    "message": "সিস্টেম ভাষা"
+  },
   "html_options_suspend_on_low_memory": {
     "message": "সিস্টেম মেমরি খুব কম হলে তাৎক্ষণিকভাবে স্থগিত করুন"
   },

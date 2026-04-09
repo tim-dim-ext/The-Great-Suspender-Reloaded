@@ -13,6 +13,7 @@ import {tgs} from "../tgs.js"
 
 var debugInfo = false;
 var debugError = true;
+var _customMessages = null;
 
 export var gsUtils = {
   STATUS_NORMAL: "normal",
@@ -391,9 +392,30 @@ export var gsUtils = {
     });
   },
 
+  loadCustomMessages: async function (locale) {
+    try {
+      const url = chrome.runtime.getURL(`_locales/${locale}/messages.json`);
+      const response = await fetch(url);
+      if (response.ok) {
+        _customMessages = await response.json();
+      } else {
+        _customMessages = null;
+      }
+    } catch (e) {
+      _customMessages = null;
+    }
+  },
+
+  getMessage: function (key) {
+    if (_customMessages && _customMessages[key]) {
+      return _customMessages[key].message || '';
+    }
+    return chrome.i18n.getMessage(key);
+  },
+
   localiseHtml: function (parentEl) {
     var replaceTagFunc = function (match, p1) {
-      return p1 ? chrome.i18n.getMessage(p1) : "";
+      return p1 ? gsUtils.getMessage(p1) : "";
     };
     for (let el of parentEl.getElementsByTagName("*")) {
       if (el.hasAttribute("data-i18n")) {
@@ -415,6 +437,10 @@ export var gsUtils = {
 
   documentReadyAndLocalisedAsPromsied: async function (doc) {
     await gsUtils.documentReadyAsPromsied(doc);
+    const lang = await gsStorage.getOption(gsStorage.LANGUAGE);
+    if (lang && lang !== 'auto') {
+      await gsUtils.loadCustomMessages(lang);
+    }
     gsUtils.localiseHtml(doc);
     if (doc.body && doc.body.hidden) {
       doc.body.hidden = false;

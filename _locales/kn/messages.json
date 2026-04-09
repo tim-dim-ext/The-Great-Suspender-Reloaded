@@ -293,6 +293,12 @@
   "html_options_other_enable_sync_warning": {
     "message": ""
   },
+  "html_options_other_language": {
+    "message": "ಇಂಟರ್‌ಫೇಸ್ ಭಾಷೆ"
+  },
+  "html_options_other_language_system": {
+    "message": "ಸಿಸ್ಟಮ್ ಭಾಷೆ"
+  },
   "html_options_suspend_on_low_memory": {
     "message": "ಮೆಮೊರಿ ತುಂಬಾ ಕಡಿಮೆಯಾದಾಗ ತಕ್ಷಣವೇ ಅಮಾನತುಗೊಳಿಸಿ"
   },

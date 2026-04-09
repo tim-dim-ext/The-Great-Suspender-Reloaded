@@ -293,6 +293,12 @@
   "html_options_other_enable_sync_warning": {
     "message": "Dit inschakelen overschrijft instellingen op alle andere browsers met hetzelfde Chrome-profiel"
   },
+  "html_options_other_language": {
+    "message": "Interfacetaal"
+  },
+  "html_options_other_language_system": {
+    "message": "Systeemtaal"
+  },
   "html_options_suspend_on_low_memory": {
     "message": "Direct opschorten wanneer het systeemgeheugen erg laag is"
   },

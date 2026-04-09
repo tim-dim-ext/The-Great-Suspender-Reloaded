@@ -293,6 +293,12 @@
   "html_options_other_enable_sync_warning": {
     "message": "打开此项将覆盖其他同步系统上保存的设置"
   },
+  "html_options_other_language": {
+    "message": "界面语言"
+  },
+  "html_options_other_language_system": {
+    "message": "系统语言"
+  },
   "html_options_suspend_on_low_memory": {
     "message": "当系统内存变得非常低时冻结标签页"
   },

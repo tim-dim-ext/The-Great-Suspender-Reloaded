@@ -293,6 +293,12 @@
   "html_options_other_enable_sync_warning": {
     "message": "Η ενεργοποίηση αυτού θα αντικαταστήσει τις ρυθμίσεις σε όλα τα άλλα προγράμματα περιήγησης με το ίδιο προφίλ Chrome"
   },
+  "html_options_other_language": {
+    "message": "Γλώσσα διεπαφής"
+  },
+  "html_options_other_language_system": {
+    "message": "Γλώσσα συστήματος"
+  },
   "html_options_suspend_on_low_memory": {
     "message": "Άμεση αναστολή όταν η μνήμη συστήματος γίνεται πολύ χαμηλή"
   },

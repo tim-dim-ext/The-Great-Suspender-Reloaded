@@ -293,6 +293,12 @@
   "html_options_other_enable_sync_warning": {
     "message": "Zapnutím sa prepíšu nastavenia na všetkých ostatných prehliadačoch prihlásených s rovnakým Chrome profilom"
   },
+  "html_options_other_language": {
+    "message": "Jazyk rozhrania"
+  },
+  "html_options_other_language_system": {
+    "message": "Jazyk systému"
+  },
   "html_options_suspend_on_low_memory": {
     "message": "Okamžite pozastaviť pri veľmi nízkej systémovej pamäti"
   },

@@ -293,6 +293,12 @@
   "html_options_other_enable_sync_warning": {
     "message": "Activarea va suprascrie setările pe toate celelalte browsere conectate cu același profil Chrome"
   },
+  "html_options_other_language": {
+    "message": "Limba interfeței"
+  },
+  "html_options_other_language_system": {
+    "message": "Limba sistemului"
+  },
   "html_options_suspend_on_low_memory": {
     "message": "Suspendă imediat când memoria sistemului devine foarte scăzută"
   },

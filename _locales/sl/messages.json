@@ -293,6 +293,12 @@
   "html_options_other_enable_sync_warning": {
     "message": "Turning this on will overwrite settings on all other browsers logged into the same Chrome profile"
   },
+  "html_options_other_language": {
+    "message": "Jezik vmesnika"
+  },
+  "html_options_other_language_system": {
+    "message": "Jezik sistema"
+  },
   "html_options_suspend_on_low_memory": {
     "message": "Instantly suspend when system memory gets very low"
   },

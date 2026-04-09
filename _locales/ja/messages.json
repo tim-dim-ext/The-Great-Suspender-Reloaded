@@ -293,6 +293,12 @@
   "html_options_other_enable_sync_warning": {
     "message": "これをオンにすると、同じChromeプロファイルでログインしている他のすべてのブラウザの設定が上書きされます"
   },
+  "html_options_other_language": {
+    "message": "インターフェース言語"
+  },
+  "html_options_other_language_system": {
+    "message": "システム言語"
+  },
   "html_options_suspend_on_low_memory": {
     "message": "システムメモリが非常に低くなったとき即座に一時停止"
   },

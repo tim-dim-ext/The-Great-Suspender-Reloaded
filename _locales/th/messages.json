@@ -293,6 +293,12 @@
   "html_options_other_enable_sync_warning": {
     "message": "การเปิดใช้งานจะเขียนทับการตั้งค่าในเบราว์เซอร์อื่นทั้งหมดที่เข้าสู่ระบบด้วยโปรไฟล์ Chrome เดียวกัน"
   },
+  "html_options_other_language": {
+    "message": "ภาษาอินเทอร์เฟซ"
+  },
+  "html_options_other_language_system": {
+    "message": "ภาษาของระบบ"
+  },
   "html_options_suspend_on_low_memory": {
     "message": "หยุดทันทีเมื่อหน่วยความจำระบบต่ำมาก"
   },

@@ -293,6 +293,12 @@
   "html_options_other_enable_sync_warning": {
     "message": ""
   },
+  "html_options_other_language": {
+    "message": "Lugha ya kiolesura"
+  },
+  "html_options_other_language_system": {
+    "message": "Lugha ya mfumo"
+  },
   "html_options_suspend_on_low_memory": {
     "message": "Simamisha papo hapo kumbukumbu inapoadimika"
   },

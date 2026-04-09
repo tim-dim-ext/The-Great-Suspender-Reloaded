@@ -20,6 +20,7 @@ export var gsStorage = {
   SYNC_SETTINGS: 'gsSyncSettings',
   NO_NAG: 'gsNoNag',
   THEME: 'gsTheme',
+  LANGUAGE: 'gsLanguage',
   WHITELIST: 'gsWhitelist',
 
   DISCARD_AFTER_SUSPEND: 'discardAfterSuspend',
@@ -59,6 +60,7 @@ export var gsStorage = {
     defaults[gsStorage.NO_NAG] = false;
     defaults[gsStorage.WHITELIST] = '';
     defaults[gsStorage.THEME] = 'light';
+    defaults[gsStorage.LANGUAGE] = 'auto';
 
     return defaults;
   },

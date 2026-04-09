@@ -293,6 +293,12 @@
   "html_options_other_enable_sync_warning": {
     "message": "Увімкнення цього параметра перезапише налаштування в усіх інших браузерах, що увійшли з тим самим профілем Chrome"
   },
+  "html_options_other_language": {
+    "message": "Мова інтерфейсу"
+  },
+  "html_options_other_language_system": {
+    "message": "Мова системи"
+  },
   "html_options_suspend_on_low_memory": {
     "message": "Негайно призупиняти при дуже низькому рівні пам'яті системи"
   },
